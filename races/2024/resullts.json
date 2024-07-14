@@ -1,0 +1,915 @@
+[
+    {
+        "season": "2024",
+        "round": "1",
+        "raceName": "Saudi Arabian Grand Prix",
+        "Circuit": {
+            "circuitId": "jeddah",
+            "circuitName": "Jeddah Corniche Circuit"
+        },
+        "Results": {
+            "race1": [
+                {
+                    "number": "28",
+                    "position": "1",
+                    "Driver": {
+                        "driverId": "pin",
+                        "permanentNumber": "28",
+                        "code": "PIN",
+                        "givenName": "Doriane",
+                        "familyName": "Pin"
+                    },
+                    "Constructor": {
+                        "constructorId": "prema",
+                        "name": "Prema"
+                    },
+                    "grid": "1",
+                    "laps": "13",
+                    "status": "Finished",
+                    "Time": {
+                        "time": "26:50.962"
+                    },
+                    "FastestLap": {
+                        "best": false,
+                        "lap": "8",
+                        "Time": {
+                            "time": "2:04.678"
+                        }
+                    }
+                },
+                {
+                    "number": "9",
+                    "position": "2",
+                    "Driver": {
+                        "driverId": "pulling",
+                        "permanentNumber": "9",
+                        "code": "PUL",
+                        "givenName": "Abbi",
+                        "familyName": "Pulling"
+                    },
+                    "Constructor": {
+                        "constructorId": "rodin",
+                        "name": "Rodin"
+                    },
+                    "grid": "2",
+                    "laps": "12",
+                    "status": "Finished",
+                    "Time": {
+                        "time": "26:51.810"
+                    },
+                    "FastestLap": {
+                        "best": true,
+                        "lap": "10",
+                        "Time": {
+                            "time": "2:04.639"
+                        }
+                    }
+                },
+                {
+                    "number": "64",
+                    "position": "3",
+                    "Driver": {
+                        "driverId": "weug",
+                        "permanentNumber": "64",
+                        "code": "WEU",
+                        "givenName": "Maya",
+                        "familyName": "Weug"
+                    },
+                    "Constructor": {
+                        "constructorId": "prema",
+                        "name": "Prema"
+                    },
+                    "grid": "3",
+                    "laps": "12",
+                    "status": "Finished",
+                    "Time": {
+                        "time": "26:57.880"
+                    },
+                    "FastestLap": {
+                        "best": false,
+                        "lap": "11",
+                        "Time": {
+                            "time": "2:05.443"
+                        }
+                    }
+                },
+                {
+                    "number": "14",
+                    "position": "4",
+                    "Driver": {
+                        "driverId": "chambers",
+                        "permanentNumber": "14",
+                        "code": "CHA",
+                        "givenName": "Chloe",
+                        "familyName": "Chambers"
+                    },
+                    "Constructor": {
+                        "constructorId": "campos",
+                        "name": "Campos"
+                    },
+                    "grid": "8",
+                    "laps": "12",
+                    "status": "Finished",
+                    "Time": {
+                        "time": "27:02.657"
+                    },
+                    "FastestLap": {
+                        "best": false,
+                        "lap": "10",
+                        "Time": {
+                            "time": "2:05.709"
+                        }
+                    }
+                },
+                {
+                    "number": "16",
+                    "position": "5",
+                    "Driver": {
+                        "driverId": "bustamante",
+                        "permanentNumber": "16",
+                        "code": "BUS",
+                        "givenName": "Bianca",
+                        "familyName": "Bustamante"
+                    },
+                    "Constructor": {
+                        "constructorId": "art",
+                        "name": "Art"
+                    },
+                    "grid": "5",
+                    "laps": "12",
+                    "status": "Finished",
+                    "Time": {
+                        "time": "27:04.918"
+                    },
+                    "FastestLap": {
+                        "best": false,
+                        "lap": "12",
+                        "Time": {
+                            "time": "2:06.085"
+                        }
+                    }
+                },
+                {
+                    "number": "19",
+                    "position": "6",
+                    "Driver": {
+                        "driverId": "hausmann",
+                        "permanentNumber": "19",
+                        "code": "HAU",
+                        "givenName": "Tina",
+                        "familyName": "Hausmann"
+                    },
+                    "Constructor": {
+                        "constructorId": "prema",
+                        "name": "prema"
+                    },
+                    "grid": "11",
+                    "laps": "12",
+                    "status": "Finished",
+                    "Time": {
+                        "time": "27:11.015"
+                    },
+                    "FastestLap": {
+                        "best": false,
+                        "lap": "10",
+                        "Time": {
+                            "time": "2:06.333"
+                        }
+                    }
+                },
+                {
+                    "number": "22",
+                    "position": "7",
+                    "Driver": {
+                        "driverId": "nobles",
+                        "permanentNumber": "22",
+                        "code": "NOB",
+                        "givenName": "Aurelia",
+                        "familyName": "Nobles"
+                    },
+                    "Constructor": {
+                        "constructorId": "art",
+                        "name": "Art"
+                    },
+                    "grid": "9",
+                    "laps": "12",
+                    "status": "Finished",
+                    "Time": {
+                        "time": "27:13.703"
+                    },
+                    "FastestLap": {
+                        "best": false,
+                        "lap": "11",
+                        "Time": {
+                            "time": "2:06.789"
+                        }
+                    }
+                },
+                {
+                    "number": "3",
+                    "position": "8",
+                    "Driver": {
+                        "driverId": "lovinfosse",
+                        "permanentNumber": "3",
+                        "code": "LOV",
+                        "givenName": "Aurelia",
+                        "familyName": "Lovinfosse"
+                    },
+                    "Constructor": {
+                        "constructorId": "rodin",
+                        "name": "Rodin"
+                    },
+                    "grid": "6",
+                    "laps": "12",
+                    "status": "Finished",
+                    "Time": {
+                        "time": "27:14.218"
+                    },
+                    "FastestLap": {
+                        "best": false,
+                        "lap": "11",
+                        "Time": {
+                            "time": "2:05.656"
+                        }
+                    }
+                },
+                {
+                    "number": "8",
+                    "position": "9",
+                    "Driver": {
+                        "driverId": "h_al_qubaisi",
+                        "permanentNumber": "8",
+                        "code": "HAL",
+                        "givenName": "Hamda",
+                        "familyName": "Al Quiabisi"
+                    },
+                    "Constructor": {
+                        "constructorId": "mp",
+                        "name": "MP"
+                    },
+                    "grid": "13",
+                    "laps": "12",
+                    "status": "Finished",
+                    "Time": {
+                        "time": "27:14.377"
+                    },
+                    "FastestLap": {
+                        "best": false,
+                        "lap": "12",
+                        "Time": {
+                            "time": "2:07.001"
+                        }
+                    }
+                },
+                {
+                    "number": "15",
+                    "position": "10",
+                    "Driver": {
+                        "driverId": "schreiner",
+                        "permanentNumber": "15",
+                        "code": "SCH",
+                        "givenName": "Carrie",
+                        "familyName": "Schreiner"
+                    },
+                    "Constructor": {
+                        "constructorId": "campos",
+                        "name": "Campos"
+                    },
+                    "grid": "12",
+                    "laps": "12",
+                    "status": "Finished",
+                    "Time": {
+                        "time": "27:15.615"
+                    },
+                    "FastestLap": {
+                        "best": false,
+                        "lap": "8",
+                        "Time": {
+                            "time": "2:06.896"
+                        }
+                    }
+                },
+                {
+                    "number": "18",
+                    "position": "11",
+                    "Driver": {
+                        "driverId": "juffali",
+                        "permanentNumber": "18",
+                        "code": "JUF",
+                        "givenName": "R.",
+                        "familyName": "Juffali"
+                    },
+                    "Constructor": {
+                        "constructorId": "prema",
+                        "name": "Prema"
+                    },
+                    "grid": "14",
+                    "laps": "12",
+                    "status": "Finished",
+                    "Time": {
+                        "time": "27:15.987"
+                    },
+                    "FastestLap": {
+                        "best": false,
+                        "lap": "8",
+                        "Time": {
+                            "time": "2:06.863"
+                        }
+                    }
+                },
+                {
+                    "number": "7",
+                    "position": "12",
+                    "Driver": {
+                        "driverId": "de_haus",
+                        "permanentNumber": "7",
+                        "code": "DEH",
+                        "givenName": "Emely",
+                        "familyName": "De Haus"
+                    },
+                    "Constructor": {
+                        "constructorId": "mp",
+                        "name": "MP"
+                    },
+                    "grid": "16",
+                    "laps": "12",
+                    "status": "Finished",
+                    "Time": {
+                        "time": "27:16.983"
+                    },
+                    "FastestLap": {
+                        "best": false,
+                        "lap": "8",
+                        "Time": {
+                            "time": "2:06.354"
+                        }
+                    }
+                },
+                {
+                    "number": "88",
+                    "position": "13",
+                    "Driver": {
+                        "driverId": "a_al_qubaisi",
+                        "permanentNumber": "88",
+                        "code": "AAL",
+                        "givenName": "Amma",
+                        "familyName": "Al Quiabisi"
+                    },
+                    "Constructor": {
+                        "constructorId": "mp",
+                        "name": "MP"
+                    },
+                    "grid": "15",
+                    "laps": "12",
+                    "status": "Finished",
+                    "Time": {
+                        "time": "27:31.883"
+                    },
+                    "FastestLap": {
+                        "best": false,
+                        "lap": "6",
+                        "Time": {
+                            "time": "2:06.651"
+                        }
+                    }
+                },
+                {
+                    "number": "30",
+                    "position": "14",
+                    "Driver": {
+                        "driverId": "marti",
+                        "permanentNumber": "30",
+                        "code": "MAR",
+                        "givenName": "Nerea",
+                        "familyName": "Martí"
+                    },
+                    "Constructor": {
+                        "constructorId": "campos",
+                        "name": "Campos"
+                    },
+                    "grid": "4",
+                    "laps": "11",
+                    "status": "DNF",
+                    "Time": {
+                        "time": "24:54.851"
+                    },
+                    "FastestLap": {
+                        "best": false,
+                        "lap": "8",
+                        "Time": {
+                            "time": "2:05.801"
+                        }
+                    }
+                },
+                {
+                    "number": "17",
+                    "position": "15",
+                    "Driver": {
+                        "driverId": "edgar",
+                        "permanentNumber": "17",
+                        "code": "EDG",
+                        "givenName": "Jessica",
+                        "familyName": "Edgar"
+                    },
+                    "Constructor": {
+                        "constructorId": "campos",
+                        "name": "Campos"
+                    },
+                    "grid": "10",
+                    "laps": "11",
+                    "status": "+1",
+                    "Time": {
+                        "time": "27:08.827"
+                    },
+                    "FastestLap": {
+                        "best": false,
+                        "lap": "9",
+                        "Time": {
+                            "time": "2:05.850"
+                        }
+                    }
+                },
+                {
+                    "number": "57",
+                    "position": "16",
+                    "Driver": {
+                        "driverId": "block",
+                        "permanentNumber": "57",
+                        "code": "BLO",
+                        "givenName": "Lia",
+                        "familyName": "Block"
+                    },
+                    "Constructor": {
+                        "constructorId": "art",
+                        "name": "Art"
+                    },
+                    "grid": "7",
+                    "laps": "10",
+                    "status": "DNF",
+                    "Time": {
+                        "time": "22:53.039"
+                    },
+                    "FastestLap": {
+                        "best": false,
+                        "lap": "10",
+                        "Time": {
+                            "time": "2:05.409"
+                        }
+                    }
+                }
+                
+            ],
+            "race2": [
+                {
+                    "number": "9",
+                    "position": "1",
+                    "Driver": {
+                        "driverId": "pulling",
+                        "permanentNumber": "9",
+                        "code": "PUL",
+                        "givenName": "Abbi",
+                        "familyName": "Pulling"
+                    },
+                    "Constructor": {
+                        "constructorId": "rodin",
+                        "name": "Rodin"
+                    },
+                    "grid": "2",
+                    "laps": "13",
+                    "status": "Finished",
+                    "Time": {
+                        "time": "32:03.265"
+                    },
+                    "FastestLap": {
+                        "best": false,
+                        "lap": "12",
+                        "Time": {
+                            "time": "2:04.589"
+                        }
+                    }
+                },
+                {
+                    "number": "64",
+                    "position": "2",
+                    "Driver": {
+                        "driverId": "weug",
+                        "permanentNumber": "64",
+                        "code": "WEU",
+                        "givenName": "Maya",
+                        "familyName": "Weug"
+                    },
+                    "Constructor": {
+                        "constructorId": "prema",
+                        "name": "Prema"
+                    },
+                    "grid": "3",
+                    "laps": "13",
+                    "status": "Finished",
+                    "Time": {
+                        "time": "32:06.647"
+                    },
+                    "FastestLap": {
+                        "best": false,
+                        "lap": "13",
+                        "Time": {
+                            "time": "2:05.457"
+                        }
+                    }
+                },
+                {
+                    "number": "30",
+                    "position": "3",
+                    "Driver": {
+                        "driverId": "marti",
+                        "permanentNumber": "30",
+                        "code": "MAR",
+                        "givenName": "Nerea",
+                        "familyName": "Martí"
+                    },
+                    "Constructor": {
+                        "constructorId": "campos",
+                        "name": "Campos"
+                    },
+                    "grid": "5",
+                    "laps": "13",
+                    "status": "Finished",
+                    "Time": {
+                        "time": "32:08.105"
+                    },
+                    "FastestLap": {
+                        "best": false,
+                        "lap": "12",
+                        "Time": {
+                            "time": "2:05.597"
+                        }
+                    }
+                },
+                {
+                    "number": "17",
+                    "position": "4",
+                    "Driver": {
+                        "driverId": "edgar",
+                        "permanentNumber": "17",
+                        "code": "EDG",
+                        "givenName": "Jessica",
+                        "familyName": "Edgar"
+                    },
+                    "Constructor": {
+                        "constructorId": "campos",
+                        "name": "Campos"
+                    },
+                    "grid": "9",
+                    "laps": "13",
+                    "status": "Finished",
+                    "Time": {
+                        "time": "32:08.753"
+                    },
+                    "FastestLap": {
+                        "best": false,
+                        "lap": "13",
+                        "Time": {
+                            "time": "2:05.509"
+                        }
+                    }
+                },
+                {
+                    "number": "8",
+                    "position": "5",
+                    "Driver": {
+                        "driverId": "h_al_qubaisi",
+                        "permanentNumber": "8",
+                        "code": "HAL",
+                        "givenName": "Hamda",
+                        "familyName": "Al Quiabisi"
+                    },
+                    "Constructor": {
+                        "constructorId": "mp",
+                        "name": "MP"
+                    },
+                    "grid": "12",
+                    "laps": "13",
+                    "status": "Finished",
+                    "Time": {
+                        "time": "32:16.530"
+                    },
+                    "FastestLap": {
+                        "best": false,
+                        "lap": "12",
+                        "Time": {
+                            "time": "2:06.172"
+                        }
+                    }
+                },
+                {
+                    "number": "16",
+                    "position": "6",
+                    "Driver": {
+                        "driverId": "bustamante",
+                        "permanentNumber": "16",
+                        "code": "BUS",
+                        "givenName": "Bianca",
+                        "familyName": "Bustamante"
+                    },
+                    "Constructor": {
+                        "constructorId": "art",
+                        "name": "Art"
+                    },
+                    "grid": "10",
+                    "laps": "12",
+                    "status": "Finished",
+                    "Time": {
+                        "time": "32:18.631"
+                    },
+                    "FastestLap": {
+                        "best": false,
+                        "lap": "13",
+                        "Time": {
+                            "time": "2:05.979"
+                        }
+                    }
+                },
+                {
+                    "number": "15",
+                    "position": "7",
+                    "Driver": {
+                        "driverId": "schreiner",
+                        "permanentNumber": "15",
+                        "code": "SCH",
+                        "givenName": "Carrie",
+                        "familyName": "Schreiner"
+                    },
+                    "Constructor": {
+                        "constructorId": "campos",
+                        "name": "Campos"
+                    },
+                    "grid": "11",
+                    "laps": "13",
+                    "status": "Finished",
+                    "Time": {
+                        "time": "32:18.786"
+                    },
+                    "FastestLap": {
+                        "best": false,
+                        "lap": "13",
+                        "Time": {
+                            "time": "2:06.587"
+                        }
+                    }
+                },
+                {
+                    "number": "88",
+                    "position": "8",
+                    "Driver": {
+                        "driverId": "a_al_qubaisi",
+                        "permanentNumber": "88",
+                        "code": "AAL",
+                        "givenName": "Amma",
+                        "familyName": "Al Quiabisi"
+                    },
+                    "Constructor": {
+                        "constructorId": "mp",
+                        "name": "MP"
+                    },
+                    "grid": "14",
+                    "laps": "13",
+                    "status": "Finished",
+                    "Time": {
+                        "time": "32:20.135"
+                    },
+                    "FastestLap": {
+                        "best": false,
+                        "lap": "12",
+                        "Time": {
+                            "time": "2:05.806"
+                        }
+                    }
+                },
+                {
+                    "number": "28",
+                    "position": "9",
+                    "Driver": {
+                        "driverId": "pin",
+                        "permanentNumber": "28",
+                        "code": "PIN",
+                        "givenName": "Doriane",
+                        "familyName": "Pin"
+                    },
+                    "Constructor": {
+                        "constructorId": "prema",
+                        "name": "Prema"
+                    },
+                    "grid": "1",
+                    "laps": "13",
+                    "status": "Finished",
+                    "Time": {
+                        "time": "32:21.271"
+                    },
+                    "FastestLap": {
+                        "best": true,
+                        "lap": "13",
+                        "Time": {
+                            "time": "2:04.259"
+                        }
+                    }
+                },
+                {
+                    "number": "14",
+                    "position": "10",
+                    "Driver": {
+                        "driverId": "chambers",
+                        "permanentNumber": "14",
+                        "code": "CHA",
+                        "givenName": "Chloe",
+                        "familyName": "Chambers"
+                    },
+                    "Constructor": {
+                        "constructorId": "campos",
+                        "name": "Campos"
+                    },
+                    "grid": "6",
+                    "laps": "13",
+                    "status": "Finished",
+                    "Time": {
+                        "time": "32:26.344"
+                    },
+                    "FastestLap": {
+                        "best": false,
+                        "lap": "12",
+                        "Time": {
+                            "time": "2:06.252"
+                        }
+                    }
+                },
+                {
+                    "number": "57",
+                    "position": "11",
+                    "Driver": {
+                        "driverId": "block",
+                        "permanentNumber": "57",
+                        "code": "BLO",
+                        "givenName": "Lia",
+                        "familyName": "Block"
+                    },
+                    "Constructor": {
+                        "constructorId": "art",
+                        "name": "Art"
+                    },
+                    "grid": "13",
+                    "laps": "13",
+                    "status": "Finished",
+                    "Time": {
+                        "time": "32:26.429"
+                    },
+                    "FastestLap": {
+                        "best": false,
+                        "lap": "12",
+                        "Time": {
+                            "time": "2:06.368"
+                        }
+                    }
+                },
+                {
+                    "number": "7",
+                    "position": "12",
+                    "Driver": {
+                        "driverId": "de_haus",
+                        "permanentNumber": "7",
+                        "code": "DEH",
+                        "givenName": "Emely",
+                        "familyName": "De Haus"
+                    },
+                    "Constructor": {
+                        "constructorId": "mp",
+                        "name": "MP"
+                    },
+                    "grid": "16",
+                    "laps": "13",
+                    "status": "Finished",
+                    "Time": {
+                        "time": "32:27.861"
+                    },
+                    "FastestLap": {
+                        "best": false,
+                        "lap": "13",
+                        "Time": {
+                            "time": "2:06.013"
+                        }
+                    }
+                },
+                {
+                    "number": "19",
+                    "position": "13",
+                    "Driver": {
+                        "driverId": "hausmann",
+                        "permanentNumber": "19",
+                        "code": "HAU",
+                        "givenName": "Tina",
+                        "familyName": "Hausmann"
+                    },
+                    "Constructor": {
+                        "constructorId": "prema",
+                        "name": "prema"
+                    },
+                    "grid": "7",
+                    "laps": "12",
+                    "status": "Finished",
+                    "Time": {
+                        "time": "32:21.656"
+                    },
+                    "FastestLap": {
+                        "best": false,
+                        "lap": "12",
+                        "Time": {
+                            "time": "2:07.684"
+                        }
+                    }
+                },
+                {
+                    "number": "22",
+                    "position": "14",
+                    "Driver": {
+                        "driverId": "nobles",
+                        "permanentNumber": "22",
+                        "code": "NOB",
+                        "givenName": "Aurelia",
+                        "familyName": "Nobles"
+                    },
+                    "Constructor": {
+                        "constructorId": "art",
+                        "name": "Art"
+                    },
+                    "grid": "8",
+                    "laps": "10",
+                    "status": "DNF",
+                    "Time": {
+                        "time": "26:22.762"
+                    },
+                    "FastestLap": {
+                        "best": false,
+                        "lap": "2",
+                        "Time": {
+                            "time": "2:07.243"
+                        }
+                    }
+                },
+                {
+                    "number": "18",
+                    "position": "15",
+                    "Driver": {
+                        "driverId": "juffali",
+                        "permanentNumber": "18",
+                        "code": "JUF",
+                        "givenName": "R.",
+                        "familyName": "Juffali"
+                    },
+                    "Constructor": {
+                        "constructorId": "prema",
+                        "name": "Prema"
+                    },
+                    "grid": "15",
+                    "laps": "5",
+                    "status": "DNF",
+                    "Time": {
+                        "time": "12:19.389"
+                    },
+                    "FastestLap": {
+                        "best": false,
+                        "lap": "5",
+                        "Time": {
+                            "time": "2:09.154"
+                        }
+                    }
+                },
+                {
+                    "number": "7",
+                    "position": "16",
+                    "Driver": {
+                        "driverId": "de_haus",
+                        "permanentNumber": "7",
+                        "code": "DEH",
+                        "givenName": "Emely",
+                        "familyName": "De Haus"
+                    },
+                    "Constructor": {
+                        "constructorId": "mp",
+                        "name": "MP"
+                    },
+                    "grid": "16",
+                    "laps": "4",
+                    "status": "DNF",
+                    "Time": {
+                        "time": "10:21.928"
+                    },
+                    "FastestLap": {
+                        "best": false,
+                        "lap": "2",
+                        "Time": {
+                            "time": "2:07.554"
+                        }
+                    }
+                }
+            ] 
+        }    
+    },
+    {}
+]

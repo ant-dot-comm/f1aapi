@@ -1,0 +1,52 @@
+{
+    "20231": {
+        "raceName": "Austrian Grand Prix",
+        "location": "Spielberg",
+        "year": "2023"
+    },
+    "20232": {
+        "raceName": "Valencia Grand Prix",
+        "location": "Valencia",
+        "year": "2023"
+    },
+    "20233": {
+        "raceName": "Spanish Grand Prix",
+        "location": "Barcelona",
+        "year": "2023"
+    },
+    "20234": {
+        "raceName": "Dutch Grand Prix",
+        "location": "Zandvoort",
+        "year": "2023"
+    },
+    "20235": {
+        "raceName": "Italian Grand Prix",
+        "location": "Monza",
+        "year": "2023"
+    },
+    "20236": {
+        "raceName": "Le Castellet Grand Prix",
+        "location": "France",
+        "year": "2023"
+    },
+    "20237": {
+        "raceName": "United States Grand Prix",
+        "location": "Austin",
+        "year": "2023"
+    },
+    "20241": {
+        "raceName": "Saudi Arabian Grand Prix",
+        "location": "Jeddah",
+        "year": "2024"
+    },
+    "20242": {
+        "raceName": "Miami Grand Prix",
+        "location": "Miami",
+        "year": "2024"
+    },
+    "20243": {
+        "raceName": "Spanish Grand Prix",
+        "location": "Barcelona",
+        "year": "2024"
+    }
+}
