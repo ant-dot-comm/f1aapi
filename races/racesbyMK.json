@@ -1,50 +1,60 @@
 {
     "20231": {
+        "circuitId": "jeddah",
         "raceName": "Austrian Grand Prix",
         "location": "Spielberg",
         "year": "2023"
     },
     "20232": {
+        "circuitId": "valencia",
         "raceName": "Valencia Grand Prix",
         "location": "Valencia",
         "year": "2023"
     },
     "20233": {
+        "circuitId": "barcelona",
         "raceName": "Spanish Grand Prix",
         "location": "Barcelona",
         "year": "2023"
     },
     "20234": {
+        "circuitId": "zandvoort",
         "raceName": "Dutch Grand Prix",
         "location": "Zandvoort",
         "year": "2023"
     },
     "20235": {
+        "circuitId": "monza",
         "raceName": "Italian Grand Prix",
         "location": "Monza",
         "year": "2023"
     },
     "20236": {
+        "circuitId": "le_castellet",
         "raceName": "Le Castellet Grand Prix",
         "location": "France",
         "year": "2023"
     },
     "20237": {
+        "circuitId": "austin",
         "raceName": "United States Grand Prix",
         "location": "Austin",
         "year": "2023"
     },
     "20241": {
+        "circuitId": "jeddah",
         "raceName": "Saudi Arabian Grand Prix",
         "location": "Jeddah",
         "year": "2024"
     },
     "20242": {
+        "circuitId": "miami",
         "raceName": "Miami Grand Prix",
         "location": "Miami",
         "year": "2024"
     },
     "20243": {
+        "circuitId": "barcelona",
         "raceName": "Spanish Grand Prix",
         "location": "Barcelona",
         "year": "2024"
