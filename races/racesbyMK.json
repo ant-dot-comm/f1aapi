@@ -54,9 +54,33 @@
         "year": "2024"
     },
     "20243": {
-        "circuitId": "barcelona",
+        "circuitId": "catalunya",
         "raceName": "Spanish Grand Prix",
         "location": "Barcelona",
+        "year": "2024"
+    },
+    "20244": {
+        "circuitId": "zandvoort",
+        "raceName": "Dutch Grand Prix",
+        "location": "Zandvoort",
+        "year": "2024"
+    },
+    "20245": {
+        "circuitId": "marina_bay",
+        "raceName": "Singapore Grand Prix",
+        "location": "Marina Bay",
+        "year": "2024"
+    },
+    "20246": {
+        "circuitId": "losail",
+        "raceName": "Qatar Grand Prix",
+        "location": "Lusail",
+        "year": "2024"
+    },
+    "20247": {
+        "circuitId": "yas_marina",
+        "raceName": "Abu Dhabi Grand Prix",
+        "location": "Yas Island",
         "year": "2024"
     }
 }
