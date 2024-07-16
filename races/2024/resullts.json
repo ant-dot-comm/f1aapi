@@ -12,17 +12,6 @@
                 {
                     "number": "28",
                     "position": "1",
-                    "Driver": {
-                        "driverId": "pin",
-                        "permanentNumber": "28",
-                        "code": "PIN",
-                        "givenName": "Doriane",
-                        "familyName": "Pin"
-                    },
-                    "Constructor": {
-                        "constructorId": "prema",
-                        "name": "Prema"
-                    },
                     "grid": "1",
                     "laps": "13",
                     "status": "Finished",
@@ -40,13 +29,6 @@
                 {
                     "number": "64",
                     "position": "3",
-                    "Driver": {
-                        "driverId": "weug",
-                        "permanentNumber": "64",
-                        "code": "WEU",
-                        "givenName": "Maya",
-                        "familyName": "Weug"
-                    },
                     "Constructor": {
                         "constructorId": "prema",
                         "name": "Prema"
@@ -68,17 +50,6 @@
                 {
                     "number": "14",
                     "position": "4",
-                    "Driver": {
-                        "driverId": "chambers",
-                        "permanentNumber": "14",
-                        "code": "CHA",
-                        "givenName": "Chloe",
-                        "familyName": "Chambers"
-                    },
-                    "Constructor": {
-                        "constructorId": "campos",
-                        "name": "Campos"
-                    },
                     "grid": "8",
                     "laps": "12",
                     "status": "Finished",
@@ -96,17 +67,6 @@
                 {
                     "number": "16",
                     "position": "5",
-                    "Driver": {
-                        "driverId": "bustamante",
-                        "permanentNumber": "16",
-                        "code": "BUS",
-                        "givenName": "Bianca",
-                        "familyName": "Bustamante"
-                    },
-                    "Constructor": {
-                        "constructorId": "art",
-                        "name": "Art"
-                    },
                     "grid": "5",
                     "laps": "12",
                     "status": "Finished",
@@ -124,17 +84,6 @@
                 {
                     "number": "19",
                     "position": "6",
-                    "Driver": {
-                        "driverId": "hausmann",
-                        "permanentNumber": "19",
-                        "code": "HAU",
-                        "givenName": "Tina",
-                        "familyName": "Hausmann"
-                    },
-                    "Constructor": {
-                        "constructorId": "prema",
-                        "name": "prema"
-                    },
                     "grid": "11",
                     "laps": "12",
                     "status": "Finished",
@@ -152,17 +101,6 @@
                 {
                     "number": "22",
                     "position": "7",
-                    "Driver": {
-                        "driverId": "nobles",
-                        "permanentNumber": "22",
-                        "code": "NOB",
-                        "givenName": "Aurelia",
-                        "familyName": "Nobles"
-                    },
-                    "Constructor": {
-                        "constructorId": "art",
-                        "name": "Art"
-                    },
                     "grid": "9",
                     "laps": "12",
                     "status": "Finished",
@@ -180,17 +118,6 @@
                 {
                     "number": "3",
                     "position": "8",
-                    "Driver": {
-                        "driverId": "lovinfosse",
-                        "permanentNumber": "3",
-                        "code": "LOV",
-                        "givenName": "Aurelia",
-                        "familyName": "Lovinfosse"
-                    },
-                    "Constructor": {
-                        "constructorId": "rodin",
-                        "name": "Rodin"
-                    },
                     "grid": "6",
                     "laps": "12",
                     "status": "Finished",
@@ -208,17 +135,6 @@
                 {
                     "number": "8",
                     "position": "9",
-                    "Driver": {
-                        "driverId": "h_al_qubaisi",
-                        "permanentNumber": "8",
-                        "code": "HAL",
-                        "givenName": "Hamda",
-                        "familyName": "Al Quiabisi"
-                    },
-                    "Constructor": {
-                        "constructorId": "mp",
-                        "name": "MP"
-                    },
                     "grid": "13",
                     "laps": "12",
                     "status": "Finished",
@@ -236,17 +152,6 @@
                 {
                     "number": "15",
                     "position": "10",
-                    "Driver": {
-                        "driverId": "schreiner",
-                        "permanentNumber": "15",
-                        "code": "SCH",
-                        "givenName": "Carrie",
-                        "familyName": "Schreiner"
-                    },
-                    "Constructor": {
-                        "constructorId": "campos",
-                        "name": "Campos"
-                    },
                     "grid": "12",
                     "laps": "12",
                     "status": "Finished",
@@ -264,17 +169,6 @@
                 {
                     "number": "18",
                     "position": "11",
-                    "Driver": {
-                        "driverId": "juffali",
-                        "permanentNumber": "18",
-                        "code": "JUF",
-                        "givenName": "R.",
-                        "familyName": "Juffali"
-                    },
-                    "Constructor": {
-                        "constructorId": "prema",
-                        "name": "Prema"
-                    },
                     "grid": "14",
                     "laps": "12",
                     "status": "Finished",
@@ -292,17 +186,6 @@
                 {
                     "number": "7",
                     "position": "12",
-                    "Driver": {
-                        "driverId": "de_haus",
-                        "permanentNumber": "7",
-                        "code": "DEH",
-                        "givenName": "Emely",
-                        "familyName": "De Haus"
-                    },
-                    "Constructor": {
-                        "constructorId": "mp",
-                        "name": "MP"
-                    },
                     "grid": "16",
                     "laps": "12",
                     "status": "Finished",
@@ -320,17 +203,6 @@
                 {
                     "number": "88",
                     "position": "13",
-                    "Driver": {
-                        "driverId": "a_al_qubaisi",
-                        "permanentNumber": "88",
-                        "code": "AAL",
-                        "givenName": "Amma",
-                        "familyName": "Al Quiabisi"
-                    },
-                    "Constructor": {
-                        "constructorId": "mp",
-                        "name": "MP"
-                    },
                     "grid": "15",
                     "laps": "12",
                     "status": "Finished",
@@ -348,17 +220,6 @@
                 {
                     "number": "30",
                     "position": "14",
-                    "Driver": {
-                        "driverId": "marti",
-                        "permanentNumber": "30",
-                        "code": "MAR",
-                        "givenName": "Nerea",
-                        "familyName": "Martí"
-                    },
-                    "Constructor": {
-                        "constructorId": "campos",
-                        "name": "Campos"
-                    },
                     "grid": "4",
                     "laps": "11",
                     "status": "DNF",
@@ -376,17 +237,6 @@
                 {
                     "number": "17",
                     "position": "15",
-                    "Driver": {
-                        "driverId": "edgar",
-                        "permanentNumber": "17",
-                        "code": "EDG",
-                        "givenName": "Jessica",
-                        "familyName": "Edgar"
-                    },
-                    "Constructor": {
-                        "constructorId": "campos",
-                        "name": "Campos"
-                    },
                     "grid": "10",
                     "laps": "11",
                     "status": "+1",
@@ -404,17 +254,6 @@
                 {
                     "number": "57",
                     "position": "16",
-                    "Driver": {
-                        "driverId": "block",
-                        "permanentNumber": "57",
-                        "code": "BLO",
-                        "givenName": "Lia",
-                        "familyName": "Block"
-                    },
-                    "Constructor": {
-                        "constructorId": "art",
-                        "name": "Art"
-                    },
                     "grid": "7",
                     "laps": "10",
                     "status": "DNF",
@@ -432,17 +271,6 @@
                 {
                     "number": "9",
                     "position": "2",
-                    "Driver": {
-                        "driverId": "pulling",
-                        "permanentNumber": "9",
-                        "code": "PUL",
-                        "givenName": "Abbi",
-                        "familyName": "Pulling"
-                    },
-                    "Constructor": {
-                        "constructorId": "rodin",
-                        "name": "Rodin"
-                    },
                     "grid": "2",
                     "laps": "12",
                     "status": "Finished",
@@ -463,17 +291,6 @@
                 {
                     "number": "9",
                     "position": "1",
-                    "Driver": {
-                        "driverId": "pulling",
-                        "permanentNumber": "9",
-                        "code": "PUL",
-                        "givenName": "Abbi",
-                        "familyName": "Pulling"
-                    },
-                    "Constructor": {
-                        "constructorId": "rodin",
-                        "name": "Rodin"
-                    },
                     "grid": "2",
                     "laps": "13",
                     "status": "Finished",
@@ -491,17 +308,6 @@
                 {
                     "number": "64",
                     "position": "2",
-                    "Driver": {
-                        "driverId": "weug",
-                        "permanentNumber": "64",
-                        "code": "WEU",
-                        "givenName": "Maya",
-                        "familyName": "Weug"
-                    },
-                    "Constructor": {
-                        "constructorId": "prema",
-                        "name": "Prema"
-                    },
                     "grid": "3",
                     "laps": "13",
                     "status": "Finished",
@@ -519,17 +325,6 @@
                 {
                     "number": "30",
                     "position": "3",
-                    "Driver": {
-                        "driverId": "marti",
-                        "permanentNumber": "30",
-                        "code": "MAR",
-                        "givenName": "Nerea",
-                        "familyName": "Martí"
-                    },
-                    "Constructor": {
-                        "constructorId": "campos",
-                        "name": "Campos"
-                    },
                     "grid": "5",
                     "laps": "13",
                     "status": "Finished",
@@ -547,17 +342,6 @@
                 {
                     "number": "17",
                     "position": "4",
-                    "Driver": {
-                        "driverId": "edgar",
-                        "permanentNumber": "17",
-                        "code": "EDG",
-                        "givenName": "Jessica",
-                        "familyName": "Edgar"
-                    },
-                    "Constructor": {
-                        "constructorId": "campos",
-                        "name": "Campos"
-                    },
                     "grid": "9",
                     "laps": "13",
                     "status": "Finished",
@@ -575,17 +359,6 @@
                 {
                     "number": "8",
                     "position": "5",
-                    "Driver": {
-                        "driverId": "h_al_qubaisi",
-                        "permanentNumber": "8",
-                        "code": "HAL",
-                        "givenName": "Hamda",
-                        "familyName": "Al Quiabisi"
-                    },
-                    "Constructor": {
-                        "constructorId": "mp",
-                        "name": "MP"
-                    },
                     "grid": "12",
                     "laps": "13",
                     "status": "Finished",
@@ -603,17 +376,6 @@
                 {
                     "number": "16",
                     "position": "6",
-                    "Driver": {
-                        "driverId": "bustamante",
-                        "permanentNumber": "16",
-                        "code": "BUS",
-                        "givenName": "Bianca",
-                        "familyName": "Bustamante"
-                    },
-                    "Constructor": {
-                        "constructorId": "art",
-                        "name": "Art"
-                    },
                     "grid": "10",
                     "laps": "12",
                     "status": "Finished",
@@ -631,17 +393,6 @@
                 {
                     "number": "15",
                     "position": "7",
-                    "Driver": {
-                        "driverId": "schreiner",
-                        "permanentNumber": "15",
-                        "code": "SCH",
-                        "givenName": "Carrie",
-                        "familyName": "Schreiner"
-                    },
-                    "Constructor": {
-                        "constructorId": "campos",
-                        "name": "Campos"
-                    },
                     "grid": "11",
                     "laps": "13",
                     "status": "Finished",
@@ -659,17 +410,6 @@
                 {
                     "number": "88",
                     "position": "8",
-                    "Driver": {
-                        "driverId": "a_al_qubaisi",
-                        "permanentNumber": "88",
-                        "code": "AAL",
-                        "givenName": "Amma",
-                        "familyName": "Al Quiabisi"
-                    },
-                    "Constructor": {
-                        "constructorId": "mp",
-                        "name": "MP"
-                    },
                     "grid": "14",
                     "laps": "13",
                     "status": "Finished",
@@ -687,17 +427,6 @@
                 {
                     "number": "28",
                     "position": "9",
-                    "Driver": {
-                        "driverId": "pin",
-                        "permanentNumber": "28",
-                        "code": "PIN",
-                        "givenName": "Doriane",
-                        "familyName": "Pin"
-                    },
-                    "Constructor": {
-                        "constructorId": "prema",
-                        "name": "Prema"
-                    },
                     "grid": "1",
                     "laps": "13",
                     "status": "Finished",
@@ -715,17 +444,6 @@
                 {
                     "number": "14",
                     "position": "10",
-                    "Driver": {
-                        "driverId": "chambers",
-                        "permanentNumber": "14",
-                        "code": "CHA",
-                        "givenName": "Chloe",
-                        "familyName": "Chambers"
-                    },
-                    "Constructor": {
-                        "constructorId": "campos",
-                        "name": "Campos"
-                    },
                     "grid": "6",
                     "laps": "13",
                     "status": "Finished",
@@ -743,17 +461,6 @@
                 {
                     "number": "57",
                     "position": "11",
-                    "Driver": {
-                        "driverId": "block",
-                        "permanentNumber": "57",
-                        "code": "BLO",
-                        "givenName": "Lia",
-                        "familyName": "Block"
-                    },
-                    "Constructor": {
-                        "constructorId": "art",
-                        "name": "Art"
-                    },
                     "grid": "13",
                     "laps": "13",
                     "status": "Finished",
@@ -771,17 +478,6 @@
                 {
                     "number": "7",
                     "position": "12",
-                    "Driver": {
-                        "driverId": "de_haus",
-                        "permanentNumber": "7",
-                        "code": "DEH",
-                        "givenName": "Emely",
-                        "familyName": "De Haus"
-                    },
-                    "Constructor": {
-                        "constructorId": "mp",
-                        "name": "MP"
-                    },
                     "grid": "16",
                     "laps": "13",
                     "status": "Finished",
@@ -799,17 +495,6 @@
                 {
                     "number": "19",
                     "position": "13",
-                    "Driver": {
-                        "driverId": "hausmann",
-                        "permanentNumber": "19",
-                        "code": "HAU",
-                        "givenName": "Tina",
-                        "familyName": "Hausmann"
-                    },
-                    "Constructor": {
-                        "constructorId": "prema",
-                        "name": "prema"
-                    },
                     "grid": "7",
                     "laps": "12",
                     "status": "Finished",
@@ -827,17 +512,6 @@
                 {
                     "number": "22",
                     "position": "14",
-                    "Driver": {
-                        "driverId": "nobles",
-                        "permanentNumber": "22",
-                        "code": "NOB",
-                        "givenName": "Aurelia",
-                        "familyName": "Nobles"
-                    },
-                    "Constructor": {
-                        "constructorId": "art",
-                        "name": "Art"
-                    },
                     "grid": "8",
                     "laps": "10",
                     "status": "DNF",
@@ -855,17 +529,6 @@
                 {
                     "number": "18",
                     "position": "15",
-                    "Driver": {
-                        "driverId": "juffali",
-                        "permanentNumber": "18",
-                        "code": "JUF",
-                        "givenName": "R.",
-                        "familyName": "Juffali"
-                    },
-                    "Constructor": {
-                        "constructorId": "prema",
-                        "name": "Prema"
-                    },
                     "grid": "15",
                     "laps": "5",
                     "status": "DNF",
@@ -883,17 +546,6 @@
                 {
                     "number": "7",
                     "position": "16",
-                    "Driver": {
-                        "driverId": "de_haus",
-                        "permanentNumber": "7",
-                        "code": "DEH",
-                        "givenName": "Emely",
-                        "familyName": "De Haus"
-                    },
-                    "Constructor": {
-                        "constructorId": "mp",
-                        "name": "MP"
-                    },
                     "grid": "16",
                     "laps": "4",
                     "status": "DNF",
@@ -924,17 +576,6 @@
                 {
                     "number": "9",
                     "position": "1",
-                    "Driver": {
-                        "driverId": "pulling",
-                        "permanentNumber": "9",
-                        "code": "PUL",
-                        "givenName": "Abbi",
-                        "familyName": "Pulling"
-                    },
-                    "Constructor": {
-                        "constructorId": "rodin",
-                        "name": "Rodin"
-                    },
                     "grid": "1",
                     "laps": "13",
                     "status": "Finished",
@@ -952,17 +593,6 @@
                 {
                     "number": "28",
                     "position": "2",
-                    "Driver": {
-                        "driverId": "pin",
-                        "permanentNumber": "28",
-                        "code": "PIN",
-                        "givenName": "Doriane",
-                        "familyName": "Pin"
-                    },
-                    "Constructor": {
-                        "constructorId": "prema",
-                        "name": "Prema"
-                    },
                     "grid": "2",
                     "laps": "13",
                     "status": "Finished",
@@ -980,17 +610,6 @@
                 {
                     "number": "14",
                     "position": "3",
-                    "Driver": {
-                        "driverId": "chambers",
-                        "permanentNumber": "14",
-                        "code": "CHA",
-                        "givenName": "Chloe",
-                        "familyName": "Chambers"
-                    },
-                    "Constructor": {
-                        "constructorId": "campos",
-                        "name": "Campos"
-                    },
                     "grid": "8",
                     "laps": "13",
                     "status": "Finished",
