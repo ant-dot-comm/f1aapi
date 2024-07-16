@@ -19,7 +19,6 @@
                         "time": "26:50.962"
                     },
                     "FastestLap": {
-                        "best": false,
                         "lap": "8",
                         "Time": {
                             "time": "2:04.678"
@@ -40,7 +39,6 @@
                         "time": "26:57.880"
                     },
                     "FastestLap": {
-                        "best": false,
                         "lap": "11",
                         "Time": {
                             "time": "2:05.443"
@@ -57,7 +55,6 @@
                         "time": "27:02.657"
                     },
                     "FastestLap": {
-                        "best": false,
                         "lap": "10",
                         "Time": {
                             "time": "2:05.709"
@@ -74,7 +71,7 @@
                         "time": "27:04.918"
                     },
                     "FastestLap": {
-                        "best": false,
+
                         "lap": "12",
                         "Time": {
                             "time": "2:06.085"
@@ -91,7 +88,7 @@
                         "time": "27:11.015"
                     },
                     "FastestLap": {
-                        "best": false,
+
                         "lap": "10",
                         "Time": {
                             "time": "2:06.333"
@@ -108,7 +105,7 @@
                         "time": "27:13.703"
                     },
                     "FastestLap": {
-                        "best": false,
+
                         "lap": "11",
                         "Time": {
                             "time": "2:06.789"
@@ -125,7 +122,7 @@
                         "time": "27:14.218"
                     },
                     "FastestLap": {
-                        "best": false,
+
                         "lap": "11",
                         "Time": {
                             "time": "2:05.656"
@@ -142,7 +139,7 @@
                         "time": "27:14.377"
                     },
                     "FastestLap": {
-                        "best": false,
+
                         "lap": "12",
                         "Time": {
                             "time": "2:07.001"
@@ -159,7 +156,7 @@
                         "time": "27:15.615"
                     },
                     "FastestLap": {
-                        "best": false,
+
                         "lap": "8",
                         "Time": {
                             "time": "2:06.896"
@@ -176,7 +173,7 @@
                         "time": "27:15.987"
                     },
                     "FastestLap": {
-                        "best": false,
+
                         "lap": "8",
                         "Time": {
                             "time": "2:06.863"
@@ -193,7 +190,7 @@
                         "time": "27:16.983"
                     },
                     "FastestLap": {
-                        "best": false,
+
                         "lap": "8",
                         "Time": {
                             "time": "2:06.354"
@@ -210,7 +207,7 @@
                         "time": "27:31.883"
                     },
                     "FastestLap": {
-                        "best": false,
+
                         "lap": "6",
                         "Time": {
                             "time": "2:06.651"
@@ -227,7 +224,7 @@
                         "time": "24:54.851"
                     },
                     "FastestLap": {
-                        "best": false,
+
                         "lap": "8",
                         "Time": {
                             "time": "2:05.801"
@@ -244,7 +241,7 @@
                         "time": "27:08.827"
                     },
                     "FastestLap": {
-                        "best": false,
+
                         "lap": "9",
                         "Time": {
                             "time": "2:05.850"
@@ -261,7 +258,7 @@
                         "time": "22:53.039"
                     },
                     "FastestLap": {
-                        "best": false,
+
                         "lap": "10",
                         "Time": {
                             "time": "2:05.409"
@@ -298,7 +295,7 @@
                         "time": "32:03.265"
                     },
                     "FastestLap": {
-                        "best": false,
+
                         "lap": "12",
                         "Time": {
                             "time": "2:04.589"
@@ -315,7 +312,7 @@
                         "time": "32:06.647"
                     },
                     "FastestLap": {
-                        "best": false,
+
                         "lap": "13",
                         "Time": {
                             "time": "2:05.457"
@@ -332,7 +329,7 @@
                         "time": "32:08.105"
                     },
                     "FastestLap": {
-                        "best": false,
+
                         "lap": "12",
                         "Time": {
                             "time": "2:05.597"
@@ -349,7 +346,7 @@
                         "time": "32:08.753"
                     },
                     "FastestLap": {
-                        "best": false,
+
                         "lap": "13",
                         "Time": {
                             "time": "2:05.509"
@@ -366,7 +363,7 @@
                         "time": "32:16.530"
                     },
                     "FastestLap": {
-                        "best": false,
+
                         "lap": "12",
                         "Time": {
                             "time": "2:06.172"
@@ -383,7 +380,7 @@
                         "time": "32:18.631"
                     },
                     "FastestLap": {
-                        "best": false,
+
                         "lap": "13",
                         "Time": {
                             "time": "2:05.979"
@@ -400,7 +397,7 @@
                         "time": "32:18.786"
                     },
                     "FastestLap": {
-                        "best": false,
+
                         "lap": "13",
                         "Time": {
                             "time": "2:06.587"
@@ -417,7 +414,7 @@
                         "time": "32:20.135"
                     },
                     "FastestLap": {
-                        "best": false,
+
                         "lap": "12",
                         "Time": {
                             "time": "2:05.806"
@@ -451,7 +448,7 @@
                         "time": "32:26.344"
                     },
                     "FastestLap": {
-                        "best": false,
+
                         "lap": "12",
                         "Time": {
                             "time": "2:06.252"
@@ -468,7 +465,7 @@
                         "time": "32:26.429"
                     },
                     "FastestLap": {
-                        "best": false,
+
                         "lap": "12",
                         "Time": {
                             "time": "2:06.368"
@@ -485,7 +482,7 @@
                         "time": "32:27.861"
                     },
                     "FastestLap": {
-                        "best": false,
+
                         "lap": "13",
                         "Time": {
                             "time": "2:06.013"
@@ -502,7 +499,7 @@
                         "time": "32:21.656"
                     },
                     "FastestLap": {
-                        "best": false,
+
                         "lap": "12",
                         "Time": {
                             "time": "2:07.684"
@@ -519,7 +516,7 @@
                         "time": "26:22.762"
                     },
                     "FastestLap": {
-                        "best": false,
+
                         "lap": "2",
                         "Time": {
                             "time": "2:07.243"
@@ -536,7 +533,7 @@
                         "time": "12:19.389"
                     },
                     "FastestLap": {
-                        "best": false,
+
                         "lap": "5",
                         "Time": {
                             "time": "2:09.154"
@@ -553,7 +550,7 @@
                         "time": "10:21.928"
                     },
                     "FastestLap": {
-                        "best": false,
+
                         "lap": "2",
                         "Time": {
                             "time": "2:07.554"
@@ -583,7 +580,7 @@
                         "time": "25:58.659"
                     },
                     "FastestLap": {
-                        "best": false,
+
                         "lap": "8",
                         "Time": {
                             "time": "1:59.348"
@@ -600,7 +597,7 @@
                         "time": "26:03.907"
                     },
                     "FastestLap": {
-                        "best": false,
+
                         "lap": "9",
                         "Time": {
                             "time": "1:59.718"
@@ -617,10 +614,219 @@
                         "time": "26:11.469"
                     },
                     "FastestLap": {
-                        "best": false,
+
                         "lap": "8",
                         "Time": {
                             "time": "1:59.834"
+                        }
+                    }
+                },
+                {
+                    "number": "30",
+                    "position": "4",
+                    "grid": "6",
+                    "laps": "13",
+                    "status": "Finished",
+                    "Time": {
+                        "time": "26:14.580"
+                    },
+                    "FastestLap": {
+
+                        "lap": "8",
+                        "Time": {
+                            "time": "1:59.447"
+                        }
+                    }
+                },
+                {
+                    "number": "8",
+                    "position": "5",
+                    "grid": "3",
+                    "laps": "13",
+                    "status": "Finished",
+                    "Time": {
+                        "time": "26:15.456"
+                    },
+                    "FastestLap": {
+                        "lap": "9",
+                        "Time": {
+                            "time": "2:00.280"
+                        }
+                    }
+                },
+                {
+                    "number": "64",
+                    "position": "6",
+                    "grid": "5",
+                    "laps": "13",
+                    "status": "Finished",
+                    "Time": {
+                        "time": "26:16.577"
+                    },
+                    "FastestLap": {
+                        "lap": "10",
+                        "Time": {
+                            "time": "1:59.735"
+                        }
+                    }
+                },
+                {
+                    "number": "17",
+                    "position": "7",
+                    "grid": "11",
+                    "laps": "13",
+                    "status": "Finished",
+                    "Time": {
+                        "time": "26:19.482"
+                    },
+                    "FastestLap": {
+                        "lap": "4",
+                        "Time": {
+                            "time": "2:00.295"
+                        }
+                    }
+                },
+                {
+                    "number": "88",
+                    "position": "8",
+                    "grid": "15",
+                    "laps": "13",
+                    "status": "Finished",
+                    "Time": {
+                        "time": "26:19.594"
+                    },
+                    "FastestLap": {
+                        "lap": "11",
+                        "Time": {
+                            "time": "1:59.695"
+                        }
+                    }
+                },
+                {
+                    "number": "16",
+                    "position": "9",
+                    "grid": "4",
+                    "laps": "13",
+                    "status": "Finished",
+                    "Time": {
+                        "time": "26:21.787"
+                    },
+                    "FastestLap": {
+                        "lap": "10",
+                        "Time": {
+                            "time": "1:59.322"
+                        }
+                    }
+                },
+                {
+                    "number": "3",
+                    "position": "10",
+                    "grid": "10",
+                    "laps": "13",
+                    "status": "Finished",
+                    "Time": {
+                        "time": "26:27.594"
+                    },
+                    "FastestLap": {
+                        "lap": "8",
+                        "Time": {
+                            "time": "2:00.466"
+                        }
+                    }
+                },
+                {
+                    "number": "7",
+                    "position": "11",
+                    "grid": "14",
+                    "laps": "13",
+                    "status": "Finished",
+                    "Time": {
+                        "time": "26:34.267"
+                    },
+                    "FastestLap": {
+                        "lap": "8",
+                        "Time": {
+                            "time": "2:01.067"
+                        }
+                    }
+                },
+                {
+                    "number": "15",
+                    "position": "12",
+                    "grid": "13",
+                    "laps": "13",
+                    "status": "Finished",
+                    "Time": {
+                        "time": "26:36.410"
+                    },
+                    "FastestLap": {
+                        "lap": "8",
+                        "Time": {
+                            "time": "2:01.596"
+                        }
+                    }
+                },
+                {
+                    "number": "22",
+                    "position": "13",
+                    "grid": "8",
+                    "laps": "13",
+                    "status": "Finished",
+                    "Time": {
+                        "time": "26:37.147"
+                    },
+                    "FastestLap": {
+                        "lap": "9",
+                        "Time": {
+                            "time": "1:59.644"
+                        }
+                    }
+                },
+                {
+                    "number": "77",
+                    "position": "14",
+                    "grid": "16",
+                    "laps": "13",
+                    "status": "Finished",
+                    "Time": {
+                        "time": "26:37.147"
+                    },
+                    "FastestLap": {
+                        "lap": "5",
+                        "Time": {
+                            "time": "2:01.257"
+                        }
+                    }
+                },
+                {
+                    "number": "57",
+                    "position": "15",
+                    "grid": "12",
+                    "laps": "13",
+                    "status": "Finished",
+                    "Time": {
+                        "time": "26:39.111"
+                    },
+                    "FastestLap": {
+                        "lap": "12",
+                        "Time": {
+                            "time": "2:00.145"
+                        }
+                    }
+                },
+                {
+                    "number": "19",
+                    "position": "16",
+                    "grid": "9",
+                    "laps": "0",
+                    "status": "DNF",
+                    "Time": {
+                        "time": "---"
+                    },
+                    "FastestLap": {
+                        "lap": "---",
+                        "Time": {
+                            "time": "---"
                         }
                     }
                 }

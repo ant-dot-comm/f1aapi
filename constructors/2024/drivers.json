@@ -194,6 +194,19 @@
             "name": "Prema"
         }
     },
+    "77": {
+        "Driver": {
+            "driverId": "crone",
+            "permanentNumber": "77",
+            "code": "CRO",
+            "givenName": "Courtney",
+            "familyName": "Crone"
+        },
+        "Constructor": {
+            "constructorId": "prema",
+            "name": "Prema"
+        }
+    },
     "88": {
         "Driver": {
             "driverId": "a_al_qubaisi",
