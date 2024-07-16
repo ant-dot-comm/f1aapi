@@ -38,34 +38,6 @@
                     }
                 },
                 {
-                    "number": "9",
-                    "position": "2",
-                    "Driver": {
-                        "driverId": "pulling",
-                        "permanentNumber": "9",
-                        "code": "PUL",
-                        "givenName": "Abbi",
-                        "familyName": "Pulling"
-                    },
-                    "Constructor": {
-                        "constructorId": "rodin",
-                        "name": "Rodin"
-                    },
-                    "grid": "2",
-                    "laps": "12",
-                    "status": "Finished",
-                    "Time": {
-                        "time": "26:51.810"
-                    },
-                    "FastestLap": {
-                        "best": true,
-                        "lap": "10",
-                        "Time": {
-                            "time": "2:04.639"
-                        }
-                    }
-                },
-                {
                     "number": "64",
                     "position": "3",
                     "Driver": {
@@ -454,6 +426,34 @@
                         "lap": "10",
                         "Time": {
                             "time": "2:05.409"
+                        }
+                    }
+                },
+                {
+                    "number": "9",
+                    "position": "2",
+                    "Driver": {
+                        "driverId": "pulling",
+                        "permanentNumber": "9",
+                        "code": "PUL",
+                        "givenName": "Abbi",
+                        "familyName": "Pulling"
+                    },
+                    "Constructor": {
+                        "constructorId": "rodin",
+                        "name": "Rodin"
+                    },
+                    "grid": "2",
+                    "laps": "12",
+                    "status": "Finished",
+                    "Time": {
+                        "time": "26:51.810"
+                    },
+                    "FastestLap": {
+                        "best": true,
+                        "lap": "10",
+                        "Time": {
+                            "time": "2:04.639"
                         }
                     }
                 }
@@ -1004,7 +1004,7 @@
                             "time": "1:59.834"
                         }
                     }
-                },
+                }
             ],
             "race2": [
 
