@@ -29,10 +29,6 @@
                 {
                     "number": "64",
                     "position": "3",
-                    "Constructor": {
-                        "constructorId": "prema",
-                        "name": "Prema"
-                    },
                     "grid": "3",
                     "laps": "12",
                     "status": "Finished",
