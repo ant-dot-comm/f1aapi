@@ -15,6 +15,7 @@
                     "grid": "1",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "27",
                     "Time": {
                         "time": "26:50.962"
                     },
@@ -35,6 +36,7 @@
                     "grid": "3",
                     "laps": "12",
                     "status": "Finished",
+                    "points": "15",
                     "Time": {
                         "time": "26:57.880"
                     },
@@ -51,6 +53,7 @@
                     "grid": "8",
                     "laps": "12",
                     "status": "Finished",
+                    "points": "12",
                     "Time": {
                         "time": "27:02.657"
                     },
@@ -67,6 +70,7 @@
                     "grid": "5",
                     "laps": "12",
                     "status": "Finished",
+                    "points": "10",
                     "Time": {
                         "time": "27:04.918"
                     },
@@ -84,6 +88,7 @@
                     "grid": "11",
                     "laps": "12",
                     "status": "Finished",
+                    "points": "8",
                     "Time": {
                         "time": "27:11.015"
                     },
@@ -101,11 +106,11 @@
                     "grid": "9",
                     "laps": "12",
                     "status": "Finished",
+                    "points": "6",
                     "Time": {
                         "time": "27:13.703"
                     },
                     "FastestLap": {
-
                         "lap": "11",
                         "Time": {
                             "time": "2:06.789"
@@ -118,6 +123,7 @@
                     "grid": "6",
                     "laps": "12",
                     "status": "Finished",
+                    "points": "4",
                     "Time": {
                         "time": "27:14.218"
                     },
@@ -135,6 +141,7 @@
                     "grid": "13",
                     "laps": "12",
                     "status": "Finished",
+                    "points": "2",
                     "Time": {
                         "time": "27:14.377"
                     },
@@ -152,6 +159,7 @@
                     "grid": "12",
                     "laps": "12",
                     "status": "Finished",
+                    "points": "1",
                     "Time": {
                         "time": "27:15.615"
                     },
@@ -169,6 +177,7 @@
                     "grid": "14",
                     "laps": "12",
                     "status": "Finished",
+                    "points": "0",
                     "Time": {
                         "time": "27:15.987"
                     },
@@ -186,6 +195,7 @@
                     "grid": "16",
                     "laps": "12",
                     "status": "Finished",
+                    "points": "0",
                     "Time": {
                         "time": "27:16.983"
                     },
@@ -203,6 +213,7 @@
                     "grid": "15",
                     "laps": "12",
                     "status": "Finished",
+                    "points": "0",
                     "Time": {
                         "time": "27:31.883"
                     },
@@ -220,6 +231,7 @@
                     "grid": "4",
                     "laps": "11",
                     "status": "DNF",
+                    "points": "0",
                     "Time": {
                         "time": "24:54.851"
                     },
@@ -237,6 +249,7 @@
                     "grid": "10",
                     "laps": "11",
                     "status": "+1",
+                    "points": "0",
                     "Time": {
                         "time": "27:08.827"
                     },
@@ -254,6 +267,7 @@
                     "grid": "7",
                     "laps": "10",
                     "status": "DNF",
+                    "points": "0",
                     "Time": {
                         "time": "22:53.039"
                     },
@@ -271,6 +285,7 @@
                     "grid": "2",
                     "laps": "12",
                     "status": "Finished",
+                    "points": "19",
                     "Time": {
                         "time": "26:51.810"
                     },
@@ -291,6 +306,7 @@
                     "grid": "2",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "25",
                     "Time": {
                         "time": "32:03.265"
                     },
@@ -308,6 +324,7 @@
                     "grid": "3",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "18",
                     "Time": {
                         "time": "32:06.647"
                     },
@@ -325,6 +342,7 @@
                     "grid": "5",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "15",
                     "Time": {
                         "time": "32:08.105"
                     },
@@ -342,6 +360,7 @@
                     "grid": "9",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "12",
                     "Time": {
                         "time": "32:08.753"
                     },
@@ -359,6 +378,7 @@
                     "grid": "12",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "10",
                     "Time": {
                         "time": "32:16.530"
                     },
@@ -376,6 +396,7 @@
                     "grid": "10",
                     "laps": "12",
                     "status": "Finished",
+                    "points": "8",
                     "Time": {
                         "time": "32:18.631"
                     },
@@ -393,6 +414,7 @@
                     "grid": "11",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "6",
                     "Time": {
                         "time": "32:18.786"
                     },
@@ -410,6 +432,7 @@
                     "grid": "14",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "4",
                     "Time": {
                         "time": "32:20.135"
                     },
@@ -427,6 +450,7 @@
                     "grid": "1",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "5",
                     "Time": {
                         "time": "32:21.271"
                     },
@@ -444,6 +468,7 @@
                     "grid": "6",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "1",
                     "Time": {
                         "time": "32:26.344"
                     },
@@ -460,6 +485,7 @@
                     "grid": "13",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "0",
                     "Time": {
                         "time": "32:26.429"
                     },
@@ -476,6 +502,7 @@
                     "grid": "16",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "0",
                     "Time": {
                         "time": "32:27.861"
                     },
@@ -492,6 +519,7 @@
                     "grid": "7",
                     "laps": "12",
                     "status": "Finished",
+                    "points": "0",
                     "Time": {
                         "time": "32:21.656"
                     },
@@ -508,6 +536,7 @@
                     "grid": "8",
                     "laps": "10",
                     "status": "DNF",
+                    "points": "0",
                     "Time": {
                         "time": "26:22.762"
                     },
@@ -524,6 +553,7 @@
                     "grid": "15",
                     "laps": "5",
                     "status": "DNF",
+                    "points": "0",
                     "Time": {
                         "time": "12:19.389"
                     },
@@ -540,6 +570,7 @@
                     "grid": "4",
                     "laps": "4",
                     "status": "DNF",
+                    "points": "0",
                     "Time": {
                         "time": "10:21.928"
                     },
@@ -569,6 +600,7 @@
                     "grid": "1",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "27",
                     "Time": {
                         "time": "25:58.659"
                     },
@@ -586,6 +618,7 @@
                     "grid": "2",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "18",
                     "Time": {
                         "time": "26:03.907"
                     },
@@ -603,6 +636,7 @@
                     "grid": "7",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "15",
                     "Time": {
                         "time": "26:11.469"
                     },
@@ -620,6 +654,7 @@
                     "grid": "6",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "12",
                     "Time": {
                         "time": "26:14.580"
                     },
@@ -637,6 +672,7 @@
                     "grid": "3",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "10",
                     "Time": {
                         "time": "26:15.456"
                     },
@@ -653,6 +689,7 @@
                     "grid": "5",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "8",
                     "Time": {
                         "time": "26:16.577"
                     },
@@ -669,6 +706,7 @@
                     "grid": "10",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "6",
                     "Time": {
                         "time": "26:19.482"
                     },
@@ -685,6 +723,7 @@
                     "grid": "14",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "4",
                     "Time": {
                         "time": "26:19.594"
                     },
@@ -701,6 +740,7 @@
                     "grid": "4",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "3",
                     "Time": {
                         "time": "26:21.787"
                     },
@@ -717,6 +757,7 @@
                     "grid": "15",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "1",
                     "Time": {
                         "time": "26:27.594"
                     },
@@ -733,6 +774,7 @@
                     "grid": "13",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "0",
                     "Time": {
                         "time": "26:34.267"
                     },
@@ -749,6 +791,7 @@
                     "grid": "12",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "0",
                     "Time": {
                         "time": "26:36.410"
                     },
@@ -765,6 +808,7 @@
                     "grid": "8",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "0",
                     "Time": {
                         "time": "26:37.147"
                     },
@@ -781,6 +825,7 @@
                     "grid": "16",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "0",
                     "Time": {
                         "time": "26:37.147"
                     },
@@ -797,6 +842,7 @@
                     "grid": "11",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "0",
                     "Time": {
                         "time": "26:39.111"
                     },
@@ -813,6 +859,7 @@
                     "grid": "9",
                     "laps": "0",
                     "status": "DNF",
+                    "points": "0",
                     "Time": {
                         "time": "---"
                     },
@@ -831,6 +878,7 @@
                     "grid": "1",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "28",
                     "Time": {
                         "time": "26:00.656"
                     },
@@ -848,6 +896,7 @@
                     "grid": "2",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "18",
                     "Time": {
                         "time": "26:04.457"
                     },
@@ -865,6 +914,7 @@
                     "grid": "3",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "15",
                     "Time": {
                         "time": "26:05.327"
                     },
@@ -882,6 +932,7 @@
                     "grid": "8",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "12",
                     "Time": {
                         "time": "26:09.937"
                     },
@@ -899,6 +950,7 @@
                     "grid": "6",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "10",
                     "Time": {
                         "time": "26:13.165"
                     },
@@ -916,6 +968,7 @@
                     "grid": "4",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "8",
                     "Time": {
                         "time": "26:14.585"
                     },
@@ -932,6 +985,7 @@
                     "grid": "5",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "6",
                     "Time": {
                         "time": "26:20.715"
                     },
@@ -948,6 +1002,7 @@
                     "grid": "14",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "4",
                     "Time": {
                         "time": "26:20.905"
                     },
@@ -964,6 +1019,7 @@
                     "grid": "13",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "2",
                     "Time": {
                         "time": "26:21.599"
                     },
@@ -980,6 +1036,7 @@
                     "grid": "12",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "1",
                     "Time": {
                         "time": "26:23.251"
                     },
@@ -996,6 +1053,7 @@
                     "grid": "16",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "0",
                     "Time": {
                         "time": "26:25.507"
                     },
@@ -1012,6 +1070,7 @@
                     "grid": "15",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "0",
                     "Time": {
                         "time": "26:27.061"
                     },
@@ -1028,6 +1087,7 @@
                     "grid": "7",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "0",
                     "Time": {
                         "time": "26:29.250"
                     },
@@ -1044,6 +1104,7 @@
                     "grid": "9",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "0",
                     "Time": {
                         "time": "26:35.590"
                     },
@@ -1060,6 +1121,7 @@
                     "grid": "11",
                     "laps": "13",
                     "status": "Finished",
+                    "points": "0",
                     "Time": {
                         "time": "26:47.457"
                     },
@@ -1076,6 +1138,7 @@
                     "grid": "9",
                     "laps": "0",
                     "status": "DNF",
+                    "points": "0",
                     "Time": {
                         "time": "---"
                     },
@@ -1105,6 +1168,7 @@
                     "grid": "1",
                     "laps": "16",
                     "status": "Finished",
+                    "points": "28",
                     "Time": {
                         "time": "30:12.693"
                     },
@@ -1121,6 +1185,7 @@
                     "grid": "3",
                     "laps": "16",
                     "status": "Finished",
+                    "points": "18",
                     "Time": {
                         "time": "30:12.693"
                     },
@@ -1137,6 +1202,7 @@
                     "grid": "2",
                     "laps": "16",
                     "status": "Finished",
+                    "points": "15",
                     "Time": {
                         "time": "30:18.156"
                     },
@@ -1153,6 +1219,7 @@
                     "grid": "5",
                     "laps": "16",
                     "status": "Finished",
+                    "points": "12",
                     "Time": {
                         "time": "30:18.554"
                     },
@@ -1169,6 +1236,7 @@
                     "grid": "7",
                     "laps": "16",
                     "status": "Finished",
+                    "points": "10",
                     "Time": {
                         "time": "30:20.948"
                     },
@@ -1185,6 +1253,7 @@
                     "grid": "11",
                     "laps": "16",
                     "status": "Finished",
+                    "points": "8",
                     "Time": {
                         "time": "30:25.058"
                     },
@@ -1201,6 +1270,7 @@
                     "grid": "4",
                     "laps": "16",
                     "status": "Finished",
+                    "points": "6",
                     "Time": {
                         "time": "30:28.504"
                     },
@@ -1217,6 +1287,7 @@
                     "grid": "9",
                     "laps": "16",
                     "status": "Finished",
+                    "points": "4",
                     "Time": {
                         "time": "30:29.393"
                     },
@@ -1233,6 +1304,7 @@
                     "grid": "6",
                     "laps": "16",
                     "status": "Finished",
+                    "points": "2",
                     "Time": {
                         "time": "30:33.050"
                     },
@@ -1249,6 +1321,7 @@
                     "grid": "8",
                     "laps": "16",
                     "status": "Finished",
+                    "points": "1",
                     "Time": {
                         "time": "30:33.888"
                     },
@@ -1265,6 +1338,7 @@
                     "grid": "10",
                     "laps": "16",
                     "status": "Finished",
+                    "points": "0",
                     "Time": {
                         "time": "30:34.286"
                     },
@@ -1281,6 +1355,7 @@
                     "grid": "14",
                     "laps": "16",
                     "status": "Finished",
+                    "points": "0",
                     "Time": {
                         "time": "30:36.000"
                     },
@@ -1297,6 +1372,7 @@
                     "grid": "15",
                     "laps": "16",
                     "status": "Finished",
+                    "points": "0",
                     "Time": {
                         "time": "30:36.433"
                     },
@@ -1313,6 +1389,7 @@
                     "grid": "12",
                     "laps": "16",
                     "status": "DNF",
+                    "points": "0",
                     "Time": {
                         "time": "---"
                     },
@@ -1329,6 +1406,7 @@
                     "grid": "13",
                     "laps": "16",
                     "status": "DNF",
+                    "points": "0",
                     "Time": {
                         "time": "---"
                     },
@@ -1347,6 +1425,7 @@
                     "grid": "2",
                     "laps": "16",
                     "status": "Finished",
+                    "points": "26",
                     "Time": {
                         "time": "27:50.857"
                     },
@@ -1363,6 +1442,7 @@
                     "grid": "1",
                     "laps": "16",
                     "status": "Finished",
+                    "points": "20",
                     "Time": {
                         "time": "27:57.552"
                     },
@@ -1379,6 +1459,7 @@
                     "grid": "5",
                     "laps": "16",
                     "status": "Finished",
+                    "points": "15",
                     "Time": {
                         "time": "27:57.874"
                     },
@@ -1395,6 +1476,7 @@
                     "grid": "4",
                     "laps": "16",
                     "status": "Finished",
+                    "points": "12",
                     "Time": {
                         "time": "28:00.219"
                     },
@@ -1411,6 +1493,7 @@
                     "grid": "3",
                     "laps": "16",
                     "status": "Finished",
+                    "points": "10",
                     "Time": {
                         "time": "28:00.663"
                     },
@@ -1427,6 +1510,7 @@
                     "grid": "6",
                     "laps": "16",
                     "status": "Finished",
+                    "points": "8",
                     "Time": {
                         "time": "28:06.279"
                     },
@@ -1443,6 +1527,7 @@
                     "grid": "8",
                     "laps": "16",
                     "status": "Finished",
+                    "points": "6",
                     "Time": {
                         "time": "28:06.317"
                     },
@@ -1459,6 +1544,7 @@
                     "grid": "7",
                     "laps": "16",
                     "status": "Finished",
+                    "points": "4",
                     "Time": {
                         "time": "28:12.870"
                     },
@@ -1475,6 +1561,7 @@
                     "grid": "10",
                     "laps": "16",
                     "status": "Finished",
+                    "points": "2",
                     "Time": {
                         "time": "28:15.882"
                     },
@@ -1491,6 +1578,7 @@
                     "grid": "11",
                     "laps": "16",
                     "status": "Finished",
+                    "points": "1",
                     "Time": {
                         "time": "28:16.660"
                     },
@@ -1507,6 +1595,7 @@
                     "grid": "12",
                     "laps": "16",
                     "status": "Finished",
+                    "points": "0",
                     "Time": {
                         "time": "28:17.598"
                     },
@@ -1523,6 +1612,7 @@
                     "grid": "14",
                     "laps": "16",
                     "status": "Finished",
+                    "points": "0",
                     "Time": {
                         "time": "28:18.521"
                     },
@@ -1539,6 +1629,7 @@
                     "grid": "15",
                     "laps": "16",
                     "status": "Finished",
+                    "points": "0",
                     "Time": {
                         "time": "28:19.368"
                     },
@@ -1555,6 +1646,7 @@
                     "grid": "13",
                     "laps": "16",
                     "status": "Finished",
+                    "points": "0",
                     "Time": {
                         "time": "28:20.861"
                     },
@@ -1571,6 +1663,7 @@
                     "grid": "9",
                     "laps": "16",
                     "status": "Finished",
+                    "points": "0",
                     "Time": {
                         "time": "28:28.668"
                     },
