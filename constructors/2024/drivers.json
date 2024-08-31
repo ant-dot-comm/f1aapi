@@ -12,6 +12,19 @@
             "name": "Rodin"
         }
     },
+    "4": {
+        "Driver": {
+            "driverId": "gademan",
+            "permanentNumber": "4",
+            "code": "GAD",
+            "givenName": "Nina",
+            "familyName": "Gademan"
+        },
+        "Constructor": {
+            "constructorId": "prema",
+            "name": "Prema"
+        }
+    },
     "7": {
         "Driver": {
             "driverId": "de_haus",
