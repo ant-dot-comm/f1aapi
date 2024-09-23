@@ -25,6 +25,19 @@
             "name": "Prema"
         }
     },
+    "5": {
+        "Driver": {
+            "driverId": "lloyd",
+            "permanentNumber": "5",
+            "code": "LLO",
+            "givenName": "Ella",
+            "familyName": "LLyod"
+        },
+        "Constructor": {
+            "constructorId": "prema",
+            "name": "Prema"
+        }
+    },
     "7": {
         "Driver": {
             "driverId": "de_haus",
