@@ -38,6 +38,19 @@
             "name": "Prema"
         }
     },
+    "6": {
+        "Driver": {
+            "driverId": "palmowski",
+            "permanentNumber": "6",
+            "code": "PAL",
+            "givenName": "Alisha",
+            "familyName": "Palmowski"
+        },
+        "Constructor": {
+            "constructorId": "prema",
+            "name": "Prema"
+        }
+    },
     "7": {
         "Driver": {
             "driverId": "de_haus",
