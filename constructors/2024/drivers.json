@@ -207,6 +207,19 @@
             "name": "Campos"
         }
     },
+    "54": {
+        "Driver": {
+            "driverId": "hanna",
+            "permanentNumber": "54",
+            "code": "HAN",
+            "givenName": "Logan",
+            "familyName": "Hanna"
+        },
+        "Constructor": {
+            "constructorId": "prema",
+            "name": "Prema"
+        }
+    },
     "57": {
         "Driver": {
             "driverId": "block",
