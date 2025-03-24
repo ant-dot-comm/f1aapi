@@ -48,7 +48,7 @@
         },
         "Constructor": {
             "constructorId": "art",
-            "name": "ART"
+            "name": "Art"
         }
     },
     "11": {
@@ -74,7 +74,7 @@
         },
         "Constructor": {
             "constructorId": "mp",
-            "name": "MP Motorsport"
+            "name": "MP"
         }
     },
     "14": {
@@ -139,7 +139,7 @@
         },
         "Constructor": {
             "constructorId": "art",
-            "name": "ART"
+            "name": "Art"
         }
     },
     "24": {
@@ -165,7 +165,7 @@
         },
         "Constructor": {
             "constructorId": "mp",
-            "name": "MP Motorsport"
+            "name": "MP"
         }
     },
     "27": {
@@ -204,7 +204,7 @@
         },
         "Constructor": {
             "constructorId": "art",
-            "name": "ART"
+            "name": "Art"
         }
     },
     "64": {
@@ -217,7 +217,7 @@
         },
         "Constructor": {
             "constructorId": "mp",
-            "name": "MP Motorsport"
+            "name": "MP"
         }
     },
     "78": {
