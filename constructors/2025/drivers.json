@@ -25,6 +25,19 @@
             "name": "Prema"
         }
     },
+    "4": {
+        "Driver": {
+            "driverId": "alyousef",
+            "permanentNumber": "4",
+            "code": "ALY",
+            "givenName": "Farah",
+            "familyName": "Alyousef"
+        },
+        "Constructor": {
+            "constructorId": "hitech",
+            "name": "Hitech"
+        }
+    },
     "5": {
         "Driver": {
             "driverId": "felbermayr",
