@@ -245,5 +245,18 @@
             "constructorId": "prema",
             "name": "Prema"
         }
+    },
+    "90": {
+        "Driver": {
+            "driverId": "dobson",
+            "permanentNumber": "90",
+            "code": "DOB",
+            "givenName": "Ava",
+            "familyName": "Dobson"
+        },
+        "Constructor": {
+            "constructorId": "hitech",
+            "name": "Hitech"
+        }
     }
 }
