@@ -1155,7 +1155,22 @@
                 "Time": { "time": "" },
                 "FastestLap": { "lap": "", "Time": { "time": "" } }
               }
-              ]
+              ],
+              "race2": [
+                {
+                    "number": "14",
+                    "position": "",
+                    "laps": "",
+                    "gap": "",
+                    "status": "cancelled",
+                    "Time": { "time": "" },
+                    "FastestLap": {
+                        "lap": "",
+                        "Time": { "time": "" }
+                    },
+                    "grid": "1"
+                }
+            ]
         }
     }
 ]
