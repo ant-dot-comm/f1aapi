@@ -64,6 +64,19 @@
             "name": "Art"
         }
     },
+    "8": {
+        "Driver": {
+            "driverId": "paatz",
+            "permanentNumber": "8",
+            "code": "PAA",
+            "givenName": "Mathilda",
+            "familyName": "Paatz"
+        },
+        "Constructor": {
+            "constructorId": "hitech",
+            "name": "Hitech"
+        }
+    },
     "11": {
         "Driver": {
             "driverId": "anagnostiadis",
