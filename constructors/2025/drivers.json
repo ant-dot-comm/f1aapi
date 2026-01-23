@@ -116,6 +116,19 @@
             "name": "Campos"
         }
     },
+    "15": {
+        "Driver": {
+            "driverId": "westcott",
+            "permanentNumber": "15",
+            "code": "WES",
+            "givenName": "Phoebe",
+            "familyName": "Westcott"
+        },
+        "Constructor": {
+            "constructorId": "hitech",
+            "name": "Hitech"
+        }
+    },
     "18": {
         "Driver": {
             "driverId": "ferreira",
@@ -220,6 +233,19 @@
             "name": "Prema"
         }
     },
+    "56": {
+        "Driver": {
+            "driverId": "robertson",
+            "permanentNumber": "56",
+            "code": "ROB",
+            "givenName": "Rhiannon",
+            "familyName": "Robertson"
+        },
+        "Constructor": {
+            "constructorId": "hitech",
+            "name": "Hitech"
+        }
+    },
     "57": {
         "Driver": {
             "driverId": "block",
@@ -231,6 +257,19 @@
         "Constructor": {
             "constructorId": "art",
             "name": "Art"
+        }
+    },
+    "60": {
+        "Driver": {
+            "driverId": "billard",
+            "permanentNumber": "60",
+            "code": "BIL",
+            "givenName": "Liam",
+            "familyName": "Billard"
+        },
+        "Constructor": {
+            "constructorId": "hitech",
+            "name": "Hitech"
         }
     },
     "64": {
@@ -257,6 +296,19 @@
         "Constructor": {
             "constructorId": "prema",
             "name": "Prema"
+        }
+    },
+    "86": {
+        "Driver": {
+            "driverId": "kosterman",
+            "permanentNumber": "86",
+            "code": "KOS",
+            "givenName": "Elly",
+            "familyName": "Kosterman"
+        },
+        "Constructor": {
+            "constructorId": "hitech",
+            "name": "Hitech"
         }
     },
     "90": {
