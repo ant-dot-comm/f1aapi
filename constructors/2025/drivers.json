@@ -77,6 +77,19 @@
             "name": "Hitech"
         }
     },
+    "9": {
+        "Driver": {
+            "driverId": "bruce",
+            "permanentNumber": "9",
+            "code": "BRU",
+            "givenName": "Megan",
+            "familyName": "Bruce"
+        },
+        "Constructor": {
+            "constructorId": "hitech",
+            "name": "Hitech"
+        }
+    },
     "11": {
         "Driver": {
             "driverId": "anagnostiadis",
