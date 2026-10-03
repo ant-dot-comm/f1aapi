@@ -117,20 +117,26 @@ def quali_rankings(sessions):
     return [order for _, order in tables]
 
 
-def derive_grid(sessions, race_key):
+def derive_grid(sessions, race_key, race_cars=()):
     rankings = quali_rankings(sessions)
     if not rankings:
         return {}
     main = rankings[0]                              # fastest-lap qualifying order
     if race_key == "race2":                         # feature = straight quali order
-        return {num: str(i + 1) for i, num in enumerate(main)}
-    if race_key == "race1":                          # reverse the top N
-        top = main[:REVERSE_N][::-1] + main[REVERSE_N:]
-        return {num: str(i + 1) for i, num in enumerate(top)}
-    if race_key == "race0":                          # opening race = 2nd-fastest order
-        second = rankings[1] if len(rankings) > 1 else None
-        return {num: str(i + 1) for i, num in enumerate(second)} if second else {}
-    return {}
+        order = list(main)
+    elif race_key == "race1":                        # reverse the top N
+        order = main[:REVERSE_N][::-1] + main[REVERSE_N:]
+    elif race_key == "race0":                        # opening race = 2nd-fastest order
+        if len(rankings) < 2:
+            return {}
+        order = list(rankings[1])
+    else:
+        return {}
+    # Cars that raced but set no qualifying time start at the back, in race order.
+    for num in race_cars:
+        if num not in order:
+            order.append(num)
+    return {num: str(i + 1) for i, num in enumerate(order)}
 
 
 def build_race_rows(rows, race_key, grid):
@@ -166,7 +172,8 @@ def build_round(raceid, sessions, meta):
         key = SESSION_KEY.get(label)
         if not key:
             continue
-        grid = derive_grid(sessions, key)
+        race_cars = [car_number(r[1]) for r in rows if len(r) >= 8]
+        grid = derive_grid(sessions, key, race_cars)
         out["Results"][key] = build_race_rows(rows, key, grid)
         note = "" if grid else "  (grid not derived)"
         print(f"  {label} -> {key}: {len(out['Results'][key])} rows{note}")
