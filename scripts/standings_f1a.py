@@ -107,6 +107,28 @@ def build(season):
     return dp, tp, d_un, t_un, last, flagged
 
 
+def driver_points_index(season):
+    """For the results scraper: (code->driverId, {(driverId,round,slot): points},
+    {driverId: wildcard}) from the official driver standings. This is the correct
+    source of F1A per-race points (the old computed POINTS tables were wrong)."""
+    import json
+    repo = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    roster = json.load(open(os.path.join(repo, "constructors", str(season), "drivers.json")))
+    code2id = {i["Driver"]["code"]: i["Driver"]["driverId"] for i in roster.values()}
+    drivers, _ = parse(BASE.format(kind="Driver", sid=SEASON_ID[season]),
+                       lambda c: code2id.get(c), "driverId", "driver")
+    pts, wild = {}, {}
+    for e in drivers:
+        did = e["driverId"] or C.slug(C.surname_of(e["driver"]))
+        code2id[e["code"]] = did                   # include standings-only wildcards
+        wild[did] = e.get("wildcard", False)
+        for br in e["byRound"]:
+            for slot in ("race0", "race1", "race2"):
+                if slot in br and str(br[slot]).lstrip("-").isdigit():
+                    pts[(did, br["round"], slot)] = br[slot]
+    return code2id, pts, wild
+
+
 def main():
     ap = argparse.ArgumentParser(description="Update F1A standings from f1academy.com")
     ap.add_argument("--season", type=int, default=2026)

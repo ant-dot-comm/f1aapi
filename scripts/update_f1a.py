@@ -33,6 +33,9 @@ import urllib.request
 
 from lxml import html
 
+import common as C
+import standings_f1a as S
+
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RESULTS_URL = "https://www.f1academy.com/Racing-Series/Results?raceid={}"
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"
@@ -139,45 +142,58 @@ def derive_grid(sessions, race_key, race_cars=()):
     return {num: str(i + 1) for i, num in enumerate(order)}
 
 
-def build_race_rows(rows, race_key, grid):
-    """rows: list of td-cell lists for one race table -> schema rows."""
-    pts = POINTS.get(race_key, [])
+ROW_ORDER = ("number", "driverId", "grid", "position", "laps", "gap",
+             "status", "points", "Time", "FastestLap")
+
+
+def build_race_rows(table, race_key, grid, round_no, code2id, pts):
+    """One race <table> element -> schema rows. driverId from the result-page code;
+    points from the official standings index (code2id / pts), NOT computed."""
     out = []
-    for i, r in enumerate(rows):
-        if len(r) < 8:
+    for i, tr in enumerate(table.xpath('.//tbody/tr')):
+        tds = tr.xpath('./td')
+        if len(tds) < 8:
             continue
-        pos_cell = r[0]
+        pos_cell = tds[0].text_content().strip()
         finished = re.fullmatch(r'\d+', pos_cell) is not None
         status = "Finished" if finished else pos_cell.upper()
-        position = str(i + 1)
-        num = car_number(r[1])
-        laps, race_time = r[2], r[3]
-        best, on = r[7], (r[8] if len(r) > 8 else "0")
-        point = pts[i] if (finished and i < len(pts)) else 0
+        num = tds[1].xpath('.//*[contains(@class,"car-no")]/text()')
+        num = num[0].strip() if num else car_number(tds[1].text_content())
+        code = tds[1].xpath('.//*[contains(@class,"visible-desktop-down")]/text()')
+        code = code[0].strip() if code else ""
+        did = code2id.get(code) or (C.slug(code) if code else "")
+        p = pts.get((did, round_no, race_key), "0")
         out.append({
-            "number": num, "position": position, "grid": grid.get(num, ""),
-            "laps": laps, "status": status, "points": str(point),
-            "Time": {"time": race_time},
-            "FastestLap": {"lap": on, "Time": {"time": best}},
+            "number": num, "driverId": did, "grid": grid.get(num, ""),
+            "position": str(i + 1), "laps": tds[2].text_content().strip(),
+            "gap": tds[4].text_content().strip(), "status": status,
+            "points": p if str(p).lstrip("-").isdigit() else "0",
+            "Time": {"time": tds[3].text_content().strip()},
+            "FastestLap": {"lap": tds[8].text_content().strip() if len(tds) > 8 else "0",
+                           "Time": {"time": tds[7].text_content().strip()}},
         })
     return out
 
 
-def build_round(raceid, sessions, meta):
+def build_round(raceid, doc, meta, code2id, pts):
     round_no, race_name, circuit_id, circuit_name = meta
+    sessions = parse_sessions(doc)                       # cell lists, for grid derivation
+    tables = {}
+    for t in doc.xpath('//table[contains(@class,"table-bordered")]'):
+        lbl = table_label(doc, t)
+        if lbl in SESSION_KEY:
+            tables[lbl] = t
     out = {"season": "2026", "round": str(round_no), "raceName": race_name,
            "Circuit": {"circuitId": circuit_id, "circuitName": circuit_name},
            "Results": {}}
-    for label, rows in sessions.items():
-        key = SESSION_KEY.get(label)
-        if not key:
-            continue
-        race_cars = [car_number(r[1]) for r in rows if len(r) >= 8]
+    for label, t in tables.items():
+        key = SESSION_KEY[label]
+        cells = sessions.get(label, [])
+        race_cars = [car_number(r[1]) for r in cells if len(r) >= 8]
         grid = derive_grid(sessions, key, race_cars)
-        out["Results"][key] = build_race_rows(rows, key, grid)
+        out["Results"][key] = build_race_rows(t, key, grid, str(round_no), code2id, pts)
         note = "" if grid else "  (grid not derived)"
         print(f"  {label} -> {key}: {len(out['Results'][key])} rows{note}")
-    # keep race0/1/2 order
     out["Results"] = {k: out["Results"][k] for k in ("race0", "race1", "race2")
                       if k in out["Results"]}
     return out
@@ -212,11 +228,12 @@ def main():
 
     print(f"Fetching raceid {a.raceid} …")
     doc = html.fromstring(fetch(RESULTS_URL.format(a.raceid)))
-    sessions = parse_sessions(doc)
-    if not any(l in SESSION_KEY for l in sessions):
+    if not any(l in SESSION_KEY for l in parse_sessions(doc)):
         sys.exit("No race tables found (round may not have happened yet).")
 
-    rnd = build_round(a.raceid, sessions, meta)
+    print("Fetching official standings for points …")
+    code2id, pts, _ = S.driver_points_index(2026)
+    rnd = build_round(a.raceid, doc, meta, code2id, pts)
     path = upsert(rnd)
     print(f"Wrote round {rnd['round']} ({list(rnd['Results'])}) → {os.path.relpath(path, REPO)}")
     if a.push:
