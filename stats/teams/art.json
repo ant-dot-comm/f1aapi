@@ -1,0 +1,53 @@
+{
+    "constructorId": "art",
+    "name": "Art",
+    "series": "f1a",
+    "seasons": [
+        "2026"
+    ],
+    "career": {
+        "entries": 27,
+        "starts": 27,
+        "points": 29,
+        "wins": {
+            "total": 0
+        },
+        "podiums": {
+            "total": 1,
+            "reverse": 1
+        },
+        "poles": 0,
+        "fastestLaps": 0,
+        "dnfs": 2,
+        "bestFinish": 2,
+        "avgFinish": 12.22,
+        "titles": 0,
+        "bestChampionship": 6
+    },
+    "bySeasons": {
+        "2026": {
+            "entries": 27,
+            "starts": 27,
+            "points": 29,
+            "wins": {
+                "total": 0
+            },
+            "podiums": {
+                "total": 1,
+                "reverse": 1
+            },
+            "poles": 0,
+            "fastestLaps": 0,
+            "dnfs": 2,
+            "bestFinish": 2,
+            "avgFinish": 12.22,
+            "championshipPosition": 6,
+            "complete": false
+        }
+    },
+    "drivers": [
+        "billard",
+        "countryman",
+        "jacquet"
+    ]
+}

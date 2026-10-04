@@ -1,0 +1,75 @@
+{
+    "driverId": "battig",
+    "name": "Chiara Bättig",
+    "code": "BAT",
+    "series": "f1a",
+    "seasons": [
+        "2026"
+    ],
+    "career": {
+        "entries": 2,
+        "starts": 2,
+        "points": 22,
+        "wins": {
+            "total": 0
+        },
+        "podiums": {
+            "total": 1,
+            "feature": 1
+        },
+        "poles": 1,
+        "fastestLaps": 0,
+        "dnfs": 0,
+        "bestFinish": 2,
+        "avgFinish": 5.0,
+        "titles": 0,
+        "bestChampionship": 11
+    },
+    "bySeasons": {
+        "2026": {
+            "entries": 2,
+            "starts": 2,
+            "points": 22,
+            "wins": {
+                "total": 0
+            },
+            "podiums": {
+                "total": 1,
+                "feature": 1
+            },
+            "poles": 1,
+            "fastestLaps": 0,
+            "dnfs": 0,
+            "bestFinish": 2,
+            "avgFinish": 5.0,
+            "championshipPosition": 11,
+            "complete": false
+        }
+    },
+    "results": [
+        {
+            "season": "2026",
+            "round": "3",
+            "raceName": "British Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "hitech",
+            "grid": "8",
+            "position": "8",
+            "status": "Finished",
+            "points": "2"
+        },
+        {
+            "season": "2026",
+            "round": "3",
+            "raceName": "British Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "hitech",
+            "grid": "1",
+            "position": "2",
+            "status": "Finished",
+            "points": "20"
+        }
+    ]
+}

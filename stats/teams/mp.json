@@ -1,0 +1,57 @@
+{
+    "constructorId": "mp",
+    "name": "MP",
+    "series": "f1a",
+    "seasons": [
+        "2026"
+    ],
+    "career": {
+        "entries": 27,
+        "starts": 27,
+        "points": 127,
+        "wins": {
+            "total": 1,
+            "reverse": 1
+        },
+        "podiums": {
+            "total": 6,
+            "reverse": 4,
+            "feature": 2
+        },
+        "poles": 0,
+        "fastestLaps": 3,
+        "dnfs": 2,
+        "bestFinish": 1,
+        "avgFinish": 8.67,
+        "titles": 0,
+        "bestChampionship": 3
+    },
+    "bySeasons": {
+        "2026": {
+            "entries": 27,
+            "starts": 27,
+            "points": 127,
+            "wins": {
+                "total": 1,
+                "reverse": 1
+            },
+            "podiums": {
+                "total": 6,
+                "reverse": 4,
+                "feature": 2
+            },
+            "poles": 0,
+            "fastestLaps": 3,
+            "dnfs": 2,
+            "bestFinish": 1,
+            "avgFinish": 8.67,
+            "championshipPosition": 3,
+            "complete": false
+        }
+    },
+    "drivers": [
+        "gademan",
+        "kosterman",
+        "larsen"
+    ]
+}

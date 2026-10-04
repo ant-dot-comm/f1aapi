@@ -3,6 +3,8 @@
     "series": "f1a",
     "updated": "2026-10-03",
     "lastRound": 4,
+    "scheduledRounds": 6,
+    "complete": false,
     "source": "https://www.f1academy.com/Racing-Series/Standings/Team?seasonId=4",
     "Standings": [
         {

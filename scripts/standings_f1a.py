@@ -37,9 +37,10 @@ def _scores(td):
 
 def parse(url, resolve, id_field, name_field):
     table = C.fetch_html(url).xpath("//table")[0]
-    out, unmatched = [], []
+    out, unmatched, n_events = [], [], 0
     for tr in table.xpath(".//tbody/tr"):
         cells = tr.xpath("./th|./td")
+        n_events = max(n_events, len(cells) - 2)   # minus the name + total columns
         pos = C.cell_text(cells[0].xpath('.//*[contains(@class,"pos")]')[0]).rstrip(".")
         code = C.cell_text(cells[0].xpath('.//*[contains(@class,"visible-desktop-down")]')[0])
         name = C.cell_text(cells[0].xpath('.//*[contains(@class,"visible-desktop-up")]')[0])
@@ -67,7 +68,7 @@ def parse(url, resolve, id_field, name_field):
         if id_field == "driverId":
             entry["wildcard"] = wildcard
         out.append(entry)
-    return out, unmatched
+    return out, unmatched, n_events
 
 
 def build(season):
@@ -87,8 +88,8 @@ def build(season):
                 return cid
         return None
 
-    drivers, d_un = parse(BASE.format(kind="Driver", sid=sid), resolve_driver, "driverId", "driver")
-    tms, t_un = parse(BASE.format(kind="Team", sid=sid), resolve_team, "constructorId", "team")
+    drivers, d_un, scheduled = parse(BASE.format(kind="Driver", sid=sid), resolve_driver, "driverId", "driver")
+    tms, t_un, _ = parse(BASE.format(kind="Team", sid=sid), resolve_team, "constructorId", "team")
 
     for e in drivers:
         if e["driverId"] is None:
@@ -98,7 +99,8 @@ def build(season):
             e["constructorId"] = C.slug(e["team"])
 
     last = max((int(r["round"]) for e in drivers for r in e["byRound"]), default=0)
-    meta = {"season": str(season), "series": "f1a", "updated": C.today_iso(), "lastRound": last}
+    meta = {"season": str(season), "series": "f1a", "updated": C.today_iso(),
+            "lastRound": last, "scheduledRounds": scheduled, "complete": last >= scheduled}
     dp = C.write_json(os.path.join(repo, "standings", str(season), "drivers.json"),
                       {**meta, "source": BASE.format(kind="Driver", sid=sid), "Standings": drivers})
     tp = C.write_json(os.path.join(repo, "standings", str(season), "teams.json"),
@@ -115,8 +117,8 @@ def driver_points_index(season):
     repo = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     roster = json.load(open(os.path.join(repo, "constructors", str(season), "drivers.json")))
     code2id = {i["Driver"]["code"]: i["Driver"]["driverId"] for i in roster.values()}
-    drivers, _ = parse(BASE.format(kind="Driver", sid=SEASON_ID[season]),
-                       lambda c: code2id.get(c), "driverId", "driver")
+    drivers, _, _ = parse(BASE.format(kind="Driver", sid=SEASON_ID[season]),
+                          lambda c: code2id.get(c), "driverId", "driver")
     pts, wild = {}, {}
     for e in drivers:
         did = e["driverId"] or C.slug(C.surname_of(e["driver"]))

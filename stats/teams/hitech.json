@@ -1,0 +1,56 @@
+{
+    "constructorId": "hitech",
+    "name": "Hitech",
+    "series": "f1a",
+    "seasons": [
+        "2026"
+    ],
+    "career": {
+        "entries": 27,
+        "starts": 27,
+        "points": 52,
+        "wins": {
+            "total": 0
+        },
+        "podiums": {
+            "total": 1,
+            "feature": 1
+        },
+        "poles": 1,
+        "fastestLaps": 0,
+        "dnfs": 4,
+        "bestFinish": 2,
+        "avgFinish": 11.63,
+        "titles": 0,
+        "bestChampionship": 5
+    },
+    "bySeasons": {
+        "2026": {
+            "entries": 27,
+            "starts": 27,
+            "points": 52,
+            "wins": {
+                "total": 0
+            },
+            "podiums": {
+                "total": 1,
+                "feature": 1
+            },
+            "poles": 1,
+            "fastestLaps": 0,
+            "dnfs": 4,
+            "bestFinish": 2,
+            "avgFinish": 11.63,
+            "championshipPosition": 5,
+            "complete": false
+        }
+    },
+    "drivers": [
+        "battig",
+        "dobson",
+        "fisher",
+        "florescu",
+        "robertson",
+        "shi"
+    ]
+}

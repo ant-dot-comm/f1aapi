@@ -1,0 +1,252 @@
+{
+    "series": "f1a",
+    "updated": "2026-10-03",
+    "drivers": [
+        {
+            "driverId": "palmowski",
+            "name": "Alisha Palmowski",
+            "code": "PAL",
+            "seasons": [
+                "2026"
+            ],
+            "points": 136
+        },
+        {
+            "driverId": "felbermayr",
+            "name": "Emma Felbermayr",
+            "code": "FEL",
+            "seasons": [
+                "2026"
+            ],
+            "points": 88
+        },
+        {
+            "driverId": "gademan",
+            "name": "Nina Gademan",
+            "code": "GAD",
+            "seasons": [
+                "2026"
+            ],
+            "points": 71
+        },
+        {
+            "driverId": "larsen",
+            "name": "Alba Larsen",
+            "code": "LAR",
+            "seasons": [
+                "2026"
+            ],
+            "points": 50
+        },
+        {
+            "driverId": "bruce",
+            "name": "Megan Bruce",
+            "code": "BRU",
+            "seasons": [
+                "2026"
+            ],
+            "points": 49
+        },
+        {
+            "driverId": "westcott",
+            "name": "Phoebe Westcott",
+            "code": "WES",
+            "seasons": [
+                "2026"
+            ],
+            "points": 49
+        },
+        {
+            "driverId": "lloyd",
+            "name": "Ella Lloyd",
+            "code": "LLO",
+            "seasons": [
+                "2026"
+            ],
+            "points": 47
+        },
+        {
+            "driverId": "granada",
+            "name": "Natalia Granada",
+            "code": "GRA",
+            "seasons": [
+                "2026"
+            ],
+            "points": 35
+        },
+        {
+            "driverId": "paatz",
+            "name": "Mathilda Paatz",
+            "code": "PAA",
+            "seasons": [
+                "2026"
+            ],
+            "points": 35
+        },
+        {
+            "driverId": "ferreira",
+            "name": "Rafaela Ferreira",
+            "code": "FER",
+            "seasons": [
+                "2026"
+            ],
+            "points": 27
+        },
+        {
+            "driverId": "battig",
+            "name": "Chiara Bättig",
+            "code": "BAT",
+            "seasons": [
+                "2026"
+            ],
+            "points": 22
+        },
+        {
+            "driverId": "robertson",
+            "name": "Rachel Robertson",
+            "code": "ROB",
+            "seasons": [
+                "2026"
+            ],
+            "points": 22
+        },
+        {
+            "driverId": "billard",
+            "name": "Lisa Billard",
+            "code": "BIL",
+            "seasons": [
+                "2026"
+            ],
+            "points": 15
+        },
+        {
+            "driverId": "countryman",
+            "name": "Hayley Countryman",
+            "code": "COU",
+            "seasons": [
+                "2026"
+            ],
+            "points": 14
+        },
+        {
+            "driverId": "dobson",
+            "name": "Ava Dobson",
+            "code": "DOB",
+            "seasons": [
+                "2026"
+            ],
+            "points": 8
+        },
+        {
+            "driverId": "kosterman",
+            "name": "Elly Kosterman",
+            "code": "KOS",
+            "seasons": [
+                "2026"
+            ],
+            "points": 6
+        },
+        {
+            "driverId": "stevens",
+            "name": "Elise Stevens",
+            "code": "STE",
+            "seasons": [
+                "2026"
+            ],
+            "points": 4
+        },
+        {
+            "driverId": "danielsson",
+            "name": "danielsson",
+            "code": "",
+            "seasons": [],
+            "points": 0
+        },
+        {
+            "driverId": "fisher",
+            "name": "Autumn Fisher",
+            "code": "FIS",
+            "seasons": [
+                "2026"
+            ],
+            "points": 0
+        },
+        {
+            "driverId": "florescu",
+            "name": "Zoe Florescu",
+            "code": "FLO",
+            "seasons": [
+                "2026"
+            ],
+            "points": 0
+        },
+        {
+            "driverId": "jacquet",
+            "name": "Jade Jacquet",
+            "code": "JAC",
+            "seasons": [
+                "2026"
+            ],
+            "points": 0
+        },
+        {
+            "driverId": "shi",
+            "name": "Wei Shi",
+            "code": "SHI",
+            "seasons": [
+                "2026"
+            ],
+            "points": 0
+        }
+    ],
+    "teams": [
+        {
+            "constructorId": "campos",
+            "name": "Campos",
+            "seasons": [
+                "2026"
+            ],
+            "points": 212
+        },
+        {
+            "constructorId": "rodin",
+            "name": "Rodin",
+            "seasons": [
+                "2026"
+            ],
+            "points": 139
+        },
+        {
+            "constructorId": "mp",
+            "name": "MP",
+            "seasons": [
+                "2026"
+            ],
+            "points": 127
+        },
+        {
+            "constructorId": "prema",
+            "name": "Prema",
+            "seasons": [
+                "2026"
+            ],
+            "points": 119
+        },
+        {
+            "constructorId": "hitech",
+            "name": "Hitech",
+            "seasons": [
+                "2026"
+            ],
+            "points": 52
+        },
+        {
+            "constructorId": "art",
+            "name": "Art",
+            "seasons": [
+                "2026"
+            ],
+            "points": 29
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "constructorId": "campos",
+    "name": "Campos",
+    "series": "f1a",
+    "seasons": [
+        "2026"
+    ],
+    "career": {
+        "entries": 27,
+        "starts": 27,
+        "points": 212,
+        "wins": {
+            "total": 4,
+            "opening": 1,
+            "feature": 3
+        },
+        "podiums": {
+            "total": 7,
+            "feature": 5,
+            "opening": 2
+        },
+        "poles": 3,
+        "fastestLaps": 3,
+        "dnfs": 1,
+        "bestFinish": 1,
+        "avgFinish": 7.07,
+        "titles": 0,
+        "bestChampionship": 1
+    },
+    "bySeasons": {
+        "2026": {
+            "entries": 27,
+            "starts": 27,
+            "points": 212,
+            "wins": {
+                "total": 4,
+                "opening": 1,
+                "feature": 3
+            },
+            "podiums": {
+                "total": 7,
+                "feature": 5,
+                "opening": 2
+            },
+            "poles": 3,
+            "fastestLaps": 3,
+            "dnfs": 1,
+            "bestFinish": 1,
+            "avgFinish": 7.07,
+            "championshipPosition": 1,
+            "complete": false
+        }
+    },
+    "drivers": [
+        "bruce",
+        "ferreira",
+        "palmowski"
+    ]
+}

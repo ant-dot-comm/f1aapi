@@ -1,0 +1,59 @@
+{
+    "constructorId": "prema",
+    "name": "Prema",
+    "series": "f1a",
+    "seasons": [
+        "2026"
+    ],
+    "career": {
+        "entries": 27,
+        "starts": 27,
+        "points": 119,
+        "wins": {
+            "total": 2,
+            "reverse": 2
+        },
+        "podiums": {
+            "total": 6,
+            "reverse": 4,
+            "feature": 1,
+            "opening": 1
+        },
+        "poles": 0,
+        "fastestLaps": 2,
+        "dnfs": 1,
+        "bestFinish": 1,
+        "avgFinish": 9.15,
+        "titles": 0,
+        "bestChampionship": 4
+    },
+    "bySeasons": {
+        "2026": {
+            "entries": 27,
+            "starts": 27,
+            "points": 119,
+            "wins": {
+                "total": 2,
+                "reverse": 2
+            },
+            "podiums": {
+                "total": 6,
+                "reverse": 4,
+                "feature": 1,
+                "opening": 1
+            },
+            "poles": 0,
+            "fastestLaps": 2,
+            "dnfs": 1,
+            "bestFinish": 1,
+            "avgFinish": 9.15,
+            "championshipPosition": 4,
+            "complete": false
+        }
+    },
+    "drivers": [
+        "granada",
+        "paatz",
+        "westcott"
+    ]
+}

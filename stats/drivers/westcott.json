@@ -1,0 +1,163 @@
+{
+    "driverId": "westcott",
+    "name": "Phoebe Westcott",
+    "code": "WES",
+    "series": "f1a",
+    "seasons": [
+        "2026"
+    ],
+    "career": {
+        "entries": 9,
+        "starts": 9,
+        "points": 49,
+        "wins": {
+            "total": 1,
+            "reverse": 1
+        },
+        "podiums": {
+            "total": 3,
+            "feature": 1,
+            "reverse": 2
+        },
+        "poles": 0,
+        "fastestLaps": 2,
+        "dnfs": 0,
+        "bestFinish": 1,
+        "avgFinish": 7.44,
+        "titles": 0,
+        "bestChampionship": 5
+    },
+    "bySeasons": {
+        "2026": {
+            "entries": 9,
+            "starts": 9,
+            "points": 49,
+            "wins": {
+                "total": 1,
+                "reverse": 1
+            },
+            "podiums": {
+                "total": 3,
+                "feature": 1,
+                "reverse": 2
+            },
+            "poles": 0,
+            "fastestLaps": 2,
+            "dnfs": 0,
+            "bestFinish": 1,
+            "avgFinish": 7.44,
+            "championshipPosition": 5,
+            "complete": false
+        }
+    },
+    "results": [
+        {
+            "season": "2026",
+            "round": "1",
+            "raceName": "Chinese Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "prema",
+            "grid": "5",
+            "position": "6",
+            "status": "Finished",
+            "points": "3"
+        },
+        {
+            "season": "2026",
+            "round": "1",
+            "raceName": "Chinese Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "prema",
+            "grid": "4",
+            "position": "3",
+            "status": "Finished",
+            "points": "15"
+        },
+        {
+            "season": "2026",
+            "round": "2",
+            "raceName": "Canadian Grand Prix",
+            "race": "race0",
+            "type": "opening",
+            "constructorId": "prema",
+            "grid": "3",
+            "position": "16",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2026",
+            "round": "2",
+            "raceName": "Canadian Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "prema",
+            "grid": "7",
+            "position": "3",
+            "status": "Finished",
+            "points": "6"
+        },
+        {
+            "season": "2026",
+            "round": "2",
+            "raceName": "Canadian Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "prema",
+            "grid": "2",
+            "position": "4",
+            "status": "Finished",
+            "points": "12"
+        },
+        {
+            "season": "2026",
+            "round": "3",
+            "raceName": "British Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "prema",
+            "grid": "10",
+            "position": "14",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2026",
+            "round": "3",
+            "raceName": "British Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "prema",
+            "grid": "10",
+            "position": "11",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2026",
+            "round": "4",
+            "raceName": "Dutch Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "prema",
+            "grid": "1",
+            "position": "1",
+            "status": "Finished",
+            "points": "11"
+        },
+        {
+            "season": "2026",
+            "round": "4",
+            "raceName": "Dutch Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "prema",
+            "grid": "8",
+            "position": "9",
+            "status": "Finished",
+            "points": "2"
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "driverId": "florescu",
+    "name": "Zoe Florescu",
+    "code": "FLO",
+    "series": "f1a",
+    "seasons": [
+        "2026"
+    ],
+    "career": {
+        "entries": 2,
+        "starts": 2,
+        "points": 0,
+        "wins": {
+            "total": 0
+        },
+        "podiums": {
+            "total": 0
+        },
+        "poles": 0,
+        "fastestLaps": 0,
+        "dnfs": 0,
+        "bestFinish": 11,
+        "avgFinish": 14.5,
+        "titles": 0,
+        "bestChampionship": 20
+    },
+    "bySeasons": {
+        "2026": {
+            "entries": 2,
+            "starts": 2,
+            "points": 0,
+            "wins": {
+                "total": 0
+            },
+            "podiums": {
+                "total": 0
+            },
+            "poles": 0,
+            "fastestLaps": 0,
+            "dnfs": 0,
+            "bestFinish": 11,
+            "avgFinish": 14.5,
+            "championshipPosition": 20,
+            "complete": false
+        }
+    },
+    "results": [
+        {
+            "season": "2026",
+            "round": "4",
+            "raceName": "Dutch Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "hitech",
+            "grid": "18",
+            "position": "11",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2026",
+            "round": "4",
+            "raceName": "Dutch Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "hitech",
+            "grid": "18",
+            "position": "18",
+            "status": "Finished",
+            "points": "0"
+        }
+    ]
+}

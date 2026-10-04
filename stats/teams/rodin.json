@@ -1,0 +1,59 @@
+{
+    "constructorId": "rodin",
+    "name": "Rodin",
+    "series": "f1a",
+    "seasons": [
+        "2026"
+    ],
+    "career": {
+        "entries": 27,
+        "starts": 27,
+        "points": 139,
+        "wins": {
+            "total": 2,
+            "feature": 1,
+            "reverse": 1
+        },
+        "podiums": {
+            "total": 6,
+            "reverse": 3,
+            "feature": 3
+        },
+        "poles": 0,
+        "fastestLaps": 1,
+        "dnfs": 1,
+        "bestFinish": 1,
+        "avgFinish": 8.26,
+        "titles": 0,
+        "bestChampionship": 2
+    },
+    "bySeasons": {
+        "2026": {
+            "entries": 27,
+            "starts": 27,
+            "points": 139,
+            "wins": {
+                "total": 2,
+                "feature": 1,
+                "reverse": 1
+            },
+            "podiums": {
+                "total": 6,
+                "reverse": 3,
+                "feature": 3
+            },
+            "poles": 0,
+            "fastestLaps": 1,
+            "dnfs": 1,
+            "bestFinish": 1,
+            "avgFinish": 8.26,
+            "championshipPosition": 2,
+            "complete": false
+        }
+    },
+    "drivers": [
+        "felbermayr",
+        "lloyd",
+        "stevens"
+    ]
+}

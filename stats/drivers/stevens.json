@@ -1,0 +1,157 @@
+{
+    "driverId": "stevens",
+    "name": "Elise Stevens",
+    "code": "STE",
+    "series": "f1a",
+    "seasons": [
+        "2026"
+    ],
+    "career": {
+        "entries": 9,
+        "starts": 9,
+        "points": 4,
+        "wins": {
+            "total": 0
+        },
+        "podiums": {
+            "total": 0
+        },
+        "poles": 0,
+        "fastestLaps": 0,
+        "dnfs": 1,
+        "bestFinish": 8,
+        "avgFinish": 13.11,
+        "titles": 0,
+        "bestChampionship": 17
+    },
+    "bySeasons": {
+        "2026": {
+            "entries": 9,
+            "starts": 9,
+            "points": 4,
+            "wins": {
+                "total": 0
+            },
+            "podiums": {
+                "total": 0
+            },
+            "poles": 0,
+            "fastestLaps": 0,
+            "dnfs": 1,
+            "bestFinish": 8,
+            "avgFinish": 13.11,
+            "championshipPosition": 17,
+            "complete": false
+        }
+    },
+    "results": [
+        {
+            "season": "2026",
+            "round": "1",
+            "raceName": "Chinese Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "rodin",
+            "grid": "11",
+            "position": "11",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2026",
+            "round": "1",
+            "raceName": "Chinese Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "rodin",
+            "grid": "11",
+            "position": "12",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2026",
+            "round": "2",
+            "raceName": "Canadian Grand Prix",
+            "race": "race0",
+            "type": "opening",
+            "constructorId": "rodin",
+            "grid": "12",
+            "position": "8",
+            "status": "Finished",
+            "points": "4"
+        },
+        {
+            "season": "2026",
+            "round": "2",
+            "raceName": "Canadian Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "rodin",
+            "grid": "14",
+            "position": "15",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2026",
+            "round": "2",
+            "raceName": "Canadian Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "rodin",
+            "grid": "14",
+            "position": "11",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2026",
+            "round": "3",
+            "raceName": "British Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "rodin",
+            "grid": "11",
+            "position": "13",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2026",
+            "round": "3",
+            "raceName": "British Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "rodin",
+            "grid": "11",
+            "position": "18",
+            "status": "DNF",
+            "points": "0"
+        },
+        {
+            "season": "2026",
+            "round": "4",
+            "raceName": "Dutch Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "rodin",
+            "grid": "14",
+            "position": "16",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2026",
+            "round": "4",
+            "raceName": "Dutch Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "rodin",
+            "grid": "14",
+            "position": "14",
+            "status": "Finished",
+            "points": "0"
+        }
+    ]
+}

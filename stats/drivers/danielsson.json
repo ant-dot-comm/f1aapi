@@ -1,0 +1,27 @@
+{
+    "driverId": "danielsson",
+    "name": "danielsson",
+    "code": "",
+    "series": "f1a",
+    "seasons": [],
+    "career": {
+        "entries": 0,
+        "starts": 0,
+        "points": 0,
+        "wins": {
+            "total": 0
+        },
+        "podiums": {
+            "total": 0
+        },
+        "poles": 0,
+        "fastestLaps": 0,
+        "dnfs": 0,
+        "bestFinish": null,
+        "avgFinish": null,
+        "titles": 0,
+        "bestChampionship": 22
+    },
+    "bySeasons": {},
+    "results": []
+}
