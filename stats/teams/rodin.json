@@ -3,31 +3,104 @@
     "name": "Rodin",
     "series": "f1a",
     "seasons": [
+        "2023",
+        "2024",
+        "2025",
         "2026"
     ],
     "career": {
-        "entries": 27,
-        "starts": 27,
-        "points": 139,
+        "entries": 168,
+        "starts": 168,
+        "points": 1008,
         "wins": {
-            "total": 2,
-            "feature": 1,
-            "reverse": 1
+            "total": 14,
+            "race3": 1,
+            "feature": 6,
+            "reverse": 7
         },
         "podiums": {
-            "total": 6,
-            "reverse": 3,
-            "feature": 3
+            "total": 36,
+            "reverse": 16,
+            "race3": 5,
+            "feature": 15
         },
-        "poles": 0,
-        "fastestLaps": 1,
-        "dnfs": 1,
+        "poles": 7,
+        "fastestLaps": 12,
+        "dnfs": 9,
         "bestFinish": 1,
-        "avgFinish": 8.26,
+        "avgFinish": 8.43,
         "titles": 0,
         "bestChampionship": 2
     },
     "bySeasons": {
+        "2023": {
+            "entries": 57,
+            "starts": 57,
+            "points": 320,
+            "wins": {
+                "total": 1,
+                "race3": 1
+            },
+            "podiums": {
+                "total": 10,
+                "reverse": 4,
+                "race3": 3,
+                "feature": 3
+            },
+            "poles": 2,
+            "fastestLaps": 5,
+            "dnfs": 0,
+            "bestFinish": 1,
+            "avgFinish": 7.96,
+            "championshipPosition": 3,
+            "complete": true
+        },
+        "2024": {
+            "entries": 42,
+            "starts": 42,
+            "points": 385,
+            "wins": {
+                "total": 9,
+                "feature": 4,
+                "reverse": 5
+            },
+            "podiums": {
+                "total": 14,
+                "reverse": 7,
+                "feature": 6,
+                "race3": 1
+            },
+            "poles": 5,
+            "fastestLaps": 6,
+            "dnfs": 3,
+            "bestFinish": 1,
+            "avgFinish": 8.33,
+            "championshipPosition": 2,
+            "complete": true
+        },
+        "2025": {
+            "entries": 42,
+            "starts": 42,
+            "points": 164,
+            "wins": {
+                "total": 2,
+                "reverse": 1,
+                "feature": 1
+            },
+            "podiums": {
+                "total": 6,
+                "reverse": 2,
+                "feature": 3,
+                "race3": 1
+            },
+            "poles": 0,
+            "fastestLaps": 0,
+            "dnfs": 5,
+            "bestFinish": 1,
+            "avgFinish": 9.26,
+            "championshipPosition": 4,
+            "complete": true
+        },
         "2026": {
             "entries": 27,
             "starts": 27,
@@ -52,8 +125,13 @@
         }
     },
     "drivers": [
+        "chong",
+        "edgar",
         "felbermayr",
+        "gilkes",
         "lloyd",
+        "lovinfosse",
+        "pulling",
         "stevens"
     ]
 }

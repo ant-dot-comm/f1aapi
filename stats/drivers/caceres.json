@@ -1,0 +1,301 @@
+{
+    "driverId": "caceres",
+    "name": "M. Cáceres",
+    "code": "CAC",
+    "series": "f1a",
+    "seasons": [
+        "2023"
+    ],
+    "career": {
+        "entries": 21,
+        "starts": 21,
+        "points": 6,
+        "wins": {
+            "total": 0
+        },
+        "podiums": {
+            "total": 0
+        },
+        "poles": 0,
+        "fastestLaps": 0,
+        "dnfs": 1,
+        "bestFinish": 8,
+        "avgFinish": 11.76,
+        "titles": 0,
+        "bestChampionship": 15
+    },
+    "bySeasons": {
+        "2023": {
+            "entries": 21,
+            "starts": 21,
+            "points": 6,
+            "wins": {
+                "total": 0
+            },
+            "podiums": {
+                "total": 0
+            },
+            "poles": 0,
+            "fastestLaps": 0,
+            "dnfs": 1,
+            "bestFinish": 8,
+            "avgFinish": 11.76,
+            "championshipPosition": 15,
+            "complete": true
+        }
+    },
+    "results": [
+        {
+            "season": "2023",
+            "round": "1",
+            "raceName": "Austrian Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "campos",
+            "grid": "13",
+            "position": "11",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2023",
+            "round": "1",
+            "raceName": "Austrian Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "campos",
+            "grid": "13",
+            "position": "13",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2023",
+            "round": "1",
+            "raceName": "Austrian Grand Prix",
+            "race": "race3",
+            "type": "race3",
+            "constructorId": "campos",
+            "grid": "",
+            "position": "14",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2023",
+            "round": "2",
+            "raceName": "Valencia Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "campos",
+            "grid": "1",
+            "position": "13",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2023",
+            "round": "2",
+            "raceName": "Valencia Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "campos",
+            "grid": "8",
+            "position": "10",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2023",
+            "round": "2",
+            "raceName": "Valencia Grand Prix",
+            "race": "race3",
+            "type": "race3",
+            "constructorId": "campos",
+            "grid": "",
+            "position": "12",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2023",
+            "round": "3",
+            "raceName": "Spanish Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "campos",
+            "grid": "15",
+            "position": "13",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2023",
+            "round": "3",
+            "raceName": "Spanish Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "campos",
+            "grid": "15",
+            "position": "13",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2023",
+            "round": "3",
+            "raceName": "Spanish Grand Prix",
+            "race": "race3",
+            "type": "race3",
+            "constructorId": "campos",
+            "grid": "",
+            "position": "12",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2023",
+            "round": "4",
+            "raceName": "Dutch Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "campos",
+            "grid": "15",
+            "position": "14",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2023",
+            "round": "4",
+            "raceName": "Dutch Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "campos",
+            "grid": "15",
+            "position": "13",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2023",
+            "round": "4",
+            "raceName": "Dutch Grand Prix",
+            "race": "race3",
+            "type": "race3",
+            "constructorId": "campos",
+            "grid": "",
+            "position": "10",
+            "status": "Finished",
+            "points": "1"
+        },
+        {
+            "season": "2023",
+            "round": "5",
+            "raceName": "Italian Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "campos",
+            "grid": "15",
+            "position": "12",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2023",
+            "round": "5",
+            "raceName": "Italian Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "campos",
+            "grid": "15",
+            "position": "8",
+            "status": "Finished",
+            "points": "1"
+        },
+        {
+            "season": "2023",
+            "round": "5",
+            "raceName": "Italian Grand Prix",
+            "race": "race3",
+            "type": "race3",
+            "constructorId": "campos",
+            "grid": "",
+            "position": "11",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2023",
+            "round": "6",
+            "raceName": "Le Castellet Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "campos",
+            "grid": "13",
+            "position": "8",
+            "status": "Finished",
+            "points": "4"
+        },
+        {
+            "season": "2023",
+            "round": "6",
+            "raceName": "Le Castellet Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "campos",
+            "grid": "13",
+            "position": "12",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2023",
+            "round": "6",
+            "raceName": "Le Castellet Grand Prix",
+            "race": "race3",
+            "type": "race3",
+            "constructorId": "campos",
+            "grid": "",
+            "position": "11",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2023",
+            "round": "7",
+            "raceName": "United States Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "campos",
+            "grid": "13",
+            "position": "13",
+            "status": "DNF",
+            "points": "0"
+        },
+        {
+            "season": "2023",
+            "round": "7",
+            "raceName": "United States Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "campos",
+            "grid": "13",
+            "position": "12",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2023",
+            "round": "7",
+            "raceName": "United States Grand Prix",
+            "race": "race3",
+            "type": "race3",
+            "constructorId": "campos",
+            "grid": "",
+            "position": "12",
+            "status": "Finished",
+            "points": "0"
+        }
+    ]
+}

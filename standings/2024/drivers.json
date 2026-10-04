@@ -1,0 +1,792 @@
+{
+    "season": "2024",
+    "series": "f1a",
+    "updated": "2026-10-04",
+    "lastRound": 7,
+    "scheduledRounds": 7,
+    "complete": true,
+    "source": "https://www.f1academy.com/Racing-Series/Standings/Driver?seasonId=2",
+    "Standings": [
+        {
+            "position": "1",
+            "driverId": "pulling",
+            "code": "PUL",
+            "driver": "A. Pulling",
+            "points": "338",
+            "byRound": [
+                {
+                    "round": "1",
+                    "race1": "19",
+                    "race2": "25"
+                },
+                {
+                    "round": "2",
+                    "race1": "27",
+                    "race2": "28"
+                },
+                {
+                    "round": "3",
+                    "race1": "28",
+                    "race2": "20"
+                },
+                {
+                    "round": "4",
+                    "race1": "28",
+                    "race2": "15"
+                },
+                {
+                    "round": "5",
+                    "race1": "27",
+                    "race2": "28"
+                },
+                {
+                    "round": "6",
+                    "race1": "18",
+                    "race2": "0"
+                },
+                {
+                    "round": "7",
+                    "race1": "28",
+                    "race2": "27",
+                    "race3": "20"
+                }
+            ],
+            "wildcard": false
+        },
+        {
+            "position": "2",
+            "driverId": "pin",
+            "code": "PIN",
+            "driver": "D. Pin",
+            "points": "217",
+            "byRound": [
+                {
+                    "round": "1",
+                    "race1": "27",
+                    "race2": "5"
+                },
+                {
+                    "round": "2",
+                    "race1": "18",
+                    "race2": "15"
+                },
+                {
+                    "round": "3",
+                    "race1": "6",
+                    "race2": "10"
+                },
+                {
+                    "round": "4",
+                    "race1": "10",
+                    "race2": "28"
+                },
+                {
+                    "round": "5",
+                    "race1": "16",
+                    "race2": "15"
+                },
+                {
+                    "round": "6",
+                    "race1": "28",
+                    "race2": "2"
+                },
+                {
+                    "round": "7",
+                    "race1": "15",
+                    "race2": "12",
+                    "race3": "10"
+                }
+            ],
+            "wildcard": false
+        },
+        {
+            "position": "3",
+            "driverId": "weug",
+            "code": "WEU",
+            "driver": "M. Weug",
+            "points": "177",
+            "byRound": [
+                {
+                    "round": "1",
+                    "race1": "15",
+                    "race2": "18"
+                },
+                {
+                    "round": "2",
+                    "race1": "8",
+                    "race2": "10"
+                },
+                {
+                    "round": "3",
+                    "race1": "0",
+                    "race2": "0"
+                },
+                {
+                    "round": "4",
+                    "race1": "15",
+                    "race2": "18"
+                },
+                {
+                    "round": "5",
+                    "race1": "18",
+                    "race2": "18"
+                },
+                {
+                    "round": "6",
+                    "race1": "15",
+                    "race2": "0"
+                },
+                {
+                    "round": "7",
+                    "race1": "6",
+                    "race2": "10",
+                    "race3": "26"
+                }
+            ],
+            "wildcard": false
+        },
+        {
+            "position": "4",
+            "driverId": "marti",
+            "code": "MAR",
+            "driver": "N. Martí",
+            "points": "136",
+            "byRound": [
+                {
+                    "round": "1",
+                    "race1": "0",
+                    "race2": "15"
+                },
+                {
+                    "round": "2",
+                    "race1": "12",
+                    "race2": "6"
+                },
+                {
+                    "round": "3",
+                    "race1": "18",
+                    "race2": "12"
+                },
+                {
+                    "round": "4",
+                    "race1": "18",
+                    "race2": "4"
+                },
+                {
+                    "round": "5",
+                    "race1": "6",
+                    "race2": "10"
+                },
+                {
+                    "round": "6",
+                    "race1": "4",
+                    "race2": "0"
+                },
+                {
+                    "round": "7",
+                    "race1": "8",
+                    "race2": "8",
+                    "race3": "15"
+                }
+            ],
+            "wildcard": false
+        },
+        {
+            "position": "5",
+            "driverId": "h_al_qubaisi",
+            "code": "HAL",
+            "driver": "H. Al Qubaisi",
+            "points": "133",
+            "byRound": [
+                {
+                    "round": "1",
+                    "race1": "2",
+                    "race2": "10"
+                },
+                {
+                    "round": "2",
+                    "race1": "10",
+                    "race2": "8"
+                },
+                {
+                    "round": "3",
+                    "race1": "10",
+                    "race2": "15"
+                },
+                {
+                    "round": "4",
+                    "race1": "4",
+                    "race2": "12"
+                },
+                {
+                    "round": "5",
+                    "race1": "8",
+                    "race2": "8"
+                },
+                {
+                    "round": "6",
+                    "race1": "12",
+                    "race2": "0"
+                },
+                {
+                    "round": "7",
+                    "race1": "18",
+                    "race2": "15",
+                    "race3": "1"
+                }
+            ],
+            "wildcard": false
+        },
+        {
+            "position": "6",
+            "driverId": "chambers",
+            "code": "CHA",
+            "driver": "C. Chambers",
+            "points": "122",
+            "byRound": [
+                {
+                    "round": "1",
+                    "race1": "12",
+                    "race2": "1"
+                },
+                {
+                    "round": "2",
+                    "race1": "15",
+                    "race2": "12"
+                },
+                {
+                    "round": "3",
+                    "race1": "15",
+                    "race2": "26"
+                },
+                {
+                    "round": "4",
+                    "race1": "8",
+                    "race2": "0"
+                },
+                {
+                    "round": "5",
+                    "race1": "10",
+                    "race2": "4"
+                },
+                {
+                    "round": "6",
+                    "race1": "0",
+                    "race2": "0"
+                },
+                {
+                    "round": "7",
+                    "race1": "0",
+                    "race2": "19",
+                    "race3": "0"
+                }
+            ],
+            "wildcard": false
+        },
+        {
+            "position": "7",
+            "driverId": "bustamante",
+            "code": "BUS",
+            "driver": "B. Bustamante",
+            "points": "73",
+            "byRound": [
+                {
+                    "round": "1",
+                    "race1": "10",
+                    "race2": "8"
+                },
+                {
+                    "round": "2",
+                    "race1": "3",
+                    "race2": "18"
+                },
+                {
+                    "round": "3",
+                    "race1": "12",
+                    "race2": "6"
+                },
+                {
+                    "round": "4",
+                    "race1": "0",
+                    "race2": "0"
+                },
+                {
+                    "round": "5",
+                    "race1": "0",
+                    "race2": "0"
+                },
+                {
+                    "round": "6",
+                    "race1": "0",
+                    "race2": "0"
+                },
+                {
+                    "round": "7",
+                    "race1": "10",
+                    "race2": "6",
+                    "race3": "0"
+                }
+            ],
+            "wildcard": false
+        },
+        {
+            "position": "8",
+            "driverId": "block",
+            "code": "BLO",
+            "driver": "L. Block",
+            "points": "44",
+            "byRound": [
+                {
+                    "round": "1",
+                    "race1": "0",
+                    "race2": "0"
+                },
+                {
+                    "round": "2",
+                    "race1": "0",
+                    "race2": "1"
+                },
+                {
+                    "round": "3",
+                    "race1": "1",
+                    "race2": "8"
+                },
+                {
+                    "round": "4",
+                    "race1": "2",
+                    "race2": "0"
+                },
+                {
+                    "round": "5",
+                    "race1": "12",
+                    "race2": "12"
+                },
+                {
+                    "round": "6",
+                    "race1": "8",
+                    "race2": "0"
+                },
+                {
+                    "round": "7",
+                    "race1": "0",
+                    "race2": "0",
+                    "race3": "0"
+                }
+            ],
+            "wildcard": false
+        },
+        {
+            "position": "9",
+            "driverId": "schreiner",
+            "code": "SCH",
+            "driver": "C. Schreiner",
+            "points": "34",
+            "byRound": [
+                {
+                    "round": "1",
+                    "race1": "1",
+                    "race2": "6"
+                },
+                {
+                    "round": "2",
+                    "race1": "0",
+                    "race2": "2"
+                },
+                {
+                    "round": "3",
+                    "race1": "0",
+                    "race2": "0"
+                },
+                {
+                    "round": "4",
+                    "race1": "1",
+                    "race2": "8"
+                },
+                {
+                    "round": "5",
+                    "race1": "4",
+                    "race2": "2"
+                },
+                {
+                    "round": "6",
+                    "race1": "0",
+                    "race2": "0"
+                },
+                {
+                    "round": "7",
+                    "race1": "2",
+                    "race2": "0",
+                    "race3": "8"
+                }
+            ],
+            "wildcard": false
+        },
+        {
+            "position": "10",
+            "driverId": "hausmann",
+            "code": "HAU",
+            "driver": "T. Hausmann",
+            "points": "31",
+            "byRound": [
+                {
+                    "round": "1",
+                    "race1": "8",
+                    "race2": "0"
+                },
+                {
+                    "round": "2",
+                    "race1": "0",
+                    "race2": "0"
+                },
+                {
+                    "round": "3",
+                    "race1": "2",
+                    "race2": "4"
+                },
+                {
+                    "round": "4",
+                    "race1": "0",
+                    "race2": "2"
+                },
+                {
+                    "round": "5",
+                    "race1": "1",
+                    "race2": "0"
+                },
+                {
+                    "round": "6",
+                    "race1": "0",
+                    "race2": "0"
+                },
+                {
+                    "round": "7",
+                    "race1": "0",
+                    "race2": "2",
+                    "race3": "12"
+                }
+            ],
+            "wildcard": false
+        },
+        {
+            "position": "11",
+            "driverId": "de_haus",
+            "code": "DEH",
+            "driver": "E. De Heus",
+            "points": "29",
+            "byRound": [
+                {
+                    "round": "1",
+                    "race1": "0",
+                    "race2": "0"
+                },
+                {
+                    "round": "2",
+                    "race1": "0",
+                    "race2": "0"
+                },
+                {
+                    "round": "3",
+                    "race1": "8",
+                    "race2": "1"
+                },
+                {
+                    "round": "4",
+                    "race1": "0",
+                    "race2": "0"
+                },
+                {
+                    "round": "5",
+                    "race1": "0",
+                    "race2": "1"
+                },
+                {
+                    "round": "6",
+                    "race1": "1",
+                    "race2": "0"
+                },
+                {
+                    "round": "7",
+                    "race1": "12",
+                    "race2": "4",
+                    "race3": "2"
+                }
+            ],
+            "wildcard": false
+        },
+        {
+            "position": "12",
+            "driverId": "nobles",
+            "code": "NOB",
+            "driver": "A. Nobels",
+            "points": "29",
+            "byRound": [
+                {
+                    "round": "1",
+                    "race1": "6",
+                    "race2": "0"
+                },
+                {
+                    "round": "2",
+                    "race1": "0",
+                    "race2": "0"
+                },
+                {
+                    "round": "3",
+                    "race1": "0",
+                    "race2": "0"
+                },
+                {
+                    "round": "4",
+                    "race1": "6",
+                    "race2": "10"
+                },
+                {
+                    "round": "5",
+                    "race1": "0",
+                    "race2": "0"
+                },
+                {
+                    "round": "6",
+                    "race1": "2",
+                    "race2": "0"
+                },
+                {
+                    "round": "7",
+                    "race1": "1",
+                    "race2": "0",
+                    "race3": "4"
+                }
+            ],
+            "wildcard": false
+        },
+        {
+            "position": "13",
+            "driverId": "edgar",
+            "code": "EDG",
+            "driver": "J. Edgar",
+            "points": "28",
+            "byRound": [
+                {
+                    "round": "1",
+                    "race1": "0",
+                    "race2": "12"
+                },
+                {
+                    "round": "2",
+                    "race1": "6",
+                    "race2": "0"
+                },
+                {
+                    "round": "3",
+                    "race1": "4",
+                    "race2": "0"
+                },
+                {
+                    "round": "4",
+                    "race1": "0",
+                    "race2": "0"
+                },
+                {
+                    "round": "5",
+                    "race1": "0",
+                    "race2": "0"
+                },
+                {
+                    "round": "6",
+                    "race1": "6",
+                    "race2": "0"
+                },
+                {
+                    "round": "7",
+                    "race1": "0",
+                    "race2": "0",
+                    "race3": "0"
+                }
+            ],
+            "wildcard": false
+        },
+        {
+            "position": "14",
+            "driverId": "lovinfosse",
+            "code": "LOV",
+            "driver": "L. Lovinfosse",
+            "points": "19",
+            "byRound": [
+                {
+                    "round": "1",
+                    "race1": "4",
+                    "race2": "0"
+                },
+                {
+                    "round": "2",
+                    "race1": "1",
+                    "race2": "0"
+                },
+                {
+                    "round": "3",
+                    "race1": "0",
+                    "race2": "2"
+                },
+                {
+                    "round": "4",
+                    "race1": "0",
+                    "race2": "6"
+                },
+                {
+                    "round": "5",
+                    "race1": "0",
+                    "race2": "0"
+                },
+                {
+                    "round": "6",
+                    "race1": "0",
+                    "race2": "0"
+                },
+                {
+                    "round": "7",
+                    "race1": "0",
+                    "race2": "0",
+                    "race3": "6"
+                }
+            ],
+            "wildcard": false
+        },
+        {
+            "position": "15",
+            "driverId": "a_al_qubaisi",
+            "code": "AAL",
+            "driver": "A. Al Qubaisi",
+            "points": "16",
+            "byRound": [
+                {
+                    "round": "1",
+                    "race1": "0",
+                    "race2": "4"
+                },
+                {
+                    "round": "2",
+                    "race1": "4",
+                    "race2": "4"
+                },
+                {
+                    "round": "3",
+                    "race1": "0",
+                    "race2": "0"
+                },
+                {
+                    "round": "4",
+                    "race1": "0",
+                    "race2": "0"
+                },
+                {
+                    "round": "5",
+                    "race1": "0",
+                    "race2": "0"
+                },
+                {
+                    "round": "6",
+                    "race1": "0",
+                    "race2": "0"
+                },
+                {
+                    "round": "7",
+                    "race1": "4",
+                    "race2": "0",
+                    "race3": "0"
+                }
+            ],
+            "wildcard": false
+        },
+        {
+            "position": "16",
+            "driverId": "gademan",
+            "code": "GAD",
+            "driver": "N. Gademan",
+            "points": "13",
+            "byRound": [
+                {
+                    "round": "4",
+                    "race1": "12",
+                    "race2": "1"
+                }
+            ],
+            "wildcard": false
+        },
+        {
+            "position": "17",
+            "driverId": "palmowski",
+            "code": "PAL",
+            "driver": "A. Palmowski",
+            "points": "10",
+            "byRound": [
+                {
+                    "round": "6",
+                    "race1": "10",
+                    "race2": "0"
+                }
+            ],
+            "wildcard": false
+        },
+        {
+            "position": "18",
+            "driverId": "lloyd",
+            "code": "LLO",
+            "driver": "E. Lloyd",
+            "points": "8",
+            "byRound": [
+                {
+                    "round": "5",
+                    "race1": "2",
+                    "race2": "6"
+                }
+            ],
+            "wildcard": false
+        },
+        {
+            "position": "19",
+            "driverId": "hanna",
+            "code": "HAN",
+            "driver": "L. Hannah",
+            "points": "1",
+            "byRound": [
+                {
+                    "round": "7",
+                    "race1": "0",
+                    "race2": "1",
+                    "race3": "0"
+                }
+            ],
+            "wildcard": false
+        },
+        {
+            "position": "20",
+            "driverId": "crone",
+            "code": "CRO",
+            "driver": "C. Crone",
+            "points": "0",
+            "byRound": [
+                {
+                    "round": "2",
+                    "race1": "0",
+                    "race2": "0"
+                }
+            ],
+            "wildcard": false
+        },
+        {
+            "position": "21",
+            "driverId": "juffali",
+            "code": "JUF",
+            "driver": "R. Juffali",
+            "points": "0",
+            "byRound": [
+                {
+                    "round": "1",
+                    "race1": "0",
+                    "race2": "0"
+                }
+            ],
+            "wildcard": false
+        }
+    ]
+}

@@ -1,34 +1,55 @@
 {
     "driverId": "felbermayr",
-    "name": "Emma Felbermayr",
+    "name": "E. Felbermayr",
     "code": "FEL",
     "series": "f1a",
     "seasons": [
+        "2025",
         "2026"
     ],
     "career": {
-        "entries": 9,
-        "starts": 9,
-        "points": 88,
+        "entries": 23,
+        "starts": 23,
+        "points": 125,
         "wins": {
-            "total": 2,
-            "feature": 1,
+            "total": 3,
+            "feature": 2,
             "reverse": 1
         },
         "podiums": {
-            "total": 5,
-            "reverse": 2,
-            "feature": 3
+            "total": 6,
+            "feature": 4,
+            "reverse": 2
         },
         "poles": 0,
         "fastestLaps": 0,
         "dnfs": 0,
         "bestFinish": 1,
-        "avgFinish": 4.89,
+        "avgFinish": 7.78,
         "titles": 0,
         "bestChampionship": 2
     },
     "bySeasons": {
+        "2025": {
+            "entries": 14,
+            "starts": 14,
+            "points": 37,
+            "wins": {
+                "total": 1,
+                "feature": 1
+            },
+            "podiums": {
+                "total": 1,
+                "feature": 1
+            },
+            "poles": 0,
+            "fastestLaps": 0,
+            "dnfs": 0,
+            "bestFinish": 1,
+            "avgFinish": 9.64,
+            "championshipPosition": 10,
+            "complete": true
+        },
         "2026": {
             "entries": 9,
             "starts": 9,
@@ -53,6 +74,174 @@
         }
     },
     "results": [
+        {
+            "season": "2025",
+            "round": "1",
+            "raceName": "Chinese Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "rodin",
+            "grid": "2",
+            "position": "11",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2025",
+            "round": "1",
+            "raceName": "Chinese Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "rodin",
+            "grid": "7",
+            "position": "5",
+            "status": "Finished",
+            "points": "10"
+        },
+        {
+            "season": "2025",
+            "round": "2",
+            "raceName": "Saudi Arabian Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "rodin",
+            "grid": "1",
+            "position": "9",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2025",
+            "round": "2",
+            "raceName": "Saudi Arabian Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "rodin",
+            "grid": "8",
+            "position": "15",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2025",
+            "round": "3",
+            "raceName": "Miami Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "rodin",
+            "grid": "1",
+            "position": "15",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2025",
+            "round": "4",
+            "raceName": "Canadian Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "rodin",
+            "grid": "3",
+            "position": "15",
+            "status": "DQ",
+            "points": "0"
+        },
+        {
+            "season": "2025",
+            "round": "4",
+            "raceName": "Canadian Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "rodin",
+            "grid": "6",
+            "position": "1",
+            "status": "Finished",
+            "points": "10"
+        },
+        {
+            "season": "2025",
+            "round": "4",
+            "raceName": "Canadian Grand Prix",
+            "race": "race3",
+            "type": "race3",
+            "constructorId": "rodin",
+            "grid": "",
+            "position": "10",
+            "status": "Finished",
+            "points": "1"
+        },
+        {
+            "season": "2025",
+            "round": "5",
+            "raceName": "Dutch Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "rodin",
+            "grid": "10",
+            "position": "8",
+            "status": "Finished",
+            "points": "1"
+        },
+        {
+            "season": "2025",
+            "round": "5",
+            "raceName": "Dutch Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "rodin",
+            "grid": "10",
+            "position": "15",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2025",
+            "round": "6",
+            "raceName": "Singapore Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "rodin",
+            "grid": "3",
+            "position": "6",
+            "status": "Finished",
+            "points": "3"
+        },
+        {
+            "season": "2025",
+            "round": "6",
+            "raceName": "Singapore Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "rodin",
+            "grid": "6",
+            "position": "4",
+            "status": "Finished",
+            "points": "12"
+        },
+        {
+            "season": "2025",
+            "round": "7",
+            "raceName": "Las Vegas Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "rodin",
+            "grid": "2",
+            "position": "9",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2025",
+            "round": "7",
+            "raceName": "Las Vegas Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "rodin",
+            "grid": "7",
+            "position": "12",
+            "status": "Finished",
+            "points": "0"
+        },
         {
             "season": "2026",
             "round": "1",

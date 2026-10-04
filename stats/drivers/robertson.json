@@ -1,15 +1,16 @@
 {
     "driverId": "robertson",
-    "name": "Rachel Robertson",
+    "name": "R. Robertson",
     "code": "ROB",
     "series": "f1a",
     "seasons": [
+        "2025",
         "2026"
     ],
     "career": {
-        "entries": 9,
-        "starts": 9,
-        "points": 22,
+        "entries": 11,
+        "starts": 11,
+        "points": 27,
         "wins": {
             "total": 0
         },
@@ -20,11 +21,29 @@
         "fastestLaps": 0,
         "dnfs": 2,
         "bestFinish": 4,
-        "avgFinish": 10.22,
+        "avgFinish": 10.0,
         "titles": 0,
         "bestChampionship": 12
     },
     "bySeasons": {
+        "2025": {
+            "entries": 2,
+            "starts": 2,
+            "points": 5,
+            "wins": {
+                "total": 0
+            },
+            "podiums": {
+                "total": 0
+            },
+            "poles": 0,
+            "fastestLaps": 0,
+            "dnfs": 0,
+            "bestFinish": 4,
+            "avgFinish": 9.0,
+            "championshipPosition": 16,
+            "complete": true
+        },
         "2026": {
             "entries": 9,
             "starts": 9,
@@ -45,6 +64,30 @@
         }
     },
     "results": [
+        {
+            "season": "2025",
+            "round": "7",
+            "raceName": "Las Vegas Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "hitech",
+            "grid": "14",
+            "position": "4",
+            "status": "Finished",
+            "points": "5"
+        },
+        {
+            "season": "2025",
+            "round": "7",
+            "raceName": "Las Vegas Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "hitech",
+            "grid": "14",
+            "position": "14",
+            "status": "Finished",
+            "points": "0"
+        },
         {
             "season": "2026",
             "round": "1",

@@ -1,0 +1,313 @@
+{
+    "driverId": "garcia",
+    "name": "M. García",
+    "code": "GAR",
+    "series": "f1a",
+    "seasons": [
+        "2023"
+    ],
+    "career": {
+        "entries": 21,
+        "starts": 21,
+        "points": 278,
+        "wins": {
+            "total": 7,
+            "reverse": 3,
+            "race3": 3,
+            "feature": 1
+        },
+        "podiums": {
+            "total": 12,
+            "reverse": 4,
+            "race3": 5,
+            "feature": 3
+        },
+        "poles": 2,
+        "fastestLaps": 6,
+        "dnfs": 1,
+        "bestFinish": 1,
+        "avgFinish": 4.24,
+        "titles": 1,
+        "bestChampionship": 1
+    },
+    "bySeasons": {
+        "2023": {
+            "entries": 21,
+            "starts": 21,
+            "points": 278,
+            "wins": {
+                "total": 7,
+                "reverse": 3,
+                "race3": 3,
+                "feature": 1
+            },
+            "podiums": {
+                "total": 12,
+                "reverse": 4,
+                "race3": 5,
+                "feature": 3
+            },
+            "poles": 2,
+            "fastestLaps": 6,
+            "dnfs": 1,
+            "bestFinish": 1,
+            "avgFinish": 4.24,
+            "championshipPosition": 1,
+            "complete": true
+        }
+    },
+    "results": [
+        {
+            "season": "2023",
+            "round": "1",
+            "raceName": "Austrian Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "prema",
+            "grid": "8",
+            "position": "1",
+            "status": "Finished",
+            "points": "28"
+        },
+        {
+            "season": "2023",
+            "round": "1",
+            "raceName": "Austrian Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "prema",
+            "grid": "1",
+            "position": "7",
+            "status": "Finished",
+            "points": "2"
+        },
+        {
+            "season": "2023",
+            "round": "1",
+            "raceName": "Austrian Grand Prix",
+            "race": "race3",
+            "type": "race3",
+            "constructorId": "prema",
+            "grid": "",
+            "position": "1",
+            "status": "Finished",
+            "points": "27"
+        },
+        {
+            "season": "2023",
+            "round": "2",
+            "raceName": "Valencia Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "prema",
+            "grid": "8",
+            "position": "6",
+            "status": "Finished",
+            "points": "8"
+        },
+        {
+            "season": "2023",
+            "round": "2",
+            "raceName": "Valencia Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "prema",
+            "grid": "1",
+            "position": "5",
+            "status": "Finished",
+            "points": "4"
+        },
+        {
+            "season": "2023",
+            "round": "2",
+            "raceName": "Valencia Grand Prix",
+            "race": "race3",
+            "type": "race3",
+            "constructorId": "prema",
+            "grid": "",
+            "position": "1",
+            "status": "Finished",
+            "points": "28"
+        },
+        {
+            "season": "2023",
+            "round": "3",
+            "raceName": "Spanish Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "prema",
+            "grid": "6",
+            "position": "3",
+            "status": "Finished",
+            "points": "15"
+        },
+        {
+            "season": "2023",
+            "round": "3",
+            "raceName": "Spanish Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "prema",
+            "grid": "3",
+            "position": "2",
+            "status": "Finished",
+            "points": "8"
+        },
+        {
+            "season": "2023",
+            "round": "3",
+            "raceName": "Spanish Grand Prix",
+            "race": "race3",
+            "type": "race3",
+            "constructorId": "prema",
+            "grid": "",
+            "position": "3",
+            "status": "Finished",
+            "points": "15"
+        },
+        {
+            "season": "2023",
+            "round": "4",
+            "raceName": "Dutch Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "prema",
+            "grid": "5",
+            "position": "15",
+            "status": "NC",
+            "points": "0"
+        },
+        {
+            "season": "2023",
+            "round": "4",
+            "raceName": "Dutch Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "prema",
+            "grid": "4",
+            "position": "2",
+            "status": "Finished",
+            "points": "8"
+        },
+        {
+            "season": "2023",
+            "round": "4",
+            "raceName": "Dutch Grand Prix",
+            "race": "race3",
+            "type": "race3",
+            "constructorId": "prema",
+            "grid": "",
+            "position": "4",
+            "status": "Finished",
+            "points": "12"
+        },
+        {
+            "season": "2023",
+            "round": "5",
+            "raceName": "Italian Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "prema",
+            "grid": "5",
+            "position": "1",
+            "status": "Finished",
+            "points": "21"
+        },
+        {
+            "season": "2023",
+            "round": "5",
+            "raceName": "Italian Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "prema",
+            "grid": "4",
+            "position": "6",
+            "status": "Finished",
+            "points": "3"
+        },
+        {
+            "season": "2023",
+            "round": "5",
+            "raceName": "Italian Grand Prix",
+            "race": "race3",
+            "type": "race3",
+            "constructorId": "prema",
+            "grid": "",
+            "position": "5",
+            "status": "Finished",
+            "points": "11"
+        },
+        {
+            "season": "2023",
+            "round": "6",
+            "raceName": "Le Castellet Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "prema",
+            "grid": "5",
+            "position": "6",
+            "status": "Finished",
+            "points": "8"
+        },
+        {
+            "season": "2023",
+            "round": "6",
+            "raceName": "Le Castellet Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "prema",
+            "grid": "4",
+            "position": "1",
+            "status": "Finished",
+            "points": "11"
+        },
+        {
+            "season": "2023",
+            "round": "6",
+            "raceName": "Le Castellet Grand Prix",
+            "race": "race3",
+            "type": "race3",
+            "constructorId": "prema",
+            "grid": "",
+            "position": "1",
+            "status": "Finished",
+            "points": "26"
+        },
+        {
+            "season": "2023",
+            "round": "7",
+            "raceName": "United States Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "prema",
+            "grid": "7",
+            "position": "1",
+            "status": "Finished",
+            "points": "28"
+        },
+        {
+            "season": "2023",
+            "round": "7",
+            "raceName": "United States Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "prema",
+            "grid": "2",
+            "position": "15",
+            "status": "DNF",
+            "points": "0"
+        },
+        {
+            "season": "2023",
+            "round": "7",
+            "raceName": "United States Grand Prix",
+            "race": "race3",
+            "type": "race3",
+            "constructorId": "prema",
+            "grid": "",
+            "position": "3",
+            "status": "Finished",
+            "points": "15"
+        }
+    ]
+}

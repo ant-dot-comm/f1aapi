@@ -1,14 +1,15 @@
 {
     "driverId": "bruce",
-    "name": "Megan Bruce",
+    "name": "M. Bruce",
     "code": "BRU",
     "series": "f1a",
     "seasons": [
+        "2025",
         "2026"
     ],
     "career": {
-        "entries": 9,
-        "starts": 9,
+        "entries": 11,
+        "starts": 11,
         "points": 49,
         "wins": {
             "total": 0
@@ -22,11 +23,29 @@
         "fastestLaps": 0,
         "dnfs": 0,
         "bestFinish": 2,
-        "avgFinish": 7.11,
+        "avgFinish": 8.09,
         "titles": 0,
         "bestChampionship": 6
     },
     "bySeasons": {
+        "2025": {
+            "entries": 2,
+            "starts": 2,
+            "points": 0,
+            "wins": {
+                "total": 0
+            },
+            "podiums": {
+                "total": 0
+            },
+            "poles": 0,
+            "fastestLaps": 0,
+            "dnfs": 0,
+            "bestFinish": 12,
+            "avgFinish": 12.5,
+            "championshipPosition": 22,
+            "complete": true
+        },
         "2026": {
             "entries": 9,
             "starts": 9,
@@ -49,6 +68,30 @@
         }
     },
     "results": [
+        {
+            "season": "2025",
+            "round": "6",
+            "raceName": "Singapore Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "hitech",
+            "grid": "15",
+            "position": "12",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2025",
+            "round": "6",
+            "raceName": "Singapore Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "hitech",
+            "grid": "15",
+            "position": "13",
+            "status": "Finished",
+            "points": "0"
+        },
         {
             "season": "2026",
             "round": "1",

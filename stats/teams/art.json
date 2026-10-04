@@ -3,28 +3,98 @@
     "name": "Art",
     "series": "f1a",
     "seasons": [
+        "2023",
+        "2024",
+        "2025",
         "2026"
     ],
     "career": {
-        "entries": 27,
-        "starts": 27,
-        "points": 29,
+        "entries": 167,
+        "starts": 167,
+        "points": 544,
         "wins": {
-            "total": 0
-        },
-        "podiums": {
-            "total": 1,
+            "total": 4,
+            "race3": 1,
+            "feature": 2,
             "reverse": 1
         },
-        "poles": 0,
-        "fastestLaps": 0,
-        "dnfs": 2,
-        "bestFinish": 2,
-        "avgFinish": 12.22,
+        "podiums": {
+            "total": 19,
+            "feature": 8,
+            "reverse": 8,
+            "race3": 3
+        },
+        "poles": 2,
+        "fastestLaps": 1,
+        "dnfs": 11,
+        "bestFinish": 1,
+        "avgFinish": 9.61,
         "titles": 0,
-        "bestChampionship": 6
+        "bestChampionship": 4
     },
     "bySeasons": {
+        "2023": {
+            "entries": 56,
+            "starts": 56,
+            "points": 312,
+            "wins": {
+                "total": 3,
+                "race3": 1,
+                "feature": 2
+            },
+            "podiums": {
+                "total": 14,
+                "feature": 7,
+                "reverse": 4,
+                "race3": 3
+            },
+            "poles": 2,
+            "fastestLaps": 0,
+            "dnfs": 1,
+            "bestFinish": 1,
+            "avgFinish": 7.2,
+            "championshipPosition": 4,
+            "complete": true
+        },
+        "2024": {
+            "entries": 42,
+            "starts": 42,
+            "points": 146,
+            "wins": {
+                "total": 0
+            },
+            "podiums": {
+                "total": 1,
+                "feature": 1
+            },
+            "poles": 0,
+            "fastestLaps": 1,
+            "dnfs": 2,
+            "bestFinish": 2,
+            "avgFinish": 10.12,
+            "championshipPosition": 5,
+            "complete": true
+        },
+        "2025": {
+            "entries": 42,
+            "starts": 42,
+            "points": 57,
+            "wins": {
+                "total": 1,
+                "reverse": 1
+            },
+            "podiums": {
+                "total": 3,
+                "reverse": 3
+            },
+            "poles": 0,
+            "fastestLaps": 0,
+            "dnfs": 6,
+            "bestFinish": 1,
+            "avgFinish": 10.64,
+            "championshipPosition": 5,
+            "complete": true
+        },
         "2026": {
             "entries": 27,
             "starts": 27,
@@ -47,7 +117,15 @@
     },
     "drivers": [
         "billard",
+        "block",
+        "buhler",
+        "bustamante",
         "countryman",
-        "jacquet"
+        "crone",
+        "grant",
+        "jacquet",
+        "nobels",
+        "nobles",
+        "schreiner"
     ]
 }

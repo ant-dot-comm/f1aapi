@@ -3,31 +3,106 @@
     "name": "Campos",
     "series": "f1a",
     "seasons": [
+        "2023",
+        "2024",
+        "2025",
         "2026"
     ],
     "career": {
-        "entries": 27,
-        "starts": 27,
-        "points": 212,
+        "entries": 169,
+        "starts": 168,
+        "points": 992,
         "wins": {
-            "total": 4,
-            "opening": 1,
-            "feature": 3
+            "total": 9,
+            "reverse": 2,
+            "feature": 5,
+            "race3": 1,
+            "opening": 1
         },
         "podiums": {
-            "total": 7,
-            "feature": 5,
+            "total": 36,
+            "feature": 14,
+            "reverse": 14,
+            "race3": 6,
             "opening": 2
         },
-        "poles": 3,
-        "fastestLaps": 3,
-        "dnfs": 1,
+        "poles": 6,
+        "fastestLaps": 11,
+        "dnfs": 9,
         "bestFinish": 1,
-        "avgFinish": 7.07,
+        "avgFinish": 7.93,
         "titles": 0,
         "bestChampionship": 1
     },
     "bySeasons": {
+        "2023": {
+            "entries": 58,
+            "starts": 58,
+            "points": 252,
+            "wins": {
+                "total": 1,
+                "reverse": 1
+            },
+            "podiums": {
+                "total": 9,
+                "feature": 1,
+                "reverse": 4,
+                "race3": 4
+            },
+            "poles": 0,
+            "fastestLaps": 1,
+            "dnfs": 1,
+            "bestFinish": 1,
+            "avgFinish": 8.67,
+            "championshipPosition": 5,
+            "complete": true
+        },
+        "2024": {
+            "entries": 42,
+            "starts": 42,
+            "points": 292,
+            "wins": {
+                "total": 1,
+                "feature": 1
+            },
+            "podiums": {
+                "total": 8,
+                "feature": 3,
+                "reverse": 4,
+                "race3": 1
+            },
+            "poles": 0,
+            "fastestLaps": 2,
+            "dnfs": 2,
+            "bestFinish": 1,
+            "avgFinish": 7.43,
+            "championshipPosition": 3,
+            "complete": true
+        },
+        "2025": {
+            "entries": 42,
+            "starts": 41,
+            "points": 236,
+            "wins": {
+                "total": 3,
+                "reverse": 1,
+                "race3": 1,
+                "feature": 1
+            },
+            "podiums": {
+                "total": 12,
+                "reverse": 6,
+                "feature": 5,
+                "race3": 1
+            },
+            "poles": 3,
+            "fastestLaps": 5,
+            "dnfs": 5,
+            "bestFinish": 1,
+            "avgFinish": 7.95,
+            "championshipPosition": 2,
+            "complete": true
+        },
         "2026": {
             "entries": 27,
             "starts": 27,
@@ -53,7 +128,12 @@
     },
     "drivers": [
         "bruce",
+        "caceres",
+        "chambers",
         "ferreira",
-        "palmowski"
+        "lovinfosse",
+        "marti",
+        "palmowski",
+        "schreiner"
     ]
 }

@@ -1,0 +1,416 @@
+{
+    "driverId": "weug",
+    "name": "M. Weug",
+    "code": "WEU",
+    "series": "f1a",
+    "seasons": [
+        "2024",
+        "2025"
+    ],
+    "career": {
+        "entries": 28,
+        "starts": 27,
+        "points": 334,
+        "wins": {
+            "total": 4,
+            "race3": 1,
+            "feature": 3
+        },
+        "podiums": {
+            "total": 17,
+            "reverse": 8,
+            "feature": 8,
+            "race3": 1
+        },
+        "poles": 3,
+        "fastestLaps": 3,
+        "dnfs": 1,
+        "bestFinish": 1,
+        "avgFinish": 5.04,
+        "titles": 0,
+        "bestChampionship": 2
+    },
+    "bySeasons": {
+        "2024": {
+            "entries": 14,
+            "starts": 14,
+            "points": 177,
+            "wins": {
+                "total": 1,
+                "race3": 1
+            },
+            "podiums": {
+                "total": 8,
+                "reverse": 4,
+                "feature": 3,
+                "race3": 1
+            },
+            "poles": 0,
+            "fastestLaps": 1,
+            "dnfs": 1,
+            "bestFinish": 1,
+            "avgFinish": 4.86,
+            "championshipPosition": 3,
+            "complete": true
+        },
+        "2025": {
+            "entries": 14,
+            "starts": 13,
+            "points": 157,
+            "wins": {
+                "total": 3,
+                "feature": 3
+            },
+            "podiums": {
+                "total": 9,
+                "reverse": 4,
+                "feature": 5
+            },
+            "poles": 3,
+            "fastestLaps": 2,
+            "dnfs": 0,
+            "bestFinish": 1,
+            "avgFinish": 5.21,
+            "championshipPosition": 2,
+            "complete": true
+        }
+    },
+    "results": [
+        {
+            "season": "2024",
+            "round": "1",
+            "raceName": "Saudi Arabian Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "prema",
+            "grid": "6",
+            "position": "3",
+            "status": "Finished",
+            "points": "15"
+        },
+        {
+            "season": "2024",
+            "round": "1",
+            "raceName": "Saudi Arabian Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "prema",
+            "grid": "3",
+            "position": "2",
+            "status": "Finished",
+            "points": "18"
+        },
+        {
+            "season": "2024",
+            "round": "2",
+            "raceName": "Miami Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "prema",
+            "grid": "4",
+            "position": "6",
+            "status": "Finished",
+            "points": "8"
+        },
+        {
+            "season": "2024",
+            "round": "2",
+            "raceName": "Miami Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "prema",
+            "grid": "5",
+            "position": "5",
+            "status": "Finished",
+            "points": "10"
+        },
+        {
+            "season": "2024",
+            "round": "3",
+            "raceName": "Spanish Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "prema",
+            "grid": "12",
+            "position": "14",
+            "status": "DNF",
+            "points": "0"
+        },
+        {
+            "season": "2024",
+            "round": "3",
+            "raceName": "Spanish Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "prema",
+            "grid": "12",
+            "position": "13",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2024",
+            "round": "4",
+            "raceName": "Dutch Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "prema",
+            "grid": "5",
+            "position": "3",
+            "status": "Finished",
+            "points": "15"
+        },
+        {
+            "season": "2024",
+            "round": "4",
+            "raceName": "Dutch Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "prema",
+            "grid": "4",
+            "position": "2",
+            "status": "Finished",
+            "points": "18"
+        },
+        {
+            "season": "2024",
+            "round": "5",
+            "raceName": "Singapore Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "prema",
+            "grid": "7",
+            "position": "2",
+            "status": "Finished",
+            "points": "18"
+        },
+        {
+            "season": "2024",
+            "round": "5",
+            "raceName": "Singapore Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "prema",
+            "grid": "2",
+            "position": "2",
+            "status": "Finished",
+            "points": "18"
+        },
+        {
+            "season": "2024",
+            "round": "6",
+            "raceName": "Qatar Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "prema",
+            "grid": "7",
+            "position": "3",
+            "status": "Finished",
+            "points": "15"
+        },
+        {
+            "season": "2024",
+            "round": "7",
+            "raceName": "Abu Dhabi Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "prema",
+            "grid": "2",
+            "position": "7",
+            "status": "Finished",
+            "points": "6"
+        },
+        {
+            "season": "2024",
+            "round": "7",
+            "raceName": "Abu Dhabi Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "prema",
+            "grid": "7",
+            "position": "5",
+            "status": "Finished",
+            "points": "10"
+        },
+        {
+            "season": "2024",
+            "round": "7",
+            "raceName": "Abu Dhabi Grand Prix",
+            "race": "race3",
+            "type": "race3",
+            "constructorId": "prema",
+            "grid": "",
+            "position": "1",
+            "status": "Finished",
+            "points": "26"
+        },
+        {
+            "season": "2025",
+            "round": "1",
+            "raceName": "Chinese Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "mp",
+            "grid": "8",
+            "position": "3",
+            "status": "Finished",
+            "points": "6"
+        },
+        {
+            "season": "2025",
+            "round": "1",
+            "raceName": "Chinese Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "mp",
+            "grid": "1",
+            "position": "2",
+            "status": "Finished",
+            "points": "20"
+        },
+        {
+            "season": "2025",
+            "round": "2",
+            "raceName": "Saudi Arabian Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "mp",
+            "grid": "6",
+            "position": "2",
+            "status": "Finished",
+            "points": "8"
+        },
+        {
+            "season": "2025",
+            "round": "2",
+            "raceName": "Saudi Arabian Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "mp",
+            "grid": "3",
+            "position": "1",
+            "status": "Finished",
+            "points": "25"
+        },
+        {
+            "season": "2025",
+            "round": "3",
+            "raceName": "Miami Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "mp",
+            "grid": "10",
+            "position": "4",
+            "status": "Finished",
+            "points": "5"
+        },
+        {
+            "season": "2025",
+            "round": "4",
+            "raceName": "Canadian Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "mp",
+            "grid": "15",
+            "position": "18",
+            "status": "NC",
+            "points": "0"
+        },
+        {
+            "season": "2025",
+            "round": "4",
+            "raceName": "Canadian Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "mp",
+            "grid": "15",
+            "position": "9",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2025",
+            "round": "4",
+            "raceName": "Canadian Grand Prix",
+            "race": "race3",
+            "type": "race3",
+            "constructorId": "mp",
+            "grid": "",
+            "position": "6",
+            "status": "Finished",
+            "points": "8"
+        },
+        {
+            "season": "2025",
+            "round": "5",
+            "raceName": "Dutch Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "mp",
+            "grid": "8",
+            "position": "3",
+            "status": "Finished",
+            "points": "7"
+        },
+        {
+            "season": "2025",
+            "round": "5",
+            "raceName": "Dutch Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "mp",
+            "grid": "1",
+            "position": "1",
+            "status": "Finished",
+            "points": "28"
+        },
+        {
+            "season": "2025",
+            "round": "6",
+            "raceName": "Singapore Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "mp",
+            "grid": "8",
+            "position": "2",
+            "status": "Finished",
+            "points": "8"
+        },
+        {
+            "season": "2025",
+            "round": "6",
+            "raceName": "Singapore Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "mp",
+            "grid": "1",
+            "position": "1",
+            "status": "Finished",
+            "points": "27"
+        },
+        {
+            "season": "2025",
+            "round": "7",
+            "raceName": "Las Vegas Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "mp",
+            "grid": "4",
+            "position": "18",
+            "status": "DNS",
+            "points": "0"
+        },
+        {
+            "season": "2025",
+            "round": "7",
+            "raceName": "Las Vegas Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "mp",
+            "grid": "5",
+            "position": "3",
+            "status": "Finished",
+            "points": "15"
+        }
+    ]
+}

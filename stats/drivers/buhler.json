@@ -1,0 +1,287 @@
+{
+    "driverId": "buhler",
+    "name": "L. Bühler",
+    "code": "BUH",
+    "series": "f1a",
+    "seasons": [
+        "2023"
+    ],
+    "career": {
+        "entries": 19,
+        "starts": 19,
+        "points": 222,
+        "wins": {
+            "total": 2,
+            "race3": 1,
+            "feature": 1
+        },
+        "podiums": {
+            "total": 13,
+            "feature": 6,
+            "reverse": 4,
+            "race3": 3
+        },
+        "poles": 2,
+        "fastestLaps": 0,
+        "dnfs": 0,
+        "bestFinish": 1,
+        "avgFinish": 3.16,
+        "titles": 0,
+        "bestChampionship": 2
+    },
+    "bySeasons": {
+        "2023": {
+            "entries": 19,
+            "starts": 19,
+            "points": 222,
+            "wins": {
+                "total": 2,
+                "race3": 1,
+                "feature": 1
+            },
+            "podiums": {
+                "total": 13,
+                "feature": 6,
+                "reverse": 4,
+                "race3": 3
+            },
+            "poles": 2,
+            "fastestLaps": 0,
+            "dnfs": 0,
+            "bestFinish": 1,
+            "avgFinish": 3.16,
+            "championshipPosition": 2,
+            "complete": true
+        }
+    },
+    "results": [
+        {
+            "season": "2023",
+            "round": "1",
+            "raceName": "Austrian Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "art",
+            "grid": "6",
+            "position": "2",
+            "status": "Finished",
+            "points": "8"
+        },
+        {
+            "season": "2023",
+            "round": "1",
+            "raceName": "Austrian Grand Prix",
+            "race": "race3",
+            "type": "race3",
+            "constructorId": "art",
+            "grid": "",
+            "position": "6",
+            "status": "Finished",
+            "points": "8"
+        },
+        {
+            "season": "2023",
+            "round": "2",
+            "raceName": "Valencia Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "art",
+            "grid": "4",
+            "position": "3",
+            "status": "Finished",
+            "points": "15"
+        },
+        {
+            "season": "2023",
+            "round": "2",
+            "raceName": "Valencia Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "art",
+            "grid": "5",
+            "position": "2",
+            "status": "Finished",
+            "points": "8"
+        },
+        {
+            "season": "2023",
+            "round": "2",
+            "raceName": "Valencia Grand Prix",
+            "race": "race3",
+            "type": "race3",
+            "constructorId": "art",
+            "grid": "",
+            "position": "4",
+            "status": "Finished",
+            "points": "12"
+        },
+        {
+            "season": "2023",
+            "round": "3",
+            "raceName": "Spanish Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "art",
+            "grid": "1",
+            "position": "4",
+            "status": "Finished",
+            "points": "5"
+        },
+        {
+            "season": "2023",
+            "round": "3",
+            "raceName": "Spanish Grand Prix",
+            "race": "race3",
+            "type": "race3",
+            "constructorId": "art",
+            "grid": "",
+            "position": "1",
+            "status": "Finished",
+            "points": "27"
+        },
+        {
+            "season": "2023",
+            "round": "4",
+            "raceName": "Dutch Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "art",
+            "grid": "7",
+            "position": "2",
+            "status": "Finished",
+            "points": "18"
+        },
+        {
+            "season": "2023",
+            "round": "4",
+            "raceName": "Dutch Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "art",
+            "grid": "2",
+            "position": "3",
+            "status": "Finished",
+            "points": "6"
+        },
+        {
+            "season": "2023",
+            "round": "4",
+            "raceName": "Dutch Grand Prix",
+            "race": "race3",
+            "type": "race3",
+            "constructorId": "art",
+            "grid": "",
+            "position": "3",
+            "status": "Finished",
+            "points": "15"
+        },
+        {
+            "season": "2023",
+            "round": "5",
+            "raceName": "Italian Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "art",
+            "grid": "1",
+            "position": "2",
+            "status": "Finished",
+            "points": "14"
+        },
+        {
+            "season": "2023",
+            "round": "5",
+            "raceName": "Italian Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "art",
+            "grid": "8",
+            "position": "1",
+            "status": "Finished",
+            "points": "10"
+        },
+        {
+            "season": "2023",
+            "round": "5",
+            "raceName": "Italian Grand Prix",
+            "race": "race3",
+            "type": "race3",
+            "constructorId": "art",
+            "grid": "",
+            "position": "10",
+            "status": "Finished",
+            "points": "1"
+        },
+        {
+            "season": "2023",
+            "round": "6",
+            "raceName": "Le Castellet Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "art",
+            "grid": "8",
+            "position": "4",
+            "status": "Finished",
+            "points": "12"
+        },
+        {
+            "season": "2023",
+            "round": "6",
+            "raceName": "Le Castellet Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "art",
+            "grid": "1",
+            "position": "2",
+            "status": "Finished",
+            "points": "8"
+        },
+        {
+            "season": "2023",
+            "round": "6",
+            "raceName": "Le Castellet Grand Prix",
+            "race": "race3",
+            "type": "race3",
+            "constructorId": "art",
+            "grid": "",
+            "position": "2",
+            "status": "Finished",
+            "points": "20"
+        },
+        {
+            "season": "2023",
+            "round": "7",
+            "raceName": "United States Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "art",
+            "grid": "5",
+            "position": "3",
+            "status": "Finished",
+            "points": "15"
+        },
+        {
+            "season": "2023",
+            "round": "7",
+            "raceName": "United States Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "art",
+            "grid": "4",
+            "position": "2",
+            "status": "Finished",
+            "points": "8"
+        },
+        {
+            "season": "2023",
+            "round": "7",
+            "raceName": "United States Grand Prix",
+            "race": "race3",
+            "type": "race3",
+            "constructorId": "art",
+            "grid": "",
+            "position": "4",
+            "status": "Finished",
+            "points": "12"
+        }
+    ]
+}

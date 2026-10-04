@@ -1,0 +1,277 @@
+{
+    "driverId": "gilkes",
+    "name": "M. Gilkes",
+    "code": "GIL",
+    "series": "f1a",
+    "seasons": [
+        "2023"
+    ],
+    "career": {
+        "entries": 19,
+        "starts": 19,
+        "points": 31,
+        "wins": {
+            "total": 0
+        },
+        "podiums": {
+            "total": 0
+        },
+        "poles": 0,
+        "fastestLaps": 0,
+        "dnfs": 0,
+        "bestFinish": 5,
+        "avgFinish": 10.32,
+        "titles": 0,
+        "bestChampionship": 13
+    },
+    "bySeasons": {
+        "2023": {
+            "entries": 19,
+            "starts": 19,
+            "points": 31,
+            "wins": {
+                "total": 0
+            },
+            "podiums": {
+                "total": 0
+            },
+            "poles": 0,
+            "fastestLaps": 0,
+            "dnfs": 0,
+            "bestFinish": 5,
+            "avgFinish": 10.32,
+            "championshipPosition": 13,
+            "complete": true
+        }
+    },
+    "results": [
+        {
+            "season": "2023",
+            "round": "1",
+            "raceName": "Austrian Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "rodin",
+            "grid": "11",
+            "position": "5",
+            "status": "Finished",
+            "points": "10"
+        },
+        {
+            "season": "2023",
+            "round": "1",
+            "raceName": "Austrian Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "rodin",
+            "grid": "11",
+            "position": "12",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2023",
+            "round": "1",
+            "raceName": "Austrian Grand Prix",
+            "race": "race3",
+            "type": "race3",
+            "constructorId": "rodin",
+            "grid": "",
+            "position": "10",
+            "status": "Finished",
+            "points": "1"
+        },
+        {
+            "season": "2023",
+            "round": "2",
+            "raceName": "Valencia Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "rodin",
+            "grid": "11",
+            "position": "8",
+            "status": "Finished",
+            "points": "4"
+        },
+        {
+            "season": "2023",
+            "round": "2",
+            "raceName": "Valencia Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "rodin",
+            "grid": "11",
+            "position": "13",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2023",
+            "round": "2",
+            "raceName": "Valencia Grand Prix",
+            "race": "race3",
+            "type": "race3",
+            "constructorId": "rodin",
+            "grid": "",
+            "position": "13",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2023",
+            "round": "3",
+            "raceName": "Spanish Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "rodin",
+            "grid": "2",
+            "position": "11",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2023",
+            "round": "3",
+            "raceName": "Spanish Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "rodin",
+            "grid": "7",
+            "position": "11",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2023",
+            "round": "3",
+            "raceName": "Spanish Grand Prix",
+            "race": "race3",
+            "type": "race3",
+            "constructorId": "rodin",
+            "grid": "",
+            "position": "8",
+            "status": "Finished",
+            "points": "4"
+        },
+        {
+            "season": "2023",
+            "round": "4",
+            "raceName": "Dutch Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "rodin",
+            "grid": "9",
+            "position": "11",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2023",
+            "round": "4",
+            "raceName": "Dutch Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "rodin",
+            "grid": "9",
+            "position": "7",
+            "status": "Finished",
+            "points": "2"
+        },
+        {
+            "season": "2023",
+            "round": "4",
+            "raceName": "Dutch Grand Prix",
+            "race": "race3",
+            "type": "race3",
+            "constructorId": "rodin",
+            "grid": "",
+            "position": "13",
+            "status": "NC",
+            "points": "0"
+        },
+        {
+            "season": "2023",
+            "round": "5",
+            "raceName": "Italian Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": null,
+            "grid": "4",
+            "position": "5",
+            "status": "Finished",
+            "points": "8"
+        },
+        {
+            "season": "2023",
+            "round": "6",
+            "raceName": "Le Castellet Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "rodin",
+            "grid": "9",
+            "position": "11",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2023",
+            "round": "6",
+            "raceName": "Le Castellet Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "rodin",
+            "grid": "9",
+            "position": "13",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2023",
+            "round": "6",
+            "raceName": "Le Castellet Grand Prix",
+            "race": "race3",
+            "type": "race3",
+            "constructorId": "rodin",
+            "grid": "",
+            "position": "9",
+            "status": "Finished",
+            "points": "2"
+        },
+        {
+            "season": "2023",
+            "round": "7",
+            "raceName": "United States Grand Prix",
+            "race": "race1",
+            "type": "reverse",
+            "constructorId": "rodin",
+            "grid": "14",
+            "position": "12",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2023",
+            "round": "7",
+            "raceName": "United States Grand Prix",
+            "race": "race2",
+            "type": "feature",
+            "constructorId": "rodin",
+            "grid": "14",
+            "position": "13",
+            "status": "Finished",
+            "points": "0"
+        },
+        {
+            "season": "2023",
+            "round": "7",
+            "raceName": "United States Grand Prix",
+            "race": "race3",
+            "type": "race3",
+            "constructorId": "rodin",
+            "grid": "",
+            "position": "11",
+            "status": "Finished",
+            "points": "0"
+        }
+    ]
+}

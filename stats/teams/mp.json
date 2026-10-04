@@ -3,30 +3,101 @@
     "name": "MP",
     "series": "f1a",
     "seasons": [
+        "2023",
+        "2024",
+        "2025",
         "2026"
     ],
     "career": {
-        "entries": 27,
-        "starts": 27,
-        "points": 127,
+        "entries": 168,
+        "starts": 167,
+        "points": 951,
         "wins": {
-            "total": 1,
-            "reverse": 1
+            "total": 11,
+            "feature": 6,
+            "reverse": 4,
+            "race3": 1
         },
         "podiums": {
-            "total": 6,
-            "reverse": 4,
-            "feature": 2
+            "total": 31,
+            "feature": 14,
+            "race3": 5,
+            "reverse": 12
         },
-        "poles": 0,
-        "fastestLaps": 3,
-        "dnfs": 2,
+        "poles": 4,
+        "fastestLaps": 12,
+        "dnfs": 9,
         "bestFinish": 1,
-        "avgFinish": 8.67,
+        "avgFinish": 8.11,
         "titles": 0,
-        "bestChampionship": 3
+        "bestChampionship": 2
     },
     "bySeasons": {
+        "2023": {
+            "entries": 57,
+            "starts": 57,
+            "points": 411,
+            "wins": {
+                "total": 7,
+                "feature": 3,
+                "reverse": 3,
+                "race3": 1
+            },
+            "podiums": {
+                "total": 13,
+                "feature": 5,
+                "race3": 5,
+                "reverse": 3
+            },
+            "poles": 1,
+            "fastestLaps": 7,
+            "dnfs": 1,
+            "bestFinish": 1,
+            "avgFinish": 6.56,
+            "championshipPosition": 2,
+            "complete": true
+        },
+        "2024": {
+            "entries": 42,
+            "starts": 42,
+            "points": 178,
+            "wins": {
+                "total": 0
+            },
+            "podiums": {
+                "total": 3,
+                "feature": 2,
+                "reverse": 1
+            },
+            "poles": 0,
+            "fastestLaps": 0,
+            "dnfs": 1,
+            "bestFinish": 2,
+            "avgFinish": 9.21,
+            "championshipPosition": 4,
+            "complete": true
+        },
+        "2025": {
+            "entries": 42,
+            "starts": 41,
+            "points": 235,
+            "wins": {
+                "total": 3,
+                "feature": 3
+            },
+            "podiums": {
+                "total": 9,
+                "reverse": 4,
+                "feature": 5
+            },
+            "poles": 3,
+            "fastestLaps": 2,
+            "dnfs": 5,
+            "bestFinish": 1,
+            "avgFinish": 8.76,
+            "championshipPosition": 3,
+            "complete": true
+        },
         "2026": {
             "entries": 27,
             "starts": 27,
@@ -50,8 +121,16 @@
         }
     },
     "drivers": [
+        "a_al_qubaisi",
+        "aal",
+        "ciconte",
+        "de_haus",
+        "de_heus",
         "gademan",
+        "h_al_qubaisi",
+        "hal",
         "kosterman",
-        "larsen"
+        "larsen",
+        "weug"
     ]
 }

@@ -3,12 +3,13 @@
     "name": "Hitech",
     "series": "f1a",
     "seasons": [
+        "2025",
         "2026"
     ],
     "career": {
-        "entries": 27,
-        "starts": 27,
-        "points": 52,
+        "entries": 69,
+        "starts": 69,
+        "points": 72,
         "wins": {
             "total": 0
         },
@@ -18,13 +19,31 @@
         },
         "poles": 1,
         "fastestLaps": 0,
-        "dnfs": 4,
+        "dnfs": 15,
         "bestFinish": 2,
-        "avgFinish": 11.63,
+        "avgFinish": 13.0,
         "titles": 0,
         "bestChampionship": 5
     },
     "bySeasons": {
+        "2025": {
+            "entries": 42,
+            "starts": 42,
+            "points": 20,
+            "wins": {
+                "total": 0
+            },
+            "podiums": {
+                "total": 0
+            },
+            "poles": 0,
+            "fastestLaps": 0,
+            "dnfs": 11,
+            "bestFinish": 4,
+            "avgFinish": 13.88,
+            "championshipPosition": 6,
+            "complete": true
+        },
         "2026": {
             "entries": 27,
             "starts": 27,
@@ -46,11 +65,19 @@
         }
     },
     "drivers": [
+        "alyousef",
+        "anagnostiadis",
         "battig",
+        "billard",
+        "bruce",
         "dobson",
         "fisher",
         "florescu",
+        "havrda",
+        "kosterman",
+        "paatz",
         "robertson",
-        "shi"
+        "shi",
+        "westcott"
     ]
 }

@@ -1,0 +1,335 @@
+{
+    "season": "2023",
+    "series": "f1a",
+    "Drivers": {
+        "aal": {
+            "driverId": "aal",
+            "name": "A. Al Qubaisi",
+            "code": "AAL",
+            "entries": [
+                {
+                    "number": "6",
+                    "constructorId": "mp",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7"
+                    ]
+                }
+            ]
+        },
+        "buhler": {
+            "driverId": "buhler",
+            "name": "L. Bühler",
+            "code": "BUH",
+            "entries": [
+                {
+                    "number": "7",
+                    "constructorId": "art",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7"
+                    ]
+                }
+            ]
+        },
+        "bustamante": {
+            "driverId": "bustamante",
+            "name": "B. Bustamante",
+            "code": "BUS",
+            "entries": [
+                {
+                    "number": "16",
+                    "constructorId": null,
+                    "rounds": [
+                        "1"
+                    ]
+                },
+                {
+                    "number": "16",
+                    "constructorId": "prema",
+                    "rounds": [
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7"
+                    ]
+                }
+            ]
+        },
+        "caceres": {
+            "driverId": "caceres",
+            "name": "M. Cáceres",
+            "code": "CAC",
+            "entries": [
+                {
+                    "number": "3",
+                    "constructorId": "campos",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7"
+                    ]
+                }
+            ]
+        },
+        "chong": {
+            "driverId": "chong",
+            "name": "C. Chong",
+            "code": "CHO",
+            "entries": [
+                {
+                    "number": "14",
+                    "constructorId": "prema",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7"
+                    ]
+                }
+            ]
+        },
+        "de_heus": {
+            "driverId": "de_heus",
+            "name": "E. De Heus",
+            "code": "DEH",
+            "entries": [
+                {
+                    "number": "5",
+                    "constructorId": "mp",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7"
+                    ]
+                }
+            ]
+        },
+        "edgar": {
+            "driverId": "edgar",
+            "name": "J. Edgar",
+            "code": "EDG",
+            "entries": [
+                {
+                    "number": "11",
+                    "constructorId": "rodin",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7"
+                    ]
+                }
+            ]
+        },
+        "garcia": {
+            "driverId": "garcia",
+            "name": "M. García",
+            "code": "GAR",
+            "entries": [
+                {
+                    "number": "15",
+                    "constructorId": "prema",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7"
+                    ]
+                }
+            ]
+        },
+        "gilkes": {
+            "driverId": "gilkes",
+            "name": "M. Gilkes",
+            "code": "GIL",
+            "entries": [
+                {
+                    "number": "12",
+                    "constructorId": "rodin",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "6",
+                        "7"
+                    ]
+                },
+                {
+                    "number": "12",
+                    "constructorId": null,
+                    "rounds": [
+                        "5"
+                    ]
+                }
+            ]
+        },
+        "grant": {
+            "driverId": "grant",
+            "name": "C. Grant",
+            "code": "GRA",
+            "entries": [
+                {
+                    "number": "9",
+                    "constructorId": "art",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "6",
+                        "7"
+                    ]
+                }
+            ]
+        },
+        "hal": {
+            "driverId": "hal",
+            "name": "H. Al Qubaisi",
+            "code": "HAL",
+            "entries": [
+                {
+                    "number": "4",
+                    "constructorId": "mp",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "6",
+                        "7"
+                    ]
+                },
+                {
+                    "number": "4",
+                    "constructorId": null,
+                    "rounds": [
+                        "5"
+                    ]
+                }
+            ]
+        },
+        "lovinfosse": {
+            "driverId": "lovinfosse",
+            "name": "L. Lovinfosse",
+            "code": "LOV",
+            "entries": [
+                {
+                    "number": "2",
+                    "constructorId": "campos",
+                    "rounds": [
+                        "1",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7"
+                    ]
+                },
+                {
+                    "number": "2",
+                    "constructorId": null,
+                    "rounds": [
+                        "2"
+                    ]
+                }
+            ]
+        },
+        "marti": {
+            "driverId": "marti",
+            "name": "N. Martí",
+            "code": "MAR",
+            "entries": [
+                {
+                    "number": "1",
+                    "constructorId": "campos",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7"
+                    ]
+                }
+            ]
+        },
+        "pulling": {
+            "driverId": "pulling",
+            "name": "A. Pulling",
+            "code": "PUL",
+            "entries": [
+                {
+                    "number": "10",
+                    "constructorId": "rodin",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "7"
+                    ]
+                },
+                {
+                    "number": "10",
+                    "constructorId": null,
+                    "rounds": [
+                        "6"
+                    ]
+                }
+            ]
+        },
+        "schreiner": {
+            "driverId": "schreiner",
+            "name": "C. Schreiner",
+            "code": "SCH",
+            "entries": [
+                {
+                    "number": "8",
+                    "constructorId": "art",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7"
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -23,8 +23,32 @@ import common as C
 
 BASE = "https://www.f1academy.com/Racing-Series/Standings/{kind}?seasonId={sid}"
 SEASON_ID = {2023: 1, 2024: 2, 2025: 3, 2026: 4}
-# OR=opening->race0, RG=reverse->race1, FR=feature->race2
-SLOTS = {2: ["race1", "race2"], 3: ["race0", "race1", "race2"]}
+# Session->slot mapping differs by era. 2026+ labels columns OR/RG/FR (Opening/
+# Reverse/Feature) -> race0/race1/race2. 2023-2025 label them R1/R2/R3 (chronological)
+# -> race1/race2/race3. 2-race rounds are race1/race2 in both.
+SLOTS_MODERN = {2: ["race1", "race2"], 3: ["race0", "race1", "race2"]}   # 2026+
+SLOTS_LEGACY = {2: ["race1", "race2"], 3: ["race1", "race2", "race3"]}   # 2023-2025
+
+
+def slots_for(season):
+    return SLOTS_MODERN if int(season) >= 2026 else SLOTS_LEGACY
+
+
+def _assign_ids(drivers):
+    """Fill driverId. Roster matches are kept. For drivers with no roster id, use the
+    surname slug — but if that surname is shared by >1 f1academy code (same-surname
+    drivers, e.g. the Al Qubaisi sisters), use the unique code as the id instead."""
+    from collections import defaultdict
+    base = {id(e): (e["driverId"] or C.slug(C.surname_of(e["driver"]))) for e in drivers}
+    codes = defaultdict(set)
+    for e in drivers:
+        codes[base[id(e)]].add(e["code"])
+    for e in drivers:
+        if e["driverId"] is None:
+            e["driverId"] = C.slug(e["code"]) if len(codes[base[id(e)]]) > 1 else base[id(e)]
+    return drivers
+
+
 # Wildcards are detected from the "(WCD)" label f1academy puts in the driver name
 # (authoritative); no hardcoded list needed.
 
@@ -35,7 +59,7 @@ def _scores(td):
         './/*[contains(concat(" ", normalize-space(@class), " "), " score ")]')]
 
 
-def parse(url, resolve, id_field, name_field):
+def parse(url, resolve, id_field, name_field, slots):
     table = C.fetch_html(url).xpath("//table")[0]
     out, unmatched, n_events = [], [], 0
     for tr in table.xpath(".//tbody/tr"):
@@ -53,11 +77,11 @@ def parse(url, resolve, id_field, name_field):
             sc = _scores(td)
             if not sc or all(v in ("-", "") for v in sc):
                 continue
-            slots = SLOTS.get(len(sc))
-            if not slots:
+            slot_keys = slots.get(len(sc))
+            if not slot_keys:
                 continue
             rec = {"round": str(rn)}
-            for slot, v in zip(slots, sc):
+            for slot, v in zip(slot_keys, sc):
                 rec[slot] = v
             by_round.append(rec)
         _id = resolve(code)
@@ -74,7 +98,8 @@ def parse(url, resolve, id_field, name_field):
 def build(season):
     import json
     repo = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    roster = json.load(open(os.path.join(repo, "constructors", str(season), "drivers.json")))
+    _rp = os.path.join(repo, "constructors", str(season), "drivers.json")
+    roster = json.load(open(_rp)) if os.path.exists(_rp) else {}
     code2id = {i["Driver"]["code"]: i["Driver"]["driverId"] for i in roster.values()}
     teams = {i["Constructor"]["name"]: i["Constructor"]["constructorId"] for i in roster.values()}
     sid = SEASON_ID[season]
@@ -88,15 +113,13 @@ def build(season):
                 return cid
         return None
 
-    drivers, d_un, scheduled = parse(BASE.format(kind="Driver", sid=sid), resolve_driver, "driverId", "driver")
-    tms, t_un, _ = parse(BASE.format(kind="Team", sid=sid), resolve_team, "constructorId", "team")
-
-    for e in drivers:
-        if e["driverId"] is None:
-            e["driverId"] = C.slug(C.surname_of(e["driver"]))
+    slots = slots_for(season)
+    drivers, d_un, scheduled = parse(BASE.format(kind="Driver", sid=sid), resolve_driver, "driverId", "driver", slots)
+    tms, t_un, _ = parse(BASE.format(kind="Team", sid=sid), resolve_team, "constructorId", "team", slots)
+    _assign_ids(drivers)                       # fills driverId incl. collision handling
     for e in tms:
         if e["constructorId"] is None:
-            e["constructorId"] = C.slug(e["team"])
+            e["constructorId"] = C.slug(e["team"].split()[0])   # "PREMA Racing" -> prema
 
     last = max((int(r["round"]) for e in drivers for r in e["byRound"]), default=0)
     meta = {"season": str(season), "series": "f1a", "updated": C.today_iso(),
@@ -115,17 +138,19 @@ def driver_points_index(season):
     source of F1A per-race points (the old computed POINTS tables were wrong)."""
     import json
     repo = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    roster = json.load(open(os.path.join(repo, "constructors", str(season), "drivers.json")))
+    _rp = os.path.join(repo, "constructors", str(season), "drivers.json")
+    roster = json.load(open(_rp)) if os.path.exists(_rp) else {}
     code2id = {i["Driver"]["code"]: i["Driver"]["driverId"] for i in roster.values()}
     drivers, _, _ = parse(BASE.format(kind="Driver", sid=SEASON_ID[season]),
-                          lambda c: code2id.get(c), "driverId", "driver")
+                          lambda c: code2id.get(c), "driverId", "driver", slots_for(season))
+    _assign_ids(drivers)                           # collision-safe ids (code for same-surname)
     pts, wild = {}, {}
     for e in drivers:
-        did = e["driverId"] or C.slug(C.surname_of(e["driver"]))
-        code2id[e["code"]] = did                   # include standings-only wildcards
+        did = e["driverId"]
+        code2id[e["code"]] = did                   # include standings-only drivers (wildcards)
         wild[did] = e.get("wildcard", False)
         for br in e["byRound"]:
-            for slot in ("race0", "race1", "race2"):
+            for slot in ("race0", "race1", "race2", "race3"):
                 if slot in br and str(br[slot]).lstrip("-").isdigit():
                     pts[(did, br["round"], slot)] = br[slot]
     return code2id, pts, wild

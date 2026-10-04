@@ -126,7 +126,7 @@ def build():
             team_names.setdefault(i["Constructor"]["constructorId"], i["Constructor"]["name"])
         if reg:
             for did, r in reg["Drivers"].items():
-                nm = (r.get("givenName", "") + " " + r.get("familyName", "")).strip()
+                nm = r.get("name") or (r.get("givenName", "") + " " + r.get("familyName", "")).strip()
                 names[did] = {"name": nm or did, "code": r.get("code", "")}
                 for e in r["entries"]:
                     for rd in e["rounds"]:

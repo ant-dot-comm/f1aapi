@@ -59,7 +59,9 @@ POINTS = {
 }
 REVERSE_N = 8   # reverse-grid race reverses the top N of qualifying
 
-SESSION_KEY = {"opening race": "race0", "reverse grid race": "race1", "feature race": "race2"}
+SESSION_KEY = {"opening race": "race0", "reverse grid race": "race1", "feature race": "race2",
+               # older naming (2023-2025): "Race 1" = reverse-grid, "Race 2" = feature
+               "race 1": "race1", "race 2": "race2", "race 3": "race3", "sprint race": "race1"}
 
 
 def fetch(url):
@@ -194,7 +196,7 @@ def build_round(raceid, doc, meta, code2id, pts):
         out["Results"][key] = build_race_rows(t, key, grid, str(round_no), code2id, pts)
         note = "" if grid else "  (grid not derived)"
         print(f"  {label} -> {key}: {len(out['Results'][key])} rows{note}")
-    out["Results"] = {k: out["Results"][k] for k in ("race0", "race1", "race2")
+    out["Results"] = {k: out["Results"][k] for k in ("race0", "race1", "race2", "race3")
                       if k in out["Results"]}
     return out
 

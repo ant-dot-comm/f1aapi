@@ -1,0 +1,477 @@
+{
+    "season": "2025",
+    "series": "f1a",
+    "Drivers": {
+        "alyousef": {
+            "driverId": "alyousef",
+            "name": "F. AlYousef",
+            "code": "FAY",
+            "wildcard": true,
+            "entries": [
+                {
+                    "number": "4",
+                    "constructorId": "hitech",
+                    "rounds": [
+                        "2"
+                    ]
+                }
+            ]
+        },
+        "anagnostiadis": {
+            "driverId": "anagnostiadis",
+            "name": "A. Anagnostiadis",
+            "code": "ANA",
+            "entries": [
+                {
+                    "number": "11",
+                    "constructorId": "hitech",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5"
+                    ]
+                }
+            ]
+        },
+        "billard": {
+            "driverId": "billard",
+            "name": "L. Billard",
+            "code": "BIL",
+            "wildcard": true,
+            "entries": [
+                {
+                    "number": "60",
+                    "constructorId": "hitech",
+                    "rounds": [
+                        "6"
+                    ]
+                }
+            ]
+        },
+        "block": {
+            "driverId": "block",
+            "name": "L. Block",
+            "code": "BLO",
+            "entries": [
+                {
+                    "number": "57",
+                    "constructorId": "art",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7"
+                    ]
+                }
+            ]
+        },
+        "bruce": {
+            "driverId": "bruce",
+            "name": "M. Bruce",
+            "code": "BRU",
+            "entries": [
+                {
+                    "number": "9",
+                    "constructorId": "hitech",
+                    "rounds": [
+                        "6"
+                    ]
+                }
+            ]
+        },
+        "chambers": {
+            "driverId": "chambers",
+            "name": "C. Chambers",
+            "code": "CHA",
+            "entries": [
+                {
+                    "number": "14",
+                    "constructorId": "campos",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7"
+                    ]
+                }
+            ]
+        },
+        "chong": {
+            "driverId": "chong",
+            "name": "C. Chong",
+            "code": "CHO",
+            "entries": [
+                {
+                    "number": "27",
+                    "constructorId": "rodin",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7"
+                    ]
+                }
+            ]
+        },
+        "ciconte": {
+            "driverId": "ciconte",
+            "name": "J. Ciconte",
+            "code": "CIC",
+            "entries": [
+                {
+                    "number": "25",
+                    "constructorId": "mp",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7"
+                    ]
+                }
+            ]
+        },
+        "crone": {
+            "driverId": "crone",
+            "name": "C. Crone",
+            "code": "CRO",
+            "entries": [
+                {
+                    "number": "7",
+                    "constructorId": "art",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7"
+                    ]
+                }
+            ]
+        },
+        "dobson": {
+            "driverId": "dobson",
+            "name": "A. Dobson",
+            "code": "DOB",
+            "wildcard": true,
+            "entries": [
+                {
+                    "number": "90",
+                    "constructorId": "hitech",
+                    "rounds": [
+                        "3"
+                    ]
+                }
+            ]
+        },
+        "felbermayr": {
+            "driverId": "felbermayr",
+            "name": "E. Felbermayr",
+            "code": "FEL",
+            "entries": [
+                {
+                    "number": "5",
+                    "constructorId": "rodin",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7"
+                    ]
+                }
+            ]
+        },
+        "ferreira": {
+            "driverId": "ferreira",
+            "name": "R. Ferreira",
+            "code": "FER",
+            "entries": [
+                {
+                    "number": "18",
+                    "constructorId": "campos",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7"
+                    ]
+                }
+            ]
+        },
+        "gademan": {
+            "driverId": "gademan",
+            "name": "N. Gademan",
+            "code": "GAD",
+            "entries": [
+                {
+                    "number": "3",
+                    "constructorId": "prema",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7"
+                    ]
+                }
+            ]
+        },
+        "hausmann": {
+            "driverId": "hausmann",
+            "name": "T. Hausmann",
+            "code": "HAU",
+            "entries": [
+                {
+                    "number": "78",
+                    "constructorId": "prema",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7"
+                    ]
+                }
+            ]
+        },
+        "havrda": {
+            "driverId": "havrda",
+            "name": "N. Havrda",
+            "code": "HAV",
+            "entries": [
+                {
+                    "number": "2",
+                    "constructorId": "hitech",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7"
+                    ]
+                }
+            ]
+        },
+        "kosterman": {
+            "driverId": "kosterman",
+            "name": "E. Kosterman",
+            "code": "KOS",
+            "wildcard": true,
+            "entries": [
+                {
+                    "number": "86",
+                    "constructorId": "hitech",
+                    "rounds": [
+                        "5"
+                    ]
+                }
+            ]
+        },
+        "larsen": {
+            "driverId": "larsen",
+            "name": "A. Larsen",
+            "code": "LAR",
+            "entries": [
+                {
+                    "number": "12",
+                    "constructorId": "mp",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7"
+                    ]
+                }
+            ]
+        },
+        "lloyd": {
+            "driverId": "lloyd",
+            "name": "E. Lloyd",
+            "code": "LLO",
+            "entries": [
+                {
+                    "number": "20",
+                    "constructorId": "rodin",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7"
+                    ]
+                }
+            ]
+        },
+        "nobels": {
+            "driverId": "nobels",
+            "name": "A. Nobels",
+            "code": "NOB",
+            "entries": [
+                {
+                    "number": "22",
+                    "constructorId": "art",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7"
+                    ]
+                }
+            ]
+        },
+        "paatz": {
+            "driverId": "paatz",
+            "name": "M. Paatz",
+            "code": "PAA",
+            "wildcard": true,
+            "entries": [
+                {
+                    "number": "8",
+                    "constructorId": "hitech",
+                    "rounds": [
+                        "4"
+                    ]
+                }
+            ]
+        },
+        "palmowski": {
+            "driverId": "palmowski",
+            "name": "A. Palmowski",
+            "code": "PAL",
+            "entries": [
+                {
+                    "number": "21",
+                    "constructorId": "campos",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7"
+                    ]
+                }
+            ]
+        },
+        "pin": {
+            "driverId": "pin",
+            "name": "D. Pin",
+            "code": "PIN",
+            "entries": [
+                {
+                    "number": "28",
+                    "constructorId": "prema",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7"
+                    ]
+                }
+            ]
+        },
+        "robertson": {
+            "driverId": "robertson",
+            "name": "R. Robertson",
+            "code": "ROB",
+            "entries": [
+                {
+                    "number": "56",
+                    "constructorId": "hitech",
+                    "rounds": [
+                        "7"
+                    ]
+                }
+            ]
+        },
+        "shi": {
+            "driverId": "shi",
+            "name": "W. Shi",
+            "code": "SHI",
+            "wildcard": true,
+            "entries": [
+                {
+                    "number": "24",
+                    "constructorId": "hitech",
+                    "rounds": [
+                        "1"
+                    ]
+                }
+            ]
+        },
+        "westcott": {
+            "driverId": "westcott",
+            "name": "P. Westcott",
+            "code": "WES",
+            "wildcard": true,
+            "entries": [
+                {
+                    "number": "15",
+                    "constructorId": "hitech",
+                    "rounds": [
+                        "7"
+                    ]
+                }
+            ]
+        },
+        "weug": {
+            "driverId": "weug",
+            "name": "M. Weug",
+            "code": "WEU",
+            "entries": [
+                {
+                    "number": "64",
+                    "constructorId": "mp",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7"
+                    ]
+                }
+            ]
+        }
+    }
+}

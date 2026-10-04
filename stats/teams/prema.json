@@ -3,31 +3,108 @@
     "name": "Prema",
     "series": "f1a",
     "seasons": [
+        "2023",
+        "2024",
+        "2025",
         "2026"
     ],
     "career": {
-        "entries": 27,
-        "starts": 27,
-        "points": 119,
+        "entries": 181,
+        "starts": 180,
+        "points": 1259,
         "wins": {
-            "total": 2,
-            "reverse": 2
+            "total": 20,
+            "reverse": 11,
+            "race3": 5,
+            "feature": 4
         },
         "podiums": {
-            "total": 6,
-            "reverse": 4,
-            "feature": 1,
+            "total": 49,
+            "reverse": 23,
+            "race3": 8,
+            "feature": 17,
             "opening": 1
         },
-        "poles": 0,
-        "fastestLaps": 2,
-        "dnfs": 1,
+        "poles": 3,
+        "fastestLaps": 22,
+        "dnfs": 8,
         "bestFinish": 1,
-        "avgFinish": 9.15,
-        "titles": 0,
-        "bestChampionship": 4
+        "avgFinish": 7.49,
+        "titles": 3,
+        "bestChampionship": 1
     },
     "bySeasons": {
+        "2023": {
+            "entries": 58,
+            "starts": 58,
+            "points": 419,
+            "wins": {
+                "total": 9,
+                "reverse": 3,
+                "race3": 4,
+                "feature": 2
+            },
+            "podiums": {
+                "total": 15,
+                "reverse": 4,
+                "race3": 6,
+                "feature": 5
+            },
+            "poles": 2,
+            "fastestLaps": 8,
+            "dnfs": 1,
+            "bestFinish": 1,
+            "avgFinish": 7.53,
+            "championshipPosition": 1,
+            "complete": true
+        },
+        "2024": {
+            "entries": 54,
+            "starts": 54,
+            "points": 425,
+            "wins": {
+                "total": 4,
+                "reverse": 2,
+                "feature": 1,
+                "race3": 1
+            },
+            "podiums": {
+                "total": 16,
+                "reverse": 9,
+                "feature": 6,
+                "race3": 1
+            },
+            "poles": 1,
+            "fastestLaps": 5,
+            "dnfs": 4,
+            "bestFinish": 1,
+            "avgFinish": 7.37,
+            "championshipPosition": 1,
+            "complete": true
+        },
+        "2025": {
+            "entries": 42,
+            "starts": 41,
+            "points": 296,
+            "wins": {
+                "total": 5,
+                "feature": 1,
+                "reverse": 4
+            },
+            "podiums": {
+                "total": 12,
+                "feature": 5,
+                "reverse": 6,
+                "race3": 1
+            },
+            "poles": 0,
+            "fastestLaps": 7,
+            "dnfs": 2,
+            "bestFinish": 1,
+            "avgFinish": 6.5,
+            "championshipPosition": 1,
+            "complete": true
+        },
         "2026": {
             "entries": 27,
             "starts": 27,
@@ -52,8 +129,20 @@
         }
     },
     "drivers": [
+        "bustamante",
+        "chong",
+        "crone",
+        "gademan",
+        "garcia",
         "granada",
+        "hanna",
+        "hausmann",
+        "juffali",
+        "lloyd",
         "paatz",
-        "westcott"
+        "palmowski",
+        "pin",
+        "westcott",
+        "weug"
     ]
 }

@@ -4,9 +4,8 @@
     "Drivers": {
         "battig": {
             "driverId": "battig",
-            "givenName": "Chiara",
-            "familyName": "Bättig",
-            "code": "BAT",
+            "name": "C. Bättig",
+            "code": "BAE",
             "wildcard": true,
             "entries": [
                 {
@@ -20,8 +19,7 @@
         },
         "billard": {
             "driverId": "billard",
-            "givenName": "Lisa",
-            "familyName": "Billard",
+            "name": "L. Billard",
             "code": "BIL",
             "entries": [
                 {
@@ -38,8 +36,7 @@
         },
         "bruce": {
             "driverId": "bruce",
-            "givenName": "Megan",
-            "familyName": "Bruce",
+            "name": "M. Bruce",
             "code": "BRU",
             "entries": [
                 {
@@ -56,8 +53,7 @@
         },
         "countryman": {
             "driverId": "countryman",
-            "givenName": "Hayley",
-            "familyName": "Countryman",
+            "name": "K. Countryman",
             "code": "COU",
             "entries": [
                 {
@@ -74,8 +70,7 @@
         },
         "dobson": {
             "driverId": "dobson",
-            "givenName": "Ava",
-            "familyName": "Dobson",
+            "name": "A. Dobson",
             "code": "DOB",
             "entries": [
                 {
@@ -92,8 +87,7 @@
         },
         "felbermayr": {
             "driverId": "felbermayr",
-            "givenName": "Emma",
-            "familyName": "Felbermayr",
+            "name": "E. Felbermayr",
             "code": "FEL",
             "entries": [
                 {
@@ -110,8 +104,7 @@
         },
         "ferreira": {
             "driverId": "ferreira",
-            "givenName": "Rafaela",
-            "familyName": "Ferreira",
+            "name": "R. Ferreira",
             "code": "FER",
             "entries": [
                 {
@@ -128,8 +121,7 @@
         },
         "fisher": {
             "driverId": "fisher",
-            "givenName": "Autumn",
-            "familyName": "Fisher",
+            "name": "A. Fisher",
             "code": "FIS",
             "wildcard": true,
             "entries": [
@@ -144,8 +136,7 @@
         },
         "florescu": {
             "driverId": "florescu",
-            "givenName": "Zoe",
-            "familyName": "Florescu",
+            "name": "Z. Florescu",
             "code": "FLO",
             "wildcard": true,
             "entries": [
@@ -160,8 +151,7 @@
         },
         "gademan": {
             "driverId": "gademan",
-            "givenName": "Nina",
-            "familyName": "Gademan",
+            "name": "N. Gademan",
             "code": "GAD",
             "entries": [
                 {
@@ -178,8 +168,7 @@
         },
         "granada": {
             "driverId": "granada",
-            "givenName": "Natalia",
-            "familyName": "Granada",
+            "name": "N. Granada",
             "code": "GRA",
             "entries": [
                 {
@@ -196,8 +185,7 @@
         },
         "jacquet": {
             "driverId": "jacquet",
-            "givenName": "Jade",
-            "familyName": "Jacquet",
+            "name": "J. Jacquet",
             "code": "JAC",
             "entries": [
                 {
@@ -214,8 +202,7 @@
         },
         "kosterman": {
             "driverId": "kosterman",
-            "givenName": "Elly",
-            "familyName": "Kosterman",
+            "name": "E. Kosterman",
             "code": "KOS",
             "entries": [
                 {
@@ -232,8 +219,7 @@
         },
         "larsen": {
             "driverId": "larsen",
-            "givenName": "Alba",
-            "familyName": "Larsen",
+            "name": "A. Larsen",
             "code": "LAR",
             "entries": [
                 {
@@ -250,8 +236,7 @@
         },
         "lloyd": {
             "driverId": "lloyd",
-            "givenName": "Ella",
-            "familyName": "Lloyd",
+            "name": "E. Lloyd",
             "code": "LLO",
             "entries": [
                 {
@@ -268,8 +253,7 @@
         },
         "paatz": {
             "driverId": "paatz",
-            "givenName": "Mathilda",
-            "familyName": "Paatz",
+            "name": "M. Paatz",
             "code": "PAA",
             "entries": [
                 {
@@ -286,8 +270,7 @@
         },
         "palmowski": {
             "driverId": "palmowski",
-            "givenName": "Alisha",
-            "familyName": "Palmowski",
+            "name": "A. Palmowski",
             "code": "PAL",
             "entries": [
                 {
@@ -304,8 +287,7 @@
         },
         "robertson": {
             "driverId": "robertson",
-            "givenName": "Rachel",
-            "familyName": "Robertson",
+            "name": "R. Robertson",
             "code": "ROB",
             "entries": [
                 {
@@ -322,8 +304,7 @@
         },
         "shi": {
             "driverId": "shi",
-            "givenName": "Wei",
-            "familyName": "Shi",
+            "name": "W. Shi",
             "code": "SHI",
             "wildcard": true,
             "entries": [
@@ -338,8 +319,7 @@
         },
         "stevens": {
             "driverId": "stevens",
-            "givenName": "Elise",
-            "familyName": "Stevens",
+            "name": "E. Stevens",
             "code": "STE",
             "entries": [
                 {
@@ -356,8 +336,7 @@
         },
         "westcott": {
             "driverId": "westcott",
-            "givenName": "Phoebe",
-            "familyName": "Westcott",
+            "name": "P. Westcott",
             "code": "WES",
             "entries": [
                 {
