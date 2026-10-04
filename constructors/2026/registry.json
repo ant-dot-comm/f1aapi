@@ -1,0 +1,376 @@
+{
+    "season": "2026",
+    "series": "f1a",
+    "Drivers": {
+        "battig": {
+            "driverId": "battig",
+            "givenName": "Chiara",
+            "familyName": "Bättig",
+            "code": "BAT",
+            "wildcard": true,
+            "entries": [
+                {
+                    "number": "6",
+                    "constructorId": "hitech",
+                    "rounds": [
+                        "3"
+                    ]
+                }
+            ]
+        },
+        "billard": {
+            "driverId": "billard",
+            "givenName": "Lisa",
+            "familyName": "Billard",
+            "code": "BIL",
+            "entries": [
+                {
+                    "number": "14",
+                    "constructorId": "art",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ]
+        },
+        "bruce": {
+            "driverId": "bruce",
+            "givenName": "Megan",
+            "familyName": "Bruce",
+            "code": "BRU",
+            "entries": [
+                {
+                    "number": "4",
+                    "constructorId": "campos",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ]
+        },
+        "countryman": {
+            "driverId": "countryman",
+            "givenName": "Hayley",
+            "familyName": "Countryman",
+            "code": "COU",
+            "entries": [
+                {
+                    "number": "91",
+                    "constructorId": "art",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ]
+        },
+        "dobson": {
+            "driverId": "dobson",
+            "givenName": "Ava",
+            "familyName": "Dobson",
+            "code": "DOB",
+            "entries": [
+                {
+                    "number": "55",
+                    "constructorId": "hitech",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ]
+        },
+        "felbermayr": {
+            "driverId": "felbermayr",
+            "givenName": "Emma",
+            "familyName": "Felbermayr",
+            "code": "FEL",
+            "entries": [
+                {
+                    "number": "5",
+                    "constructorId": "rodin",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ]
+        },
+        "ferreira": {
+            "driverId": "ferreira",
+            "givenName": "Rafaela",
+            "familyName": "Ferreira",
+            "code": "FER",
+            "entries": [
+                {
+                    "number": "18",
+                    "constructorId": "campos",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ]
+        },
+        "fisher": {
+            "driverId": "fisher",
+            "givenName": "Autumn",
+            "familyName": "Fisher",
+            "code": "FIS",
+            "wildcard": true,
+            "entries": [
+                {
+                    "number": "77",
+                    "constructorId": "hitech",
+                    "rounds": [
+                        "2"
+                    ]
+                }
+            ]
+        },
+        "florescu": {
+            "driverId": "florescu",
+            "givenName": "Zoe",
+            "familyName": "Florescu",
+            "code": "FLO",
+            "wildcard": true,
+            "entries": [
+                {
+                    "number": "15",
+                    "constructorId": "hitech",
+                    "rounds": [
+                        "4"
+                    ]
+                }
+            ]
+        },
+        "gademan": {
+            "driverId": "gademan",
+            "givenName": "Nina",
+            "familyName": "Gademan",
+            "code": "GAD",
+            "entries": [
+                {
+                    "number": "3",
+                    "constructorId": "mp",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ]
+        },
+        "granada": {
+            "driverId": "granada",
+            "givenName": "Natalia",
+            "familyName": "Granada",
+            "code": "GRA",
+            "entries": [
+                {
+                    "number": "19",
+                    "constructorId": "prema",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ]
+        },
+        "jacquet": {
+            "driverId": "jacquet",
+            "givenName": "Jade",
+            "familyName": "Jacquet",
+            "code": "JAC",
+            "entries": [
+                {
+                    "number": "95",
+                    "constructorId": "art",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ]
+        },
+        "kosterman": {
+            "driverId": "kosterman",
+            "givenName": "Elly",
+            "familyName": "Kosterman",
+            "code": "KOS",
+            "entries": [
+                {
+                    "number": "32",
+                    "constructorId": "mp",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ]
+        },
+        "larsen": {
+            "driverId": "larsen",
+            "givenName": "Alba",
+            "familyName": "Larsen",
+            "code": "LAR",
+            "entries": [
+                {
+                    "number": "12",
+                    "constructorId": "mp",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ]
+        },
+        "lloyd": {
+            "driverId": "lloyd",
+            "givenName": "Ella",
+            "familyName": "Lloyd",
+            "code": "LLO",
+            "entries": [
+                {
+                    "number": "20",
+                    "constructorId": "rodin",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ]
+        },
+        "paatz": {
+            "driverId": "paatz",
+            "givenName": "Mathilda",
+            "familyName": "Paatz",
+            "code": "PAA",
+            "entries": [
+                {
+                    "number": "8",
+                    "constructorId": "prema",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ]
+        },
+        "palmowski": {
+            "driverId": "palmowski",
+            "givenName": "Alisha",
+            "familyName": "Palmowski",
+            "code": "PAL",
+            "entries": [
+                {
+                    "number": "21",
+                    "constructorId": "campos",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ]
+        },
+        "robertson": {
+            "driverId": "robertson",
+            "givenName": "Rachel",
+            "familyName": "Robertson",
+            "code": "ROB",
+            "entries": [
+                {
+                    "number": "56",
+                    "constructorId": "hitech",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ]
+        },
+        "shi": {
+            "driverId": "shi",
+            "givenName": "Wei",
+            "familyName": "Shi",
+            "code": "SHI",
+            "wildcard": true,
+            "entries": [
+                {
+                    "number": "24",
+                    "constructorId": "hitech",
+                    "rounds": [
+                        "1"
+                    ]
+                }
+            ]
+        },
+        "stevens": {
+            "driverId": "stevens",
+            "givenName": "Elise",
+            "familyName": "Stevens",
+            "code": "STE",
+            "entries": [
+                {
+                    "number": "28",
+                    "constructorId": "rodin",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ]
+        },
+        "westcott": {
+            "driverId": "westcott",
+            "givenName": "Phoebe",
+            "familyName": "Westcott",
+            "code": "WES",
+            "entries": [
+                {
+                    "number": "9",
+                    "constructorId": "prema",
+                    "rounds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ]
+        }
+    }
+}
