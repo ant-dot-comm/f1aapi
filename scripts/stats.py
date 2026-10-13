@@ -36,6 +36,12 @@ else:
     FEATURE = {"race2"}
 
 
+def _pts(s):
+    """Points as a number; int when whole, float for half-points (e.g. 214.5)."""
+    f = float(s)
+    return int(f) if f == int(f) else f
+
+
 def _load(path):
     return json.load(open(path)) if os.path.exists(path) else None
 
@@ -168,10 +174,10 @@ def build():
 
         for did, (pos, pts) in champ_d.items():
             drv.setdefault(did, {"seasons": {}, "results": []}).setdefault("champ", {})[yr] = int(pos)
-            drv[did].setdefault("points", {})[yr] = int(pts)
+            drv[did].setdefault("points", {})[yr] = _pts(pts)
         for cid, (pos, pts) in champ_t.items():
             team.setdefault(cid, {"seasons": {}, "drivers": set()}).setdefault("champ", {})[yr] = int(pos)
-            team[cid].setdefault("points", {})[yr] = int(pts)
+            team[cid].setdefault("points", {})[yr] = _pts(pts)
 
     # write driver files
     os.makedirs(os.path.join(REPO, "stats", "drivers"), exist_ok=True)
