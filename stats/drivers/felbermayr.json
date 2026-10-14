@@ -27,7 +27,10 @@
         "bestFinish": 1,
         "avgFinish": 7.78,
         "titles": 0,
-        "bestChampionship": 2
+        "bestChampionship": 2,
+        "eras": [
+            "f1a"
+        ]
     },
     "bySeasons": {
         "2025": {
@@ -48,7 +51,9 @@
             "bestFinish": 1,
             "avgFinish": 9.64,
             "championshipPosition": 10,
-            "complete": true
+            "complete": true,
+            "era": "f1a",
+            "championship": null
         },
         "2026": {
             "entries": 9,
@@ -70,7 +75,9 @@
             "bestFinish": 1,
             "avgFinish": 4.89,
             "championshipPosition": 2,
-            "complete": false
+            "complete": false,
+            "era": "f1a",
+            "championship": null
         }
     },
     "results": [

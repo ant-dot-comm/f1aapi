@@ -1,6 +1,6 @@
 {
     "constructorId": "campos",
-    "name": "Campos",
+    "name": "Campos Racing",
     "series": "f1a",
     "seasons": [
         "2023",
@@ -32,7 +32,10 @@
         "bestFinish": 1,
         "avgFinish": 7.93,
         "titles": 0,
-        "bestChampionship": 1
+        "bestChampionship": 1,
+        "eras": [
+            "f1a"
+        ]
     },
     "bySeasons": {
         "2023": {
@@ -55,7 +58,9 @@
             "bestFinish": 1,
             "avgFinish": 8.67,
             "championshipPosition": 5,
-            "complete": true
+            "complete": true,
+            "era": "f1a",
+            "championship": null
         },
         "2024": {
             "entries": 42,
@@ -77,7 +82,9 @@
             "bestFinish": 1,
             "avgFinish": 7.43,
             "championshipPosition": 3,
-            "complete": true
+            "complete": true,
+            "era": "f1a",
+            "championship": null
         },
         "2025": {
             "entries": 42,
@@ -101,7 +108,9 @@
             "bestFinish": 1,
             "avgFinish": 7.95,
             "championshipPosition": 2,
-            "complete": true
+            "complete": true,
+            "era": "f1a",
+            "championship": null
         },
         "2026": {
             "entries": 27,
@@ -123,7 +132,9 @@
             "bestFinish": 1,
             "avgFinish": 7.07,
             "championshipPosition": 1,
-            "complete": false
+            "complete": false,
+            "era": "f1a",
+            "championship": null
         }
     },
     "drivers": [

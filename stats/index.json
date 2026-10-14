@@ -1,6 +1,6 @@
 {
     "series": "f1a",
-    "updated": "2026-10-13",
+    "updated": "2026-10-14",
     "drivers": [
         {
             "driverId": "pulling",
@@ -520,7 +520,7 @@
     "teams": [
         {
             "constructorId": "prema",
-            "name": "Prema",
+            "name": "PREMA Racing",
             "seasons": [
                 "2023",
                 "2024",
@@ -531,7 +531,7 @@
         },
         {
             "constructorId": "rodin",
-            "name": "Rodin",
+            "name": "Rodin Motorsport",
             "seasons": [
                 "2023",
                 "2024",
@@ -542,7 +542,7 @@
         },
         {
             "constructorId": "campos",
-            "name": "Campos",
+            "name": "Campos Racing",
             "seasons": [
                 "2023",
                 "2024",
@@ -553,7 +553,7 @@
         },
         {
             "constructorId": "mp",
-            "name": "MP",
+            "name": "MP Motorsport",
             "seasons": [
                 "2023",
                 "2024",
@@ -564,7 +564,7 @@
         },
         {
             "constructorId": "art",
-            "name": "Art",
+            "name": "ART Grand Prix",
             "seasons": [
                 "2023",
                 "2024",

@@ -1,6 +1,6 @@
 {
     "constructorId": "art",
-    "name": "Art",
+    "name": "ART Grand Prix",
     "series": "f1a",
     "seasons": [
         "2023",
@@ -30,7 +30,10 @@
         "bestFinish": 1,
         "avgFinish": 9.61,
         "titles": 0,
-        "bestChampionship": 4
+        "bestChampionship": 4,
+        "eras": [
+            "f1a"
+        ]
     },
     "bySeasons": {
         "2023": {
@@ -54,7 +57,9 @@
             "bestFinish": 1,
             "avgFinish": 7.2,
             "championshipPosition": 4,
-            "complete": true
+            "complete": true,
+            "era": "f1a",
+            "championship": null
         },
         "2024": {
             "entries": 42,
@@ -73,7 +78,9 @@
             "bestFinish": 2,
             "avgFinish": 10.12,
             "championshipPosition": 5,
-            "complete": true
+            "complete": true,
+            "era": "f1a",
+            "championship": null
         },
         "2025": {
             "entries": 42,
@@ -93,7 +100,9 @@
             "bestFinish": 1,
             "avgFinish": 10.64,
             "championshipPosition": 5,
-            "complete": true
+            "complete": true,
+            "era": "f1a",
+            "championship": null
         },
         "2026": {
             "entries": 27,
@@ -112,7 +121,9 @@
             "bestFinish": 2,
             "avgFinish": 12.22,
             "championshipPosition": 6,
-            "complete": false
+            "complete": false,
+            "era": "f1a",
+            "championship": null
         }
     },
     "drivers": [

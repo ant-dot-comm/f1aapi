@@ -1,6 +1,6 @@
 {
     "constructorId": "prema",
-    "name": "Prema",
+    "name": "PREMA Racing",
     "series": "f1a",
     "seasons": [
         "2023",
@@ -31,7 +31,10 @@
         "bestFinish": 1,
         "avgFinish": 7.49,
         "titles": 3,
-        "bestChampionship": 1
+        "bestChampionship": 1,
+        "eras": [
+            "f1a"
+        ]
     },
     "bySeasons": {
         "2023": {
@@ -56,7 +59,9 @@
             "bestFinish": 1,
             "avgFinish": 7.53,
             "championshipPosition": 1,
-            "complete": true
+            "complete": true,
+            "era": "f1a",
+            "championship": null
         },
         "2024": {
             "entries": 54,
@@ -80,7 +85,9 @@
             "bestFinish": 1,
             "avgFinish": 7.37,
             "championshipPosition": 1,
-            "complete": true
+            "complete": true,
+            "era": "f1a",
+            "championship": null
         },
         "2025": {
             "entries": 42,
@@ -103,7 +110,9 @@
             "bestFinish": 1,
             "avgFinish": 6.5,
             "championshipPosition": 1,
-            "complete": true
+            "complete": true,
+            "era": "f1a",
+            "championship": null
         },
         "2026": {
             "entries": 27,
@@ -125,7 +134,9 @@
             "bestFinish": 1,
             "avgFinish": 9.15,
             "championshipPosition": 4,
-            "complete": false
+            "complete": false,
+            "era": "f1a",
+            "championship": null
         }
     },
     "drivers": [

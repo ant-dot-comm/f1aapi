@@ -1,6 +1,6 @@
 {
     "constructorId": "rodin",
-    "name": "Rodin",
+    "name": "Rodin Motorsport",
     "series": "f1a",
     "seasons": [
         "2023",
@@ -30,7 +30,10 @@
         "bestFinish": 1,
         "avgFinish": 8.43,
         "titles": 0,
-        "bestChampionship": 2
+        "bestChampionship": 2,
+        "eras": [
+            "f1a"
+        ]
     },
     "bySeasons": {
         "2023": {
@@ -53,7 +56,9 @@
             "bestFinish": 1,
             "avgFinish": 7.96,
             "championshipPosition": 3,
-            "complete": true
+            "complete": true,
+            "era": "f1a",
+            "championship": null
         },
         "2024": {
             "entries": 42,
@@ -76,7 +81,9 @@
             "bestFinish": 1,
             "avgFinish": 8.33,
             "championshipPosition": 2,
-            "complete": true
+            "complete": true,
+            "era": "f1a",
+            "championship": null
         },
         "2025": {
             "entries": 42,
@@ -99,7 +106,9 @@
             "bestFinish": 1,
             "avgFinish": 9.26,
             "championshipPosition": 4,
-            "complete": true
+            "complete": true,
+            "era": "f1a",
+            "championship": null
         },
         "2026": {
             "entries": 27,
@@ -121,7 +130,9 @@
             "bestFinish": 1,
             "avgFinish": 8.26,
             "championshipPosition": 2,
-            "complete": false
+            "complete": false,
+            "era": "f1a",
+            "championship": null
         }
     },
     "drivers": [

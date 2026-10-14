@@ -20,7 +20,8 @@
         "bestFinish": null,
         "avgFinish": null,
         "titles": 0,
-        "bestChampionship": 22
+        "bestChampionship": 22,
+        "eras": []
     },
     "bySeasons": {},
     "results": []
