@@ -28,6 +28,15 @@
         "pointsFinishes": 7,
         "bestFinish": 5,
         "avgFinish": 10.17,
+        "avgGrid": 10.55,
+        "qualifying": {
+            "sessions": 14,
+            "average": 10.21,
+            "best": 5,
+            "poles": 0,
+            "frontRow": 0,
+            "top10": 7
+        },
         "titles": 0,
         "bestChampionship": 13,
         "eras": [
@@ -51,9 +60,69 @@
             "pointsFinishes": 7,
             "bestFinish": 5,
             "avgFinish": 10.17,
+            "avgGrid": 10.55,
+            "qualifying": {
+                "sessions": 14,
+                "average": 10.21,
+                "best": 5,
+                "poles": 0,
+                "frontRow": 0,
+                "top10": 7
+            },
             "championshipPosition": 13,
             "teams": [
                 "carlin"
+            ],
+            "byRound": [
+                {
+                    "round": "1",
+                    "raceName": "Austrian Grand Prix",
+                    "points": 11,
+                    "total": 11,
+                    "position": 9
+                },
+                {
+                    "round": "2",
+                    "raceName": "Valencia Grand Prix",
+                    "points": 4,
+                    "total": 15,
+                    "position": 10
+                },
+                {
+                    "round": "3",
+                    "raceName": "Spanish Grand Prix",
+                    "points": 4,
+                    "total": 19,
+                    "position": 12
+                },
+                {
+                    "round": "4",
+                    "raceName": "Dutch Grand Prix",
+                    "points": 2,
+                    "total": 21,
+                    "position": 13
+                },
+                {
+                    "round": "5",
+                    "raceName": "Italian Grand Prix",
+                    "points": 8,
+                    "total": 29,
+                    "position": 13
+                },
+                {
+                    "round": "6",
+                    "raceName": "Le Castellet Grand Prix",
+                    "points": 2,
+                    "total": 31,
+                    "position": 13
+                },
+                {
+                    "round": "7",
+                    "raceName": "United States Grand Prix",
+                    "points": 0,
+                    "total": 31,
+                    "position": 13
+                }
             ],
             "complete": true,
             "era": "f1a",
@@ -333,6 +402,176 @@
             "position": "11",
             "status": "Finished",
             "points": "0"
+        }
+    ],
+    "qualifying": [
+        {
+            "season": "2023",
+            "round": "1",
+            "raceName": "Austrian Grand Prix",
+            "race": "race1",
+            "label": "Qualifying 1",
+            "forRace": "Race 1",
+            "constructorId": "carlin",
+            "position": "11",
+            "grid": "11",
+            "time": "3:03.830"
+        },
+        {
+            "season": "2023",
+            "round": "1",
+            "raceName": "Austrian Grand Prix",
+            "race": "race3",
+            "label": "Qualifying 2",
+            "forRace": "Race 3",
+            "constructorId": "carlin",
+            "position": "12",
+            "grid": "12",
+            "time": "3:03.830"
+        },
+        {
+            "season": "2023",
+            "round": "2",
+            "raceName": "Valencia Grand Prix",
+            "race": "race1",
+            "label": "Qualifying 1",
+            "forRace": "Race 1",
+            "constructorId": "carlin",
+            "position": "10",
+            "grid": "10",
+            "time": "1:36.880"
+        },
+        {
+            "season": "2023",
+            "round": "2",
+            "raceName": "Valencia Grand Prix",
+            "race": "race3",
+            "label": "Qualifying 2",
+            "forRace": "Race 3",
+            "constructorId": "carlin",
+            "position": "11",
+            "grid": "11",
+            "time": "1:36.288"
+        },
+        {
+            "season": "2023",
+            "round": "3",
+            "raceName": "Spanish Grand Prix",
+            "race": "race1",
+            "label": "Qualifying 1",
+            "forRace": "Race 1",
+            "constructorId": "carlin",
+            "position": "11",
+            "grid": "11",
+            "time": "1:42.460"
+        },
+        {
+            "season": "2023",
+            "round": "3",
+            "raceName": "Spanish Grand Prix",
+            "race": "race3",
+            "label": "Qualifying 2",
+            "forRace": "Race 3",
+            "constructorId": "carlin",
+            "position": "7",
+            "grid": "7",
+            "time": "1:41.422"
+        },
+        {
+            "season": "2023",
+            "round": "4",
+            "raceName": "Dutch Grand Prix",
+            "race": "race1",
+            "label": "Qualifying 1",
+            "forRace": "Race 1",
+            "constructorId": "carlin",
+            "position": "10",
+            "grid": "10",
+            "time": "1:37.705"
+        },
+        {
+            "season": "2023",
+            "round": "4",
+            "raceName": "Dutch Grand Prix",
+            "race": "race3",
+            "label": "Qualifying 2",
+            "forRace": "Race 3",
+            "constructorId": "carlin",
+            "position": "9",
+            "grid": "9",
+            "time": "1:37.386"
+        },
+        {
+            "season": "2023",
+            "round": "5",
+            "raceName": "Italian Grand Prix",
+            "race": "race1",
+            "label": "Qualifying 1",
+            "forRace": "Race 1",
+            "constructorId": "carlin",
+            "position": "6",
+            "grid": "6",
+            "time": "1:54.931"
+        },
+        {
+            "season": "2023",
+            "round": "5",
+            "raceName": "Italian Grand Prix",
+            "race": "race3",
+            "label": "Qualifying 2",
+            "forRace": "Race 3",
+            "constructorId": "carlin",
+            "position": "5",
+            "grid": "5",
+            "time": "1:53.469"
+        },
+        {
+            "season": "2023",
+            "round": "6",
+            "raceName": "Le Castellet Grand Prix",
+            "race": "race1",
+            "label": "Qualifying 1",
+            "forRace": "Race 1",
+            "constructorId": "carlin",
+            "position": "15",
+            "grid": "13",
+            "time": "1:27.934"
+        },
+        {
+            "season": "2023",
+            "round": "6",
+            "raceName": "Le Castellet Grand Prix",
+            "race": "race3",
+            "label": "Qualifying 2",
+            "forRace": "Race 3",
+            "constructorId": "carlin",
+            "position": "9",
+            "grid": "9",
+            "time": "1:27.283"
+        },
+        {
+            "season": "2023",
+            "round": "7",
+            "raceName": "United States Grand Prix",
+            "race": "race1",
+            "label": "Qualifying 1",
+            "forRace": "Race 1",
+            "constructorId": "carlin",
+            "position": "13",
+            "grid": "13",
+            "time": "2:09.660"
+        },
+        {
+            "season": "2023",
+            "round": "7",
+            "raceName": "United States Grand Prix",
+            "race": "race3",
+            "label": "Qualifying 2",
+            "forRace": "Race 3",
+            "constructorId": "carlin",
+            "position": "14",
+            "grid": "14",
+            "time": "2:09.556"
         }
     ]
 }

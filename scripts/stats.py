@@ -45,7 +45,7 @@ def _blank():
     return {"entries": 0, "starts": 0, "points": 0,
             "wins": {"total": 0}, "podiums": {"total": 0},
             "poles": 0, "fastestLaps": 0, "dnfs": 0, "pointsFinishes": 0,
-            "bestFinish": None, "_fin": []}
+            "bestFinish": None, "_fin": [], "_grid": [], "_quali": []}
 
 
 def _add_result(s, rtype, row, pole, fastest):
@@ -71,11 +71,21 @@ def _add_result(s, rtype, row, pole, fastest):
         s["poles"] += 1
     if fastest:
         s["fastestLaps"] += 1
+    if row.get("grid", "").isdigit() and row["status"] not in ("DNS", "DNQ"):
+        s["_grid"].append(int(row["grid"]))
+
+
+def _avg(values):
+    return round(sum(values) / len(values), 2) if values else None
 
 
 def _finalize(s):
-    fin = s.pop("_fin")
-    s["avgFinish"] = round(sum(fin) / len(fin), 2) if fin else None
+    fin, grid, quali = s.pop("_fin"), s.pop("_grid"), s.pop("_quali")
+    s["avgFinish"] = _avg(fin)
+    s["avgGrid"] = _avg(grid)
+    s["qualifying"] = {"sessions": len(quali), "average": _avg(quali), "best": min(quali) if quali else None,
+                       "poles": quali.count(1), "frontRow": sum(1 for p in quali if p <= 2),
+                       "top10": sum(1 for p in quali if p <= 10)}
     return s
 
 
@@ -85,10 +95,19 @@ def _merge(into, src):
     for grp in ("wins", "podiums"):
         for t, n in src[grp].items():
             into[grp][t] = into[grp].get(t, 0) + n
-    into["_fin"].extend(src.get("_fin", []))
+    for k in ("_fin", "_grid", "_quali"):
+        into[k].extend(src.get(k, []))
     if src.get("bestFinish") is not None:
         into["bestFinish"] = (src["bestFinish"] if into["bestFinish"] is None
                               else min(into["bestFinish"], src["bestFinish"]))
+
+
+def _by_round(standing, race_names):
+    """Championship progress after each round, from the standings table:
+    [{round, raceName, points (that round), total, position}]."""
+    return [{"round": r["round"], "raceName": race_names.get(r["round"], ""),
+             "points": _pts(r["points"]), "total": _pts(r["total"]), "position": int(r["position"])}
+            for r in standing.get("byRound", [])]
 
 
 def build():
@@ -105,7 +124,9 @@ def build():
     for s in seasons:
         yr = s["season"]
         era, champ_name, complete = s["series"], s["championship"], s["complete"]
-        for rnd in _load(f"races/{yr}/results.json") or []:
+        weekends = _load(f"races/{yr}/results.json") or []
+        race_names = {w["round"]: w["raceName"] for w in weekends}
+        for rnd in weekends:
             sess = {x["key"]: x for x in rnd.get("Sessions", [])}
             for key, rows in rnd["Results"].items():
                 meta = sess.get(key, {})
@@ -132,6 +153,22 @@ def build():
                         _add_result(dt, rtype, row, is_pole, is_fl)
                         dt["seasons"].add(yr)
                         dt["teamPoints"] += float(row["points"] or 0)
+            for q in rnd.get("Qualifying", []):
+                meta = sess.get(q["race"], {})
+                for row in q["Results"]:
+                    did, cid = row["driverId"], row.get("constructorId")
+                    pos = int(row["position"])
+                    ds = drv.setdefault(did, {"seasons": {}, "results": [], "teams": {}})
+                    ds["seasons"].setdefault(yr, _blank())["_quali"].append(pos)
+                    ds.setdefault("qualifying", []).append({
+                        "season": yr, "round": rnd["round"], "raceName": rnd["raceName"],
+                        "race": q["race"], "label": q["label"], "forRace": meta.get("label", q["race"]),
+                        "constructorId": cid, "position": row["position"], "grid": row.get("grid", ""),
+                        "time": row.get("time", "")})
+                    if cid:
+                        team.setdefault(cid, {"seasons": {}, "drivers": set()})["seasons"].setdefault(yr, _blank())["_quali"].append(pos)
+                        if (did, cid) in dteam:
+                            dteam[(did, cid)]["_quali"].append(pos)
             for b in rnd.get("Bonuses", []):
                 if b.get("constructorId") and (b["driverId"], b["constructorId"]) in dteam:
                     dteam[(b["driverId"], b["constructorId"])]["teamPoints"] += float(b["points"])
@@ -142,12 +179,14 @@ def build():
             d = drv.setdefault(e["driverId"], {"seasons": {}, "results": [], "teams": {}})
             d.setdefault("champ", {})[yr] = int(e["position"])
             d.setdefault("points", {})[yr] = _pts(e["points"])
+            d.setdefault("byRound", {})[yr] = _by_round(e, race_names)
             if complete and e["position"] == "1":
                 titles[e["constructorId"]].append((yr, e["driverId"]))
         for e in st["Standings"]:
             t = team.setdefault(e["constructorId"], {"seasons": {}, "drivers": set()})
             t.setdefault("champ", {})[yr] = int(e["position"])
             t.setdefault("points", {})[yr] = _pts(e["points"])
+            t.setdefault("byRound", {})[yr] = _by_round(e, race_names)
 
     for sub in ("drivers", "teams"):
         shutil.rmtree(os.path.join(REPO, "stats", sub), ignore_errors=True)
@@ -159,10 +198,11 @@ def build():
         career, season_out = _blank(), {}
         for yr, s in sorted(ds["seasons"].items()):
             _merge(career, s)
-            so = _finalize({**s, "_fin": list(s["_fin"])})
+            so = _finalize({**s, "_fin": list(s["_fin"]), "_grid": list(s["_grid"]), "_quali": list(s["_quali"])})
             so["points"] = ds.get("points", {}).get(yr, 0)
             so["championshipPosition"] = ds.get("champ", {}).get(yr)
             so["teams"] = ds["teams"].get(yr, [])
+            so["byRound"] = ds.get("byRound", {}).get(yr, [])
             so["complete"] = info[yr]["complete"]
             so["era"] = info[yr]["series"]
             so["championship"] = info[yr]["championship"]
@@ -178,7 +218,8 @@ def build():
                "familyName": p.get("familyName", ""), "code": p.get("code", ""),
                "nationality": p.get("nationality", ""), "series": S.SERIES,
                "seasons": sorted(ds["seasons"]), "teams": teams_all,
-               "career": career, "bySeasons": season_out, "results": ds["results"]}
+               "career": career, "bySeasons": season_out, "results": ds["results"],
+               "qualifying": ds.get("qualifying", [])}
         C.write_json(os.path.join(REPO, "stats", "drivers", f"{did}.json"), doc)
         d_index.append({"driverId": did, "name": doc["name"], "code": doc["code"],
                         "nationality": doc["nationality"], "seasons": doc["seasons"],
@@ -189,10 +230,11 @@ def build():
         career, season_out = _blank(), {}
         for yr, s in sorted(ts["seasons"].items()):
             _merge(career, s)
-            so = _finalize({**s, "_fin": list(s["_fin"])})
+            so = _finalize({**s, "_fin": list(s["_fin"]), "_grid": list(s["_grid"]), "_quali": list(s["_quali"])})
             so["points"] = ts.get("points", {}).get(yr, 0)
             so["championshipPosition"] = ts.get("champ", {}).get(yr)
             so["name"] = (tm.get("names") or {}).get(yr) or tm.get("name", cid)
+            so["byRound"] = ts.get("byRound", {}).get(yr, [])
             so["complete"] = info[yr]["complete"]
             so["era"] = info[yr]["series"]
             so["championship"] = info[yr]["championship"]
@@ -213,7 +255,8 @@ def build():
                             "seasons": sorted(dt["seasons"]), "starts": dt["starts"],
                             "wins": dt["wins"]["total"], "podiums": dt["podiums"]["total"],
                             "poles": dt["poles"], "fastestLaps": dt["fastestLaps"],
-                            "points": _pts(dt["teamPoints"]), "titles": won.get(did, 0)})
+                            "points": _pts(dt["teamPoints"]), "titles": won.get(did, 0),
+                            "avgQualifying": _avg(dt["_quali"])})
         drivers.sort(key=lambda d: (-d["points"], -d["wins"], d["name"]))
         leaders = {}
         for k in LEADER_KEYS:

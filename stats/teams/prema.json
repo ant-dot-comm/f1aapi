@@ -31,6 +31,15 @@
         "pointsFinishes": 125,
         "bestFinish": 1,
         "avgFinish": 7.02,
+        "avgGrid": 7.4,
+        "qualifying": {
+            "sessions": 132,
+            "average": 7.41,
+            "best": 1,
+            "poles": 9,
+            "frontRow": 22,
+            "top10": 95
+        },
         "titles": 3,
         "driverTitles": 2,
         "bestChampionship": 1,
@@ -59,8 +68,68 @@
             "pointsFinishes": 38,
             "bestFinish": 1,
             "avgFinish": 7.21,
+            "avgGrid": 7.52,
+            "qualifying": {
+                "sessions": 42,
+                "average": 7.43,
+                "best": 1,
+                "poles": 5,
+                "frontRow": 9,
+                "top10": 30
+            },
             "championshipPosition": 1,
             "name": "Prema Racing",
+            "byRound": [
+                {
+                    "round": "1",
+                    "raceName": "Austrian Grand Prix",
+                    "points": 83,
+                    "total": 83,
+                    "position": 1
+                },
+                {
+                    "round": "2",
+                    "raceName": "Valencia Grand Prix",
+                    "points": 69,
+                    "total": 152,
+                    "position": 1
+                },
+                {
+                    "round": "3",
+                    "raceName": "Spanish Grand Prix",
+                    "points": 51,
+                    "total": 203,
+                    "position": 2
+                },
+                {
+                    "round": "4",
+                    "raceName": "Dutch Grand Prix",
+                    "points": 32,
+                    "total": 235,
+                    "position": 2
+                },
+                {
+                    "round": "5",
+                    "raceName": "Italian Grand Prix",
+                    "points": 68,
+                    "total": 303,
+                    "position": 2
+                },
+                {
+                    "round": "6",
+                    "raceName": "Le Castellet Grand Prix",
+                    "points": 46,
+                    "total": 349,
+                    "position": 2
+                },
+                {
+                    "round": "7",
+                    "raceName": "United States Grand Prix",
+                    "points": 70,
+                    "total": 419,
+                    "position": 1
+                }
+            ],
             "complete": true,
             "era": "f1a",
             "championship": "F1 Academy"
@@ -83,8 +152,68 @@
             "pointsFinishes": 39,
             "bestFinish": 1,
             "avgFinish": 6.74,
+            "avgGrid": 7.3,
+            "qualifying": {
+                "sessions": 54,
+                "average": 7.31,
+                "best": 1,
+                "poles": 4,
+                "frontRow": 9,
+                "top10": 38
+            },
             "championshipPosition": 1,
             "name": "Prema Racing",
+            "byRound": [
+                {
+                    "round": "1",
+                    "raceName": "Saudi Arabian Grand Prix",
+                    "points": 73,
+                    "total": 73,
+                    "position": 1
+                },
+                {
+                    "round": "2",
+                    "raceName": "Miami Grand Prix",
+                    "points": 51,
+                    "total": 124,
+                    "position": 1
+                },
+                {
+                    "round": "3",
+                    "raceName": "Spanish Grand Prix",
+                    "points": 22,
+                    "total": 146,
+                    "position": 3
+                },
+                {
+                    "round": "4",
+                    "raceName": "Dutch Grand Prix",
+                    "points": 73,
+                    "total": 219,
+                    "position": 2
+                },
+                {
+                    "round": "5",
+                    "raceName": "Singapore Grand Prix",
+                    "points": 68,
+                    "total": 287,
+                    "position": 1
+                },
+                {
+                    "round": "6",
+                    "raceName": "Qatar Grand Prix",
+                    "points": 45,
+                    "total": 332,
+                    "position": 1
+                },
+                {
+                    "round": "7",
+                    "raceName": "Abu Dhabi Grand Prix",
+                    "points": 93,
+                    "total": 425,
+                    "position": 1
+                }
+            ],
             "complete": true,
             "era": "f1a",
             "championship": "F1 Academy"
@@ -109,8 +238,68 @@
             "pointsFinishes": 34,
             "bestFinish": 1,
             "avgFinish": 5.95,
+            "avgGrid": 6.45,
+            "qualifying": {
+                "sessions": 21,
+                "average": 6.67,
+                "best": 2,
+                "poles": 0,
+                "frontRow": 3,
+                "top10": 18
+            },
             "championshipPosition": 1,
             "name": "Prema Racing",
+            "byRound": [
+                {
+                    "round": "1",
+                    "raceName": "Chinese Grand Prix",
+                    "points": 32,
+                    "total": 32,
+                    "position": 3
+                },
+                {
+                    "round": "2",
+                    "raceName": "Saudi Arabian Grand Prix",
+                    "points": 39,
+                    "total": 71,
+                    "position": 3
+                },
+                {
+                    "round": "3",
+                    "raceName": "Miami Grand Prix",
+                    "points": 17,
+                    "total": 88,
+                    "position": 3
+                },
+                {
+                    "round": "4",
+                    "raceName": "Canadian Grand Prix",
+                    "points": 90,
+                    "total": 178,
+                    "position": 1
+                },
+                {
+                    "round": "5",
+                    "raceName": "Dutch Grand Prix",
+                    "points": 46,
+                    "total": 224,
+                    "position": 1
+                },
+                {
+                    "round": "6",
+                    "raceName": "Singapore Grand Prix",
+                    "points": 33,
+                    "total": 257,
+                    "position": 1
+                },
+                {
+                    "round": "7",
+                    "raceName": "Las Vegas Grand Prix",
+                    "points": 39,
+                    "total": 296,
+                    "position": 1
+                }
+            ],
             "complete": true,
             "era": "f1a",
             "championship": "F1 Academy"
@@ -134,8 +323,47 @@
             "pointsFinishes": 14,
             "bestFinish": 1,
             "avgFinish": 8.81,
+            "avgGrid": 8.81,
+            "qualifying": {
+                "sessions": 15,
+                "average": 8.73,
+                "best": 2,
+                "poles": 0,
+                "frontRow": 1,
+                "top10": 9
+            },
             "championshipPosition": 4,
             "name": "Prema Racing",
+            "byRound": [
+                {
+                    "round": "1",
+                    "raceName": "Chinese Grand Prix",
+                    "points": 26,
+                    "total": 26,
+                    "position": 4
+                },
+                {
+                    "round": "2",
+                    "raceName": "Canadian Grand Prix",
+                    "points": 62,
+                    "total": 88,
+                    "position": 2
+                },
+                {
+                    "round": "3",
+                    "raceName": "British Grand Prix",
+                    "points": 6,
+                    "total": 94,
+                    "position": 3
+                },
+                {
+                    "round": "4",
+                    "raceName": "Dutch Grand Prix",
+                    "points": 25,
+                    "total": 119,
+                    "position": 4
+                }
+            ],
             "complete": false,
             "era": "f1a",
             "championship": "F1 Academy"
@@ -262,7 +490,8 @@
             "poles": 4,
             "fastestLaps": 11,
             "points": 389,
-            "titles": 1
+            "titles": 1,
+            "avgQualifying": 2.71
         },
         {
             "driverId": "garcia",
@@ -277,7 +506,8 @@
             "poles": 5,
             "fastestLaps": 6,
             "points": 278,
-            "titles": 1
+            "titles": 1,
+            "avgQualifying": 3.5
         },
         {
             "driverId": "weug",
@@ -292,7 +522,8 @@
             "poles": 0,
             "fastestLaps": 1,
             "points": 177,
-            "titles": 0
+            "titles": 0,
+            "avgQualifying": 5.36
         },
         {
             "driverId": "bustamante",
@@ -307,7 +538,8 @@
             "poles": 0,
             "fastestLaps": 0,
             "points": 116,
-            "titles": 0
+            "titles": 0,
+            "avgQualifying": 7.71
         },
         {
             "driverId": "gademan",
@@ -323,7 +555,8 @@
             "poles": 0,
             "fastestLaps": 0,
             "points": 87,
-            "titles": 0
+            "titles": 0,
+            "avgQualifying": 8.44
         },
         {
             "driverId": "hausmann",
@@ -339,7 +572,8 @@
             "poles": 0,
             "fastestLaps": 0,
             "points": 81,
-            "titles": 0
+            "titles": 0,
+            "avgQualifying": 9.33
         },
         {
             "driverId": "westcott",
@@ -354,7 +588,8 @@
             "poles": 0,
             "fastestLaps": 2,
             "points": 49,
-            "titles": 0
+            "titles": 0,
+            "avgQualifying": 5.4
         },
         {
             "driverId": "paatz",
@@ -369,7 +604,8 @@
             "poles": 0,
             "fastestLaps": 0,
             "points": 35,
-            "titles": 0
+            "titles": 0,
+            "avgQualifying": 11.4
         },
         {
             "driverId": "granada",
@@ -384,7 +620,8 @@
             "poles": 0,
             "fastestLaps": 0,
             "points": 35,
-            "titles": 0
+            "titles": 0,
+            "avgQualifying": 9.4
         },
         {
             "driverId": "chong",
@@ -399,7 +636,8 @@
             "poles": 0,
             "fastestLaps": 1,
             "points": 25,
-            "titles": 0
+            "titles": 0,
+            "avgQualifying": 11.07
         },
         {
             "driverId": "palmowski",
@@ -414,7 +652,8 @@
             "poles": 0,
             "fastestLaps": 0,
             "points": 10,
-            "titles": 0
+            "titles": 0,
+            "avgQualifying": 6.0
         },
         {
             "driverId": "lloyd",
@@ -429,7 +668,8 @@
             "poles": 0,
             "fastestLaps": 0,
             "points": 8,
-            "titles": 0
+            "titles": 0,
+            "avgQualifying": 8.0
         },
         {
             "driverId": "hannah",
@@ -444,7 +684,8 @@
             "poles": 0,
             "fastestLaps": 0,
             "points": 1,
-            "titles": 0
+            "titles": 0,
+            "avgQualifying": 16.0
         },
         {
             "driverId": "crone",
@@ -459,7 +700,8 @@
             "poles": 0,
             "fastestLaps": 0,
             "points": 0,
-            "titles": 0
+            "titles": 0,
+            "avgQualifying": 16.0
         },
         {
             "driverId": "juffali",
@@ -474,7 +716,8 @@
             "poles": 0,
             "fastestLaps": 0,
             "points": 0,
-            "titles": 0
+            "titles": 0,
+            "avgQualifying": 14.5
         }
     ]
 }

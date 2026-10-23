@@ -33,6 +33,15 @@
         "pointsFinishes": 31,
         "bestFinish": 1,
         "avgFinish": 3.58,
+        "avgGrid": 4.83,
+        "qualifying": {
+            "sessions": 28,
+            "average": 3.75,
+            "best": 1,
+            "poles": 12,
+            "frontRow": 18,
+            "top10": 23
+        },
         "titles": 1,
         "bestChampionship": 1,
         "eras": [
@@ -58,9 +67,69 @@
             "pointsFinishes": 17,
             "bestFinish": 2,
             "avgFinish": 5.16,
+            "avgGrid": 7.14,
+            "qualifying": {
+                "sessions": 14,
+                "average": 6.14,
+                "best": 1,
+                "poles": 2,
+                "frontRow": 5,
+                "top10": 9
+            },
             "championshipPosition": 5,
             "teams": [
                 "carlin"
+            ],
+            "byRound": [
+                {
+                    "round": "1",
+                    "raceName": "Austrian Grand Prix",
+                    "points": 26,
+                    "total": 26,
+                    "position": 4
+                },
+                {
+                    "round": "2",
+                    "raceName": "Valencia Grand Prix",
+                    "points": 15,
+                    "total": 41,
+                    "position": 7
+                },
+                {
+                    "round": "3",
+                    "raceName": "Spanish Grand Prix",
+                    "points": 36,
+                    "total": 77,
+                    "position": 4
+                },
+                {
+                    "round": "4",
+                    "raceName": "Dutch Grand Prix",
+                    "points": 7,
+                    "total": 84,
+                    "position": 5
+                },
+                {
+                    "round": "5",
+                    "raceName": "Italian Grand Prix",
+                    "points": 37,
+                    "total": 121,
+                    "position": 4
+                },
+                {
+                    "round": "6",
+                    "raceName": "Le Castellet Grand Prix",
+                    "points": 22,
+                    "total": 143,
+                    "position": 5
+                },
+                {
+                    "round": "7",
+                    "raceName": "United States Grand Prix",
+                    "points": 32,
+                    "total": 175,
+                    "position": 5
+                }
             ],
             "complete": true,
             "era": "f1a",
@@ -84,9 +153,69 @@
             "pointsFinishes": 14,
             "bestFinish": 1,
             "avgFinish": 1.43,
+            "avgGrid": 1.36,
+            "qualifying": {
+                "sessions": 14,
+                "average": 1.36,
+                "best": 1,
+                "poles": 10,
+                "frontRow": 13,
+                "top10": 14
+            },
             "championshipPosition": 1,
             "teams": [
                 "rodin"
+            ],
+            "byRound": [
+                {
+                    "round": "1",
+                    "raceName": "Saudi Arabian Grand Prix",
+                    "points": 44,
+                    "total": 44,
+                    "position": 1
+                },
+                {
+                    "round": "2",
+                    "raceName": "Miami Grand Prix",
+                    "points": 55,
+                    "total": 99,
+                    "position": 1
+                },
+                {
+                    "round": "3",
+                    "raceName": "Spanish Grand Prix",
+                    "points": 48,
+                    "total": 147,
+                    "position": 1
+                },
+                {
+                    "round": "4",
+                    "raceName": "Dutch Grand Prix",
+                    "points": 43,
+                    "total": 190,
+                    "position": 1
+                },
+                {
+                    "round": "5",
+                    "raceName": "Singapore Grand Prix",
+                    "points": 55,
+                    "total": 245,
+                    "position": 1
+                },
+                {
+                    "round": "6",
+                    "raceName": "Qatar Grand Prix",
+                    "points": 18,
+                    "total": 263,
+                    "position": 1
+                },
+                {
+                    "round": "7",
+                    "raceName": "Abu Dhabi Grand Prix",
+                    "points": 75,
+                    "total": 338,
+                    "position": 1
+                }
             ],
             "complete": true,
             "era": "f1a",
@@ -548,6 +677,344 @@
             "position": "2",
             "status": "Finished",
             "points": "20"
+        }
+    ],
+    "qualifying": [
+        {
+            "season": "2023",
+            "round": "1",
+            "raceName": "Austrian Grand Prix",
+            "race": "race1",
+            "label": "Qualifying 1",
+            "forRace": "Race 1",
+            "constructorId": "carlin",
+            "position": "13",
+            "grid": "13",
+            "time": "3:07.078"
+        },
+        {
+            "season": "2023",
+            "round": "1",
+            "raceName": "Austrian Grand Prix",
+            "race": "race3",
+            "label": "Qualifying 2",
+            "forRace": "Race 3",
+            "constructorId": "carlin",
+            "position": "14",
+            "grid": "14",
+            "time": "3:07.078"
+        },
+        {
+            "season": "2023",
+            "round": "2",
+            "raceName": "Valencia Grand Prix",
+            "race": "race1",
+            "label": "Qualifying 1",
+            "forRace": "Race 1",
+            "constructorId": "carlin",
+            "position": "13",
+            "grid": "13",
+            "time": ""
+        },
+        {
+            "season": "2023",
+            "round": "2",
+            "raceName": "Valencia Grand Prix",
+            "race": "race3",
+            "label": "Qualifying 2",
+            "forRace": "Race 3",
+            "constructorId": "carlin",
+            "position": "2",
+            "grid": "2",
+            "time": "1:34.912"
+        },
+        {
+            "season": "2023",
+            "round": "3",
+            "raceName": "Spanish Grand Prix",
+            "race": "race1",
+            "label": "Qualifying 1",
+            "forRace": "Race 1",
+            "constructorId": "carlin",
+            "position": "3",
+            "grid": "3",
+            "time": "1:41.449"
+        },
+        {
+            "season": "2023",
+            "round": "3",
+            "raceName": "Spanish Grand Prix",
+            "race": "race3",
+            "label": "Qualifying 2",
+            "forRace": "Race 3",
+            "constructorId": "carlin",
+            "position": "4",
+            "grid": "4",
+            "time": "1:41.041"
+        },
+        {
+            "season": "2023",
+            "round": "4",
+            "raceName": "Dutch Grand Prix",
+            "race": "race1",
+            "label": "Qualifying 1",
+            "forRace": "Race 1",
+            "constructorId": "carlin",
+            "position": "12",
+            "grid": "12",
+            "time": "1:38.043"
+        },
+        {
+            "season": "2023",
+            "round": "4",
+            "raceName": "Dutch Grand Prix",
+            "race": "race3",
+            "label": "Qualifying 2",
+            "forRace": "Race 3",
+            "constructorId": "carlin",
+            "position": "11",
+            "grid": "11",
+            "time": "1:37.450"
+        },
+        {
+            "season": "2023",
+            "round": "5",
+            "raceName": "Italian Grand Prix",
+            "race": "race1",
+            "label": "Qualifying 1",
+            "forRace": "Race 1",
+            "constructorId": "carlin",
+            "position": "3",
+            "grid": "3",
+            "time": "1:54.530"
+        },
+        {
+            "season": "2023",
+            "round": "5",
+            "raceName": "Italian Grand Prix",
+            "race": "race3",
+            "label": "Qualifying 2",
+            "forRace": "Race 3",
+            "constructorId": "carlin",
+            "position": "1",
+            "grid": "1",
+            "time": "1:52.926"
+        },
+        {
+            "season": "2023",
+            "round": "6",
+            "raceName": "Le Castellet Grand Prix",
+            "race": "race1",
+            "label": "Qualifying 1",
+            "forRace": "Race 1",
+            "constructorId": "carlin",
+            "position": "1",
+            "grid": "1",
+            "time": "1:27.249"
+        },
+        {
+            "season": "2023",
+            "round": "6",
+            "raceName": "Le Castellet Grand Prix",
+            "race": "race3",
+            "label": "Qualifying 2",
+            "forRace": "Race 3",
+            "constructorId": "carlin",
+            "position": "2",
+            "grid": "2",
+            "time": "1:26.860"
+        },
+        {
+            "season": "2023",
+            "round": "7",
+            "raceName": "United States Grand Prix",
+            "race": "race1",
+            "label": "Qualifying 1",
+            "forRace": "Race 1",
+            "constructorId": "carlin",
+            "position": "2",
+            "grid": "2",
+            "time": "2:08.534"
+        },
+        {
+            "season": "2023",
+            "round": "7",
+            "raceName": "United States Grand Prix",
+            "race": "race3",
+            "label": "Qualifying 2",
+            "forRace": "Race 3",
+            "constructorId": "carlin",
+            "position": "5",
+            "grid": "5",
+            "time": "2:08.358"
+        },
+        {
+            "season": "2024",
+            "round": "1",
+            "raceName": "Saudi Arabian Grand Prix",
+            "race": "race1",
+            "label": "Qualifying 1",
+            "forRace": "Race 1",
+            "constructorId": "rodin",
+            "position": "2",
+            "grid": "2",
+            "time": "2:04.257"
+        },
+        {
+            "season": "2024",
+            "round": "1",
+            "raceName": "Saudi Arabian Grand Prix",
+            "race": "race2",
+            "label": "Qualifying 2",
+            "forRace": "Race 2",
+            "constructorId": "rodin",
+            "position": "2",
+            "grid": "2",
+            "time": "2:04.383"
+        },
+        {
+            "season": "2024",
+            "round": "2",
+            "raceName": "Miami Grand Prix",
+            "race": "race1",
+            "label": "Qualifying 1",
+            "forRace": "Race 1",
+            "constructorId": "rodin",
+            "position": "1",
+            "grid": "1",
+            "time": "1:58.507"
+        },
+        {
+            "season": "2024",
+            "round": "2",
+            "raceName": "Miami Grand Prix",
+            "race": "race2",
+            "label": "Qualifying 2",
+            "forRace": "Race 2",
+            "constructorId": "rodin",
+            "position": "1",
+            "grid": "1",
+            "time": "1:58.714"
+        },
+        {
+            "season": "2024",
+            "round": "3",
+            "raceName": "Spanish Grand Prix",
+            "race": "race1",
+            "label": "Qualifying 1",
+            "forRace": "Race 1",
+            "constructorId": "rodin",
+            "position": "1",
+            "grid": "1",
+            "time": "1:41.396"
+        },
+        {
+            "season": "2024",
+            "round": "3",
+            "raceName": "Spanish Grand Prix",
+            "race": "race2",
+            "label": "Qualifying 2",
+            "forRace": "Race 2",
+            "constructorId": "rodin",
+            "position": "1",
+            "grid": "1",
+            "time": "1:41.544"
+        },
+        {
+            "season": "2024",
+            "round": "4",
+            "raceName": "Dutch Grand Prix",
+            "race": "race1",
+            "label": "Qualifying 1",
+            "forRace": "Race 1",
+            "constructorId": "rodin",
+            "position": "1",
+            "grid": "1",
+            "time": "1:46.746"
+        },
+        {
+            "season": "2024",
+            "round": "4",
+            "raceName": "Dutch Grand Prix",
+            "race": "race2",
+            "label": "Qualifying 2",
+            "forRace": "Race 2",
+            "constructorId": "rodin",
+            "position": "2",
+            "grid": "2",
+            "time": "1:46.997"
+        },
+        {
+            "season": "2024",
+            "round": "5",
+            "raceName": "Singapore Grand Prix",
+            "race": "race1",
+            "label": "Qualifying 1",
+            "forRace": "Race 1",
+            "constructorId": "rodin",
+            "position": "1",
+            "grid": "1",
+            "time": "2:03.631"
+        },
+        {
+            "season": "2024",
+            "round": "5",
+            "raceName": "Singapore Grand Prix",
+            "race": "race2",
+            "label": "Qualifying 2",
+            "forRace": "Race 2",
+            "constructorId": "rodin",
+            "position": "1",
+            "grid": "1",
+            "time": "2:03.747"
+        },
+        {
+            "season": "2024",
+            "round": "6",
+            "raceName": "Qatar Grand Prix",
+            "race": "race1",
+            "label": "Qualifying",
+            "forRace": "Race 2",
+            "constructorId": "rodin",
+            "position": "3",
+            "grid": "3",
+            "time": "1:55.537"
+        },
+        {
+            "season": "2024",
+            "round": "7",
+            "raceName": "Abu Dhabi Grand Prix",
+            "race": "race1",
+            "label": "Qualifying 1",
+            "forRace": "Race 1",
+            "constructorId": "rodin",
+            "position": "1",
+            "grid": "1",
+            "time": "1:56.081"
+        },
+        {
+            "season": "2024",
+            "round": "7",
+            "raceName": "Abu Dhabi Grand Prix",
+            "race": "race2",
+            "label": "Qualifying 2",
+            "forRace": "Race 2",
+            "constructorId": "rodin",
+            "position": "1",
+            "grid": "1",
+            "time": "1:56.120"
+        },
+        {
+            "season": "2024",
+            "round": "7",
+            "raceName": "Abu Dhabi Grand Prix",
+            "race": "race3",
+            "label": "Qualifying 3",
+            "forRace": "Race 3",
+            "constructorId": "rodin",
+            "position": "1",
+            "grid": "1",
+            "time": "1:56.267"
         }
     ]
 }

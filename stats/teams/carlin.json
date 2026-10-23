@@ -27,6 +27,15 @@
         "pointsFinishes": 39,
         "bestFinish": 1,
         "avgFinish": 7.59,
+        "avgGrid": 8.56,
+        "qualifying": {
+            "sessions": 42,
+            "average": 8.19,
+            "best": 1,
+            "poles": 3,
+            "frontRow": 6,
+            "top10": 25
+        },
         "titles": 0,
         "driverTitles": 0,
         "bestChampionship": 3,
@@ -54,8 +63,68 @@
             "pointsFinishes": 39,
             "bestFinish": 1,
             "avgFinish": 7.59,
+            "avgGrid": 8.56,
+            "qualifying": {
+                "sessions": 42,
+                "average": 8.19,
+                "best": 1,
+                "poles": 3,
+                "frontRow": 6,
+                "top10": 25
+            },
             "championshipPosition": 3,
             "name": "Rodin Carlin",
+            "byRound": [
+                {
+                    "round": "1",
+                    "raceName": "Austrian Grand Prix",
+                    "points": 56,
+                    "total": 56,
+                    "position": 3
+                },
+                {
+                    "round": "2",
+                    "raceName": "Valencia Grand Prix",
+                    "points": 23,
+                    "total": 79,
+                    "position": 3
+                },
+                {
+                    "round": "3",
+                    "raceName": "Spanish Grand Prix",
+                    "points": 41,
+                    "total": 120,
+                    "position": 4
+                },
+                {
+                    "round": "4",
+                    "raceName": "Dutch Grand Prix",
+                    "points": 26,
+                    "total": 146,
+                    "position": 4
+                },
+                {
+                    "round": "5",
+                    "raceName": "Italian Grand Prix",
+                    "points": 65,
+                    "total": 211,
+                    "position": 4
+                },
+                {
+                    "round": "6",
+                    "raceName": "Le Castellet Grand Prix",
+                    "points": 33,
+                    "total": 244,
+                    "position": 4
+                },
+                {
+                    "round": "7",
+                    "raceName": "United States Grand Prix",
+                    "points": 76,
+                    "total": 320,
+                    "position": 3
+                }
+            ],
             "complete": true,
             "era": "f1a",
             "championship": "F1 Academy"
@@ -144,7 +213,8 @@
             "poles": 2,
             "fastestLaps": 4,
             "points": 175,
-            "titles": 0
+            "titles": 0,
+            "avgQualifying": 6.14
         },
         {
             "driverId": "edgar",
@@ -159,7 +229,8 @@
             "poles": 1,
             "fastestLaps": 1,
             "points": 114,
-            "titles": 0
+            "titles": 0,
+            "avgQualifying": 8.21
         },
         {
             "driverId": "gilkes",
@@ -174,7 +245,8 @@
             "poles": 0,
             "fastestLaps": 0,
             "points": 31,
-            "titles": 0
+            "titles": 0,
+            "avgQualifying": 10.21
         }
     ]
 }

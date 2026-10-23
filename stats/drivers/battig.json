@@ -29,6 +29,15 @@
         "pointsFinishes": 2,
         "bestFinish": 2,
         "avgFinish": 5.0,
+        "avgGrid": 4.5,
+        "qualifying": {
+            "sessions": 1,
+            "average": 1.0,
+            "best": 1,
+            "poles": 1,
+            "frontRow": 1,
+            "top10": 1
+        },
         "titles": 0,
         "bestChampionship": 11,
         "eras": [
@@ -53,9 +62,48 @@
             "pointsFinishes": 2,
             "bestFinish": 2,
             "avgFinish": 5.0,
+            "avgGrid": 4.5,
+            "qualifying": {
+                "sessions": 1,
+                "average": 1.0,
+                "best": 1,
+                "poles": 1,
+                "frontRow": 1,
+                "top10": 1
+            },
             "championshipPosition": 11,
             "teams": [
                 "hitech"
+            ],
+            "byRound": [
+                {
+                    "round": "1",
+                    "raceName": "Chinese Grand Prix",
+                    "points": 0,
+                    "total": 0,
+                    "position": 19
+                },
+                {
+                    "round": "2",
+                    "raceName": "Canadian Grand Prix",
+                    "points": 0,
+                    "total": 0,
+                    "position": 20
+                },
+                {
+                    "round": "3",
+                    "raceName": "British Grand Prix",
+                    "points": 22,
+                    "total": 22,
+                    "position": 11
+                },
+                {
+                    "round": "4",
+                    "raceName": "Dutch Grand Prix",
+                    "points": 0,
+                    "total": 22,
+                    "position": 11
+                }
             ],
             "complete": false,
             "era": "f1a",
@@ -88,6 +136,20 @@
             "position": "2",
             "status": "Finished",
             "points": "20"
+        }
+    ],
+    "qualifying": [
+        {
+            "season": "2026",
+            "round": "3",
+            "raceName": "British Grand Prix",
+            "race": "race2",
+            "label": "Qualifying",
+            "forRace": "Feature Race",
+            "constructorId": "hitech",
+            "position": "1",
+            "grid": "1",
+            "time": "2:01.775"
         }
     ]
 }

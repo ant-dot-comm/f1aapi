@@ -26,6 +26,15 @@
         "pointsFinishes": 16,
         "bestFinish": 2,
         "avgFinish": 12.05,
+        "avgGrid": 13.61,
+        "qualifying": {
+            "sessions": 36,
+            "average": 13.61,
+            "best": 1,
+            "poles": 1,
+            "frontRow": 1,
+            "top10": 7
+        },
         "titles": 0,
         "driverTitles": 0,
         "bestChampionship": 5,
@@ -50,8 +59,68 @@
             "pointsFinishes": 6,
             "bestFinish": 4,
             "avgFinish": 12.65,
+            "avgGrid": 15.3,
+            "qualifying": {
+                "sessions": 21,
+                "average": 15.24,
+                "best": 5,
+                "poles": 0,
+                "frontRow": 0,
+                "top10": 2
+            },
             "championshipPosition": 6,
             "name": "HiTech TGR",
+            "byRound": [
+                {
+                    "round": "1",
+                    "raceName": "Chinese Grand Prix",
+                    "points": 1,
+                    "total": 1,
+                    "position": 6
+                },
+                {
+                    "round": "2",
+                    "raceName": "Saudi Arabian Grand Prix",
+                    "points": 0,
+                    "total": 1,
+                    "position": 6
+                },
+                {
+                    "round": "3",
+                    "raceName": "Miami Grand Prix",
+                    "points": 0,
+                    "total": 1,
+                    "position": 6
+                },
+                {
+                    "round": "4",
+                    "raceName": "Canadian Grand Prix",
+                    "points": 5,
+                    "total": 6,
+                    "position": 6
+                },
+                {
+                    "round": "5",
+                    "raceName": "Dutch Grand Prix",
+                    "points": 6,
+                    "total": 12,
+                    "position": 6
+                },
+                {
+                    "round": "6",
+                    "raceName": "Singapore Grand Prix",
+                    "points": 0,
+                    "total": 12,
+                    "position": 6
+                },
+                {
+                    "round": "7",
+                    "raceName": "Las Vegas Grand Prix",
+                    "points": 8,
+                    "total": 20,
+                    "position": 6
+                }
+            ],
             "complete": true,
             "era": "f1a",
             "championship": "F1 Academy"
@@ -73,8 +142,47 @@
             "pointsFinishes": 10,
             "bestFinish": 2,
             "avgFinish": 11.32,
+            "avgGrid": 11.12,
+            "qualifying": {
+                "sessions": 15,
+                "average": 11.33,
+                "best": 1,
+                "poles": 1,
+                "frontRow": 1,
+                "top10": 5
+            },
             "championshipPosition": 5,
             "name": "Hitech",
+            "byRound": [
+                {
+                    "round": "1",
+                    "raceName": "Chinese Grand Prix",
+                    "points": 1,
+                    "total": 1,
+                    "position": 6
+                },
+                {
+                    "round": "2",
+                    "raceName": "Canadian Grand Prix",
+                    "points": 0,
+                    "total": 1,
+                    "position": 6
+                },
+                {
+                    "round": "3",
+                    "raceName": "British Grand Prix",
+                    "points": 41,
+                    "total": 42,
+                    "position": 5
+                },
+                {
+                    "round": "4",
+                    "raceName": "Dutch Grand Prix",
+                    "points": 10,
+                    "total": 52,
+                    "position": 5
+                }
+            ],
             "complete": false,
             "era": "f1a",
             "championship": "F1 Academy"
@@ -148,7 +256,8 @@
             "poles": 0,
             "fastestLaps": 0,
             "points": 27,
-            "titles": 0
+            "titles": 0,
+            "avgQualifying": 10.83
         },
         {
             "driverId": "battig",
@@ -163,7 +272,8 @@
             "poles": 1,
             "fastestLaps": 0,
             "points": 22,
-            "titles": 0
+            "titles": 0,
+            "avgQualifying": 1.0
         },
         {
             "driverId": "dobson",
@@ -179,7 +289,8 @@
             "poles": 0,
             "fastestLaps": 0,
             "points": 8,
-            "titles": 0
+            "titles": 0,
+            "avgQualifying": 9.8
         },
         {
             "driverId": "kosterman",
@@ -194,7 +305,8 @@
             "poles": 0,
             "fastestLaps": 0,
             "points": 6,
-            "titles": 0
+            "titles": 0,
+            "avgQualifying": 9.0
         },
         {
             "driverId": "anagnostiadis",
@@ -209,7 +321,8 @@
             "poles": 0,
             "fastestLaps": 0,
             "points": 5,
-            "titles": 0
+            "titles": 0,
+            "avgQualifying": 16.8
         },
         {
             "driverId": "westcott",
@@ -224,7 +337,8 @@
             "poles": 0,
             "fastestLaps": 0,
             "points": 3,
-            "titles": 0
+            "titles": 0,
+            "avgQualifying": 17.0
         },
         {
             "driverId": "havrda",
@@ -239,7 +353,8 @@
             "poles": 0,
             "fastestLaps": 0,
             "points": 1,
-            "titles": 0
+            "titles": 0,
+            "avgQualifying": 15.71
         },
         {
             "driverId": "fisher",
@@ -254,7 +369,8 @@
             "poles": 0,
             "fastestLaps": 0,
             "points": 0,
-            "titles": 0
+            "titles": 0,
+            "avgQualifying": 16.5
         },
         {
             "driverId": "al_yousef",
@@ -269,7 +385,8 @@
             "poles": 0,
             "fastestLaps": 0,
             "points": 0,
-            "titles": 0
+            "titles": 0,
+            "avgQualifying": 17.0
         },
         {
             "driverId": "billard",
@@ -284,7 +401,8 @@
             "poles": 0,
             "fastestLaps": 0,
             "points": 0,
-            "titles": 0
+            "titles": 0,
+            "avgQualifying": 5.0
         },
         {
             "driverId": "paatz",
@@ -299,7 +417,8 @@
             "poles": 0,
             "fastestLaps": 0,
             "points": 0,
-            "titles": 0
+            "titles": 0,
+            "avgQualifying": 16.0
         },
         {
             "driverId": "bruce",
@@ -314,7 +433,8 @@
             "poles": 0,
             "fastestLaps": 0,
             "points": 0,
-            "titles": 0
+            "titles": 0,
+            "avgQualifying": 15.0
         },
         {
             "driverId": "shi",
@@ -330,7 +450,8 @@
             "poles": 0,
             "fastestLaps": 0,
             "points": 0,
-            "titles": 0
+            "titles": 0,
+            "avgQualifying": 17.5
         },
         {
             "driverId": "florescu",
@@ -345,7 +466,8 @@
             "poles": 0,
             "fastestLaps": 0,
             "points": 0,
-            "titles": 0
+            "titles": 0,
+            "avgQualifying": 18.0
         }
     ]
 }

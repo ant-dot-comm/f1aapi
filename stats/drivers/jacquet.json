@@ -28,6 +28,15 @@
         "pointsFinishes": 0,
         "bestFinish": 11,
         "avgFinish": 13.14,
+        "avgGrid": 14.38,
+        "qualifying": {
+            "sessions": 5,
+            "average": 13.6,
+            "best": 9,
+            "poles": 0,
+            "frontRow": 0,
+            "top10": 1
+        },
         "titles": 0,
         "bestChampionship": 18,
         "eras": [
@@ -51,9 +60,48 @@
             "pointsFinishes": 0,
             "bestFinish": 11,
             "avgFinish": 13.14,
+            "avgGrid": 14.38,
+            "qualifying": {
+                "sessions": 5,
+                "average": 13.6,
+                "best": 9,
+                "poles": 0,
+                "frontRow": 0,
+                "top10": 1
+            },
             "championshipPosition": 18,
             "teams": [
                 "art"
+            ],
+            "byRound": [
+                {
+                    "round": "1",
+                    "raceName": "Chinese Grand Prix",
+                    "points": 0,
+                    "total": 0,
+                    "position": 16
+                },
+                {
+                    "round": "2",
+                    "raceName": "Canadian Grand Prix",
+                    "points": 0,
+                    "total": 0,
+                    "position": 18
+                },
+                {
+                    "round": "3",
+                    "raceName": "British Grand Prix",
+                    "points": 0,
+                    "total": 0,
+                    "position": 19
+                },
+                {
+                    "round": "4",
+                    "raceName": "Dutch Grand Prix",
+                    "points": 0,
+                    "total": 0,
+                    "position": 18
+                }
             ],
             "complete": false,
             "era": "f1a",
@@ -177,6 +225,68 @@
             "position": "11",
             "status": "Finished",
             "points": "0"
+        }
+    ],
+    "qualifying": [
+        {
+            "season": "2026",
+            "round": "1",
+            "raceName": "Chinese Grand Prix",
+            "race": "race2",
+            "label": "Qualifying",
+            "forRace": "Feature Race",
+            "constructorId": "art",
+            "position": "13",
+            "grid": "13",
+            "time": "2:05.325"
+        },
+        {
+            "season": "2026",
+            "round": "2",
+            "raceName": "Canadian Grand Prix",
+            "race": "race0",
+            "label": "Qualifying 1",
+            "forRace": "Opening Race",
+            "constructorId": "art",
+            "position": "15",
+            "grid": "18",
+            "time": "1:39.944"
+        },
+        {
+            "season": "2026",
+            "round": "2",
+            "raceName": "Canadian Grand Prix",
+            "race": "race2",
+            "label": "Qualifying 2",
+            "forRace": "Feature Race",
+            "constructorId": "art",
+            "position": "13",
+            "grid": "13",
+            "time": "1:39.590"
+        },
+        {
+            "season": "2026",
+            "round": "3",
+            "raceName": "British Grand Prix",
+            "race": "race2",
+            "label": "Qualifying",
+            "forRace": "Feature Race",
+            "constructorId": "art",
+            "position": "18",
+            "grid": "18",
+            "time": "2:03.458"
+        },
+        {
+            "season": "2026",
+            "round": "4",
+            "raceName": "Dutch Grand Prix",
+            "race": "race2",
+            "label": "Qualifying",
+            "forRace": "Feature Race",
+            "constructorId": "art",
+            "position": "9",
+            "grid": "9",
+            "time": "1:44.447"
         }
     ]
 }

@@ -33,6 +33,15 @@
         "pointsFinishes": 23,
         "bestFinish": 1,
         "avgFinish": 3.64,
+        "avgGrid": 6.15,
+        "qualifying": {
+            "sessions": 21,
+            "average": 5.29,
+            "best": 1,
+            "poles": 3,
+            "frontRow": 5,
+            "top10": 18
+        },
         "titles": 0,
         "bestChampionship": 2,
         "eras": [
@@ -58,9 +67,69 @@
             "pointsFinishes": 12,
             "bestFinish": 1,
             "avgFinish": 4.15,
+            "avgGrid": 5.36,
+            "qualifying": {
+                "sessions": 14,
+                "average": 5.36,
+                "best": 2,
+                "poles": 0,
+                "frontRow": 2,
+                "top10": 12
+            },
             "championshipPosition": 3,
             "teams": [
                 "prema"
+            ],
+            "byRound": [
+                {
+                    "round": "1",
+                    "raceName": "Saudi Arabian Grand Prix",
+                    "points": 33,
+                    "total": 33,
+                    "position": 2
+                },
+                {
+                    "round": "2",
+                    "raceName": "Miami Grand Prix",
+                    "points": 18,
+                    "total": 51,
+                    "position": 3
+                },
+                {
+                    "round": "3",
+                    "raceName": "Spanish Grand Prix",
+                    "points": 0,
+                    "total": 51,
+                    "position": 7
+                },
+                {
+                    "round": "4",
+                    "raceName": "Dutch Grand Prix",
+                    "points": 33,
+                    "total": 84,
+                    "position": 5
+                },
+                {
+                    "round": "5",
+                    "raceName": "Singapore Grand Prix",
+                    "points": 36,
+                    "total": 120,
+                    "position": 3
+                },
+                {
+                    "round": "6",
+                    "raceName": "Qatar Grand Prix",
+                    "points": 15,
+                    "total": 135,
+                    "position": 3
+                },
+                {
+                    "round": "7",
+                    "raceName": "Abu Dhabi Grand Prix",
+                    "points": 42,
+                    "total": 177,
+                    "position": 3
+                }
             ],
             "complete": true,
             "era": "f1a",
@@ -85,9 +154,69 @@
             "pointsFinishes": 11,
             "bestFinish": 1,
             "avgFinish": 3.08,
+            "avgGrid": 7.0,
+            "qualifying": {
+                "sessions": 7,
+                "average": 5.14,
+                "best": 1,
+                "poles": 3,
+                "frontRow": 3,
+                "top10": 6
+            },
             "championshipPosition": 2,
             "teams": [
                 "mp"
+            ],
+            "byRound": [
+                {
+                    "round": "1",
+                    "raceName": "Chinese Grand Prix",
+                    "points": 26,
+                    "total": 26,
+                    "position": 2
+                },
+                {
+                    "round": "2",
+                    "raceName": "Saudi Arabian Grand Prix",
+                    "points": 33,
+                    "total": 59,
+                    "position": 1
+                },
+                {
+                    "round": "3",
+                    "raceName": "Miami Grand Prix",
+                    "points": 5,
+                    "total": 64,
+                    "position": 1
+                },
+                {
+                    "round": "4",
+                    "raceName": "Canadian Grand Prix",
+                    "points": 8,
+                    "total": 72,
+                    "position": 3
+                },
+                {
+                    "round": "5",
+                    "raceName": "Dutch Grand Prix",
+                    "points": 35,
+                    "total": 107,
+                    "position": 2
+                },
+                {
+                    "round": "6",
+                    "raceName": "Singapore Grand Prix",
+                    "points": 35,
+                    "total": 142,
+                    "position": 2
+                },
+                {
+                    "round": "7",
+                    "raceName": "Las Vegas Grand Prix",
+                    "points": 15,
+                    "total": 157,
+                    "position": 2
+                }
             ],
             "complete": true,
             "era": "f1a",
@@ -458,6 +587,260 @@
             "position": "3",
             "status": "Finished",
             "points": "15"
+        }
+    ],
+    "qualifying": [
+        {
+            "season": "2024",
+            "round": "1",
+            "raceName": "Saudi Arabian Grand Prix",
+            "race": "race1",
+            "label": "Qualifying 1",
+            "forRace": "Race 1",
+            "constructorId": "prema",
+            "position": "3",
+            "grid": "3",
+            "time": "2:04.530"
+        },
+        {
+            "season": "2024",
+            "round": "1",
+            "raceName": "Saudi Arabian Grand Prix",
+            "race": "race2",
+            "label": "Qualifying 2",
+            "forRace": "Race 2",
+            "constructorId": "prema",
+            "position": "3",
+            "grid": "3",
+            "time": "2:04.715"
+        },
+        {
+            "season": "2024",
+            "round": "2",
+            "raceName": "Miami Grand Prix",
+            "race": "race1",
+            "label": "Qualifying 1",
+            "forRace": "Race 1",
+            "constructorId": "prema",
+            "position": "5",
+            "grid": "5",
+            "time": "1:59.307"
+        },
+        {
+            "season": "2024",
+            "round": "2",
+            "raceName": "Miami Grand Prix",
+            "race": "race2",
+            "label": "Qualifying 2",
+            "forRace": "Race 2",
+            "constructorId": "prema",
+            "position": "6",
+            "grid": "6",
+            "time": "1:59.412"
+        },
+        {
+            "season": "2024",
+            "round": "3",
+            "raceName": "Spanish Grand Prix",
+            "race": "race1",
+            "label": "Qualifying 1",
+            "forRace": "Race 1",
+            "constructorId": "prema",
+            "position": "12",
+            "grid": "12",
+            "time": "1:42.445"
+        },
+        {
+            "season": "2024",
+            "round": "3",
+            "raceName": "Spanish Grand Prix",
+            "race": "race2",
+            "label": "Qualifying 2",
+            "forRace": "Race 2",
+            "constructorId": "prema",
+            "position": "13",
+            "grid": "13",
+            "time": "1:42.561"
+        },
+        {
+            "season": "2024",
+            "round": "4",
+            "raceName": "Dutch Grand Prix",
+            "race": "race1",
+            "label": "Qualifying 1",
+            "forRace": "Race 1",
+            "constructorId": "prema",
+            "position": "4",
+            "grid": "4",
+            "time": "1:47.213"
+        },
+        {
+            "season": "2024",
+            "round": "4",
+            "raceName": "Dutch Grand Prix",
+            "race": "race2",
+            "label": "Qualifying 2",
+            "forRace": "Race 2",
+            "constructorId": "prema",
+            "position": "3",
+            "grid": "3",
+            "time": "1:47.392"
+        },
+        {
+            "season": "2024",
+            "round": "5",
+            "raceName": "Singapore Grand Prix",
+            "race": "race1",
+            "label": "Qualifying 1",
+            "forRace": "Race 1",
+            "constructorId": "prema",
+            "position": "2",
+            "grid": "2",
+            "time": "2:03.869"
+        },
+        {
+            "season": "2024",
+            "round": "5",
+            "raceName": "Singapore Grand Prix",
+            "race": "race2",
+            "label": "Qualifying 2",
+            "forRace": "Race 2",
+            "constructorId": "prema",
+            "position": "3",
+            "grid": "3",
+            "time": "2:04.008"
+        },
+        {
+            "season": "2024",
+            "round": "6",
+            "raceName": "Qatar Grand Prix",
+            "race": "race1",
+            "label": "Qualifying",
+            "forRace": "Race 2",
+            "constructorId": "prema",
+            "position": "2",
+            "grid": "2",
+            "time": "1:55.473"
+        },
+        {
+            "season": "2024",
+            "round": "7",
+            "raceName": "Abu Dhabi Grand Prix",
+            "race": "race1",
+            "label": "Qualifying 1",
+            "forRace": "Race 1",
+            "constructorId": "prema",
+            "position": "7",
+            "grid": "7",
+            "time": "1:56.720"
+        },
+        {
+            "season": "2024",
+            "round": "7",
+            "raceName": "Abu Dhabi Grand Prix",
+            "race": "race2",
+            "label": "Qualifying 2",
+            "forRace": "Race 2",
+            "constructorId": "prema",
+            "position": "6",
+            "grid": "6",
+            "time": "1:56.767"
+        },
+        {
+            "season": "2024",
+            "round": "7",
+            "raceName": "Abu Dhabi Grand Prix",
+            "race": "race3",
+            "label": "Qualifying 3",
+            "forRace": "Race 3",
+            "constructorId": "prema",
+            "position": "6",
+            "grid": "6",
+            "time": "1:56.828"
+        },
+        {
+            "season": "2025",
+            "round": "1",
+            "raceName": "Chinese Grand Prix",
+            "race": "race2",
+            "label": "Qualifying",
+            "forRace": "Feature Race",
+            "constructorId": "mp",
+            "position": "1",
+            "grid": "1",
+            "time": "2:03.379"
+        },
+        {
+            "season": "2025",
+            "round": "2",
+            "raceName": "Saudi Arabian Grand Prix",
+            "race": "race2",
+            "label": "Qualifying",
+            "forRace": "Feature Race",
+            "constructorId": "mp",
+            "position": "3",
+            "grid": "3",
+            "time": "2:04.844"
+        },
+        {
+            "season": "2025",
+            "round": "4",
+            "raceName": "Canadian Grand Prix",
+            "race": "race0",
+            "label": "Qualifying 1",
+            "forRace": "Opening Race",
+            "constructorId": "mp",
+            "position": "10",
+            "grid": "10",
+            "time": "2:02.234"
+        },
+        {
+            "season": "2025",
+            "round": "4",
+            "raceName": "Canadian Grand Prix",
+            "race": "race2",
+            "label": "Qualifying 2",
+            "forRace": "Feature Race",
+            "constructorId": "mp",
+            "position": "15",
+            "grid": "15",
+            "time": "1:39.727"
+        },
+        {
+            "season": "2025",
+            "round": "5",
+            "raceName": "Dutch Grand Prix",
+            "race": "race2",
+            "label": "Qualifying",
+            "forRace": "Feature Race",
+            "constructorId": "mp",
+            "position": "1",
+            "grid": "1",
+            "time": "1:38.834"
+        },
+        {
+            "season": "2025",
+            "round": "6",
+            "raceName": "Singapore Grand Prix",
+            "race": "race2",
+            "label": "Qualifying",
+            "forRace": "Feature Race",
+            "constructorId": "mp",
+            "position": "1",
+            "grid": "1",
+            "time": "2:03.453"
+        },
+        {
+            "season": "2025",
+            "round": "7",
+            "raceName": "Las Vegas Grand Prix",
+            "race": "race2",
+            "label": "Qualifying",
+            "forRace": "Feature Race",
+            "constructorId": "mp",
+            "position": "5",
+            "grid": "5",
+            "time": "2:07.194"
         }
     ]
 }

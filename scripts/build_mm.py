@@ -114,6 +114,10 @@ def build_people(raws):
                 if not s:
                     raise BuildError(f"{year}: result row without driver_url: {r.get('driver_name')}")
                 people.setdefault(s, {"mm": s, "mmName": r.get("driver_name", ""), "seasons": set()})["seasons"].add(year)
+            for q in rc["quali"] if isinstance(rc["quali"], list) else []:
+                s = M.url_slug(q.get("driver_url"), "drivers")
+                if s and s not in people:
+                    people[s] = {"mm": s, "mmName": q.get("driver_name", ""), "seasons": {year}}
     with ThreadPoolExecutor(8) as ex:
         for s, bio in zip(list(people), ex.map(M.driver_box, list(people))):
             people[s].update(bio)
@@ -259,6 +263,32 @@ def rows_for(rc, year, rno, people, roster, is_feature):
     return out, fastest, pole
 
 
+def qualifying_for(rc, year, people):
+    """The qualifying session that set this race's grid, or None (a reverse grid has no lap
+    times). motorsportmag lists the starting grid (after penalties) with each driver's lap:
+    `grid` keeps that order, `position` is the classification by lap time. When lap times
+    can't reproduce the order (groups at Monaco, deleted laps, red flags), the grid order
+    stands and the session is marked order: "grid"."""
+    rows = rc["quali"] if isinstance(rc["quali"], list) else []
+    if not any(M.t2s(q.get("qualifying_time")) for q in rows):
+        return None
+    rows = sorted(rows, key=lambda q: int(q["grid"]) if str(q.get("grid", "")).isdigit() else 999)
+    timed = sorted((q for q in rows if M.t2s(q.get("qualifying_time"))), key=lambda q: M.t2s(q["qualifying_time"]))
+    by_time = {id(q): i for i, q in enumerate(timed, 1)}
+    displaced = sum(1 for i, q in enumerate(rows, 1) if id(q) in by_time and abs(by_time[id(q)] - i) >= 2)
+    by_grid = displaced > 0.3 * len(timed)
+    order = rows if by_grid else timed + [q for q in rows if id(q) not in by_time]
+    out = []
+    for pos, q in enumerate(order, 1):
+        out.append({"position": str(pos), "driverId": people[M.url_slug(q.get("driver_url"), "drivers")]["driverId"],
+                    "constructorId": team_id(q.get("team_url"), year), "number": str(q.get("driver_number") or ""),
+                    "time": M.fmt_lap(q.get("qualifying_time", "")), "grid": str(q.get("grid") or "")})
+    session = {"Results": out}
+    if by_grid:
+        session["order"] = "grid"
+    return session
+
+
 def apply_corrections(year, rno, rtype, idx, rows, people):
     """Official post-race changes motorsportmag has not picked up yet (series_config.CORRECTIONS)."""
     for c in S.CORRECTIONS:
@@ -304,7 +334,7 @@ def build_weekends(year, races, people):
         ran = [s for s in typed if "cancelled" not in s]
         for s, key in zip(ran, S.legacy_keys(year, ran)):
             s["key"] = key
-        sessions, results = [], {}
+        sessions, results, qualifying = [], {}, []
         for s in typed:
             n_type = sum(1 for x in typed if x["type"] == s["type"])
             idx = [x for x in typed if x["type"] == s["type"]].index(s) + 1
@@ -327,6 +357,9 @@ def build_weekends(year, races, people):
                 sess["fastestLap"] = fastest
             sessions.append(sess)
             results[s["key"]] = rows
+            q = qualifying_for(s["rc"], year, people)
+            if q:
+                qualifying.append({"race": s["key"], **q})
         if empty:
             circ_id, race_name, locality, country = M.CIRC[wk["mm"]]
             circuit_name, date = wk["circuitName"], wk["date"]
@@ -340,6 +373,9 @@ def build_weekends(year, races, people):
                               "Location": {"locality": locality, "country": country}},
                   "Sessions": sessions,
                   "Results": {k: results[k] for k in sorted(results)}}
+        if qualifying:
+            wk_out["Qualifying"] = [{"race": q["race"], "label": S.qualifying_label(year, i, len(qualifying)), **q}
+                                    for i, q in enumerate(qualifying, 1)]
         if empty:
             wk_out["note"] = wk["note"]
         rounds.append(wk_out)
@@ -389,7 +425,8 @@ def countback(places):
 
 
 def ranked(entities, totals, places):
-    return sorted(entities, key=lambda e: (-round(totals[e], 2), tuple(-x for x in countback(places[e]))))
+    # points, then countback; the id only makes a dead heat come out the same on every build
+    return sorted(entities, key=lambda e: (-round(totals[e], 2), tuple(-x for x in countback(places[e])), e))
 
 
 def by_round(order_fn, pts, entities, n_rounds):

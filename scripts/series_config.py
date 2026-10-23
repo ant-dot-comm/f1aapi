@@ -66,6 +66,11 @@ def session_label(year, rtype, index, count, order, sessions):
     return "Opening Race" if count > 1 and index < count else "Feature Race"
 
 
+def qualifying_label(year, index, count):
+    """Name of a weekend's qualifying session(s), in running order."""
+    return f"Qualifying {index}" if count > 1 else "Qualifying"
+
+
 def race_name(year, circuit_id, default, visit):
     if year == 2023 and circuit_id == "valencia":
         return "Valencia Grand Prix"

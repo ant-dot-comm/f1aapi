@@ -28,6 +28,15 @@
         "pointsFinishes": 3,
         "bestFinish": 8,
         "avgFinish": 11.7,
+        "avgGrid": 12.95,
+        "qualifying": {
+            "sessions": 14,
+            "average": 13.0,
+            "best": 8,
+            "poles": 0,
+            "frontRow": 0,
+            "top10": 3
+        },
         "titles": 0,
         "bestChampionship": 15,
         "eras": [
@@ -51,9 +60,69 @@
             "pointsFinishes": 3,
             "bestFinish": 8,
             "avgFinish": 11.7,
+            "avgGrid": 12.95,
+            "qualifying": {
+                "sessions": 14,
+                "average": 13.0,
+                "best": 8,
+                "poles": 0,
+                "frontRow": 0,
+                "top10": 3
+            },
             "championshipPosition": 15,
             "teams": [
                 "campos"
+            ],
+            "byRound": [
+                {
+                    "round": "1",
+                    "raceName": "Austrian Grand Prix",
+                    "points": 0,
+                    "total": 0,
+                    "position": 15
+                },
+                {
+                    "round": "2",
+                    "raceName": "Valencia Grand Prix",
+                    "points": 0,
+                    "total": 0,
+                    "position": 15
+                },
+                {
+                    "round": "3",
+                    "raceName": "Spanish Grand Prix",
+                    "points": 0,
+                    "total": 0,
+                    "position": 15
+                },
+                {
+                    "round": "4",
+                    "raceName": "Dutch Grand Prix",
+                    "points": 1,
+                    "total": 1,
+                    "position": 15
+                },
+                {
+                    "round": "5",
+                    "raceName": "Italian Grand Prix",
+                    "points": 1,
+                    "total": 2,
+                    "position": 15
+                },
+                {
+                    "round": "6",
+                    "raceName": "Le Castellet Grand Prix",
+                    "points": 4,
+                    "total": 6,
+                    "position": 15
+                },
+                {
+                    "round": "7",
+                    "raceName": "United States Grand Prix",
+                    "points": 0,
+                    "total": 6,
+                    "position": 15
+                }
             ],
             "complete": true,
             "era": "f1a",
@@ -333,6 +402,176 @@
             "position": "12",
             "status": "Finished",
             "points": "0"
+        }
+    ],
+    "qualifying": [
+        {
+            "season": "2023",
+            "round": "1",
+            "raceName": "Austrian Grand Prix",
+            "race": "race1",
+            "label": "Qualifying 1",
+            "forRace": "Race 1",
+            "constructorId": "campos",
+            "position": "14",
+            "grid": "14",
+            "time": "3:17.245"
+        },
+        {
+            "season": "2023",
+            "round": "1",
+            "raceName": "Austrian Grand Prix",
+            "race": "race3",
+            "label": "Qualifying 2",
+            "forRace": "Race 3",
+            "constructorId": "campos",
+            "position": "11",
+            "grid": "11",
+            "time": "1:49.744"
+        },
+        {
+            "season": "2023",
+            "round": "2",
+            "raceName": "Valencia Grand Prix",
+            "race": "race1",
+            "label": "Qualifying 1",
+            "forRace": "Race 1",
+            "constructorId": "campos",
+            "position": "9",
+            "grid": "9",
+            "time": "1:36.754"
+        },
+        {
+            "season": "2023",
+            "round": "2",
+            "raceName": "Valencia Grand Prix",
+            "race": "race3",
+            "label": "Qualifying 2",
+            "forRace": "Race 3",
+            "constructorId": "campos",
+            "position": "8",
+            "grid": "8",
+            "time": "1:35.579"
+        },
+        {
+            "season": "2023",
+            "round": "3",
+            "raceName": "Spanish Grand Prix",
+            "race": "race1",
+            "label": "Qualifying 1",
+            "forRace": "Race 1",
+            "constructorId": "campos",
+            "position": "14",
+            "grid": "14",
+            "time": "1:42.936"
+        },
+        {
+            "season": "2023",
+            "round": "3",
+            "raceName": "Spanish Grand Prix",
+            "race": "race3",
+            "label": "Qualifying 2",
+            "forRace": "Race 3",
+            "constructorId": "campos",
+            "position": "15",
+            "grid": "15",
+            "time": ""
+        },
+        {
+            "season": "2023",
+            "round": "4",
+            "raceName": "Dutch Grand Prix",
+            "race": "race1",
+            "label": "Qualifying 1",
+            "forRace": "Race 1",
+            "constructorId": "campos",
+            "position": "15",
+            "grid": "15",
+            "time": "1:38.782"
+        },
+        {
+            "season": "2023",
+            "round": "4",
+            "raceName": "Dutch Grand Prix",
+            "race": "race3",
+            "label": "Qualifying 2",
+            "forRace": "Race 3",
+            "constructorId": "campos",
+            "position": "15",
+            "grid": "15",
+            "time": "1:38.298"
+        },
+        {
+            "season": "2023",
+            "round": "5",
+            "raceName": "Italian Grand Prix",
+            "race": "race1",
+            "label": "Qualifying 1",
+            "forRace": "Race 1",
+            "constructorId": "campos",
+            "position": "15",
+            "grid": "14",
+            "time": "1:59.115"
+        },
+        {
+            "season": "2023",
+            "round": "5",
+            "raceName": "Italian Grand Prix",
+            "race": "race3",
+            "label": "Qualifying 2",
+            "forRace": "Race 3",
+            "constructorId": "campos",
+            "position": "15",
+            "grid": "15",
+            "time": "1:55.700"
+        },
+        {
+            "season": "2023",
+            "round": "6",
+            "raceName": "Le Castellet Grand Prix",
+            "race": "race1",
+            "label": "Qualifying 1",
+            "forRace": "Race 1",
+            "constructorId": "campos",
+            "position": "10",
+            "grid": "10",
+            "time": "1:27.543"
+        },
+        {
+            "season": "2023",
+            "round": "6",
+            "raceName": "Le Castellet Grand Prix",
+            "race": "race3",
+            "label": "Qualifying 2",
+            "forRace": "Race 3",
+            "constructorId": "campos",
+            "position": "13",
+            "grid": "13",
+            "time": "1:27.510"
+        },
+        {
+            "season": "2023",
+            "round": "7",
+            "raceName": "United States Grand Prix",
+            "race": "race1",
+            "label": "Qualifying 1",
+            "forRace": "Race 1",
+            "constructorId": "campos",
+            "position": "15",
+            "grid": "15",
+            "time": "2:10.336"
+        },
+        {
+            "season": "2023",
+            "round": "7",
+            "raceName": "United States Grand Prix",
+            "race": "race3",
+            "label": "Qualifying 2",
+            "forRace": "Race 3",
+            "constructorId": "campos",
+            "position": "13",
+            "grid": "13",
+            "time": "2:09.282"
         }
     ]
 }

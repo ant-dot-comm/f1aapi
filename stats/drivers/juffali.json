@@ -28,6 +28,15 @@
         "pointsFinishes": 0,
         "bestFinish": 11,
         "avgFinish": 11.0,
+        "avgGrid": 14.5,
+        "qualifying": {
+            "sessions": 2,
+            "average": 14.5,
+            "best": 14,
+            "poles": 0,
+            "frontRow": 0,
+            "top10": 0
+        },
         "titles": 0,
         "bestChampionship": 21,
         "eras": [
@@ -51,9 +60,69 @@
             "pointsFinishes": 0,
             "bestFinish": 11,
             "avgFinish": 11.0,
+            "avgGrid": 14.5,
+            "qualifying": {
+                "sessions": 2,
+                "average": 14.5,
+                "best": 14,
+                "poles": 0,
+                "frontRow": 0,
+                "top10": 0
+            },
             "championshipPosition": 21,
             "teams": [
                 "prema"
+            ],
+            "byRound": [
+                {
+                    "round": "1",
+                    "raceName": "Saudi Arabian Grand Prix",
+                    "points": 0,
+                    "total": 0,
+                    "position": 15
+                },
+                {
+                    "round": "2",
+                    "raceName": "Miami Grand Prix",
+                    "points": 0,
+                    "total": 0,
+                    "position": 17
+                },
+                {
+                    "round": "3",
+                    "raceName": "Spanish Grand Prix",
+                    "points": 0,
+                    "total": 0,
+                    "position": 17
+                },
+                {
+                    "round": "4",
+                    "raceName": "Dutch Grand Prix",
+                    "points": 0,
+                    "total": 0,
+                    "position": 18
+                },
+                {
+                    "round": "5",
+                    "raceName": "Singapore Grand Prix",
+                    "points": 0,
+                    "total": 0,
+                    "position": 19
+                },
+                {
+                    "round": "6",
+                    "raceName": "Qatar Grand Prix",
+                    "points": 0,
+                    "total": 0,
+                    "position": 20
+                },
+                {
+                    "round": "7",
+                    "raceName": "Abu Dhabi Grand Prix",
+                    "points": 0,
+                    "total": 0,
+                    "position": 21
+                }
             ],
             "complete": true,
             "era": "f1a",
@@ -86,6 +155,32 @@
             "position": "NC",
             "status": "DNF",
             "points": "0"
+        }
+    ],
+    "qualifying": [
+        {
+            "season": "2024",
+            "round": "1",
+            "raceName": "Saudi Arabian Grand Prix",
+            "race": "race1",
+            "label": "Qualifying 1",
+            "forRace": "Race 1",
+            "constructorId": "prema",
+            "position": "14",
+            "grid": "14",
+            "time": "2:06.112"
+        },
+        {
+            "season": "2024",
+            "round": "1",
+            "raceName": "Saudi Arabian Grand Prix",
+            "race": "race2",
+            "label": "Qualifying 2",
+            "forRace": "Race 2",
+            "constructorId": "prema",
+            "position": "15",
+            "grid": "15",
+            "time": "2:06.278"
         }
     ]
 }

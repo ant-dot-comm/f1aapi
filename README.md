@@ -20,7 +20,7 @@ championship table — the build refuses to publish otherwise.
 | `standings/<year>/teams.json` | `position`, `constructorId`, `team` (that season's entrant name), `points`, `wins`, `byRound`. |
 | `constructors/<year>/registry.json` | Who drove which car number for which team, by round. |
 | `constructors/<year>/drivers.json` | Legacy roster keyed by car number (`Driver`, `Driver2`, …, `Constructor`). |
-| `stats/index.json`, `stats/drivers/<driverId>.json`, `stats/teams/<constructorId>.json` | Career and per-season stats, every result, and per team its `drivers`, `leaders` (top 3 by starts / wins / podiums / poles / points / titles) and `championDrivers`. |
+| `stats/index.json`, `stats/drivers/<driverId>.json`, `stats/teams/<constructorId>.json` | Career and per-season stats (`avgFinish`, `avgGrid`, `qualifying` {`sessions`, `average`, `best`, `poles`, `frontRow`, `top10`}), each season's `byRound` championship progress (`round`, `raceName`, `points`, `total`, `position`), every result, every `qualifying` session, and per team its `drivers` (with `avgQualifying`), `leaders` (top 3 by starts / wins / podiums / poles / points / titles) and `championDrivers`. |
 | `races/racesbyMK.json` | Legacy calendar keyed by `raceId` (`<year><round>`). |
 
 ## A weekend in `results.json`
@@ -36,6 +36,8 @@ championship table — the build refuses to publish otherwise.
   ],
   "Results": {"race1": [{"number": "1", "driverId": "camara", "constructorId": "invicta", "grid": "3",
                          "position": "1", "status": "Finished", "points": "10", "...": "..."}]},
+  "Qualifying": [{"race": "race2", "label": "Qualifying", "Results": [{"position": "1", "driverId": "stenshorne",
+                   "constructorId": "...", "number": "...", "time": "1:51.234", "grid": "1"}]}],
   "Bonuses": [{"driverId": "...", "constructorId": "...", "type": "pole", "points": "2", "note": "..."}]
 }
 ```
@@ -46,5 +48,9 @@ championship table — the build refuses to publish otherwise.
   `race0` = a weekend's extra race.
 - Flags on a session: `halfPoints`, `noPoints` (race stopped before points were due), `cancelled`
   (scheduled but not run; `key` is null and there are no results).
+- `Qualifying` lists each qualifying session and the race (`race` = Results key) whose grid it set;
+  reverse-grid races have none. `position` is the qualifying classification (by lap time), `grid` the
+  starting grid after penalties. `order: "grid"` marks sessions whose lap times don't reproduce the
+  order (groups at Monaco, deleted laps, red flags); there `position` follows the grid.
 - `Bonuses` are championship points no race row carries (pole position for a race that was then not run).
 - `position` is `"NC"` for unclassified rows; `status` is `Finished`, `DNF`, `DNS`, `DSQ` or `NC`.
