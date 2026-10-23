@@ -1,10 +1,16 @@
 {
     "driverId": "juffali",
-    "name": "R. Juffali",
+    "name": "Reema Juffali",
+    "givenName": "Reema",
+    "familyName": "Juffali",
     "code": "JUF",
+    "nationality": "Saudi Arabian",
     "series": "f1a",
     "seasons": [
         "2024"
+    ],
+    "teams": [
+        "prema"
     ],
     "career": {
         "entries": 2,
@@ -19,8 +25,9 @@
         "poles": 0,
         "fastestLaps": 0,
         "dnfs": 1,
+        "pointsFinishes": 0,
         "bestFinish": 11,
-        "avgFinish": 13.0,
+        "avgFinish": 11.0,
         "titles": 0,
         "bestChampionship": 21,
         "eras": [
@@ -41,12 +48,16 @@
             "poles": 0,
             "fastestLaps": 0,
             "dnfs": 1,
+            "pointsFinishes": 0,
             "bestFinish": 11,
-            "avgFinish": 13.0,
+            "avgFinish": 11.0,
             "championshipPosition": 21,
+            "teams": [
+                "prema"
+            ],
             "complete": true,
             "era": "f1a",
-            "championship": null
+            "championship": "F1 Academy"
         }
     },
     "results": [
@@ -55,7 +66,8 @@
             "round": "1",
             "raceName": "Saudi Arabian Grand Prix",
             "race": "race1",
-            "type": "reverse",
+            "type": "feature",
+            "label": "Race 1",
             "constructorId": "prema",
             "grid": "14",
             "position": "11",
@@ -68,9 +80,10 @@
             "raceName": "Saudi Arabian Grand Prix",
             "race": "race2",
             "type": "feature",
+            "label": "Race 2",
             "constructorId": "prema",
-            "grid": "14",
-            "position": "15",
+            "grid": "15",
+            "position": "NC",
             "status": "DNF",
             "points": "0"
         }

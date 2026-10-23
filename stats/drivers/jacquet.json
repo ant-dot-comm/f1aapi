@@ -1,10 +1,16 @@
 {
     "driverId": "jacquet",
-    "name": "J. Jacquet",
+    "name": "Jade Jacquet",
+    "givenName": "Jade",
+    "familyName": "Jacquet",
     "code": "JAC",
+    "nationality": "French",
     "series": "f1a",
     "seasons": [
         "2026"
+    ],
+    "teams": [
+        "art"
     ],
     "career": {
         "entries": 9,
@@ -19,8 +25,9 @@
         "poles": 0,
         "fastestLaps": 0,
         "dnfs": 2,
+        "pointsFinishes": 0,
         "bestFinish": 11,
-        "avgFinish": 14.0,
+        "avgFinish": 13.14,
         "titles": 0,
         "bestChampionship": 18,
         "eras": [
@@ -41,12 +48,16 @@
             "poles": 0,
             "fastestLaps": 0,
             "dnfs": 2,
+            "pointsFinishes": 0,
             "bestFinish": 11,
-            "avgFinish": 14.0,
+            "avgFinish": 13.14,
             "championshipPosition": 18,
+            "teams": [
+                "art"
+            ],
             "complete": false,
             "era": "f1a",
-            "championship": null
+            "championship": "F1 Academy"
         }
     },
     "results": [
@@ -55,7 +66,8 @@
             "round": "1",
             "raceName": "Chinese Grand Prix",
             "race": "race1",
-            "type": "reverse",
+            "type": "sprint",
+            "label": "Reverse Grid Race",
             "constructorId": "art",
             "grid": "13",
             "position": "13",
@@ -68,9 +80,10 @@
             "raceName": "Chinese Grand Prix",
             "race": "race2",
             "type": "feature",
+            "label": "Feature Race",
             "constructorId": "art",
             "grid": "13",
-            "position": "17",
+            "position": "NC",
             "status": "DNF",
             "points": "0"
         },
@@ -79,9 +92,10 @@
             "round": "2",
             "raceName": "Canadian Grand Prix",
             "race": "race0",
-            "type": "opening",
+            "type": "feature",
+            "label": "Opening Race",
             "constructorId": "art",
-            "grid": "15",
+            "grid": "18",
             "position": "12",
             "status": "Finished",
             "points": "0"
@@ -91,7 +105,8 @@
             "round": "2",
             "raceName": "Canadian Grand Prix",
             "race": "race1",
-            "type": "reverse",
+            "type": "sprint",
+            "label": "Reverse Grid Race",
             "constructorId": "art",
             "grid": "13",
             "position": "12",
@@ -104,6 +119,7 @@
             "raceName": "Canadian Grand Prix",
             "race": "race2",
             "type": "feature",
+            "label": "Feature Race",
             "constructorId": "art",
             "grid": "13",
             "position": "13",
@@ -115,7 +131,8 @@
             "round": "3",
             "raceName": "British Grand Prix",
             "race": "race1",
-            "type": "reverse",
+            "type": "sprint",
+            "label": "Reverse Grid Race",
             "constructorId": "art",
             "grid": "18",
             "position": "18",
@@ -128,6 +145,7 @@
             "raceName": "British Grand Prix",
             "race": "race2",
             "type": "feature",
+            "label": "Feature Race",
             "constructorId": "art",
             "grid": "18",
             "position": "13",
@@ -139,10 +157,11 @@
             "round": "4",
             "raceName": "Dutch Grand Prix",
             "race": "race1",
-            "type": "reverse",
+            "type": "sprint",
+            "label": "Reverse Grid Race",
             "constructorId": "art",
-            "grid": "9",
-            "position": "17",
+            "grid": "",
+            "position": "NC",
             "status": "DNF",
             "points": "0"
         },
@@ -152,6 +171,7 @@
             "raceName": "Dutch Grand Prix",
             "race": "race2",
             "type": "feature",
+            "label": "Feature Race",
             "constructorId": "art",
             "grid": "9",
             "position": "11",

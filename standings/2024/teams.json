@@ -1,234 +1,265 @@
 {
     "season": "2024",
     "series": "f1a",
-    "updated": "2026-10-04",
+    "championship": "F1 Academy",
+    "source": "motorsportmagazine.com",
+    "updated": "2026-10-22",
     "lastRound": 7,
     "scheduledRounds": 7,
     "complete": true,
-    "source": "https://www.f1academy.com/Racing-Series/Standings/Team?seasonId=2",
     "Standings": [
         {
             "position": "1",
             "constructorId": "prema",
-            "code": "PREMA Racing",
-            "team": "PREMA Racing",
+            "team": "Prema Racing",
             "points": "425",
+            "wins": "4",
             "byRound": [
                 {
                     "round": "1",
-                    "race1": "50",
-                    "race2": "23"
+                    "points": "73",
+                    "total": "73",
+                    "position": "1"
                 },
                 {
                     "round": "2",
-                    "race1": "26",
-                    "race2": "25"
+                    "points": "51",
+                    "total": "124",
+                    "position": "1"
                 },
                 {
                     "round": "3",
-                    "race1": "8",
-                    "race2": "14"
+                    "points": "22",
+                    "total": "146",
+                    "position": "3"
                 },
                 {
                     "round": "4",
-                    "race1": "25",
-                    "race2": "48"
+                    "points": "73",
+                    "total": "219",
+                    "position": "2"
                 },
                 {
                     "round": "5",
-                    "race1": "35",
-                    "race2": "33"
+                    "points": "68",
+                    "total": "287",
+                    "position": "1"
                 },
                 {
                     "round": "6",
-                    "race1": "43",
-                    "race2": "2"
+                    "points": "45",
+                    "total": "332",
+                    "position": "1"
                 },
                 {
                     "round": "7",
-                    "race1": "21",
-                    "race2": "24",
-                    "race3": "48"
+                    "points": "93",
+                    "total": "425",
+                    "position": "1"
                 }
             ]
         },
         {
             "position": "2",
             "constructorId": "rodin",
-            "code": "Rodin Motorsport",
             "team": "Rodin Motorsport",
             "points": "385",
+            "wins": "9",
             "byRound": [
                 {
                     "round": "1",
-                    "race1": "23",
-                    "race2": "37"
+                    "points": "60",
+                    "total": "60",
+                    "position": "2"
                 },
                 {
                     "round": "2",
-                    "race1": "34",
-                    "race2": "28"
+                    "points": "62",
+                    "total": "122",
+                    "position": "2"
                 },
                 {
                     "round": "3",
-                    "race1": "32",
-                    "race2": "22"
+                    "points": "54",
+                    "total": "176",
+                    "position": "1"
                 },
                 {
                     "round": "4",
-                    "race1": "28",
-                    "race2": "21"
+                    "points": "49",
+                    "total": "225",
+                    "position": "1"
                 },
                 {
                     "round": "5",
-                    "race1": "27",
-                    "race2": "28"
+                    "points": "55",
+                    "total": "280",
+                    "position": "2"
                 },
                 {
                     "round": "6",
-                    "race1": "24",
-                    "race2": "0"
+                    "points": "24",
+                    "total": "304",
+                    "position": "2"
                 },
                 {
                     "round": "7",
-                    "race1": "28",
-                    "race2": "27",
-                    "race3": "26"
+                    "points": "81",
+                    "total": "385",
+                    "position": "2"
                 }
             ]
         },
         {
             "position": "3",
             "constructorId": "campos",
-            "code": "Campos Racing",
             "team": "Campos Racing",
             "points": "292",
+            "wins": "1",
             "byRound": [
                 {
                     "round": "1",
-                    "race1": "13",
-                    "race2": "22"
+                    "points": "35",
+                    "total": "35",
+                    "position": "3"
                 },
                 {
                     "round": "2",
-                    "race1": "27",
-                    "race2": "20"
+                    "points": "47",
+                    "total": "82",
+                    "position": "3"
                 },
                 {
                     "round": "3",
-                    "race1": "33",
-                    "race2": "38"
+                    "points": "71",
+                    "total": "153",
+                    "position": "2"
                 },
                 {
                     "round": "4",
-                    "race1": "27",
-                    "race2": "12"
+                    "points": "39",
+                    "total": "192",
+                    "position": "3"
                 },
                 {
                     "round": "5",
-                    "race1": "20",
-                    "race2": "16"
+                    "points": "36",
+                    "total": "228",
+                    "position": "3"
                 },
                 {
                     "round": "6",
-                    "race1": "4",
-                    "race2": "0"
+                    "points": "4",
+                    "total": "232",
+                    "position": "3"
                 },
                 {
                     "round": "7",
-                    "race1": "10",
-                    "race2": "27",
-                    "race3": "23"
+                    "points": "60",
+                    "total": "292",
+                    "position": "3"
                 }
             ]
         },
         {
             "position": "4",
             "constructorId": "mp",
-            "code": "MP Motorsport",
             "team": "MP Motorsport",
             "points": "178",
+            "wins": "0",
             "byRound": [
                 {
                     "round": "1",
-                    "race1": "2",
-                    "race2": "14"
+                    "points": "16",
+                    "total": "16",
+                    "position": "5"
                 },
                 {
                     "round": "2",
-                    "race1": "14",
-                    "race2": "12"
+                    "points": "26",
+                    "total": "42",
+                    "position": "5"
                 },
                 {
                     "round": "3",
-                    "race1": "18",
-                    "race2": "16"
+                    "points": "34",
+                    "total": "76",
+                    "position": "4"
                 },
                 {
                     "round": "4",
-                    "race1": "4",
-                    "race2": "12"
+                    "points": "16",
+                    "total": "92",
+                    "position": "4"
                 },
                 {
                     "round": "5",
-                    "race1": "8",
-                    "race2": "9"
+                    "points": "17",
+                    "total": "109",
+                    "position": "5"
                 },
                 {
                     "round": "6",
-                    "race1": "13",
-                    "race2": "0"
+                    "points": "13",
+                    "total": "122",
+                    "position": "5"
                 },
                 {
                     "round": "7",
-                    "race1": "34",
-                    "race2": "19",
-                    "race3": "3"
+                    "points": "56",
+                    "total": "178",
+                    "position": "4"
                 }
             ]
         },
         {
             "position": "5",
             "constructorId": "art",
-            "code": "ART Grand Prix",
             "team": "ART Grand Prix",
             "points": "146",
+            "wins": "0",
             "byRound": [
                 {
                     "round": "1",
-                    "race1": "16",
-                    "race2": "8"
+                    "points": "24",
+                    "total": "24",
+                    "position": "4"
                 },
                 {
                     "round": "2",
-                    "race1": "3",
-                    "race2": "19"
+                    "points": "22",
+                    "total": "46",
+                    "position": "4"
                 },
                 {
                     "round": "3",
-                    "race1": "13",
-                    "race2": "14"
+                    "points": "27",
+                    "total": "73",
+                    "position": "5"
                 },
                 {
                     "round": "4",
-                    "race1": "8",
-                    "race2": "10"
+                    "points": "18",
+                    "total": "91",
+                    "position": "5"
                 },
                 {
                     "round": "5",
-                    "race1": "12",
-                    "race2": "12"
+                    "points": "24",
+                    "total": "115",
+                    "position": "4"
                 },
                 {
                     "round": "6",
-                    "race1": "10",
-                    "race2": "0"
+                    "points": "10",
+                    "total": "125",
+                    "position": "4"
                 },
                 {
                     "round": "7",
-                    "race1": "11",
-                    "race2": "6",
-                    "race3": "4"
+                    "points": "21",
+                    "total": "146",
+                    "position": "5"
                 }
             ]
         }

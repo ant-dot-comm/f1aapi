@@ -1,10 +1,13 @@
 {
     "season": "2024",
     "series": "f1a",
+    "championship": "F1 Academy",
     "Drivers": {
-        "a_al_qubaisi": {
-            "driverId": "a_al_qubaisi",
-            "name": "A. Al Qubaisi",
+        "amna_al_qubaisi": {
+            "driverId": "amna_al_qubaisi",
+            "name": "Amna Al Qubaisi",
+            "givenName": "Amna",
+            "familyName": "Al Qubaisi",
             "code": "AAL",
             "entries": [
                 {
@@ -24,7 +27,9 @@
         },
         "block": {
             "driverId": "block",
-            "name": "L. Block",
+            "name": "Lia Block",
+            "givenName": "Lia",
+            "familyName": "Block",
             "code": "BLO",
             "entries": [
                 {
@@ -44,7 +49,9 @@
         },
         "bustamante": {
             "driverId": "bustamante",
-            "name": "B. Bustamante",
+            "name": "Bianca Bustamante",
+            "givenName": "Bianca",
+            "familyName": "Bustamante",
             "code": "BUS",
             "entries": [
                 {
@@ -64,7 +71,9 @@
         },
         "chambers": {
             "driverId": "chambers",
-            "name": "C. Chambers",
+            "name": "Chloe Chambers",
+            "givenName": "Chloe",
+            "familyName": "Chambers",
             "code": "CHA",
             "entries": [
                 {
@@ -84,7 +93,9 @@
         },
         "crone": {
             "driverId": "crone",
-            "name": "C. Crone",
+            "name": "Courtney Crone",
+            "givenName": "Courtney",
+            "familyName": "Crone",
             "code": "CRO",
             "entries": [
                 {
@@ -94,11 +105,14 @@
                         "2"
                     ]
                 }
-            ]
+            ],
+            "wildcard": true
         },
-        "de_haus": {
-            "driverId": "de_haus",
-            "name": "E. De Heus",
+        "de_heus": {
+            "driverId": "de_heus",
+            "name": "Emely de Heus",
+            "givenName": "Emely",
+            "familyName": "de Heus",
             "code": "DEH",
             "entries": [
                 {
@@ -118,7 +132,9 @@
         },
         "edgar": {
             "driverId": "edgar",
-            "name": "J. Edgar",
+            "name": "Jessica Edgar",
+            "givenName": "Jessica",
+            "familyName": "Edgar",
             "code": "EDG",
             "entries": [
                 {
@@ -138,7 +154,9 @@
         },
         "gademan": {
             "driverId": "gademan",
-            "name": "N. Gademan",
+            "name": "Nina Gademan",
+            "givenName": "Nina",
+            "familyName": "Gademan",
             "code": "GAD",
             "entries": [
                 {
@@ -148,11 +166,14 @@
                         "4"
                     ]
                 }
-            ]
+            ],
+            "wildcard": true
         },
-        "h_al_qubaisi": {
-            "driverId": "h_al_qubaisi",
-            "name": "H. Al Qubaisi",
+        "hamda_al_qubaisi": {
+            "driverId": "hamda_al_qubaisi",
+            "name": "Hamda Al Qubaisi",
+            "givenName": "Hamda",
+            "familyName": "Al Qubaisi",
             "code": "HAL",
             "entries": [
                 {
@@ -170,9 +191,11 @@
                 }
             ]
         },
-        "hanna": {
-            "driverId": "hanna",
-            "name": "L. Hannah",
+        "hannah": {
+            "driverId": "hannah",
+            "name": "Logan Hannah",
+            "givenName": "Logan",
+            "familyName": "Hannah",
             "code": "HAN",
             "entries": [
                 {
@@ -182,11 +205,14 @@
                         "7"
                     ]
                 }
-            ]
+            ],
+            "wildcard": true
         },
         "hausmann": {
             "driverId": "hausmann",
-            "name": "T. Hausmann",
+            "name": "Tina Hausmann",
+            "givenName": "Tina",
+            "familyName": "Hausmann",
             "code": "HAU",
             "entries": [
                 {
@@ -206,7 +232,9 @@
         },
         "juffali": {
             "driverId": "juffali",
-            "name": "R. Juffali",
+            "name": "Reema Juffali",
+            "givenName": "Reema",
+            "familyName": "Juffali",
             "code": "JUF",
             "entries": [
                 {
@@ -216,11 +244,14 @@
                         "1"
                     ]
                 }
-            ]
+            ],
+            "wildcard": true
         },
         "lloyd": {
             "driverId": "lloyd",
-            "name": "E. Lloyd",
+            "name": "Ella Lloyd",
+            "givenName": "Ella",
+            "familyName": "Lloyd",
             "code": "LLO",
             "entries": [
                 {
@@ -230,11 +261,14 @@
                         "5"
                     ]
                 }
-            ]
+            ],
+            "wildcard": true
         },
         "lovinfosse": {
             "driverId": "lovinfosse",
-            "name": "L. Lovinfosse",
+            "name": "Lola Lovinfosse",
+            "givenName": "Lola",
+            "familyName": "Lovinfosse",
             "code": "LOV",
             "entries": [
                 {
@@ -254,7 +288,9 @@
         },
         "marti": {
             "driverId": "marti",
-            "name": "N. Martí",
+            "name": "Nerea Martí",
+            "givenName": "Nerea",
+            "familyName": "Martí",
             "code": "MAR",
             "entries": [
                 {
@@ -272,9 +308,11 @@
                 }
             ]
         },
-        "nobles": {
-            "driverId": "nobles",
-            "name": "A. Nobels",
+        "nobels": {
+            "driverId": "nobels",
+            "name": "Aurelia Nobels",
+            "givenName": "Aurelia",
+            "familyName": "Nobels",
             "code": "NOB",
             "entries": [
                 {
@@ -294,7 +332,9 @@
         },
         "palmowski": {
             "driverId": "palmowski",
-            "name": "A. Palmowski",
+            "name": "Alisha Palmowski",
+            "givenName": "Alisha",
+            "familyName": "Palmowski",
             "code": "PAL",
             "entries": [
                 {
@@ -304,11 +344,14 @@
                         "6"
                     ]
                 }
-            ]
+            ],
+            "wildcard": true
         },
         "pin": {
             "driverId": "pin",
-            "name": "D. Pin",
+            "name": "Doriane Pin",
+            "givenName": "Doriane",
+            "familyName": "Pin",
             "code": "PIN",
             "entries": [
                 {
@@ -328,7 +371,9 @@
         },
         "pulling": {
             "driverId": "pulling",
-            "name": "A. Pulling",
+            "name": "Abbi Pulling",
+            "givenName": "Abbi",
+            "familyName": "Pulling",
             "code": "PUL",
             "entries": [
                 {
@@ -348,7 +393,9 @@
         },
         "schreiner": {
             "driverId": "schreiner",
-            "name": "C. Schreiner",
+            "name": "Carrie Schreiner",
+            "givenName": "Carrie",
+            "familyName": "Schreiner",
             "code": "SCH",
             "entries": [
                 {
@@ -368,7 +415,9 @@
         },
         "weug": {
             "driverId": "weug",
-            "name": "M. Weug",
+            "name": "Maya Weug",
+            "givenName": "Maya",
+            "familyName": "Weug",
             "code": "WEU",
             "entries": [
                 {

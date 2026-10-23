@@ -4,20 +4,20 @@
         "permanentNumber": "7",
         "code": "DEH",
         "givenName": "Emely",
-        "familyName": "De Heus"
+        "familyName": "de Heus"
     },
     {
-        "driverId": "h_al_qubaisi",
+        "driverId": "hamda_al_qubaisi",
         "permanentNumber": "8",
         "code": "HAL",
         "givenName": "Hamda",
         "familyName": "Al Qubaisi"
     },
     {
-        "driverId": "a_al_qubaisi",
+        "driverId": "amna_al_qubaisi",
         "permanentNumber": "88",
         "code": "AAL",
-        "givenName": "Amma",
+        "givenName": "Amna",
         "familyName": "Al Qubaisi"
     }
 ]

@@ -1,0 +1,83 @@
+{
+    "season": "2025",
+    "series": "f1a",
+    "Races": [
+        {
+            "round": "1",
+            "raceId": "20251",
+            "raceName": "Chinese Grand Prix",
+            "circuitId": "shanghai",
+            "circuitName": "Shanghai",
+            "locality": "Shanghai",
+            "country": "China",
+            "date": "2025-03-23",
+            "status": "complete"
+        },
+        {
+            "round": "2",
+            "raceId": "20252",
+            "raceName": "Saudi Arabian Grand Prix",
+            "circuitId": "jeddah",
+            "circuitName": "Jeddah",
+            "locality": "Jeddah",
+            "country": "Saudi Arabia",
+            "date": "2025-04-20",
+            "status": "complete"
+        },
+        {
+            "round": "3",
+            "raceId": "20253",
+            "raceName": "Miami Grand Prix",
+            "circuitId": "miami",
+            "circuitName": "Miami International Autodrome",
+            "locality": "Miami",
+            "country": "USA",
+            "date": "2025-05-03",
+            "status": "complete"
+        },
+        {
+            "round": "4",
+            "raceId": "20254",
+            "raceName": "Canadian Grand Prix",
+            "circuitId": "villeneuve",
+            "circuitName": "Montreal",
+            "locality": "Montreal",
+            "country": "Canada",
+            "date": "2025-06-15",
+            "status": "complete"
+        },
+        {
+            "round": "5",
+            "raceId": "20255",
+            "raceName": "Dutch Grand Prix",
+            "circuitId": "zandvoort",
+            "circuitName": "Zandvoort",
+            "locality": "Zandvoort",
+            "country": "Netherlands",
+            "date": "2025-08-31",
+            "status": "complete"
+        },
+        {
+            "round": "6",
+            "raceId": "20256",
+            "raceName": "Singapore Grand Prix",
+            "circuitId": "marina_bay",
+            "circuitName": "Marina Bay",
+            "locality": "Marina Bay",
+            "country": "Singapore",
+            "date": "2025-10-05",
+            "status": "complete"
+        },
+        {
+            "round": "7",
+            "raceId": "20257",
+            "raceName": "Las Vegas Grand Prix",
+            "circuitId": "vegas",
+            "circuitName": "Las Vegas Boulevard",
+            "locality": "Las Vegas",
+            "country": "USA",
+            "date": "2025-11-22",
+            "status": "complete"
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "season": "2023",
+    "series": "f1a",
+    "Races": [
+        {
+            "round": "1",
+            "raceId": "20231",
+            "raceName": "Austrian Grand Prix",
+            "circuitId": "red_bull_ring",
+            "circuitName": "Spielberg",
+            "locality": "Spielberg",
+            "country": "Austria",
+            "date": "2023-04-29",
+            "status": "complete"
+        },
+        {
+            "round": "2",
+            "raceId": "20232",
+            "raceName": "Valencia Grand Prix",
+            "circuitId": "valencia",
+            "circuitName": "Valencia",
+            "locality": "Valencia",
+            "country": "Spain",
+            "date": "2023-05-07",
+            "status": "complete"
+        },
+        {
+            "round": "3",
+            "raceId": "20233",
+            "raceName": "Spanish Grand Prix",
+            "circuitId": "catalunya",
+            "circuitName": "Catalunya",
+            "locality": "Barcelona",
+            "country": "Spain",
+            "date": "2023-05-21",
+            "status": "complete"
+        },
+        {
+            "round": "4",
+            "raceId": "20234",
+            "raceName": "Dutch Grand Prix",
+            "circuitId": "zandvoort",
+            "circuitName": "Zandvoort",
+            "locality": "Zandvoort",
+            "country": "Netherlands",
+            "date": "2023-06-25",
+            "status": "complete"
+        },
+        {
+            "round": "5",
+            "raceId": "20235",
+            "raceName": "Italian Grand Prix",
+            "circuitId": "monza",
+            "circuitName": "Monza",
+            "locality": "Monza",
+            "country": "Italy",
+            "date": "2023-07-09",
+            "status": "complete"
+        },
+        {
+            "round": "6",
+            "raceId": "20236",
+            "raceName": "Le Castellet Grand Prix",
+            "circuitId": "ricard",
+            "circuitName": "Paul Ricard",
+            "locality": "Le Castellet",
+            "country": "France",
+            "date": "2023-07-30",
+            "status": "complete"
+        },
+        {
+            "round": "7",
+            "raceId": "20237",
+            "raceName": "United States Grand Prix",
+            "circuitId": "americas",
+            "circuitName": "Austin (COTA)",
+            "locality": "Austin",
+            "country": "USA",
+            "date": "2023-10-22",
+            "status": "complete"
+        }
+    ]
+}

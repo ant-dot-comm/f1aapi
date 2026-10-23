@@ -1,0 +1,72 @@
+{
+    "season": "2026",
+    "series": "f1a",
+    "Races": [
+        {
+            "round": "1",
+            "raceId": "20261",
+            "raceName": "Chinese Grand Prix",
+            "circuitId": "shanghai",
+            "circuitName": "Shanghai",
+            "locality": "Shanghai",
+            "country": "China",
+            "date": "2026-03-15",
+            "status": "complete"
+        },
+        {
+            "round": "2",
+            "raceId": "20262",
+            "raceName": "Canadian Grand Prix",
+            "circuitId": "villeneuve",
+            "circuitName": "Montreal",
+            "locality": "Montreal",
+            "country": "Canada",
+            "date": "2026-05-24",
+            "status": "complete"
+        },
+        {
+            "round": "3",
+            "raceId": "20263",
+            "raceName": "British Grand Prix",
+            "circuitId": "silverstone",
+            "circuitName": "Silverstone",
+            "locality": "Silverstone",
+            "country": "UK",
+            "date": "2026-07-05",
+            "status": "complete"
+        },
+        {
+            "round": "4",
+            "raceId": "20264",
+            "raceName": "Dutch Grand Prix",
+            "circuitId": "zandvoort",
+            "circuitName": "Zandvoort",
+            "locality": "Zandvoort",
+            "country": "Netherlands",
+            "date": "2026-08-23",
+            "status": "complete"
+        },
+        {
+            "round": "5",
+            "raceId": "20265",
+            "raceName": "United States Grand Prix",
+            "circuitId": "americas",
+            "circuitName": "Circuit of the Americas",
+            "locality": "Austin",
+            "country": "USA",
+            "date": "",
+            "status": "scheduled"
+        },
+        {
+            "round": "6",
+            "raceId": "20266",
+            "raceName": "Las Vegas Grand Prix",
+            "circuitId": "vegas",
+            "circuitName": "Las Vegas Strip Circuit",
+            "locality": "Las Vegas",
+            "country": "USA",
+            "date": "",
+            "status": "scheduled"
+        }
+    ]
+}

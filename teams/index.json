@@ -1,0 +1,127 @@
+{
+    "series": "f1a",
+    "updated": "2026-10-22",
+    "teams": [
+        {
+            "constructorId": "art",
+            "name": "ART Grand Prix",
+            "shortName": "Art",
+            "names": {
+                "2023": "ART Grand Prix",
+                "2024": "ART Grand Prix",
+                "2025": "ART Grand Prix",
+                "2026": "ART Grand Prix"
+            },
+            "seasons": [
+                "2023",
+                "2024",
+                "2025",
+                "2026"
+            ],
+            "predecessor": null,
+            "successor": null
+        },
+        {
+            "constructorId": "campos",
+            "name": "Campos Racing",
+            "shortName": "Campos",
+            "names": {
+                "2023": "Mercantile Campos Racing",
+                "2024": "Campos Racing",
+                "2025": "Campos Racing",
+                "2026": "Campos Racing"
+            },
+            "seasons": [
+                "2023",
+                "2024",
+                "2025",
+                "2026"
+            ],
+            "predecessor": null,
+            "successor": null
+        },
+        {
+            "constructorId": "carlin",
+            "name": "Rodin Carlin",
+            "shortName": "Carlin",
+            "names": {
+                "2023": "Rodin Carlin"
+            },
+            "seasons": [
+                "2023"
+            ],
+            "predecessor": null,
+            "successor": "rodin"
+        },
+        {
+            "constructorId": "rodin",
+            "name": "Rodin Motorsport",
+            "shortName": "Rodin",
+            "names": {
+                "2024": "Rodin Motorsport",
+                "2025": "Rodin Motorsport",
+                "2026": "Rodin Motorsport"
+            },
+            "seasons": [
+                "2024",
+                "2025",
+                "2026"
+            ],
+            "predecessor": "carlin",
+            "successor": null
+        },
+        {
+            "constructorId": "hitech",
+            "name": "Hitech",
+            "shortName": "Hitech",
+            "names": {
+                "2025": "HiTech TGR",
+                "2026": "Hitech"
+            },
+            "seasons": [
+                "2025",
+                "2026"
+            ],
+            "predecessor": null,
+            "successor": null
+        },
+        {
+            "constructorId": "mp",
+            "name": "MP Motorsport",
+            "shortName": "MP",
+            "names": {
+                "2023": "MP Motorsport",
+                "2024": "MP Motorsport",
+                "2025": "MP Motorsport",
+                "2026": "MP Motorsport"
+            },
+            "seasons": [
+                "2023",
+                "2024",
+                "2025",
+                "2026"
+            ],
+            "predecessor": null,
+            "successor": null
+        },
+        {
+            "constructorId": "prema",
+            "name": "Prema Racing",
+            "shortName": "Prema",
+            "names": {
+                "2023": "Prema Racing",
+                "2024": "Prema Racing",
+                "2025": "Prema Racing",
+                "2026": "Prema Racing"
+            },
+            "seasons": [
+                "2023",
+                "2024",
+                "2025",
+                "2026"
+            ],
+            "predecessor": null,
+            "successor": null
+        }
+    ]
+}

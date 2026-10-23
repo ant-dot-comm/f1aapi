@@ -1,11 +1,18 @@
 {
     "driverId": "bruce",
-    "name": "M. Bruce",
+    "name": "Megan Bruce",
+    "givenName": "Megan",
+    "familyName": "Bruce",
     "code": "BRU",
+    "nationality": "British",
     "series": "f1a",
     "seasons": [
         "2025",
         "2026"
+    ],
+    "teams": [
+        "hitech",
+        "campos"
     ],
     "career": {
         "entries": 11,
@@ -16,12 +23,12 @@
         },
         "podiums": {
             "total": 2,
-            "opening": 1,
-            "feature": 1
+            "feature": 2
         },
         "poles": 0,
         "fastestLaps": 0,
         "dnfs": 0,
+        "pointsFinishes": 7,
         "bestFinish": 2,
         "avgFinish": 8.09,
         "titles": 0,
@@ -44,12 +51,16 @@
             "poles": 0,
             "fastestLaps": 0,
             "dnfs": 0,
+            "pointsFinishes": 0,
             "bestFinish": 12,
             "avgFinish": 12.5,
             "championshipPosition": 22,
+            "teams": [
+                "hitech"
+            ],
             "complete": true,
             "era": "f1a",
-            "championship": null
+            "championship": "F1 Academy"
         },
         "2026": {
             "entries": 9,
@@ -60,18 +71,21 @@
             },
             "podiums": {
                 "total": 2,
-                "opening": 1,
-                "feature": 1
+                "feature": 2
             },
             "poles": 0,
             "fastestLaps": 0,
             "dnfs": 0,
+            "pointsFinishes": 7,
             "bestFinish": 2,
             "avgFinish": 7.11,
             "championshipPosition": 6,
+            "teams": [
+                "campos"
+            ],
             "complete": false,
             "era": "f1a",
-            "championship": null
+            "championship": "F1 Academy"
         }
     },
     "results": [
@@ -80,7 +94,8 @@
             "round": "6",
             "raceName": "Singapore Grand Prix",
             "race": "race1",
-            "type": "reverse",
+            "type": "sprint",
+            "label": "Reverse Grid Race",
             "constructorId": "hitech",
             "grid": "15",
             "position": "12",
@@ -93,6 +108,7 @@
             "raceName": "Singapore Grand Prix",
             "race": "race2",
             "type": "feature",
+            "label": "Feature Race",
             "constructorId": "hitech",
             "grid": "15",
             "position": "13",
@@ -104,7 +120,8 @@
             "round": "1",
             "raceName": "Chinese Grand Prix",
             "race": "race1",
-            "type": "reverse",
+            "type": "sprint",
+            "label": "Reverse Grid Race",
             "constructorId": "campos",
             "grid": "14",
             "position": "12",
@@ -117,6 +134,7 @@
             "raceName": "Chinese Grand Prix",
             "race": "race2",
             "type": "feature",
+            "label": "Feature Race",
             "constructorId": "campos",
             "grid": "14",
             "position": "9",
@@ -128,7 +146,8 @@
             "round": "2",
             "raceName": "Canadian Grand Prix",
             "race": "race0",
-            "type": "opening",
+            "type": "feature",
+            "label": "Opening Race",
             "constructorId": "campos",
             "grid": "2",
             "position": "2",
@@ -140,7 +159,8 @@
             "round": "2",
             "raceName": "Canadian Grand Prix",
             "race": "race1",
-            "type": "reverse",
+            "type": "sprint",
+            "label": "Reverse Grid Race",
             "constructorId": "campos",
             "grid": "6",
             "position": "7",
@@ -153,6 +173,7 @@
             "raceName": "Canadian Grand Prix",
             "race": "race2",
             "type": "feature",
+            "label": "Feature Race",
             "constructorId": "campos",
             "grid": "3",
             "position": "3",
@@ -164,7 +185,8 @@
             "round": "3",
             "raceName": "British Grand Prix",
             "race": "race1",
-            "type": "reverse",
+            "type": "sprint",
+            "label": "Reverse Grid Race",
             "constructorId": "campos",
             "grid": "9",
             "position": "9",
@@ -177,6 +199,7 @@
             "raceName": "British Grand Prix",
             "race": "race2",
             "type": "feature",
+            "label": "Feature Race",
             "constructorId": "campos",
             "grid": "9",
             "position": "9",
@@ -188,7 +211,8 @@
             "round": "4",
             "raceName": "Dutch Grand Prix",
             "race": "race1",
-            "type": "reverse",
+            "type": "sprint",
+            "label": "Reverse Grid Race",
             "constructorId": "campos",
             "grid": "2",
             "position": "7",
@@ -201,6 +225,7 @@
             "raceName": "Dutch Grand Prix",
             "race": "race2",
             "type": "feature",
+            "label": "Feature Race",
             "constructorId": "campos",
             "grid": "7",
             "position": "6",

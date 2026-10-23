@@ -1,0 +1,23 @@
+[
+    {
+        "driverId": "chong",
+        "permanentNumber": "14",
+        "code": "CHO",
+        "givenName": "Chloe",
+        "familyName": "Chong"
+    },
+    {
+        "driverId": "garcia",
+        "permanentNumber": "15",
+        "code": "GAR",
+        "givenName": "Marta",
+        "familyName": "García"
+    },
+    {
+        "driverId": "bustamante",
+        "permanentNumber": "16",
+        "code": "BUS",
+        "givenName": "Bianca",
+        "familyName": "Bustamante"
+    }
+]

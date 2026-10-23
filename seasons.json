@@ -1,0 +1,64 @@
+{
+    "series": "f1a",
+    "updated": "2026-10-22",
+    "seasons": [
+        {
+            "season": "2023",
+            "series": "f1a",
+            "championship": "F1 Academy",
+            "rounds": 7,
+            "scheduledRounds": 7,
+            "complete": true,
+            "champion": {
+                "driverId": "garcia",
+                "name": "Marta García"
+            },
+            "teamChampion": {
+                "constructorId": "prema",
+                "name": "Prema Racing"
+            }
+        },
+        {
+            "season": "2024",
+            "series": "f1a",
+            "championship": "F1 Academy",
+            "rounds": 7,
+            "scheduledRounds": 7,
+            "complete": true,
+            "champion": {
+                "driverId": "pulling",
+                "name": "Abbi Pulling"
+            },
+            "teamChampion": {
+                "constructorId": "prema",
+                "name": "Prema Racing"
+            }
+        },
+        {
+            "season": "2025",
+            "series": "f1a",
+            "championship": "F1 Academy",
+            "rounds": 7,
+            "scheduledRounds": 7,
+            "complete": true,
+            "champion": {
+                "driverId": "pin",
+                "name": "Doriane Pin"
+            },
+            "teamChampion": {
+                "constructorId": "prema",
+                "name": "Prema Racing"
+            }
+        },
+        {
+            "season": "2026",
+            "series": "f1a",
+            "championship": "F1 Academy",
+            "rounds": 4,
+            "scheduledRounds": 6,
+            "complete": false,
+            "champion": null,
+            "teamChampion": null
+        }
+    ]
+}

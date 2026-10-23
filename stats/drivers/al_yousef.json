@@ -1,10 +1,16 @@
 {
-    "driverId": "alyousef",
-    "name": "F. AlYousef",
-    "code": "FAY",
+    "driverId": "al_yousef",
+    "name": "Farah Al Yousef",
+    "givenName": "Farah",
+    "familyName": "Al Yousef",
+    "code": "ALY",
+    "nationality": "Saudi Arabian",
     "series": "f1a",
     "seasons": [
         "2025"
+    ],
+    "teams": [
+        "hitech"
     ],
     "career": {
         "entries": 2,
@@ -19,6 +25,7 @@
         "poles": 0,
         "fastestLaps": 0,
         "dnfs": 0,
+        "pointsFinishes": 0,
         "bestFinish": 16,
         "avgFinish": 17.0,
         "titles": 0,
@@ -41,12 +48,16 @@
             "poles": 0,
             "fastestLaps": 0,
             "dnfs": 0,
+            "pointsFinishes": 0,
             "bestFinish": 16,
             "avgFinish": 17.0,
             "championshipPosition": 25,
+            "teams": [
+                "hitech"
+            ],
             "complete": true,
             "era": "f1a",
-            "championship": null
+            "championship": "F1 Academy"
         }
     },
     "results": [
@@ -55,7 +66,8 @@
             "round": "2",
             "raceName": "Saudi Arabian Grand Prix",
             "race": "race1",
-            "type": "reverse",
+            "type": "sprint",
+            "label": "Reverse Grid Race",
             "constructorId": "hitech",
             "grid": "17",
             "position": "16",
@@ -68,6 +80,7 @@
             "raceName": "Saudi Arabian Grand Prix",
             "race": "race2",
             "type": "feature",
+            "label": "Feature Race",
             "constructorId": "hitech",
             "grid": "17",
             "position": "18",

@@ -1,0 +1,180 @@
+{
+    "constructorId": "carlin",
+    "name": "Rodin Carlin",
+    "shortName": "Carlin",
+    "series": "f1a",
+    "seasons": [
+        "2023"
+    ],
+    "predecessor": null,
+    "successor": "rodin",
+    "career": {
+        "entries": 63,
+        "starts": 63,
+        "points": 320,
+        "wins": {
+            "total": 1,
+            "feature": 1
+        },
+        "podiums": {
+            "total": 11,
+            "feature": 8,
+            "sprint": 3
+        },
+        "poles": 3,
+        "fastestLaps": 5,
+        "dnfs": 5,
+        "pointsFinishes": 39,
+        "bestFinish": 1,
+        "avgFinish": 7.59,
+        "titles": 0,
+        "driverTitles": 0,
+        "bestChampionship": 3,
+        "eras": [
+            "f1a"
+        ]
+    },
+    "bySeasons": {
+        "2023": {
+            "entries": 63,
+            "starts": 63,
+            "points": 320,
+            "wins": {
+                "total": 1,
+                "feature": 1
+            },
+            "podiums": {
+                "total": 11,
+                "feature": 8,
+                "sprint": 3
+            },
+            "poles": 3,
+            "fastestLaps": 5,
+            "dnfs": 5,
+            "pointsFinishes": 39,
+            "bestFinish": 1,
+            "avgFinish": 7.59,
+            "championshipPosition": 3,
+            "name": "Rodin Carlin",
+            "complete": true,
+            "era": "f1a",
+            "championship": "F1 Academy"
+        }
+    },
+    "championDrivers": [],
+    "leaders": {
+        "starts": [
+            {
+                "driverId": "pulling",
+                "name": "Abbi Pulling",
+                "value": 21
+            },
+            {
+                "driverId": "edgar",
+                "name": "Jessica Edgar",
+                "value": 21
+            },
+            {
+                "driverId": "gilkes",
+                "name": "Megan Gilkes",
+                "value": 21
+            }
+        ],
+        "wins": [
+            {
+                "driverId": "edgar",
+                "name": "Jessica Edgar",
+                "value": 1
+            }
+        ],
+        "podiums": [
+            {
+                "driverId": "pulling",
+                "name": "Abbi Pulling",
+                "value": 7
+            },
+            {
+                "driverId": "edgar",
+                "name": "Jessica Edgar",
+                "value": 4
+            }
+        ],
+        "poles": [
+            {
+                "driverId": "pulling",
+                "name": "Abbi Pulling",
+                "value": 2
+            },
+            {
+                "driverId": "edgar",
+                "name": "Jessica Edgar",
+                "value": 1
+            }
+        ],
+        "points": [
+            {
+                "driverId": "pulling",
+                "name": "Abbi Pulling",
+                "value": 175
+            },
+            {
+                "driverId": "edgar",
+                "name": "Jessica Edgar",
+                "value": 114
+            },
+            {
+                "driverId": "gilkes",
+                "name": "Megan Gilkes",
+                "value": 31
+            }
+        ],
+        "titles": []
+    },
+    "drivers": [
+        {
+            "driverId": "pulling",
+            "name": "Abbi Pulling",
+            "code": "PUL",
+            "seasons": [
+                "2023"
+            ],
+            "starts": 21,
+            "wins": 0,
+            "podiums": 7,
+            "poles": 2,
+            "fastestLaps": 4,
+            "points": 175,
+            "titles": 0
+        },
+        {
+            "driverId": "edgar",
+            "name": "Jessica Edgar",
+            "code": "EDG",
+            "seasons": [
+                "2023"
+            ],
+            "starts": 21,
+            "wins": 1,
+            "podiums": 4,
+            "poles": 1,
+            "fastestLaps": 1,
+            "points": 114,
+            "titles": 0
+        },
+        {
+            "driverId": "gilkes",
+            "name": "Megan Gilkes",
+            "code": "GIL",
+            "seasons": [
+                "2023"
+            ],
+            "starts": 21,
+            "wins": 0,
+            "podiums": 0,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 31,
+            "titles": 0
+        }
+    ]
+}

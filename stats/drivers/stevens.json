@@ -1,10 +1,16 @@
 {
     "driverId": "stevens",
-    "name": "E. Stevens",
+    "name": "Ella Stevens",
+    "givenName": "Ella",
+    "familyName": "Stevens",
     "code": "STE",
+    "nationality": "British",
     "series": "f1a",
     "seasons": [
         "2026"
+    ],
+    "teams": [
+        "rodin"
     ],
     "career": {
         "entries": 9,
@@ -19,8 +25,9 @@
         "poles": 0,
         "fastestLaps": 0,
         "dnfs": 1,
+        "pointsFinishes": 1,
         "bestFinish": 8,
-        "avgFinish": 13.11,
+        "avgFinish": 12.5,
         "titles": 0,
         "bestChampionship": 17,
         "eras": [
@@ -41,12 +48,16 @@
             "poles": 0,
             "fastestLaps": 0,
             "dnfs": 1,
+            "pointsFinishes": 1,
             "bestFinish": 8,
-            "avgFinish": 13.11,
+            "avgFinish": 12.5,
             "championshipPosition": 17,
+            "teams": [
+                "rodin"
+            ],
             "complete": false,
             "era": "f1a",
-            "championship": null
+            "championship": "F1 Academy"
         }
     },
     "results": [
@@ -55,7 +66,8 @@
             "round": "1",
             "raceName": "Chinese Grand Prix",
             "race": "race1",
-            "type": "reverse",
+            "type": "sprint",
+            "label": "Reverse Grid Race",
             "constructorId": "rodin",
             "grid": "11",
             "position": "11",
@@ -68,6 +80,7 @@
             "raceName": "Chinese Grand Prix",
             "race": "race2",
             "type": "feature",
+            "label": "Feature Race",
             "constructorId": "rodin",
             "grid": "11",
             "position": "12",
@@ -79,7 +92,8 @@
             "round": "2",
             "raceName": "Canadian Grand Prix",
             "race": "race0",
-            "type": "opening",
+            "type": "feature",
+            "label": "Opening Race",
             "constructorId": "rodin",
             "grid": "12",
             "position": "8",
@@ -91,7 +105,8 @@
             "round": "2",
             "raceName": "Canadian Grand Prix",
             "race": "race1",
-            "type": "reverse",
+            "type": "sprint",
+            "label": "Reverse Grid Race",
             "constructorId": "rodin",
             "grid": "14",
             "position": "15",
@@ -104,6 +119,7 @@
             "raceName": "Canadian Grand Prix",
             "race": "race2",
             "type": "feature",
+            "label": "Feature Race",
             "constructorId": "rodin",
             "grid": "14",
             "position": "11",
@@ -115,7 +131,8 @@
             "round": "3",
             "raceName": "British Grand Prix",
             "race": "race1",
-            "type": "reverse",
+            "type": "sprint",
+            "label": "Reverse Grid Race",
             "constructorId": "rodin",
             "grid": "11",
             "position": "13",
@@ -128,9 +145,10 @@
             "raceName": "British Grand Prix",
             "race": "race2",
             "type": "feature",
+            "label": "Feature Race",
             "constructorId": "rodin",
             "grid": "11",
-            "position": "18",
+            "position": "NC",
             "status": "DNF",
             "points": "0"
         },
@@ -139,7 +157,8 @@
             "round": "4",
             "raceName": "Dutch Grand Prix",
             "race": "race1",
-            "type": "reverse",
+            "type": "sprint",
+            "label": "Reverse Grid Race",
             "constructorId": "rodin",
             "grid": "14",
             "position": "16",
@@ -152,6 +171,7 @@
             "raceName": "Dutch Grand Prix",
             "race": "race2",
             "type": "feature",
+            "label": "Feature Race",
             "constructorId": "rodin",
             "grid": "14",
             "position": "14",

@@ -1,11 +1,18 @@
 {
     "driverId": "westcott",
-    "name": "P. Westcott",
+    "name": "Payton Westcott",
+    "givenName": "Payton",
+    "familyName": "Westcott",
     "code": "WES",
+    "nationality": "American",
     "series": "f1a",
     "seasons": [
         "2025",
         "2026"
+    ],
+    "teams": [
+        "hitech",
+        "prema"
     ],
     "career": {
         "entries": 11,
@@ -13,18 +20,19 @@
         "points": 52,
         "wins": {
             "total": 1,
-            "reverse": 1
+            "sprint": 1
         },
         "podiums": {
             "total": 3,
             "feature": 1,
-            "reverse": 2
+            "sprint": 2
         },
         "poles": 0,
         "fastestLaps": 2,
         "dnfs": 1,
+        "pointsFinishes": 7,
         "bestFinish": 1,
-        "avgFinish": 8.18,
+        "avgFinish": 7.3,
         "titles": 0,
         "bestChampionship": 5,
         "eras": [
@@ -45,12 +53,16 @@
             "poles": 0,
             "fastestLaps": 0,
             "dnfs": 1,
+            "pointsFinishes": 1,
             "bestFinish": 6,
-            "avgFinish": 11.5,
+            "avgFinish": 6.0,
             "championshipPosition": 18,
+            "teams": [
+                "hitech"
+            ],
             "complete": true,
             "era": "f1a",
-            "championship": null
+            "championship": "F1 Academy"
         },
         "2026": {
             "entries": 9,
@@ -58,22 +70,26 @@
             "points": 49,
             "wins": {
                 "total": 1,
-                "reverse": 1
+                "sprint": 1
             },
             "podiums": {
                 "total": 3,
                 "feature": 1,
-                "reverse": 2
+                "sprint": 2
             },
             "poles": 0,
             "fastestLaps": 2,
             "dnfs": 0,
+            "pointsFinishes": 6,
             "bestFinish": 1,
             "avgFinish": 7.44,
             "championshipPosition": 5,
+            "teams": [
+                "prema"
+            ],
             "complete": false,
             "era": "f1a",
-            "championship": null
+            "championship": "F1 Academy"
         }
     },
     "results": [
@@ -82,7 +98,8 @@
             "round": "7",
             "raceName": "Las Vegas Grand Prix",
             "race": "race1",
-            "type": "reverse",
+            "type": "sprint",
+            "label": "Reverse Grid Race",
             "constructorId": "hitech",
             "grid": "17",
             "position": "6",
@@ -95,9 +112,10 @@
             "raceName": "Las Vegas Grand Prix",
             "race": "race2",
             "type": "feature",
+            "label": "Feature Race",
             "constructorId": "hitech",
             "grid": "17",
-            "position": "17",
+            "position": "NC",
             "status": "DNF",
             "points": "0"
         },
@@ -106,7 +124,8 @@
             "round": "1",
             "raceName": "Chinese Grand Prix",
             "race": "race1",
-            "type": "reverse",
+            "type": "sprint",
+            "label": "Reverse Grid Race",
             "constructorId": "prema",
             "grid": "5",
             "position": "6",
@@ -119,6 +138,7 @@
             "raceName": "Chinese Grand Prix",
             "race": "race2",
             "type": "feature",
+            "label": "Feature Race",
             "constructorId": "prema",
             "grid": "4",
             "position": "3",
@@ -130,7 +150,8 @@
             "round": "2",
             "raceName": "Canadian Grand Prix",
             "race": "race0",
-            "type": "opening",
+            "type": "feature",
+            "label": "Opening Race",
             "constructorId": "prema",
             "grid": "3",
             "position": "16",
@@ -142,7 +163,8 @@
             "round": "2",
             "raceName": "Canadian Grand Prix",
             "race": "race1",
-            "type": "reverse",
+            "type": "sprint",
+            "label": "Reverse Grid Race",
             "constructorId": "prema",
             "grid": "7",
             "position": "3",
@@ -155,6 +177,7 @@
             "raceName": "Canadian Grand Prix",
             "race": "race2",
             "type": "feature",
+            "label": "Feature Race",
             "constructorId": "prema",
             "grid": "2",
             "position": "4",
@@ -166,7 +189,8 @@
             "round": "3",
             "raceName": "British Grand Prix",
             "race": "race1",
-            "type": "reverse",
+            "type": "sprint",
+            "label": "Reverse Grid Race",
             "constructorId": "prema",
             "grid": "10",
             "position": "14",
@@ -179,6 +203,7 @@
             "raceName": "British Grand Prix",
             "race": "race2",
             "type": "feature",
+            "label": "Feature Race",
             "constructorId": "prema",
             "grid": "10",
             "position": "11",
@@ -190,7 +215,8 @@
             "round": "4",
             "raceName": "Dutch Grand Prix",
             "race": "race1",
-            "type": "reverse",
+            "type": "sprint",
+            "label": "Reverse Grid Race",
             "constructorId": "prema",
             "grid": "1",
             "position": "1",
@@ -203,6 +229,7 @@
             "raceName": "Dutch Grand Prix",
             "race": "race2",
             "type": "feature",
+            "label": "Feature Race",
             "constructorId": "prema",
             "grid": "8",
             "position": "9",

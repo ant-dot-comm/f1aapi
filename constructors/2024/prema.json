@@ -1,5 +1,33 @@
 [
     {
+        "driverId": "gademan",
+        "permanentNumber": "4",
+        "code": "GAD",
+        "givenName": "Nina",
+        "familyName": "Gademan"
+    },
+    {
+        "driverId": "lloyd",
+        "permanentNumber": "5",
+        "code": "LLO",
+        "givenName": "Ella",
+        "familyName": "Lloyd"
+    },
+    {
+        "driverId": "palmowski",
+        "permanentNumber": "6",
+        "code": "PAL",
+        "givenName": "Alisha",
+        "familyName": "Palmowski"
+    },
+    {
+        "driverId": "juffali",
+        "permanentNumber": "18",
+        "code": "JUF",
+        "givenName": "Reema",
+        "familyName": "Juffali"
+    },
+    {
         "driverId": "hausmann",
         "permanentNumber": "19",
         "code": "HAU",
@@ -14,10 +42,24 @@
         "familyName": "Pin"
     },
     {
+        "driverId": "hannah",
+        "permanentNumber": "54",
+        "code": "HAN",
+        "givenName": "Logan",
+        "familyName": "Hannah"
+    },
+    {
         "driverId": "weug",
         "permanentNumber": "64",
         "code": "WEU",
         "givenName": "Maya",
         "familyName": "Weug"
+    },
+    {
+        "driverId": "crone",
+        "permanentNumber": "77",
+        "code": "CRO",
+        "givenName": "Courtney",
+        "familyName": "Crone"
     }
 ]

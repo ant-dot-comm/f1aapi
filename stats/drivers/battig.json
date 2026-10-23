@@ -1,10 +1,16 @@
 {
     "driverId": "battig",
-    "name": "C. Bättig",
-    "code": "BAE",
+    "name": "Chiara Bättig",
+    "givenName": "Chiara",
+    "familyName": "Bättig",
+    "code": "BAT",
+    "nationality": "Swiss",
     "series": "f1a",
     "seasons": [
         "2026"
+    ],
+    "teams": [
+        "hitech"
     ],
     "career": {
         "entries": 2,
@@ -20,6 +26,7 @@
         "poles": 1,
         "fastestLaps": 0,
         "dnfs": 0,
+        "pointsFinishes": 2,
         "bestFinish": 2,
         "avgFinish": 5.0,
         "titles": 0,
@@ -43,12 +50,16 @@
             "poles": 1,
             "fastestLaps": 0,
             "dnfs": 0,
+            "pointsFinishes": 2,
             "bestFinish": 2,
             "avgFinish": 5.0,
             "championshipPosition": 11,
+            "teams": [
+                "hitech"
+            ],
             "complete": false,
             "era": "f1a",
-            "championship": null
+            "championship": "F1 Academy"
         }
     },
     "results": [
@@ -57,7 +68,8 @@
             "round": "3",
             "raceName": "British Grand Prix",
             "race": "race1",
-            "type": "reverse",
+            "type": "sprint",
+            "label": "Reverse Grid Race",
             "constructorId": "hitech",
             "grid": "8",
             "position": "8",
@@ -70,6 +82,7 @@
             "raceName": "British Grand Prix",
             "race": "race2",
             "type": "feature",
+            "label": "Feature Race",
             "constructorId": "hitech",
             "grid": "1",
             "position": "2",

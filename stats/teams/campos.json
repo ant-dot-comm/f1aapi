@@ -1,6 +1,7 @@
 {
     "constructorId": "campos",
     "name": "Campos Racing",
+    "shortName": "Campos",
     "series": "f1a",
     "seasons": [
         "2023",
@@ -8,30 +9,30 @@
         "2025",
         "2026"
     ],
+    "predecessor": null,
+    "successor": null,
     "career": {
-        "entries": 169,
-        "starts": 168,
+        "entries": 174,
+        "starts": 174,
         "points": 992,
         "wins": {
             "total": 9,
-            "reverse": 2,
-            "feature": 5,
-            "race3": 1,
-            "opening": 1
+            "feature": 8,
+            "sprint": 1
         },
         "podiums": {
             "total": 36,
-            "feature": 14,
-            "reverse": 14,
-            "race3": 6,
-            "opening": 2
+            "sprint": 7,
+            "feature": 29
         },
-        "poles": 6,
+        "poles": 9,
         "fastestLaps": 11,
-        "dnfs": 9,
+        "dnfs": 14,
+        "pointsFinishes": 112,
         "bestFinish": 1,
-        "avgFinish": 7.93,
+        "avgFinish": 7.44,
         "titles": 0,
+        "driverTitles": 0,
         "bestChampionship": 1,
         "eras": [
             "f1a"
@@ -39,28 +40,29 @@
     },
     "bySeasons": {
         "2023": {
-            "entries": 58,
-            "starts": 58,
+            "entries": 63,
+            "starts": 63,
             "points": 252,
             "wins": {
                 "total": 1,
-                "reverse": 1
+                "feature": 1
             },
             "podiums": {
                 "total": 9,
-                "feature": 1,
-                "reverse": 4,
-                "race3": 4
+                "sprint": 1,
+                "feature": 8
             },
-            "poles": 0,
+            "poles": 1,
             "fastestLaps": 1,
-            "dnfs": 1,
+            "dnfs": 6,
+            "pointsFinishes": 34,
             "bestFinish": 1,
-            "avgFinish": 8.67,
+            "avgFinish": 8.46,
             "championshipPosition": 5,
+            "name": "Mercantile Campos Racing",
             "complete": true,
             "era": "f1a",
-            "championship": null
+            "championship": "F1 Academy"
         },
         "2024": {
             "entries": 42,
@@ -72,45 +74,45 @@
             },
             "podiums": {
                 "total": 8,
-                "feature": 3,
-                "reverse": 4,
-                "race3": 1
+                "feature": 8
             },
             "poles": 0,
             "fastestLaps": 2,
-            "dnfs": 2,
+            "dnfs": 1,
+            "pointsFinishes": 32,
             "bestFinish": 1,
-            "avgFinish": 7.43,
+            "avgFinish": 7.22,
             "championshipPosition": 3,
+            "name": "Campos Racing",
             "complete": true,
             "era": "f1a",
-            "championship": null
+            "championship": "F1 Academy"
         },
         "2025": {
             "entries": 42,
-            "starts": 41,
+            "starts": 42,
             "points": 236,
             "wins": {
                 "total": 3,
-                "reverse": 1,
-                "race3": 1,
-                "feature": 1
+                "sprint": 1,
+                "feature": 2
             },
             "podiums": {
                 "total": 12,
-                "reverse": 6,
-                "feature": 5,
-                "race3": 1
+                "sprint": 6,
+                "feature": 6
             },
-            "poles": 3,
+            "poles": 4,
             "fastestLaps": 5,
-            "dnfs": 5,
+            "dnfs": 6,
+            "pointsFinishes": 27,
             "bestFinish": 1,
-            "avgFinish": 7.95,
+            "avgFinish": 6.64,
             "championshipPosition": 2,
+            "name": "Campos Racing",
             "complete": true,
             "era": "f1a",
-            "championship": null
+            "championship": "F1 Academy"
         },
         "2026": {
             "entries": 27,
@@ -118,33 +120,238 @@
             "points": 212,
             "wins": {
                 "total": 4,
-                "opening": 1,
-                "feature": 3
+                "feature": 4
             },
             "podiums": {
                 "total": 7,
-                "feature": 5,
-                "opening": 2
+                "feature": 7
             },
-            "poles": 3,
+            "poles": 4,
             "fastestLaps": 3,
             "dnfs": 1,
+            "pointsFinishes": 19,
             "bestFinish": 1,
-            "avgFinish": 7.07,
+            "avgFinish": 6.69,
             "championshipPosition": 1,
+            "name": "Campos Racing",
             "complete": false,
             "era": "f1a",
-            "championship": null
+            "championship": "F1 Academy"
         }
     },
+    "championDrivers": [],
+    "leaders": {
+        "starts": [
+            {
+                "driverId": "marti",
+                "name": "Nerea Martí",
+                "value": 35
+            },
+            {
+                "driverId": "chambers",
+                "name": "Chloe Chambers",
+                "value": 28
+            },
+            {
+                "driverId": "palmowski",
+                "name": "Alisha Palmowski",
+                "value": 23
+            }
+        ],
+        "wins": [
+            {
+                "driverId": "palmowski",
+                "name": "Alisha Palmowski",
+                "value": 5
+            },
+            {
+                "driverId": "chambers",
+                "name": "Chloe Chambers",
+                "value": 3
+            },
+            {
+                "driverId": "marti",
+                "name": "Nerea Martí",
+                "value": 1
+            }
+        ],
+        "podiums": [
+            {
+                "driverId": "chambers",
+                "name": "Chloe Chambers",
+                "value": 11
+            },
+            {
+                "driverId": "marti",
+                "name": "Nerea Martí",
+                "value": 10
+            },
+            {
+                "driverId": "palmowski",
+                "name": "Alisha Palmowski",
+                "value": 10
+            }
+        ],
+        "poles": [
+            {
+                "driverId": "chambers",
+                "name": "Chloe Chambers",
+                "value": 4
+            },
+            {
+                "driverId": "palmowski",
+                "name": "Alisha Palmowski",
+                "value": 4
+            },
+            {
+                "driverId": "marti",
+                "name": "Nerea Martí",
+                "value": 1
+            }
+        ],
+        "points": [
+            {
+                "driverId": "marti",
+                "name": "Nerea Martí",
+                "value": 317
+            },
+            {
+                "driverId": "chambers",
+                "name": "Chloe Chambers",
+                "value": 249
+            },
+            {
+                "driverId": "palmowski",
+                "name": "Alisha Palmowski",
+                "value": 227
+            }
+        ],
+        "titles": []
+    },
     "drivers": [
-        "bruce",
-        "caceres",
-        "chambers",
-        "ferreira",
-        "lovinfosse",
-        "marti",
-        "palmowski",
-        "schreiner"
+        {
+            "driverId": "marti",
+            "name": "Nerea Martí",
+            "code": "MAR",
+            "seasons": [
+                "2023",
+                "2024"
+            ],
+            "starts": 35,
+            "wins": 1,
+            "podiums": 10,
+            "poles": 1,
+            "fastestLaps": 1,
+            "points": 317,
+            "titles": 0
+        },
+        {
+            "driverId": "chambers",
+            "name": "Chloe Chambers",
+            "code": "CHA",
+            "seasons": [
+                "2024",
+                "2025"
+            ],
+            "starts": 28,
+            "wins": 3,
+            "podiums": 11,
+            "poles": 4,
+            "fastestLaps": 7,
+            "points": 249,
+            "titles": 0
+        },
+        {
+            "driverId": "palmowski",
+            "name": "Alisha Palmowski",
+            "code": "PAL",
+            "seasons": [
+                "2025",
+                "2026"
+            ],
+            "starts": 23,
+            "wins": 5,
+            "podiums": 10,
+            "poles": 4,
+            "fastestLaps": 3,
+            "points": 227,
+            "titles": 0
+        },
+        {
+            "driverId": "lovinfosse",
+            "name": "Lola Lovinfosse",
+            "code": "LOV",
+            "seasons": [
+                "2023"
+            ],
+            "starts": 21,
+            "wins": 0,
+            "podiums": 3,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 65,
+            "titles": 0
+        },
+        {
+            "driverId": "bruce",
+            "name": "Megan Bruce",
+            "code": "BRU",
+            "seasons": [
+                "2026"
+            ],
+            "starts": 9,
+            "wins": 0,
+            "podiums": 2,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 49,
+            "titles": 0
+        },
+        {
+            "driverId": "ferreira",
+            "name": "Rafaela Ferreira",
+            "code": "FER",
+            "seasons": [
+                "2025",
+                "2026"
+            ],
+            "starts": 23,
+            "wins": 0,
+            "podiums": 0,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 45,
+            "titles": 0
+        },
+        {
+            "driverId": "schreiner",
+            "name": "Carrie Schreiner",
+            "code": "SCH",
+            "seasons": [
+                "2024"
+            ],
+            "starts": 14,
+            "wins": 0,
+            "podiums": 0,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 34,
+            "titles": 0
+        },
+        {
+            "driverId": "caceres",
+            "name": "Maite Cáceres",
+            "code": "CAC",
+            "seasons": [
+                "2023"
+            ],
+            "starts": 21,
+            "wins": 0,
+            "podiums": 0,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 6,
+            "titles": 0
+        }
     ]
 }

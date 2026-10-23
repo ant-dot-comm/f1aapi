@@ -1,6 +1,7 @@
 {
     "constructorId": "art",
     "name": "ART Grand Prix",
+    "shortName": "Art",
     "series": "f1a",
     "seasons": [
         "2023",
@@ -8,28 +9,30 @@
         "2025",
         "2026"
     ],
+    "predecessor": null,
+    "successor": null,
     "career": {
-        "entries": 167,
-        "starts": 167,
+        "entries": 174,
+        "starts": 174,
         "points": 544,
         "wins": {
             "total": 4,
-            "race3": 1,
-            "feature": 2,
-            "reverse": 1
+            "feature": 1,
+            "sprint": 3
         },
         "podiums": {
             "total": 19,
-            "feature": 8,
-            "reverse": 8,
-            "race3": 3
+            "sprint": 11,
+            "feature": 8
         },
         "poles": 2,
-        "fastestLaps": 1,
-        "dnfs": 11,
+        "fastestLaps": 2,
+        "dnfs": 18,
+        "pointsFinishes": 79,
         "bestFinish": 1,
-        "avgFinish": 9.61,
+        "avgFinish": 9.17,
         "titles": 0,
+        "driverTitles": 0,
         "bestChampionship": 4,
         "eras": [
             "f1a"
@@ -37,29 +40,30 @@
     },
     "bySeasons": {
         "2023": {
-            "entries": 56,
-            "starts": 56,
+            "entries": 63,
+            "starts": 63,
             "points": 312,
             "wins": {
                 "total": 3,
-                "race3": 1,
-                "feature": 2
+                "feature": 1,
+                "sprint": 2
             },
             "podiums": {
                 "total": 14,
-                "feature": 7,
-                "reverse": 4,
-                "race3": 3
+                "sprint": 7,
+                "feature": 7
             },
             "poles": 2,
-            "fastestLaps": 0,
-            "dnfs": 1,
+            "fastestLaps": 1,
+            "dnfs": 9,
+            "pointsFinishes": 39,
             "bestFinish": 1,
-            "avgFinish": 7.2,
+            "avgFinish": 6.91,
             "championshipPosition": 4,
+            "name": "ART Grand Prix",
             "complete": true,
             "era": "f1a",
-            "championship": null
+            "championship": "F1 Academy"
         },
         "2024": {
             "entries": 42,
@@ -74,13 +78,15 @@
             },
             "poles": 0,
             "fastestLaps": 1,
-            "dnfs": 2,
+            "dnfs": 1,
+            "pointsFinishes": 21,
             "bestFinish": 2,
-            "avgFinish": 10.12,
+            "avgFinish": 10.02,
             "championshipPosition": 5,
+            "name": "ART Grand Prix",
             "complete": true,
             "era": "f1a",
-            "championship": null
+            "championship": "F1 Academy"
         },
         "2025": {
             "entries": 42,
@@ -88,21 +94,23 @@
             "points": 57,
             "wins": {
                 "total": 1,
-                "reverse": 1
+                "sprint": 1
             },
             "podiums": {
                 "total": 3,
-                "reverse": 3
+                "sprint": 3
             },
             "poles": 0,
             "fastestLaps": 0,
             "dnfs": 6,
+            "pointsFinishes": 13,
             "bestFinish": 1,
-            "avgFinish": 10.64,
+            "avgFinish": 9.72,
             "championshipPosition": 5,
+            "name": "ART Grand Prix",
             "complete": true,
             "era": "f1a",
-            "championship": null
+            "championship": "F1 Academy"
         },
         "2026": {
             "entries": 27,
@@ -113,30 +121,252 @@
             },
             "podiums": {
                 "total": 1,
-                "reverse": 1
+                "sprint": 1
             },
             "poles": 0,
             "fastestLaps": 0,
             "dnfs": 2,
+            "pointsFinishes": 6,
             "bestFinish": 2,
-            "avgFinish": 12.22,
+            "avgFinish": 11.84,
             "championshipPosition": 6,
+            "name": "ART Grand Prix",
             "complete": false,
             "era": "f1a",
-            "championship": null
+            "championship": "F1 Academy"
         }
     },
+    "championDrivers": [],
+    "leaders": {
+        "starts": [
+            {
+                "driverId": "block",
+                "name": "Lia Block",
+                "value": 28
+            },
+            {
+                "driverId": "nobels",
+                "name": "Aurelia Nobels",
+                "value": 28
+            },
+            {
+                "driverId": "buhler",
+                "name": "Lena Bühler",
+                "value": 21
+            }
+        ],
+        "wins": [
+            {
+                "driverId": "buhler",
+                "name": "Lena Bühler",
+                "value": 2
+            },
+            {
+                "driverId": "block",
+                "name": "Lia Block",
+                "value": 1
+            },
+            {
+                "driverId": "schreiner",
+                "name": "Carrie Schreiner",
+                "value": 1
+            }
+        ],
+        "podiums": [
+            {
+                "driverId": "buhler",
+                "name": "Lena Bühler",
+                "value": 13
+            },
+            {
+                "driverId": "block",
+                "name": "Lia Block",
+                "value": 2
+            },
+            {
+                "driverId": "bustamante",
+                "name": "Bianca Bustamante",
+                "value": 1
+            }
+        ],
+        "poles": [
+            {
+                "driverId": "buhler",
+                "name": "Lena Bühler",
+                "value": 2
+            }
+        ],
+        "points": [
+            {
+                "driverId": "buhler",
+                "name": "Lena Bühler",
+                "value": 222
+            },
+            {
+                "driverId": "block",
+                "name": "Lia Block",
+                "value": 81
+            },
+            {
+                "driverId": "bustamante",
+                "name": "Bianca Bustamante",
+                "value": 73
+            }
+        ],
+        "titles": []
+    },
     "drivers": [
-        "billard",
-        "block",
-        "buhler",
-        "bustamante",
-        "countryman",
-        "crone",
-        "grant",
-        "jacquet",
-        "nobels",
-        "nobles",
-        "schreiner"
+        {
+            "driverId": "buhler",
+            "name": "Lena Bühler",
+            "code": "BUH",
+            "seasons": [
+                "2023"
+            ],
+            "starts": 21,
+            "wins": 2,
+            "podiums": 13,
+            "poles": 2,
+            "fastestLaps": 1,
+            "points": 222,
+            "titles": 0
+        },
+        {
+            "driverId": "block",
+            "name": "Lia Block",
+            "code": "BLO",
+            "seasons": [
+                "2024",
+                "2025"
+            ],
+            "starts": 28,
+            "wins": 1,
+            "podiums": 2,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 81,
+            "titles": 0
+        },
+        {
+            "driverId": "bustamante",
+            "name": "Bianca Bustamante",
+            "code": "BUS",
+            "seasons": [
+                "2024"
+            ],
+            "starts": 14,
+            "wins": 0,
+            "podiums": 1,
+            "poles": 0,
+            "fastestLaps": 1,
+            "points": 73,
+            "titles": 0
+        },
+        {
+            "driverId": "schreiner",
+            "name": "Carrie Schreiner",
+            "code": "SCH",
+            "seasons": [
+                "2023"
+            ],
+            "starts": 21,
+            "wins": 1,
+            "podiums": 1,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 56,
+            "titles": 0
+        },
+        {
+            "driverId": "nobels",
+            "name": "Aurelia Nobels",
+            "code": "NOB",
+            "seasons": [
+                "2024",
+                "2025"
+            ],
+            "starts": 28,
+            "wins": 0,
+            "podiums": 1,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 46,
+            "titles": 0
+        },
+        {
+            "driverId": "grant",
+            "name": "Chloe Grant",
+            "code": "GRA",
+            "seasons": [
+                "2023"
+            ],
+            "starts": 21,
+            "wins": 0,
+            "podiums": 0,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 34,
+            "titles": 0
+        },
+        {
+            "driverId": "billard",
+            "name": "Lisa Billard",
+            "code": "BIL",
+            "seasons": [
+                "2026"
+            ],
+            "starts": 9,
+            "wins": 0,
+            "podiums": 0,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 15,
+            "titles": 0
+        },
+        {
+            "driverId": "countryman",
+            "name": "Kaylee Countryman",
+            "code": "COU",
+            "seasons": [
+                "2026"
+            ],
+            "starts": 9,
+            "wins": 0,
+            "podiums": 1,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 14,
+            "titles": 0
+        },
+        {
+            "driverId": "crone",
+            "name": "Courtney Crone",
+            "code": "CRO",
+            "seasons": [
+                "2025"
+            ],
+            "starts": 14,
+            "wins": 0,
+            "podiums": 0,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 3,
+            "titles": 0
+        },
+        {
+            "driverId": "jacquet",
+            "name": "Jade Jacquet",
+            "code": "JAC",
+            "seasons": [
+                "2026"
+            ],
+            "starts": 9,
+            "wins": 0,
+            "podiums": 0,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 0,
+            "titles": 0
+        }
     ]
 }

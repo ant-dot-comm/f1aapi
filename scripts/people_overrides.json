@@ -1,0 +1,211 @@
+{
+    "abbi-pulling": {
+        "code": "PUL"
+    },
+    "aiva-anagnostiadis": {
+        "code": "ANA"
+    },
+    "alba-larsen": {
+        "code": "LAR"
+    },
+    "alisha-palmowski": {
+        "code": "PAL",
+        "wildcard": [
+            2024
+        ]
+    },
+    "amna-al-qubaisi": {
+        "code": "AAL"
+    },
+    "aurelia-nobels": {
+        "code": "NOB"
+    },
+    "autumn-fisher": {
+        "code": "FIS",
+        "wildcard": [
+            2026
+        ]
+    },
+    "ava-dobson": {
+        "code": "DOB",
+        "wildcard": [
+            2025
+        ]
+    },
+    "bianca-bustamante": {
+        "code": "BUS"
+    },
+    "carrie-schreiner": {
+        "code": "SCH"
+    },
+    "chiara-battig": {
+        "code": "BAT",
+        "familyName": "Bättig",
+        "givenName": "Chiara",
+        "wildcard": [
+            2026
+        ]
+    },
+    "chloe-chambers": {
+        "code": "CHA"
+    },
+    "chloe-chong": {
+        "code": "CHO"
+    },
+    "chloe-grant": {
+        "code": "GRA"
+    },
+    "courtney-crone": {
+        "code": "CRO",
+        "wildcard": [
+            2024
+        ]
+    },
+    "doriane-pin": {
+        "code": "PIN"
+    },
+    "ella-lloyd": {
+        "code": "LLO",
+        "wildcard": [
+            2024
+        ]
+    },
+    "ella-stevens": {
+        "code": "STE"
+    },
+    "emely-de-heus": {
+        "code": "DEH"
+    },
+    "emma-felbermayr": {
+        "code": "FEL"
+    },
+    "esmee-kosterman": {
+        "code": "KOS",
+        "wildcard": [
+            2025
+        ]
+    },
+    "farah-al-yousef": {
+        "code": "ALY",
+        "wildcard": [
+            2025
+        ]
+    },
+    "hamda-al-qubaisi": {
+        "code": "HAL"
+    },
+    "jade-jacquet": {
+        "code": "JAC"
+    },
+    "jessica-edgar": {
+        "code": "EDG"
+    },
+    "joanne-ciconte": {
+        "code": "CIC"
+    },
+    "kaylee-countryman": {
+        "code": "COU"
+    },
+    "lena-buhler": {
+        "code": "BUH",
+        "givenName": "Lena",
+        "familyName": "Bühler"
+    },
+    "lia-block": {
+        "code": "BLO"
+    },
+    "lisa-billard": {
+        "code": "BIL",
+        "wildcard": [
+            2025
+        ]
+    },
+    "logan-hannah": {
+        "code": "HAN",
+        "wildcard": [
+            2024
+        ]
+    },
+    "lola-lovinfosse": {
+        "code": "LOV"
+    },
+    "maite-caceres": {
+        "code": "CAC",
+        "givenName": "Maite",
+        "familyName": "Cáceres"
+    },
+    "marta-garcia": {
+        "code": "GAR",
+        "givenName": "Marta",
+        "familyName": "García"
+    },
+    "mathilda-paatz": {
+        "code": "PAA",
+        "wildcard": [
+            2025
+        ]
+    },
+    "maya-weug": {
+        "code": "WEU"
+    },
+    "megan-bruce": {
+        "code": "BRU"
+    },
+    "megan-gilkes": {
+        "code": "GIL"
+    },
+    "natalia-granada": {
+        "code": "GRA"
+    },
+    "nerea-marti": {
+        "code": "MAR",
+        "familyName": "Martí",
+        "givenName": "Nerea"
+    },
+    "nicole-havrda": {
+        "code": "HAV"
+    },
+    "nina-gademan": {
+        "code": "GAD",
+        "wildcard": [
+            2024
+        ]
+    },
+    "payton-westcott": {
+        "code": "WES",
+        "wildcard": [
+            2025
+        ]
+    },
+    "rachel-robertson": {
+        "code": "ROB",
+        "wildcard": [
+            2025
+        ]
+    },
+    "rafaela-ferreira": {
+        "code": "FER"
+    },
+    "reema-juffali": {
+        "code": "JUF",
+        "wildcard": [
+            2024
+        ]
+    },
+    "tina-hausmann": {
+        "code": "HAU"
+    },
+    "wei-shi": {
+        "code": "SHI",
+        "wildcard": [
+            2025,
+            2026
+        ]
+    },
+    "zoe-florescu": {
+        "code": "FLO",
+        "wildcard": [
+            2026
+        ]
+    }
+}

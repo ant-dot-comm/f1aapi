@@ -1,11 +1,18 @@
 {
     "driverId": "kosterman",
-    "name": "E. Kosterman",
+    "name": "Esmee Kosterman",
+    "givenName": "Esmee",
+    "familyName": "Kosterman",
     "code": "KOS",
+    "nationality": "Dutch",
     "series": "f1a",
     "seasons": [
         "2025",
         "2026"
+    ],
+    "teams": [
+        "hitech",
+        "mp"
     ],
     "career": {
         "entries": 11,
@@ -18,10 +25,11 @@
             "total": 0
         },
         "poles": 0,
-        "fastestLaps": 1,
+        "fastestLaps": 2,
         "dnfs": 1,
+        "pointsFinishes": 3,
         "bestFinish": 4,
-        "avgFinish": 12.0,
+        "avgFinish": 11.4,
         "titles": 0,
         "bestChampionship": 15,
         "eras": [
@@ -42,12 +50,16 @@
             "poles": 0,
             "fastestLaps": 0,
             "dnfs": 0,
+            "pointsFinishes": 1,
             "bestFinish": 7,
             "avgFinish": 9.5,
             "championshipPosition": 15,
+            "teams": [
+                "hitech"
+            ],
             "complete": true,
             "era": "f1a",
-            "championship": null
+            "championship": "F1 Academy"
         },
         "2026": {
             "entries": 9,
@@ -60,14 +72,18 @@
                 "total": 0
             },
             "poles": 0,
-            "fastestLaps": 1,
+            "fastestLaps": 2,
             "dnfs": 1,
+            "pointsFinishes": 2,
             "bestFinish": 4,
-            "avgFinish": 12.56,
+            "avgFinish": 11.88,
             "championshipPosition": 16,
+            "teams": [
+                "mp"
+            ],
             "complete": false,
             "era": "f1a",
-            "championship": null
+            "championship": "F1 Academy"
         }
     },
     "results": [
@@ -76,7 +92,8 @@
             "round": "5",
             "raceName": "Dutch Grand Prix",
             "race": "race1",
-            "type": "reverse",
+            "type": "sprint",
+            "label": "Reverse Grid Race",
             "constructorId": "hitech",
             "grid": "9",
             "position": "12",
@@ -89,6 +106,7 @@
             "raceName": "Dutch Grand Prix",
             "race": "race2",
             "type": "feature",
+            "label": "Feature Race",
             "constructorId": "hitech",
             "grid": "9",
             "position": "7",
@@ -100,7 +118,8 @@
             "round": "1",
             "raceName": "Chinese Grand Prix",
             "race": "race1",
-            "type": "reverse",
+            "type": "sprint",
+            "label": "Reverse Grid Race",
             "constructorId": "mp",
             "grid": "15",
             "position": "15",
@@ -113,9 +132,10 @@
             "raceName": "Chinese Grand Prix",
             "race": "race2",
             "type": "feature",
+            "label": "Feature Race",
             "constructorId": "mp",
             "grid": "15",
-            "position": "18",
+            "position": "NC",
             "status": "DNF",
             "points": "0"
         },
@@ -124,9 +144,10 @@
             "round": "2",
             "raceName": "Canadian Grand Prix",
             "race": "race0",
-            "type": "opening",
+            "type": "feature",
+            "label": "Opening Race",
             "constructorId": "mp",
-            "grid": "17",
+            "grid": "15",
             "position": "18",
             "status": "Finished",
             "points": "0"
@@ -136,7 +157,8 @@
             "round": "2",
             "raceName": "Canadian Grand Prix",
             "race": "race1",
-            "type": "reverse",
+            "type": "sprint",
+            "label": "Reverse Grid Race",
             "constructorId": "mp",
             "grid": "18",
             "position": "9",
@@ -149,6 +171,7 @@
             "raceName": "Canadian Grand Prix",
             "race": "race2",
             "type": "feature",
+            "label": "Feature Race",
             "constructorId": "mp",
             "grid": "18",
             "position": "12",
@@ -160,7 +183,8 @@
             "round": "3",
             "raceName": "British Grand Prix",
             "race": "race1",
-            "type": "reverse",
+            "type": "sprint",
+            "label": "Reverse Grid Race",
             "constructorId": "mp",
             "grid": "15",
             "position": "12",
@@ -173,6 +197,7 @@
             "raceName": "British Grand Prix",
             "race": "race2",
             "type": "feature",
+            "label": "Feature Race",
             "constructorId": "mp",
             "grid": "15",
             "position": "15",
@@ -184,7 +209,8 @@
             "round": "4",
             "raceName": "Dutch Grand Prix",
             "race": "race1",
-            "type": "reverse",
+            "type": "sprint",
+            "label": "Reverse Grid Race",
             "constructorId": "mp",
             "grid": "10",
             "position": "4",
@@ -197,6 +223,7 @@
             "raceName": "Dutch Grand Prix",
             "race": "race2",
             "type": "feature",
+            "label": "Feature Race",
             "constructorId": "mp",
             "grid": "10",
             "position": "10",

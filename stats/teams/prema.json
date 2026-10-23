@@ -1,6 +1,7 @@
 {
     "constructorId": "prema",
-    "name": "PREMA Racing",
+    "name": "Prema Racing",
+    "shortName": "Prema",
     "series": "f1a",
     "seasons": [
         "2023",
@@ -8,29 +9,30 @@
         "2025",
         "2026"
     ],
+    "predecessor": null,
+    "successor": null,
     "career": {
-        "entries": 181,
-        "starts": 180,
+        "entries": 186,
+        "starts": 186,
         "points": 1259,
         "wins": {
             "total": 20,
-            "reverse": 11,
-            "race3": 5,
-            "feature": 4
+            "feature": 13,
+            "sprint": 7
         },
         "podiums": {
-            "total": 49,
-            "reverse": 23,
-            "race3": 8,
-            "feature": 17,
-            "opening": 1
+            "total": 50,
+            "feature": 36,
+            "sprint": 14
         },
-        "poles": 3,
-        "fastestLaps": 22,
-        "dnfs": 8,
+        "poles": 9,
+        "fastestLaps": 21,
+        "dnfs": 12,
+        "pointsFinishes": 125,
         "bestFinish": 1,
-        "avgFinish": 7.49,
+        "avgFinish": 7.02,
         "titles": 3,
+        "driverTitles": 2,
         "bestChampionship": 1,
         "eras": [
             "f1a"
@@ -38,30 +40,30 @@
     },
     "bySeasons": {
         "2023": {
-            "entries": 58,
-            "starts": 58,
+            "entries": 63,
+            "starts": 63,
             "points": 419,
             "wins": {
                 "total": 9,
-                "reverse": 3,
-                "race3": 4,
-                "feature": 2
+                "feature": 7,
+                "sprint": 2
             },
             "podiums": {
-                "total": 15,
-                "reverse": 4,
-                "race3": 6,
-                "feature": 5
+                "total": 16,
+                "feature": 11,
+                "sprint": 5
             },
-            "poles": 2,
-            "fastestLaps": 8,
-            "dnfs": 1,
+            "poles": 5,
+            "fastestLaps": 7,
+            "dnfs": 5,
+            "pointsFinishes": 38,
             "bestFinish": 1,
-            "avgFinish": 7.53,
+            "avgFinish": 7.21,
             "championshipPosition": 1,
+            "name": "Prema Racing",
             "complete": true,
             "era": "f1a",
-            "championship": null
+            "championship": "F1 Academy"
         },
         "2024": {
             "entries": 54,
@@ -69,50 +71,49 @@
             "points": 425,
             "wins": {
                 "total": 4,
-                "reverse": 2,
-                "feature": 1,
-                "race3": 1
+                "feature": 4
             },
             "podiums": {
                 "total": 16,
-                "reverse": 9,
-                "feature": 6,
-                "race3": 1
+                "feature": 16
             },
-            "poles": 1,
+            "poles": 4,
             "fastestLaps": 5,
             "dnfs": 4,
+            "pointsFinishes": 39,
             "bestFinish": 1,
-            "avgFinish": 7.37,
+            "avgFinish": 6.74,
             "championshipPosition": 1,
+            "name": "Prema Racing",
             "complete": true,
             "era": "f1a",
-            "championship": null
+            "championship": "F1 Academy"
         },
         "2025": {
             "entries": 42,
-            "starts": 41,
+            "starts": 42,
             "points": 296,
             "wins": {
                 "total": 5,
-                "feature": 1,
-                "reverse": 4
+                "feature": 2,
+                "sprint": 3
             },
             "podiums": {
                 "total": 12,
-                "feature": 5,
-                "reverse": 6,
-                "race3": 1
+                "feature": 7,
+                "sprint": 5
             },
             "poles": 0,
             "fastestLaps": 7,
             "dnfs": 2,
+            "pointsFinishes": 34,
             "bestFinish": 1,
-            "avgFinish": 6.5,
+            "avgFinish": 5.95,
             "championshipPosition": 1,
+            "name": "Prema Racing",
             "complete": true,
             "era": "f1a",
-            "championship": null
+            "championship": "F1 Academy"
         },
         "2026": {
             "entries": 27,
@@ -120,40 +121,360 @@
             "points": 119,
             "wins": {
                 "total": 2,
-                "reverse": 2
+                "sprint": 2
             },
             "podiums": {
                 "total": 6,
-                "reverse": 4,
-                "feature": 1,
-                "opening": 1
+                "sprint": 4,
+                "feature": 2
             },
             "poles": 0,
             "fastestLaps": 2,
             "dnfs": 1,
+            "pointsFinishes": 14,
             "bestFinish": 1,
-            "avgFinish": 9.15,
+            "avgFinish": 8.81,
             "championshipPosition": 4,
+            "name": "Prema Racing",
             "complete": false,
             "era": "f1a",
-            "championship": null
+            "championship": "F1 Academy"
         }
     },
+    "championDrivers": [
+        {
+            "season": "2023",
+            "driverId": "garcia",
+            "name": "Marta García"
+        },
+        {
+            "season": "2025",
+            "driverId": "pin",
+            "name": "Doriane Pin"
+        }
+    ],
+    "leaders": {
+        "starts": [
+            {
+                "driverId": "pin",
+                "name": "Doriane Pin",
+                "value": 28
+            },
+            {
+                "driverId": "hausmann",
+                "name": "Tina Hausmann",
+                "value": 28
+            },
+            {
+                "driverId": "garcia",
+                "name": "Marta García",
+                "value": 21
+            }
+        ],
+        "wins": [
+            {
+                "driverId": "pin",
+                "name": "Doriane Pin",
+                "value": 7
+            },
+            {
+                "driverId": "garcia",
+                "name": "Marta García",
+                "value": 7
+            },
+            {
+                "driverId": "bustamante",
+                "name": "Bianca Bustamante",
+                "value": 2
+            }
+        ],
+        "podiums": [
+            {
+                "driverId": "pin",
+                "name": "Doriane Pin",
+                "value": 16
+            },
+            {
+                "driverId": "garcia",
+                "name": "Marta García",
+                "value": 12
+            },
+            {
+                "driverId": "weug",
+                "name": "Maya Weug",
+                "value": 8
+            }
+        ],
+        "poles": [
+            {
+                "driverId": "garcia",
+                "name": "Marta García",
+                "value": 5
+            },
+            {
+                "driverId": "pin",
+                "name": "Doriane Pin",
+                "value": 4
+            }
+        ],
+        "points": [
+            {
+                "driverId": "pin",
+                "name": "Doriane Pin",
+                "value": 389
+            },
+            {
+                "driverId": "garcia",
+                "name": "Marta García",
+                "value": 278
+            },
+            {
+                "driverId": "weug",
+                "name": "Maya Weug",
+                "value": 177
+            }
+        ],
+        "titles": [
+            {
+                "driverId": "pin",
+                "name": "Doriane Pin",
+                "value": 1
+            },
+            {
+                "driverId": "garcia",
+                "name": "Marta García",
+                "value": 1
+            }
+        ]
+    },
     "drivers": [
-        "bustamante",
-        "chong",
-        "crone",
-        "gademan",
-        "garcia",
-        "granada",
-        "hanna",
-        "hausmann",
-        "juffali",
-        "lloyd",
-        "paatz",
-        "palmowski",
-        "pin",
-        "westcott",
-        "weug"
+        {
+            "driverId": "pin",
+            "name": "Doriane Pin",
+            "code": "PIN",
+            "seasons": [
+                "2024",
+                "2025"
+            ],
+            "starts": 28,
+            "wins": 7,
+            "podiums": 16,
+            "poles": 4,
+            "fastestLaps": 11,
+            "points": 389,
+            "titles": 1
+        },
+        {
+            "driverId": "garcia",
+            "name": "Marta García",
+            "code": "GAR",
+            "seasons": [
+                "2023"
+            ],
+            "starts": 21,
+            "wins": 7,
+            "podiums": 12,
+            "poles": 5,
+            "fastestLaps": 6,
+            "points": 278,
+            "titles": 1
+        },
+        {
+            "driverId": "weug",
+            "name": "Maya Weug",
+            "code": "WEU",
+            "seasons": [
+                "2024"
+            ],
+            "starts": 14,
+            "wins": 1,
+            "podiums": 8,
+            "poles": 0,
+            "fastestLaps": 1,
+            "points": 177,
+            "titles": 0
+        },
+        {
+            "driverId": "bustamante",
+            "name": "Bianca Bustamante",
+            "code": "BUS",
+            "seasons": [
+                "2023"
+            ],
+            "starts": 21,
+            "wins": 2,
+            "podiums": 4,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 116,
+            "titles": 0
+        },
+        {
+            "driverId": "gademan",
+            "name": "Nina Gademan",
+            "code": "GAD",
+            "seasons": [
+                "2024",
+                "2025"
+            ],
+            "starts": 16,
+            "wins": 1,
+            "podiums": 4,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 87,
+            "titles": 0
+        },
+        {
+            "driverId": "hausmann",
+            "name": "Tina Hausmann",
+            "code": "HAU",
+            "seasons": [
+                "2024",
+                "2025"
+            ],
+            "starts": 28,
+            "wins": 0,
+            "podiums": 0,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 81,
+            "titles": 0
+        },
+        {
+            "driverId": "westcott",
+            "name": "Payton Westcott",
+            "code": "WES",
+            "seasons": [
+                "2026"
+            ],
+            "starts": 9,
+            "wins": 1,
+            "podiums": 3,
+            "poles": 0,
+            "fastestLaps": 2,
+            "points": 49,
+            "titles": 0
+        },
+        {
+            "driverId": "paatz",
+            "name": "Mathilda Paatz",
+            "code": "PAA",
+            "seasons": [
+                "2026"
+            ],
+            "starts": 9,
+            "wins": 1,
+            "podiums": 2,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 35,
+            "titles": 0
+        },
+        {
+            "driverId": "granada",
+            "name": "Natalia Granada",
+            "code": "GRA",
+            "seasons": [
+                "2026"
+            ],
+            "starts": 9,
+            "wins": 0,
+            "podiums": 1,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 35,
+            "titles": 0
+        },
+        {
+            "driverId": "chong",
+            "name": "Chloe Chong",
+            "code": "CHO",
+            "seasons": [
+                "2023"
+            ],
+            "starts": 21,
+            "wins": 0,
+            "podiums": 0,
+            "poles": 0,
+            "fastestLaps": 1,
+            "points": 25,
+            "titles": 0
+        },
+        {
+            "driverId": "palmowski",
+            "name": "Alisha Palmowski",
+            "code": "PAL",
+            "seasons": [
+                "2024"
+            ],
+            "starts": 1,
+            "wins": 0,
+            "podiums": 0,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 10,
+            "titles": 0
+        },
+        {
+            "driverId": "lloyd",
+            "name": "Ella Lloyd",
+            "code": "LLO",
+            "seasons": [
+                "2024"
+            ],
+            "starts": 2,
+            "wins": 0,
+            "podiums": 0,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 8,
+            "titles": 0
+        },
+        {
+            "driverId": "hannah",
+            "name": "Logan Hannah",
+            "code": "HAN",
+            "seasons": [
+                "2024"
+            ],
+            "starts": 3,
+            "wins": 0,
+            "podiums": 0,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 1,
+            "titles": 0
+        },
+        {
+            "driverId": "crone",
+            "name": "Courtney Crone",
+            "code": "CRO",
+            "seasons": [
+                "2024"
+            ],
+            "starts": 2,
+            "wins": 0,
+            "podiums": 0,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 0,
+            "titles": 0
+        },
+        {
+            "driverId": "juffali",
+            "name": "Reema Juffali",
+            "code": "JUF",
+            "seasons": [
+                "2024"
+            ],
+            "starts": 2,
+            "wins": 0,
+            "podiums": 0,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 0,
+            "titles": 0
+        }
     ]
 }

@@ -1,38 +1,41 @@
-# F1 Academy results updater
+# Building the F1 Academy API
 
-Scrapes the result tables from f1academy.com and writes them into
-`races/2026/resullts.json` — no screenshots.
+Everything is rebuilt from motorsportmagazine.com, the source of truth for every season.
+Only the Python standard library is needed.
 
-## Setup (once)
-
-```bash
-pip install -r scripts/requirements.txt
-```
-
-## Each race weekend
+## After each race weekend
 
 ```bash
-python scripts/update_f1a.py --raceid 25          # write locally
-python scripts/update_f1a.py --raceid 25 --push    # ...and git commit + push
+python scripts/build_mm.py      # refetches the live season, rebuilds every season
+python scripts/stats.py         # rebuilds stats/
+git add -A && git commit -m "f1a: <event>" && git push
 ```
 
-`--raceid` is the `raceid` in the f1academy.com results URL
-(`/Racing-Series/Results?raceid=NN`); see the `RACES` map in `update_f1a.py`.
+`build_mm.py --push` / `stats.py --push` commit and push for you. Responses are cached in `$MM_CACHE`
+(default: the system temp folder), so a rebuild only refetches the live season; `--cached` skips even that.
 
-## What it derives
+The build stops without writing anything when a finished season's race points + `BONUSES` don't add
+up to motorsportmag's championship table, when motorsportmag lists a team or circuit it hasn't seen,
+or when two different drivers would get the same `driverId`.
 
-- **Session → key:** Opening Race → `race0`, Reverse Grid Race → `race1`,
-  Feature Race → `race2`.
-- **Grid** (the page doesn't list it) from qualifying: feature = quali order,
-  reverse race = reversed top-8. On a weekend with an Opening Race, qualifying is
-  shown twice (fastest and second-fastest lap); the faster ranking sets
-  reverse/feature, the slower one sets the Opening Race grid.
-- **Points** from the tables in `POINTS` (race1 10-8-6-5-4-3-2-1,
-  race2 25-18-15-12-10-8-6-4-2-1).
+## Where the rules live
 
-## Notes / gotchas
+- `series_config.py` (differs per repo): seasons, live season and its scheduled rounds, points scales,
+  session labels, results-key layout, race names, the team lineage table (`TEAMS`: one `constructorId`
+  per entrant, renames keep it, takeovers link `predecessor` / `successor`), `BONUSES`, cancelled sessions,
+  and `CORRECTIONS` for official post-race changes motorsportmag hasn't applied yet (the build prints a
+  NOTE once motorsportmag catches up so the entry can be removed).
+- `people_overrides.json` (per repo), keyed by motorsportmag driver slug: accented / compound names,
+  official 3-letter codes (these match the portrait files on the site), wildcard seasons.
+- `motorsportmag.py`, `build_mm.py`, `stats.py`, `common.py` are identical in f2api and f1a-api;
+  copy them across when you change them. New venues go in `motorsportmag.CIRC`.
 
-- `POINTS` and the reverse-grid size are league rules — confirm they match the
-  season before trusting a backfill.
-- Grid derivation assumes no grid penalties reshuffled the order; check grids on
-  rounds where a penalty was applied.
+## New season
+
+Add the year to `YEARS`, set `LIVE_SEASON`, `SCHEDULED_ROUNDS` and `FUTURE_ROUNDS`, and add codes
+for new drivers to `people_overrides.json` (otherwise a code is generated from the surname).
+
+## Legacy
+
+`scripts/legacy/` holds the retired FIA / f1academy.com scrapers. They write the old schema and would
+overwrite the motorsportmag data; they are kept for reference only.

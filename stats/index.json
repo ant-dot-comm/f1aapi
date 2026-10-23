@@ -1,544 +1,743 @@
 {
     "series": "f1a",
-    "updated": "2026-10-14",
+    "updated": "2026-10-22",
     "drivers": [
         {
             "driverId": "pulling",
-            "name": "A. Pulling",
+            "name": "Abbi Pulling",
             "code": "PUL",
+            "nationality": "British",
             "seasons": [
                 "2023",
                 "2024"
             ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 1,
             "points": 513
         },
         {
             "driverId": "pin",
-            "name": "D. Pin",
+            "name": "Doriane Pin",
             "code": "PIN",
+            "nationality": "French",
             "seasons": [
                 "2024",
                 "2025"
             ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 1,
             "points": 389
         },
         {
+            "driverId": "hamda_al_qubaisi",
+            "name": "Hamda Al Qubaisi",
+            "code": "HAL",
+            "nationality": "Emirati",
+            "seasons": [
+                "2023",
+                "2024"
+            ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
+            "points": 340
+        },
+        {
             "driverId": "weug",
-            "name": "M. Weug",
+            "name": "Maya Weug",
             "code": "WEU",
+            "nationality": "Dutch",
             "seasons": [
                 "2024",
                 "2025"
             ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
             "points": 334
         },
         {
             "driverId": "marti",
-            "name": "N. Martí",
+            "name": "Nerea Martí",
             "code": "MAR",
+            "nationality": "Spanish",
             "seasons": [
                 "2023",
                 "2024"
             ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
             "points": 317
         },
         {
             "driverId": "garcia",
-            "name": "M. García",
+            "name": "Marta García",
             "code": "GAR",
+            "nationality": "Spanish",
             "seasons": [
                 "2023"
             ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 1,
             "points": 278
         },
         {
             "driverId": "chambers",
-            "name": "C. Chambers",
+            "name": "Chloe Chambers",
             "code": "CHA",
+            "nationality": "American",
             "seasons": [
                 "2024",
                 "2025"
             ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
             "points": 249
         },
         {
             "driverId": "palmowski",
-            "name": "A. Palmowski",
+            "name": "Alisha Palmowski",
             "code": "PAL",
+            "nationality": "British",
             "seasons": [
                 "2024",
                 "2025",
                 "2026"
             ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
             "points": 237
         },
         {
             "driverId": "buhler",
-            "name": "L. Bühler",
+            "name": "Lena Bühler",
             "code": "BUH",
+            "nationality": "Swiss",
             "seasons": [
                 "2023"
             ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
             "points": 222
         },
         {
-            "driverId": "hal",
-            "name": "H. Al Qubaisi",
-            "code": "HAL",
-            "seasons": [
-                "2023"
-            ],
-            "points": 207
-        },
-        {
             "driverId": "bustamante",
-            "name": "B. Bustamante",
+            "name": "Bianca Bustamante",
             "code": "BUS",
+            "nationality": "Filipino",
             "seasons": [
                 "2023",
                 "2024"
             ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
             "points": 189
         },
         {
             "driverId": "lloyd",
-            "name": "E. Lloyd",
+            "name": "Ella Lloyd",
             "code": "LLO",
+            "nationality": "British",
             "seasons": [
                 "2024",
                 "2025",
                 "2026"
             ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
             "points": 164
         },
         {
             "driverId": "gademan",
-            "name": "N. Gademan",
+            "name": "Nina Gademan",
             "code": "GAD",
+            "nationality": "Dutch",
             "seasons": [
                 "2024",
                 "2025",
                 "2026"
             ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
             "points": 158
         },
         {
             "driverId": "edgar",
-            "name": "J. Edgar",
+            "name": "Jessica Edgar",
             "code": "EDG",
+            "nationality": "British",
             "seasons": [
                 "2023",
                 "2024"
             ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
             "points": 142
         },
         {
-            "driverId": "h_al_qubaisi",
-            "name": "H. Al Qubaisi",
-            "code": "HAL",
+            "driverId": "amna_al_qubaisi",
+            "name": "Amna Al Qubaisi",
+            "code": "AAL",
+            "nationality": "Emirati",
             "seasons": [
+                "2023",
                 "2024"
             ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
             "points": 133
         },
         {
             "driverId": "felbermayr",
-            "name": "E. Felbermayr",
+            "name": "Emma Felbermayr",
             "code": "FEL",
+            "nationality": "Austrian",
             "seasons": [
                 "2025",
                 "2026"
             ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
             "points": 125
         },
         {
             "driverId": "larsen",
-            "name": "A. Larsen",
+            "name": "Alba Larsen",
             "code": "LAR",
+            "nationality": "Danish",
             "seasons": [
                 "2025",
                 "2026"
             ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
             "points": 120
         },
         {
-            "driverId": "aal",
-            "name": "A. Al Qubaisi",
-            "code": "AAL",
+            "driverId": "de_heus",
+            "name": "Emely de Heus",
+            "code": "DEH",
+            "nationality": "Dutch",
             "seasons": [
-                "2023"
+                "2023",
+                "2024"
             ],
-            "points": 117
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
+            "points": 116
         },
         {
             "driverId": "schreiner",
-            "name": "C. Schreiner",
+            "name": "Carrie Schreiner",
             "code": "SCH",
+            "nationality": "German",
             "seasons": [
                 "2023",
                 "2024"
             ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
             "points": 90
         },
         {
-            "driverId": "de_heus",
-            "name": "E. De Heus",
-            "code": "DEH",
-            "seasons": [
-                "2023"
-            ],
-            "points": 87
-        },
-        {
             "driverId": "lovinfosse",
-            "name": "L. Lovinfosse",
+            "name": "Lola Lovinfosse",
             "code": "LOV",
+            "nationality": "French",
             "seasons": [
                 "2023",
                 "2024"
             ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
             "points": 84
         },
         {
             "driverId": "block",
-            "name": "L. Block",
+            "name": "Lia Block",
             "code": "BLO",
+            "nationality": "American",
             "seasons": [
                 "2024",
                 "2025"
             ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
             "points": 81
         },
         {
             "driverId": "hausmann",
-            "name": "T. Hausmann",
+            "name": "Tina Hausmann",
             "code": "HAU",
+            "nationality": "Swiss",
             "seasons": [
                 "2024",
                 "2025"
             ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
             "points": 81
         },
         {
             "driverId": "westcott",
-            "name": "P. Westcott",
+            "name": "Payton Westcott",
             "code": "WES",
+            "nationality": "American",
             "seasons": [
                 "2025",
                 "2026"
             ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
             "points": 52
         },
         {
             "driverId": "bruce",
-            "name": "M. Bruce",
+            "name": "Megan Bruce",
             "code": "BRU",
+            "nationality": "British",
             "seasons": [
                 "2025",
                 "2026"
             ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
             "points": 49
         },
         {
-            "driverId": "ferreira",
-            "name": "R. Ferreira",
-            "code": "FER",
-            "seasons": [
-                "2025",
-                "2026"
-            ],
-            "points": 45
-        },
-        {
-            "driverId": "chong",
-            "name": "C. Chong",
-            "code": "CHO",
-            "seasons": [
-                "2023",
-                "2025"
-            ],
-            "points": 43
-        },
-        {
-            "driverId": "granada",
-            "name": "N. Granada",
-            "code": "GRA",
-            "seasons": [
-                "2026"
-            ],
-            "points": 35
-        },
-        {
-            "driverId": "paatz",
-            "name": "M. Paatz",
-            "code": "PAA",
-            "seasons": [
-                "2025",
-                "2026"
-            ],
-            "points": 35
-        },
-        {
-            "driverId": "grant",
-            "name": "C. Grant",
-            "code": "GRA",
-            "seasons": [
-                "2023"
-            ],
-            "points": 34
-        },
-        {
-            "driverId": "gilkes",
-            "name": "M. Gilkes",
-            "code": "GIL",
-            "seasons": [
-                "2023"
-            ],
-            "points": 31
-        },
-        {
-            "driverId": "de_haus",
-            "name": "E. De Heus",
-            "code": "DEH",
-            "seasons": [
-                "2024"
-            ],
-            "points": 29
-        },
-        {
-            "driverId": "nobles",
-            "name": "A. Nobels",
-            "code": "NOB",
-            "seasons": [
-                "2024"
-            ],
-            "points": 29
-        },
-        {
-            "driverId": "robertson",
-            "name": "R. Robertson",
-            "code": "ROB",
-            "seasons": [
-                "2025",
-                "2026"
-            ],
-            "points": 27
-        },
-        {
-            "driverId": "battig",
-            "name": "C. Bättig",
-            "code": "BAE",
-            "seasons": [
-                "2026"
-            ],
-            "points": 22
-        },
-        {
             "driverId": "nobels",
-            "name": "A. Nobels",
+            "name": "Aurelia Nobels",
             "code": "NOB",
-            "seasons": [
-                "2025"
-            ],
-            "points": 17
-        },
-        {
-            "driverId": "a_al_qubaisi",
-            "name": "A. Al Qubaisi",
-            "code": "AAL",
-            "seasons": [
-                "2024"
-            ],
-            "points": 16
-        },
-        {
-            "driverId": "billard",
-            "name": "L. Billard",
-            "code": "BIL",
-            "seasons": [
-                "2025",
-                "2026"
-            ],
-            "points": 15
-        },
-        {
-            "driverId": "countryman",
-            "name": "K. Countryman",
-            "code": "COU",
-            "seasons": [
-                "2026"
-            ],
-            "points": 14
-        },
-        {
-            "driverId": "kosterman",
-            "name": "E. Kosterman",
-            "code": "KOS",
-            "seasons": [
-                "2025",
-                "2026"
-            ],
-            "points": 12
-        },
-        {
-            "driverId": "ciconte",
-            "name": "J. Ciconte",
-            "code": "CIC",
-            "seasons": [
-                "2025"
-            ],
-            "points": 8
-        },
-        {
-            "driverId": "dobson",
-            "name": "A. Dobson",
-            "code": "DOB",
-            "seasons": [
-                "2025",
-                "2026"
-            ],
-            "points": 8
-        },
-        {
-            "driverId": "caceres",
-            "name": "M. Cáceres",
-            "code": "CAC",
-            "seasons": [
-                "2023"
-            ],
-            "points": 6
-        },
-        {
-            "driverId": "anagnostiadis",
-            "name": "A. Anagnostiadis",
-            "code": "ANA",
-            "seasons": [
-                "2025"
-            ],
-            "points": 5
-        },
-        {
-            "driverId": "stevens",
-            "name": "E. Stevens",
-            "code": "STE",
-            "seasons": [
-                "2026"
-            ],
-            "points": 4
-        },
-        {
-            "driverId": "crone",
-            "name": "C. Crone",
-            "code": "CRO",
+            "nationality": "Brazilian",
             "seasons": [
                 "2024",
                 "2025"
             ],
-            "points": 3
-        },
-        {
-            "driverId": "hanna",
-            "name": "L. Hannah",
-            "code": "HAN",
-            "seasons": [
-                "2024"
+            "eras": [
+                "f1a"
             ],
-            "points": 1
+            "titles": 0,
+            "points": 46
         },
         {
-            "driverId": "havrda",
-            "name": "N. Havrda",
-            "code": "HAV",
-            "seasons": [
-                "2025"
-            ],
-            "points": 1
-        },
-        {
-            "driverId": "alyousef",
-            "name": "F. AlYousef",
-            "code": "FAY",
-            "seasons": [
-                "2025"
-            ],
-            "points": 0
-        },
-        {
-            "driverId": "danielsson",
-            "name": "danielsson",
-            "code": "",
-            "seasons": [],
-            "points": 0
-        },
-        {
-            "driverId": "fisher",
-            "name": "A. Fisher",
-            "code": "FIS",
-            "seasons": [
-                "2026"
-            ],
-            "points": 0
-        },
-        {
-            "driverId": "florescu",
-            "name": "Z. Florescu",
-            "code": "FLO",
-            "seasons": [
-                "2026"
-            ],
-            "points": 0
-        },
-        {
-            "driverId": "jacquet",
-            "name": "J. Jacquet",
-            "code": "JAC",
-            "seasons": [
-                "2026"
-            ],
-            "points": 0
-        },
-        {
-            "driverId": "juffali",
-            "name": "R. Juffali",
-            "code": "JUF",
-            "seasons": [
-                "2024"
-            ],
-            "points": 0
-        },
-        {
-            "driverId": "shi",
-            "name": "W. Shi",
-            "code": "SHI",
+            "driverId": "ferreira",
+            "name": "Rafaela Ferreira",
+            "code": "FER",
+            "nationality": "Brazilian",
             "seasons": [
                 "2025",
                 "2026"
             ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
+            "points": 45
+        },
+        {
+            "driverId": "chong",
+            "name": "Chloe Chong",
+            "code": "CHO",
+            "nationality": "British",
+            "seasons": [
+                "2023",
+                "2025"
+            ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
+            "points": 43
+        },
+        {
+            "driverId": "granada",
+            "name": "Natalia Granada",
+            "code": "GRA",
+            "nationality": "Spanish",
+            "seasons": [
+                "2026"
+            ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
+            "points": 35
+        },
+        {
+            "driverId": "paatz",
+            "name": "Mathilda Paatz",
+            "code": "PAA",
+            "nationality": "German",
+            "seasons": [
+                "2025",
+                "2026"
+            ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
+            "points": 35
+        },
+        {
+            "driverId": "grant",
+            "name": "Chloe Grant",
+            "code": "GRA",
+            "nationality": "British",
+            "seasons": [
+                "2023"
+            ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
+            "points": 34
+        },
+        {
+            "driverId": "gilkes",
+            "name": "Megan Gilkes",
+            "code": "GIL",
+            "nationality": "Canadian",
+            "seasons": [
+                "2023"
+            ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
+            "points": 31
+        },
+        {
+            "driverId": "robertson",
+            "name": "Rachel Robertson",
+            "code": "ROB",
+            "nationality": "British",
+            "seasons": [
+                "2025",
+                "2026"
+            ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
+            "points": 27
+        },
+        {
+            "driverId": "battig",
+            "name": "Chiara Bättig",
+            "code": "BAT",
+            "nationality": "Swiss",
+            "seasons": [
+                "2026"
+            ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
+            "points": 22
+        },
+        {
+            "driverId": "billard",
+            "name": "Lisa Billard",
+            "code": "BIL",
+            "nationality": "French",
+            "seasons": [
+                "2025",
+                "2026"
+            ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
+            "points": 15
+        },
+        {
+            "driverId": "countryman",
+            "name": "Kaylee Countryman",
+            "code": "COU",
+            "nationality": "American",
+            "seasons": [
+                "2026"
+            ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
+            "points": 14
+        },
+        {
+            "driverId": "kosterman",
+            "name": "Esmee Kosterman",
+            "code": "KOS",
+            "nationality": "Dutch",
+            "seasons": [
+                "2025",
+                "2026"
+            ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
+            "points": 12
+        },
+        {
+            "driverId": "ciconte",
+            "name": "Joanne Ciconte",
+            "code": "CIC",
+            "nationality": "Australian",
+            "seasons": [
+                "2025"
+            ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
+            "points": 8
+        },
+        {
+            "driverId": "dobson",
+            "name": "Ava Dobson",
+            "code": "DOB",
+            "nationality": "American",
+            "seasons": [
+                "2025",
+                "2026"
+            ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
+            "points": 8
+        },
+        {
+            "driverId": "caceres",
+            "name": "Maite Cáceres",
+            "code": "CAC",
+            "nationality": "Uruguayan",
+            "seasons": [
+                "2023"
+            ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
+            "points": 6
+        },
+        {
+            "driverId": "anagnostiadis",
+            "name": "Aiva Anagnostiadis",
+            "code": "ANA",
+            "nationality": "Australian",
+            "seasons": [
+                "2025"
+            ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
+            "points": 5
+        },
+        {
+            "driverId": "stevens",
+            "name": "Ella Stevens",
+            "code": "STE",
+            "nationality": "British",
+            "seasons": [
+                "2026"
+            ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
+            "points": 4
+        },
+        {
+            "driverId": "crone",
+            "name": "Courtney Crone",
+            "code": "CRO",
+            "nationality": "American",
+            "seasons": [
+                "2024",
+                "2025"
+            ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
+            "points": 3
+        },
+        {
+            "driverId": "hannah",
+            "name": "Logan Hannah",
+            "code": "HAN",
+            "nationality": "British",
+            "seasons": [
+                "2024"
+            ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
+            "points": 1
+        },
+        {
+            "driverId": "havrda",
+            "name": "Nicole Havrda",
+            "code": "HAV",
+            "nationality": "Canadian",
+            "seasons": [
+                "2025"
+            ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
+            "points": 1
+        },
+        {
+            "driverId": "al_yousef",
+            "name": "Farah Al Yousef",
+            "code": "ALY",
+            "nationality": "Saudi Arabian",
+            "seasons": [
+                "2025"
+            ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
+            "points": 0
+        },
+        {
+            "driverId": "fisher",
+            "name": "Autumn Fisher",
+            "code": "FIS",
+            "nationality": "Canadian",
+            "seasons": [
+                "2026"
+            ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
+            "points": 0
+        },
+        {
+            "driverId": "florescu",
+            "name": "Zoe Florescu",
+            "code": "FLO",
+            "nationality": "Italian",
+            "seasons": [
+                "2026"
+            ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
+            "points": 0
+        },
+        {
+            "driverId": "jacquet",
+            "name": "Jade Jacquet",
+            "code": "JAC",
+            "nationality": "French",
+            "seasons": [
+                "2026"
+            ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
+            "points": 0
+        },
+        {
+            "driverId": "juffali",
+            "name": "Reema Juffali",
+            "code": "JUF",
+            "nationality": "Saudi Arabian",
+            "seasons": [
+                "2024"
+            ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
+            "points": 0
+        },
+        {
+            "driverId": "shi",
+            "name": "Wei Shi",
+            "code": "SHI",
+            "nationality": "Chinese",
+            "seasons": [
+                "2025",
+                "2026"
+            ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
             "points": 0
         }
     ],
     "teams": [
         {
             "constructorId": "prema",
-            "name": "PREMA Racing",
+            "name": "Prema Racing",
             "seasons": [
                 "2023",
                 "2024",
                 "2025",
                 "2026"
             ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 3,
             "points": 1259
-        },
-        {
-            "constructorId": "rodin",
-            "name": "Rodin Motorsport",
-            "seasons": [
-                "2023",
-                "2024",
-                "2025",
-                "2026"
-            ],
-            "points": 1008
         },
         {
             "constructorId": "campos",
@@ -549,6 +748,10 @@
                 "2025",
                 "2026"
             ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
             "points": 992
         },
         {
@@ -560,7 +763,25 @@
                 "2025",
                 "2026"
             ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
             "points": 951
+        },
+        {
+            "constructorId": "rodin",
+            "name": "Rodin Motorsport",
+            "seasons": [
+                "2024",
+                "2025",
+                "2026"
+            ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
+            "points": 688
         },
         {
             "constructorId": "art",
@@ -571,7 +792,23 @@
                 "2025",
                 "2026"
             ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
             "points": 544
+        },
+        {
+            "constructorId": "carlin",
+            "name": "Rodin Carlin",
+            "seasons": [
+                "2023"
+            ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
+            "points": 320
         },
         {
             "constructorId": "hitech",
@@ -580,6 +817,10 @@
                 "2025",
                 "2026"
             ],
+            "eras": [
+                "f1a"
+            ],
+            "titles": 0,
             "points": 72
         }
     ]

@@ -1,0 +1,83 @@
+{
+    "season": "2024",
+    "series": "f1a",
+    "Races": [
+        {
+            "round": "1",
+            "raceId": "20241",
+            "raceName": "Saudi Arabian Grand Prix",
+            "circuitId": "jeddah",
+            "circuitName": "Jeddah",
+            "locality": "Jeddah",
+            "country": "Saudi Arabia",
+            "date": "2024-03-09",
+            "status": "complete"
+        },
+        {
+            "round": "2",
+            "raceId": "20242",
+            "raceName": "Miami Grand Prix",
+            "circuitId": "miami",
+            "circuitName": "Miami International Autodrome",
+            "locality": "Miami",
+            "country": "USA",
+            "date": "2024-05-05",
+            "status": "complete"
+        },
+        {
+            "round": "3",
+            "raceId": "20243",
+            "raceName": "Spanish Grand Prix",
+            "circuitId": "catalunya",
+            "circuitName": "Catalunya",
+            "locality": "Barcelona",
+            "country": "Spain",
+            "date": "2024-06-23",
+            "status": "complete"
+        },
+        {
+            "round": "4",
+            "raceId": "20244",
+            "raceName": "Dutch Grand Prix",
+            "circuitId": "zandvoort",
+            "circuitName": "Zandvoort",
+            "locality": "Zandvoort",
+            "country": "Netherlands",
+            "date": "2024-08-25",
+            "status": "complete"
+        },
+        {
+            "round": "5",
+            "raceId": "20245",
+            "raceName": "Singapore Grand Prix",
+            "circuitId": "marina_bay",
+            "circuitName": "Marina Bay",
+            "locality": "Marina Bay",
+            "country": "Singapore",
+            "date": "2024-09-22",
+            "status": "complete"
+        },
+        {
+            "round": "6",
+            "raceId": "20246",
+            "raceName": "Qatar Grand Prix",
+            "circuitId": "losail",
+            "circuitName": "Losail",
+            "locality": "Lusail",
+            "country": "Qatar",
+            "date": "2024-11-30",
+            "status": "complete"
+        },
+        {
+            "round": "7",
+            "raceId": "20247",
+            "raceName": "Abu Dhabi Grand Prix",
+            "circuitId": "yas_marina",
+            "circuitName": "Yas Marina",
+            "locality": "Abu Dhabi",
+            "country": "UAE",
+            "date": "2024-12-08",
+            "status": "complete"
+        }
+    ]
+}

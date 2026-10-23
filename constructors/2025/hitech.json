@@ -1,0 +1,79 @@
+[
+    {
+        "driverId": "havrda",
+        "permanentNumber": "2",
+        "code": "HAV",
+        "givenName": "Nicole",
+        "familyName": "Havrda"
+    },
+    {
+        "driverId": "al_yousef",
+        "permanentNumber": "4",
+        "code": "ALY",
+        "givenName": "Farah",
+        "familyName": "Al Yousef"
+    },
+    {
+        "driverId": "paatz",
+        "permanentNumber": "8",
+        "code": "PAA",
+        "givenName": "Mathilda",
+        "familyName": "Paatz"
+    },
+    {
+        "driverId": "bruce",
+        "permanentNumber": "9",
+        "code": "BRU",
+        "givenName": "Megan",
+        "familyName": "Bruce"
+    },
+    {
+        "driverId": "anagnostiadis",
+        "permanentNumber": "11",
+        "code": "ANA",
+        "givenName": "Aiva",
+        "familyName": "Anagnostiadis"
+    },
+    {
+        "driverId": "westcott",
+        "permanentNumber": "15",
+        "code": "WES",
+        "givenName": "Payton",
+        "familyName": "Westcott"
+    },
+    {
+        "driverId": "shi",
+        "permanentNumber": "24",
+        "code": "SHI",
+        "givenName": "Wei",
+        "familyName": "Shi"
+    },
+    {
+        "driverId": "robertson",
+        "permanentNumber": "56",
+        "code": "ROB",
+        "givenName": "Rachel",
+        "familyName": "Robertson"
+    },
+    {
+        "driverId": "billard",
+        "permanentNumber": "60",
+        "code": "BIL",
+        "givenName": "Lisa",
+        "familyName": "Billard"
+    },
+    {
+        "driverId": "kosterman",
+        "permanentNumber": "86",
+        "code": "KOS",
+        "givenName": "Esmee",
+        "familyName": "Kosterman"
+    },
+    {
+        "driverId": "dobson",
+        "permanentNumber": "90",
+        "code": "DOB",
+        "givenName": "Ava",
+        "familyName": "Dobson"
+    }
+]

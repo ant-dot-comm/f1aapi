@@ -1,0 +1,23 @@
+[
+    {
+        "driverId": "marti",
+        "permanentNumber": "1",
+        "code": "MAR",
+        "givenName": "Nerea",
+        "familyName": "Martí"
+    },
+    {
+        "driverId": "lovinfosse",
+        "permanentNumber": "2",
+        "code": "LOV",
+        "givenName": "Lola",
+        "familyName": "Lovinfosse"
+    },
+    {
+        "driverId": "caceres",
+        "permanentNumber": "3",
+        "code": "CAC",
+        "givenName": "Maite",
+        "familyName": "Cáceres"
+    }
+]

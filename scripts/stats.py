@@ -1,91 +1,61 @@
 #!/usr/bin/env python3
 """
-stats.py — derive per-driver and per-team career/season statistics from the
-results + standings, so the frontend can build driver-comparison and team-history
+stats.py — derive per-driver and per-team career/season statistics from the files
+build_mm.py writes, so the frontend can build driver-comparison and team-history
 pages without computing anything itself. Writes:
 
-    stats/drivers/<driverId>.json   career + per-season metrics + round-by-round
-    stats/teams/<constructorId>.json team history + metrics + drivers
-    stats/index.json                driver + team lists (for comparison pickers)
+    stats/drivers/<driverId>.json    career + per-season metrics + every result
+    stats/teams/<constructorId>.json team history + metrics + drivers + leaders
+    stats/index.json                 driver + team lists (for comparison pickers)
 
-Covers every season present in the repo (expands automatically as historical data
-is added). Identical in both repos — it auto-detects the series from the layout.
-Run after update_* and standings_* for the season(s).
+Race types come from each weekend's Sessions (never from the race key), poles and
+fastest laps from the session's `pole` / `fastestLap`, points from the rows plus the
+weekend's Bonuses, season totals from the championship tables.
+Identical in f2api and f1a-api (keep in sync). Run after build_mm.py.
 
     python scripts/stats.py            # write all
     python scripts/stats.py --push
 """
 import argparse
+import collections
 import glob
 import json
 import os
+import shutil
 
 import common as C
+import series_config as S
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
-# Series config (auto-detected). TYPE maps a race-key to its race type; FEATURE
-# marks the races whose grid P1 is a championship pole.
-if os.path.isdir(os.path.join(REPO, "drivers")):
-    SERIES, ROSTER_DIR = "f2", "drivers"
-    DEFAULT_TYPE = {"race1": "sprint", "race2": "feature", "race3": "feature2"}
-    # 2021 ran three races/weekend (two sprints + feature); the feature was race3.
-    SEASON_TYPE = {"2021": {"race1": "sprint", "race2": "sprint", "race3": "feature"}}
-else:
-    SERIES, ROSTER_DIR = "f1a", "constructors"
-    DEFAULT_TYPE = {"race0": "opening", "race1": "reverse", "race2": "feature"}
-    SEASON_TYPE = {}
-
-FEATURE_TYPES = {"feature", "feature2"}
+LEADER_KEYS = ("starts", "wins", "podiums", "poles", "points", "titles")
 
 
-def rtype_of(yr, key):
-    """Race type for a season+key (season override, else the default layout)."""
-    return SEASON_TYPE.get(yr, {}).get(key) or DEFAULT_TYPE.get(key, key)
-
-
-def _pts(s):
+def _pts(v):
     """Points as a number; int when whole, float for half-points (e.g. 214.5)."""
-    f = float(s)
+    f = round(float(v or 0), 2)
     return int(f) if f == int(f) else f
 
 
-def _load(path):
-    return json.load(open(path)) if os.path.exists(path) else None
-
-
-def _seasons():
-    return sorted(os.path.basename(os.path.dirname(p))
-                  for p in glob.glob(os.path.join(REPO, "races", "*", "resullts.json")))
-
-
-def _fl_time(row):
-    t = row.get("FastestLap", {}).get("Time", {}).get("time", "")
-    return C_time(t)
-
-
-def C_time(s):
-    import re
-    m = re.match(r"(?:(\d+):)?(\d+):(\d\d\.\d+)$", (s or "").strip())
-    if not m:
-        return float("inf")
-    return int(m.group(1) or 0) * 3600 + int(m.group(2)) * 60 + float(m.group(3))
+def _load(rel):
+    p = os.path.join(REPO, rel)
+    return json.load(open(p)) if os.path.exists(p) else None
 
 
 def _blank():
     return {"entries": 0, "starts": 0, "points": 0,
             "wins": {"total": 0}, "podiums": {"total": 0},
-            "poles": 0, "fastestLaps": 0, "dnfs": 0,
+            "poles": 0, "fastestLaps": 0, "dnfs": 0, "pointsFinishes": 0,
             "bestFinish": None, "_fin": []}
 
 
-def _add_result(s, rtype, is_feat, row, got_fl):
+def _add_result(s, rtype, row, pole, fastest):
     s["entries"] += 1
-    status = row["status"]
-    if status != "DNS":
+    if row["status"] not in ("DNS", "DNQ"):
         s["starts"] += 1
-    if status == "DNF":
+    if row["status"] == "DNF":
         s["dnfs"] += 1
+    if float(row.get("points") or 0) > 0:
+        s["pointsFinishes"] += 1
     pos = row["position"]
     if pos.isdigit():
         p = int(pos)
@@ -97,9 +67,9 @@ def _add_result(s, rtype, is_feat, row, got_fl):
         if p <= 3:
             s["podiums"]["total"] += 1
             s["podiums"][rtype] = s["podiums"].get(rtype, 0) + 1
-    if is_feat and row.get("grid") == "1":
+    if pole:
         s["poles"] += 1
-    if got_fl:
+    if fastest:
         s["fastestLaps"] += 1
 
 
@@ -110,7 +80,7 @@ def _finalize(s):
 
 
 def _merge(into, src):
-    for k in ("entries", "starts", "poles", "fastestLaps", "dnfs"):
+    for k in ("entries", "starts", "poles", "fastestLaps", "dnfs", "pointsFinishes"):
         into[k] += src[k]
     for grp in ("wins", "podiums"):
         for t, n in src[grp].items():
@@ -122,146 +92,149 @@ def _merge(into, src):
 
 
 def build():
-    seasons = _seasons()
-    # name/constructor lookups from each season's registry + roster
-    names, dcon = {}, {}      # driverId -> {name,code}; (driverId,season) -> constructorId
-    team_names = {}           # constructorId -> display name
-    season_complete = {}      # year -> bool (season finished, so a P1 is a real title)
-    season_era = {}           # year -> "gp2"/"f2" (championship era label)
-    season_champ = {}         # year -> championship display name
-    drv = {}   # driverId -> {"name","code","seasons":{yr:stats},"results":[], "champ":{yr:pos},"points":{yr:n}}
-    team = {}  # constructorId -> {"name","seasons":{yr:stats},"champ":{},"points":{},"drivers":set()}
+    seasons = _load("seasons.json")["seasons"]
+    people = {d["driverId"]: d for d in _load("drivers/index.json")["drivers"]}
+    team_meta = {t["constructorId"]: t for t in _load("teams/index.json")["teams"]}
 
-    for yr in seasons:
-        res = _load(os.path.join(REPO, "races", yr, "resullts.json")) or []
-        reg = _load(os.path.join(REPO, ROSTER_DIR, yr, "registry.json"))
-        roster = _load(os.path.join(REPO, ROSTER_DIR, yr, "drivers.json")) or {}
-        num2con = {n: i["Constructor"]["constructorId"] for n, i in roster.items()}
-        for n, i in roster.items():
-            team_names.setdefault(i["Constructor"]["constructorId"], i["Constructor"]["name"])
-        if reg:
-            for did, r in reg["Drivers"].items():
-                nm = r.get("name") or (r.get("givenName", "") + " " + r.get("familyName", "")).strip()
-                names[did] = {"name": nm or did, "code": r.get("code", "")}
-                for e in r["entries"]:
-                    for rd in e["rounds"]:
-                        dcon[(did, yr, rd)] = e["constructorId"]
-        sd = _load(os.path.join(REPO, "standings", yr, "drivers.json"))
-        st = _load(os.path.join(REPO, "standings", yr, "teams.json"))
-        season_complete[yr] = bool(sd.get("complete")) if sd else False
-        season_era[yr] = (sd.get("series") if sd else None) or SERIES
-        season_champ[yr] = (sd.get("championship") if sd else None)
-        champ_d = {e["driverId"]: (e["position"], e["points"]) for e in sd["Standings"]} if sd else {}
-        champ_t = {e["constructorId"]: (e["position"], e["points"]) for e in st["Standings"]} if st else {}
-        if st:
-            for e in st["Standings"]:
-                if e.get("team"):
-                    team_names.setdefault(e["constructorId"], e["team"])
+    drv = {}    # driverId -> {"seasons": {yr: stats}, "results": [], "champ": {}, "points": {}, "teams": {yr: [cid]}}
+    team = {}   # constructorId -> {"seasons": {yr: stats}, "champ": {}, "points": {}, "drivers": {did: stats}}
+    dteam = {}  # (driverId, constructorId) -> per-driver stats while at that team
+    titles = collections.defaultdict(list)       # constructorId -> [(year, driverId)]
+    info = {s["season"]: s for s in seasons}
 
-        for rnd in res:
-            rno = rnd["round"]
+    for s in seasons:
+        yr = s["season"]
+        era, champ_name, complete = s["series"], s["championship"], s["complete"]
+        for rnd in _load(f"races/{yr}/results.json") or []:
+            sess = {x["key"]: x for x in rnd.get("Sessions", [])}
             for key, rows in rnd["Results"].items():
-                # fastest lap of this race = min valid FL time among classified
-                best_t, best_num = float("inf"), None
+                meta = sess.get(key, {})
+                rtype = meta.get("type", key)
+                pole = meta.get("pole")
+                fastest = (meta.get("fastestLap") or {}).get("driverId")
                 for row in rows:
-                    if row["position"].isdigit():
-                        t = _fl_time(row)
-                        if t < best_t:
-                            best_t, best_num = t, row["number"]
-                rtype = rtype_of(yr, key)
-                is_feat = rtype in FEATURE_TYPES
-                for row in rows:
-                    did = row.get("driverId") or ""
-                    if not did:
-                        continue
-                    ds = drv.setdefault(did, {"seasons": {}, "results": []})
-                    s = ds["seasons"].setdefault(yr, _blank())
-                    _add_result(s, rtype, is_feat, row, row["number"] == best_num)
-                    cid = dcon.get((did, yr, rno)) or num2con.get(row["number"])
+                    did, cid = row["driverId"], row.get("constructorId")
+                    ds = drv.setdefault(did, {"seasons": {}, "results": [], "teams": {}})
+                    is_pole, is_fl = pole == did, fastest == did
+                    _add_result(ds["seasons"].setdefault(yr, _blank()), rtype, row, is_pole, is_fl)
+                    if cid and cid not in ds["teams"].setdefault(yr, []):
+                        ds["teams"][yr].append(cid)
                     ds["results"].append({
-                        "season": yr, "round": rno, "raceName": rnd["raceName"],
-                        "race": key, "type": rtype, "constructorId": cid,
-                        "grid": row.get("grid", ""), "position": row["position"],
+                        "season": yr, "round": rnd["round"], "raceName": rnd["raceName"],
+                        "race": key, "type": rtype, "label": meta.get("label", key),
+                        "constructorId": cid, "grid": row.get("grid", ""), "position": row["position"],
                         "status": row["status"], "points": row["points"]})
                     if cid:
                         ts = team.setdefault(cid, {"seasons": {}, "drivers": set()})
-                        tss = ts["seasons"].setdefault(yr, _blank())
-                        _add_result(tss, rtype, is_feat, row, row["number"] == best_num)
+                        _add_result(ts["seasons"].setdefault(yr, _blank()), rtype, row, is_pole, is_fl)
                         ts["drivers"].add(did)
+                        dt = dteam.setdefault((did, cid), {**_blank(), "seasons": set(), "teamPoints": 0.0})
+                        _add_result(dt, rtype, row, is_pole, is_fl)
+                        dt["seasons"].add(yr)
+                        dt["teamPoints"] += float(row["points"] or 0)
+            for b in rnd.get("Bonuses", []):
+                if b.get("constructorId") and (b["driverId"], b["constructorId"]) in dteam:
+                    dteam[(b["driverId"], b["constructorId"])]["teamPoints"] += float(b["points"])
 
-        for did, (pos, pts) in champ_d.items():
-            drv.setdefault(did, {"seasons": {}, "results": []}).setdefault("champ", {})[yr] = int(pos)
-            drv[did].setdefault("points", {})[yr] = _pts(pts)
-        for cid, (pos, pts) in champ_t.items():
-            team.setdefault(cid, {"seasons": {}, "drivers": set()}).setdefault("champ", {})[yr] = int(pos)
-            team[cid].setdefault("points", {})[yr] = _pts(pts)
+        sd = _load(f"standings/{yr}/drivers.json")
+        st = _load(f"standings/{yr}/teams.json")
+        for e in sd["Standings"]:
+            d = drv.setdefault(e["driverId"], {"seasons": {}, "results": [], "teams": {}})
+            d.setdefault("champ", {})[yr] = int(e["position"])
+            d.setdefault("points", {})[yr] = _pts(e["points"])
+            if complete and e["position"] == "1":
+                titles[e["constructorId"]].append((yr, e["driverId"]))
+        for e in st["Standings"]:
+            t = team.setdefault(e["constructorId"], {"seasons": {}, "drivers": set()})
+            t.setdefault("champ", {})[yr] = int(e["position"])
+            t.setdefault("points", {})[yr] = _pts(e["points"])
 
-    # write driver files
-    os.makedirs(os.path.join(REPO, "stats", "drivers"), exist_ok=True)
-    os.makedirs(os.path.join(REPO, "stats", "teams"), exist_ok=True)
+    for sub in ("drivers", "teams"):
+        shutil.rmtree(os.path.join(REPO, "stats", sub), ignore_errors=True)
+        os.makedirs(os.path.join(REPO, "stats", sub), exist_ok=True)
+
     d_index, t_index = [], []
     for did, ds in sorted(drv.items()):
-        career = _blank()
-        season_out = {}
+        p = people.get(did, {})
+        career, season_out = _blank(), {}
         for yr, s in sorted(ds["seasons"].items()):
             _merge(career, s)
-            champ = ds.get("champ", {}).get(yr)
-            pts = ds.get("points", {}).get(yr, 0)
-            so = _finalize({**s, "_fin": s["_fin"]})
-            so["points"] = pts
-            so["championshipPosition"] = champ
-            so["complete"] = season_complete.get(yr, False)
-            so["era"] = season_era.get(yr, SERIES)
-            so["championship"] = season_champ.get(yr)
+            so = _finalize({**s, "_fin": list(s["_fin"])})
+            so["points"] = ds.get("points", {}).get(yr, 0)
+            so["championshipPosition"] = ds.get("champ", {}).get(yr)
+            so["teams"] = ds["teams"].get(yr, [])
+            so["complete"] = info[yr]["complete"]
+            so["era"] = info[yr]["series"]
+            so["championship"] = info[yr]["championship"]
             season_out[yr] = so
         career = _finalize(career)
-        career["points"] = sum(ds.get("points", {}).values())
-        champs = [y for y, p in ds.get("champ", {}).items()
-                  if p == 1 and season_complete.get(y)]
-        career["titles"] = len(champs)
-        allpos = [p for p in ds.get("champ", {}).values()]
+        career["points"] = _pts(sum(ds.get("points", {}).values()))
+        career["titles"] = len([y for y, pos in ds.get("champ", {}).items() if pos == 1 and info[y]["complete"]])
+        allpos = list(ds.get("champ", {}).values())
         career["bestChampionship"] = min(allpos) if allpos else None
-        career["eras"] = sorted({season_era.get(yr, SERIES) for yr in ds["seasons"]})
-        meta = names.get(did, {"name": did, "code": ""})
-        doc = {"driverId": did, "name": meta["name"], "code": meta["code"],
-               "series": SERIES, "seasons": sorted(ds["seasons"]),
+        career["eras"] = sorted({info[yr]["series"] for yr in ds["seasons"]})
+        teams_all = list(dict.fromkeys(c for yr in sorted(ds["teams"]) for c in ds["teams"][yr]))
+        doc = {"driverId": did, "name": p.get("name", did), "givenName": p.get("givenName", ""),
+               "familyName": p.get("familyName", ""), "code": p.get("code", ""),
+               "nationality": p.get("nationality", ""), "series": S.SERIES,
+               "seasons": sorted(ds["seasons"]), "teams": teams_all,
                "career": career, "bySeasons": season_out, "results": ds["results"]}
         C.write_json(os.path.join(REPO, "stats", "drivers", f"{did}.json"), doc)
-        d_index.append({"driverId": did, "name": meta["name"], "code": meta["code"],
-                        "seasons": sorted(ds["seasons"]), "points": career["points"]})
+        d_index.append({"driverId": did, "name": doc["name"], "code": doc["code"],
+                        "nationality": doc["nationality"], "seasons": doc["seasons"],
+                        "eras": career["eras"], "titles": career["titles"], "points": career["points"]})
 
     for cid, ts in sorted(team.items()):
-        career = _blank()
-        season_out = {}
+        tm = team_meta.get(cid, {})
+        career, season_out = _blank(), {}
         for yr, s in sorted(ts["seasons"].items()):
             _merge(career, s)
-            so = _finalize({**s, "_fin": s["_fin"]})
+            so = _finalize({**s, "_fin": list(s["_fin"])})
             so["points"] = ts.get("points", {}).get(yr, 0)
             so["championshipPosition"] = ts.get("champ", {}).get(yr)
-            so["complete"] = season_complete.get(yr, False)
-            so["era"] = season_era.get(yr, SERIES)
-            so["championship"] = season_champ.get(yr)
+            so["name"] = (tm.get("names") or {}).get(yr) or tm.get("name", cid)
+            so["complete"] = info[yr]["complete"]
+            so["era"] = info[yr]["series"]
+            so["championship"] = info[yr]["championship"]
             season_out[yr] = so
         career = _finalize(career)
-        career["points"] = sum(ts.get("points", {}).values())
-        career["titles"] = len([1 for y, p in ts.get("champ", {}).items()
-                                if p == 1 and season_complete.get(y)])
+        career["points"] = _pts(sum(ts.get("points", {}).values()))
+        career["titles"] = len([1 for y, pos in ts.get("champ", {}).items() if pos == 1 and info[y]["complete"]])
+        career["driverTitles"] = len(titles.get(cid, []))
         allpos = list(ts.get("champ", {}).values())
         career["bestChampionship"] = min(allpos) if allpos else None
-        career["eras"] = sorted({season_era.get(yr, SERIES) for yr in ts["seasons"]})
-        doc = {"constructorId": cid, "name": team_names.get(cid, cid), "series": SERIES,
-               "seasons": sorted(ts["seasons"]), "career": career, "bySeasons": season_out,
-               "drivers": sorted(ts["drivers"])}
+        career["eras"] = sorted({info[yr]["series"] for yr in ts["seasons"]})
+        drivers = []
+        won = collections.Counter(d for _, d in titles.get(cid, []))
+        for did in ts["drivers"]:
+            dt = dteam[(did, cid)]
+            drivers.append({"driverId": did, "name": people.get(did, {}).get("name", did),
+                            "code": people.get(did, {}).get("code", ""),
+                            "seasons": sorted(dt["seasons"]), "starts": dt["starts"],
+                            "wins": dt["wins"]["total"], "podiums": dt["podiums"]["total"],
+                            "poles": dt["poles"], "fastestLaps": dt["fastestLaps"],
+                            "points": _pts(dt["teamPoints"]), "titles": won.get(did, 0)})
+        drivers.sort(key=lambda d: (-d["points"], -d["wins"], d["name"]))
+        leaders = {}
+        for k in LEADER_KEYS:
+            ranked = sorted((d for d in drivers if d[k] > 0), key=lambda d: (-d[k], -d["points"], d["name"]))[:3]
+            leaders[k] = [{"driverId": d["driverId"], "name": d["name"], "value": d[k]} for d in ranked]
+        doc = {"constructorId": cid, "name": tm.get("name", cid), "shortName": tm.get("shortName", ""),
+               "series": S.SERIES, "seasons": sorted(ts["seasons"]),
+               "predecessor": tm.get("predecessor"), "successor": tm.get("successor"),
+               "career": career, "bySeasons": season_out,
+               "championDrivers": [{"season": y, "driverId": d, "name": people.get(d, {}).get("name", d)}
+                                   for y, d in sorted(titles.get(cid, []))],
+               "leaders": leaders, "drivers": drivers}
         C.write_json(os.path.join(REPO, "stats", "teams", f"{cid}.json"), doc)
-        t_index.append({"constructorId": cid, "name": team_names.get(cid, cid),
-                        "seasons": sorted(ts["seasons"]), "points": career["points"]})
+        t_index.append({"constructorId": cid, "name": doc["name"], "seasons": doc["seasons"],
+                        "eras": career["eras"], "titles": career["titles"], "points": career["points"]})
 
     d_index.sort(key=lambda x: -x["points"])
     t_index.sort(key=lambda x: -x["points"])
     C.write_json(os.path.join(REPO, "stats", "index.json"),
-                 {"series": SERIES, "updated": C.today_iso(),
-                  "drivers": d_index, "teams": t_index})
-    return len(d_index), len(t_index), seasons
+                 {"series": S.SERIES, "updated": C.today_iso(), "drivers": d_index, "teams": t_index})
+    return len(d_index), len(t_index), [s["season"] for s in seasons]
 
 
 def main():
@@ -269,11 +242,11 @@ def main():
     ap.add_argument("--push", action="store_true")
     a = ap.parse_args()
     nd, nt, seasons = build()
-    print(f"[{SERIES}] wrote stats for {nd} drivers, {nt} teams across seasons {seasons}")
+    print(f"[{S.SERIES}] wrote stats for {nd} drivers, {nt} teams across seasons {seasons[0]}-{seasons[-1]}")
     if a.push:
         import subprocess
         subprocess.run(["git", "-C", REPO, "add", "stats"], check=True)
-        subprocess.run(["git", "-C", REPO, "commit", "-m", f"Build {SERIES} stats layer"], check=True)
+        subprocess.run(["git", "-C", REPO, "commit", "-m", f"Build {S.SERIES} stats layer"], check=True)
         subprocess.run(["git", "-C", REPO, "push"], check=True)
 
 

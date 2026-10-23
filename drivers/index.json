@@ -1,0 +1,824 @@
+{
+    "series": "f1a",
+    "updated": "2026-10-22",
+    "drivers": [
+        {
+            "driverId": "amna_al_qubaisi",
+            "name": "Amna Al Qubaisi",
+            "givenName": "Amna",
+            "familyName": "Al Qubaisi",
+            "code": "AAL",
+            "codeSource": "official",
+            "nationality": "Emirati",
+            "countryCode": "AE",
+            "dateOfBirth": "2000-03-23",
+            "birthplace": "Washington, District of Columbia (USA)",
+            "seasons": [
+                "2023",
+                "2024"
+            ],
+            "motorsportmag": "amna-al-qubaisi"
+        },
+        {
+            "driverId": "hamda_al_qubaisi",
+            "name": "Hamda Al Qubaisi",
+            "givenName": "Hamda",
+            "familyName": "Al Qubaisi",
+            "code": "HAL",
+            "codeSource": "official",
+            "nationality": "Emirati",
+            "countryCode": "AE",
+            "dateOfBirth": "2002-08-08",
+            "birthplace": "",
+            "seasons": [
+                "2023",
+                "2024"
+            ],
+            "motorsportmag": "hamda-al-qubaisi"
+        },
+        {
+            "driverId": "al_yousef",
+            "name": "Farah Al Yousef",
+            "givenName": "Farah",
+            "familyName": "Al Yousef",
+            "code": "ALY",
+            "codeSource": "official",
+            "nationality": "Saudi Arabian",
+            "countryCode": "SA",
+            "dateOfBirth": "",
+            "birthplace": "",
+            "seasons": [
+                "2025"
+            ],
+            "motorsportmag": "farah-al-yousef"
+        },
+        {
+            "driverId": "anagnostiadis",
+            "name": "Aiva Anagnostiadis",
+            "givenName": "Aiva",
+            "familyName": "Anagnostiadis",
+            "code": "ANA",
+            "codeSource": "official",
+            "nationality": "Australian",
+            "countryCode": "AU",
+            "dateOfBirth": "2007-08-09",
+            "birthplace": "Melbourne, Victoria",
+            "seasons": [
+                "2025"
+            ],
+            "motorsportmag": "aiva-anagnostiadis"
+        },
+        {
+            "driverId": "battig",
+            "name": "Chiara Bättig",
+            "givenName": "Chiara",
+            "familyName": "Bättig",
+            "code": "BAT",
+            "codeSource": "official",
+            "nationality": "Swiss",
+            "countryCode": "CH",
+            "dateOfBirth": "2010-03-21",
+            "birthplace": "",
+            "seasons": [
+                "2026"
+            ],
+            "motorsportmag": "chiara-battig"
+        },
+        {
+            "driverId": "billard",
+            "name": "Lisa Billard",
+            "givenName": "Lisa",
+            "familyName": "Billard",
+            "code": "BIL",
+            "codeSource": "official",
+            "nationality": "French",
+            "countryCode": "FR",
+            "dateOfBirth": "2009-09-12",
+            "birthplace": "Normandy",
+            "seasons": [
+                "2025",
+                "2026"
+            ],
+            "motorsportmag": "lisa-billard"
+        },
+        {
+            "driverId": "block",
+            "name": "Lia Block",
+            "givenName": "Lia",
+            "familyName": "Block",
+            "code": "BLO",
+            "codeSource": "official",
+            "nationality": "American",
+            "countryCode": "US",
+            "dateOfBirth": "2006-10-01",
+            "birthplace": "Park City, Utah",
+            "seasons": [
+                "2024",
+                "2025"
+            ],
+            "motorsportmag": "lia-block"
+        },
+        {
+            "driverId": "bruce",
+            "name": "Megan Bruce",
+            "givenName": "Megan",
+            "familyName": "Bruce",
+            "code": "BRU",
+            "codeSource": "official",
+            "nationality": "British",
+            "countryCode": "GB",
+            "dateOfBirth": "2004-08-02",
+            "birthplace": "Sussex",
+            "seasons": [
+                "2025",
+                "2026"
+            ],
+            "motorsportmag": "megan-bruce"
+        },
+        {
+            "driverId": "buhler",
+            "name": "Lena Bühler",
+            "givenName": "Lena",
+            "familyName": "Bühler",
+            "code": "BUH",
+            "codeSource": "official",
+            "nationality": "Swiss",
+            "countryCode": "CH",
+            "dateOfBirth": "1997-07-09",
+            "birthplace": "Valeyres-sous-Montagny, Vaud canton",
+            "seasons": [
+                "2023"
+            ],
+            "motorsportmag": "lena-buhler"
+        },
+        {
+            "driverId": "bustamante",
+            "name": "Bianca Bustamante",
+            "givenName": "Bianca",
+            "familyName": "Bustamante",
+            "code": "BUS",
+            "codeSource": "official",
+            "nationality": "Filipino",
+            "countryCode": "PH",
+            "dateOfBirth": "2005-01-19",
+            "birthplace": "Manila",
+            "seasons": [
+                "2023",
+                "2024"
+            ],
+            "motorsportmag": "bianca-bustamante"
+        },
+        {
+            "driverId": "caceres",
+            "name": "Maite Cáceres",
+            "givenName": "Maite",
+            "familyName": "Cáceres",
+            "code": "CAC",
+            "codeSource": "official",
+            "nationality": "Uruguayan",
+            "countryCode": "UY",
+            "dateOfBirth": "2002-08-06",
+            "birthplace": "",
+            "seasons": [
+                "2023"
+            ],
+            "motorsportmag": "maite-caceres"
+        },
+        {
+            "driverId": "chambers",
+            "name": "Chloe Chambers",
+            "givenName": "Chloe",
+            "familyName": "Chambers",
+            "code": "CHA",
+            "codeSource": "official",
+            "nationality": "American",
+            "countryCode": "US",
+            "dateOfBirth": "2004-06-14",
+            "birthplace": "",
+            "seasons": [
+                "2024",
+                "2025"
+            ],
+            "motorsportmag": "chloe-chambers"
+        },
+        {
+            "driverId": "chong",
+            "name": "Chloe Chong",
+            "givenName": "Chloe",
+            "familyName": "Chong",
+            "code": "CHO",
+            "codeSource": "official",
+            "nationality": "British",
+            "countryCode": "GB",
+            "dateOfBirth": "2007-03-27",
+            "birthplace": "",
+            "seasons": [
+                "2023",
+                "2025"
+            ],
+            "motorsportmag": "chloe-chong"
+        },
+        {
+            "driverId": "ciconte",
+            "name": "Joanne Ciconte",
+            "givenName": "Joanne",
+            "familyName": "Ciconte",
+            "code": "CIC",
+            "codeSource": "official",
+            "nationality": "Australian",
+            "countryCode": "AU",
+            "dateOfBirth": "2008-12-14",
+            "birthplace": "",
+            "seasons": [
+                "2025"
+            ],
+            "motorsportmag": "joanne-ciconte"
+        },
+        {
+            "driverId": "countryman",
+            "name": "Kaylee Countryman",
+            "givenName": "Kaylee",
+            "familyName": "Countryman",
+            "code": "COU",
+            "codeSource": "official",
+            "nationality": "American",
+            "countryCode": "US",
+            "dateOfBirth": "2010-01-03",
+            "birthplace": "Chandler, Arizona",
+            "seasons": [
+                "2026"
+            ],
+            "motorsportmag": "kaylee-countryman"
+        },
+        {
+            "driverId": "crone",
+            "name": "Courtney Crone",
+            "givenName": "Courtney",
+            "familyName": "Crone",
+            "code": "CRO",
+            "codeSource": "official",
+            "nationality": "American",
+            "countryCode": "US",
+            "dateOfBirth": "2001-03-07",
+            "birthplace": "Corona, California",
+            "seasons": [
+                "2024",
+                "2025"
+            ],
+            "motorsportmag": "courtney-crone"
+        },
+        {
+            "driverId": "de_heus",
+            "name": "Emely de Heus",
+            "givenName": "Emely",
+            "familyName": "de Heus",
+            "code": "DEH",
+            "codeSource": "official",
+            "nationality": "Dutch",
+            "countryCode": "NL",
+            "dateOfBirth": "2003-02-10",
+            "birthplace": "Mijnsheerenland, Zuid-Holland",
+            "seasons": [
+                "2023",
+                "2024"
+            ],
+            "motorsportmag": "emely-de-heus"
+        },
+        {
+            "driverId": "dobson",
+            "name": "Ava Dobson",
+            "givenName": "Ava",
+            "familyName": "Dobson",
+            "code": "DOB",
+            "codeSource": "official",
+            "nationality": "American",
+            "countryCode": "US",
+            "dateOfBirth": "2008-06-09",
+            "birthplace": "Milwaukee, Wisconsin",
+            "seasons": [
+                "2025",
+                "2026"
+            ],
+            "motorsportmag": "ava-dobson"
+        },
+        {
+            "driverId": "edgar",
+            "name": "Jessica Edgar",
+            "givenName": "Jessica",
+            "familyName": "Edgar",
+            "code": "EDG",
+            "codeSource": "official",
+            "nationality": "British",
+            "countryCode": "GB",
+            "dateOfBirth": "2005-03-15",
+            "birthplace": "",
+            "seasons": [
+                "2023",
+                "2024"
+            ],
+            "motorsportmag": "jessica-edgar"
+        },
+        {
+            "driverId": "felbermayr",
+            "name": "Emma Felbermayr",
+            "givenName": "Emma",
+            "familyName": "Felbermayr",
+            "code": "FEL",
+            "codeSource": "official",
+            "nationality": "Austrian",
+            "countryCode": "AT",
+            "dateOfBirth": "2007-01-27",
+            "birthplace": "",
+            "seasons": [
+                "2025",
+                "2026"
+            ],
+            "motorsportmag": "emma-felbermayr"
+        },
+        {
+            "driverId": "ferreira",
+            "name": "Rafaela Ferreira",
+            "givenName": "Rafaela",
+            "familyName": "Ferreira",
+            "code": "FER",
+            "codeSource": "official",
+            "nationality": "Brazilian",
+            "countryCode": "BR",
+            "dateOfBirth": "2005-04-18",
+            "birthplace": "",
+            "seasons": [
+                "2025",
+                "2026"
+            ],
+            "motorsportmag": "rafaela-ferreira"
+        },
+        {
+            "driverId": "fisher",
+            "name": "Autumn Fisher",
+            "givenName": "Autumn",
+            "familyName": "Fisher",
+            "code": "FIS",
+            "codeSource": "official",
+            "nationality": "Canadian",
+            "countryCode": "CA",
+            "dateOfBirth": "2007-11-22",
+            "birthplace": "",
+            "seasons": [
+                "2026"
+            ],
+            "motorsportmag": "autumn-fisher"
+        },
+        {
+            "driverId": "florescu",
+            "name": "Zoe Florescu",
+            "givenName": "Zoe",
+            "familyName": "Florescu",
+            "code": "FLO",
+            "codeSource": "official",
+            "nationality": "Italian",
+            "countryCode": "IT",
+            "dateOfBirth": "2008-12-23",
+            "birthplace": "Bucharest (RO)",
+            "seasons": [
+                "2026"
+            ],
+            "motorsportmag": "zoe-florescu"
+        },
+        {
+            "driverId": "gademan",
+            "name": "Nina Gademan",
+            "givenName": "Nina",
+            "familyName": "Gademan",
+            "code": "GAD",
+            "codeSource": "official",
+            "nationality": "Dutch",
+            "countryCode": "NL",
+            "dateOfBirth": "2003-08-30",
+            "birthplace": "Wijster, Drenthe",
+            "seasons": [
+                "2024",
+                "2025",
+                "2026"
+            ],
+            "motorsportmag": "nina-gademan"
+        },
+        {
+            "driverId": "garcia",
+            "name": "Marta García",
+            "givenName": "Marta",
+            "familyName": "García",
+            "code": "GAR",
+            "codeSource": "official",
+            "nationality": "Spanish",
+            "countryCode": "ES",
+            "dateOfBirth": "2000-08-09",
+            "birthplace": "Denia, Alicante",
+            "seasons": [
+                "2023"
+            ],
+            "motorsportmag": "marta-garcia"
+        },
+        {
+            "driverId": "gilkes",
+            "name": "Megan Gilkes",
+            "givenName": "Megan",
+            "familyName": "Gilkes",
+            "code": "GIL",
+            "codeSource": "official",
+            "nationality": "Canadian",
+            "countryCode": "CA",
+            "dateOfBirth": "2001-11-06",
+            "birthplace": "Richmond Hill, Ontario",
+            "seasons": [
+                "2023"
+            ],
+            "motorsportmag": "megan-gilkes"
+        },
+        {
+            "driverId": "granada",
+            "name": "Natalia Granada",
+            "givenName": "Natalia",
+            "familyName": "Granada",
+            "code": "GRA",
+            "codeSource": "official",
+            "nationality": "Spanish",
+            "countryCode": "ES",
+            "dateOfBirth": "2008-03-18",
+            "birthplace": "La Garriga, Barcelona, Catalunya",
+            "seasons": [
+                "2026"
+            ],
+            "motorsportmag": "natalia-granada"
+        },
+        {
+            "driverId": "grant",
+            "name": "Chloe Grant",
+            "givenName": "Chloe",
+            "familyName": "Grant",
+            "code": "GRA",
+            "codeSource": "official",
+            "nationality": "British",
+            "countryCode": "GB",
+            "dateOfBirth": "2006-03-20",
+            "birthplace": "",
+            "seasons": [
+                "2023"
+            ],
+            "motorsportmag": "chloe-grant"
+        },
+        {
+            "driverId": "hannah",
+            "name": "Logan Hannah",
+            "givenName": "Logan",
+            "familyName": "Hannah",
+            "code": "HAN",
+            "codeSource": "official",
+            "nationality": "British",
+            "countryCode": "GB",
+            "dateOfBirth": "2001-08-16",
+            "birthplace": "Glasgow, Scotland",
+            "seasons": [
+                "2024"
+            ],
+            "motorsportmag": "logan-hannah"
+        },
+        {
+            "driverId": "hausmann",
+            "name": "Tina Hausmann",
+            "givenName": "Tina",
+            "familyName": "Hausmann",
+            "code": "HAU",
+            "codeSource": "official",
+            "nationality": "Swiss",
+            "countryCode": "CH",
+            "dateOfBirth": "2006-10-05",
+            "birthplace": "Zurich",
+            "seasons": [
+                "2024",
+                "2025"
+            ],
+            "motorsportmag": "tina-hausmann"
+        },
+        {
+            "driverId": "havrda",
+            "name": "Nicole Havrda",
+            "givenName": "Nicole",
+            "familyName": "Havrda",
+            "code": "HAV",
+            "codeSource": "official",
+            "nationality": "Canadian",
+            "countryCode": "CA",
+            "dateOfBirth": "2006-01-24",
+            "birthplace": "",
+            "seasons": [
+                "2025"
+            ],
+            "motorsportmag": "nicole-havrda"
+        },
+        {
+            "driverId": "jacquet",
+            "name": "Jade Jacquet",
+            "givenName": "Jade",
+            "familyName": "Jacquet",
+            "code": "JAC",
+            "codeSource": "official",
+            "nationality": "French",
+            "countryCode": "FR",
+            "dateOfBirth": "2009-12-01",
+            "birthplace": "",
+            "seasons": [
+                "2026"
+            ],
+            "motorsportmag": "jade-jacquet"
+        },
+        {
+            "driverId": "juffali",
+            "name": "Reema Juffali",
+            "givenName": "Reema",
+            "familyName": "Juffali",
+            "code": "JUF",
+            "codeSource": "official",
+            "nationality": "Saudi Arabian",
+            "countryCode": "SA",
+            "dateOfBirth": "1992-01-18",
+            "birthplace": "Jeddah",
+            "seasons": [
+                "2024"
+            ],
+            "motorsportmag": "reema-juffali"
+        },
+        {
+            "driverId": "kosterman",
+            "name": "Esmee Kosterman",
+            "givenName": "Esmee",
+            "familyName": "Kosterman",
+            "code": "KOS",
+            "codeSource": "official",
+            "nationality": "Dutch",
+            "countryCode": "NL",
+            "dateOfBirth": "2005-04-16",
+            "birthplace": "Wijk bij Duurstede, Utrecht",
+            "seasons": [
+                "2025",
+                "2026"
+            ],
+            "motorsportmag": "esmee-kosterman"
+        },
+        {
+            "driverId": "larsen",
+            "name": "Alba Larsen",
+            "givenName": "Alba",
+            "familyName": "Larsen",
+            "code": "LAR",
+            "codeSource": "official",
+            "nationality": "Danish",
+            "countryCode": "DK",
+            "dateOfBirth": "2008-12-12",
+            "birthplace": "",
+            "seasons": [
+                "2025",
+                "2026"
+            ],
+            "motorsportmag": "alba-larsen"
+        },
+        {
+            "driverId": "lloyd",
+            "name": "Ella Lloyd",
+            "givenName": "Ella",
+            "familyName": "Lloyd",
+            "code": "LLO",
+            "codeSource": "official",
+            "nationality": "British",
+            "countryCode": "GB",
+            "dateOfBirth": "2005-07-20",
+            "birthplace": "Pontypridd, Glamorgan, Wales",
+            "seasons": [
+                "2024",
+                "2025",
+                "2026"
+            ],
+            "motorsportmag": "ella-lloyd"
+        },
+        {
+            "driverId": "lovinfosse",
+            "name": "Lola Lovinfosse",
+            "givenName": "Lola",
+            "familyName": "Lovinfosse",
+            "code": "LOV",
+            "codeSource": "official",
+            "nationality": "French",
+            "countryCode": "FR",
+            "dateOfBirth": "2005-10-17",
+            "birthplace": "Rouen, Normandy",
+            "seasons": [
+                "2023",
+                "2024"
+            ],
+            "motorsportmag": "lola-lovinfosse"
+        },
+        {
+            "driverId": "marti",
+            "name": "Nerea Martí",
+            "givenName": "Nerea",
+            "familyName": "Martí",
+            "code": "MAR",
+            "codeSource": "official",
+            "nationality": "Spanish",
+            "countryCode": "ES",
+            "dateOfBirth": "2002-01-02",
+            "birthplace": "Albalat dels Sorells, Valencia",
+            "seasons": [
+                "2023",
+                "2024"
+            ],
+            "motorsportmag": "nerea-marti"
+        },
+        {
+            "driverId": "nobels",
+            "name": "Aurelia Nobels",
+            "givenName": "Aurelia",
+            "familyName": "Nobels",
+            "code": "NOB",
+            "codeSource": "official",
+            "nationality": "Brazilian",
+            "countryCode": "BR",
+            "dateOfBirth": "2007-01-07",
+            "birthplace": "Boston, Massachusetts (USA)",
+            "seasons": [
+                "2024",
+                "2025"
+            ],
+            "motorsportmag": "aurelia-nobels"
+        },
+        {
+            "driverId": "paatz",
+            "name": "Mathilda Paatz",
+            "givenName": "Mathilda",
+            "familyName": "Paatz",
+            "code": "PAA",
+            "codeSource": "official",
+            "nationality": "German",
+            "countryCode": "DE",
+            "dateOfBirth": "2008-08-01",
+            "birthplace": "Cologne, North Rhine-Westphalia",
+            "seasons": [
+                "2025",
+                "2026"
+            ],
+            "motorsportmag": "mathilda-paatz"
+        },
+        {
+            "driverId": "palmowski",
+            "name": "Alisha Palmowski",
+            "givenName": "Alisha",
+            "familyName": "Palmowski",
+            "code": "PAL",
+            "codeSource": "official",
+            "nationality": "British",
+            "countryCode": "GB",
+            "dateOfBirth": "2006-09-21",
+            "birthplace": "Manchester, Lancashire",
+            "seasons": [
+                "2024",
+                "2025",
+                "2026"
+            ],
+            "motorsportmag": "alisha-palmowski"
+        },
+        {
+            "driverId": "pin",
+            "name": "Doriane Pin",
+            "givenName": "Doriane",
+            "familyName": "Pin",
+            "code": "PIN",
+            "codeSource": "official",
+            "nationality": "French",
+            "countryCode": "FR",
+            "dateOfBirth": "2004-01-06",
+            "birthplace": "Ivry-sur-Seine, Ile-de-France",
+            "seasons": [
+                "2024",
+                "2025"
+            ],
+            "motorsportmag": "doriane-pin"
+        },
+        {
+            "driverId": "pulling",
+            "name": "Abbi Pulling",
+            "givenName": "Abbi",
+            "familyName": "Pulling",
+            "code": "PUL",
+            "codeSource": "official",
+            "nationality": "British",
+            "countryCode": "GB",
+            "dateOfBirth": "2003-03-21",
+            "birthplace": "Spalding, Lincolnshire",
+            "seasons": [
+                "2023",
+                "2024"
+            ],
+            "motorsportmag": "abbi-pulling"
+        },
+        {
+            "driverId": "robertson",
+            "name": "Rachel Robertson",
+            "givenName": "Rachel",
+            "familyName": "Robertson",
+            "code": "ROB",
+            "codeSource": "official",
+            "nationality": "British",
+            "countryCode": "GB",
+            "dateOfBirth": "2007-07-28",
+            "birthplace": "Scotland",
+            "seasons": [
+                "2025",
+                "2026"
+            ],
+            "motorsportmag": "rachel-robertson"
+        },
+        {
+            "driverId": "schreiner",
+            "name": "Carrie Schreiner",
+            "givenName": "Carrie",
+            "familyName": "Schreiner",
+            "code": "SCH",
+            "codeSource": "official",
+            "nationality": "German",
+            "countryCode": "DE",
+            "dateOfBirth": "1998-09-14",
+            "birthplace": "Volklingen, Saarland",
+            "seasons": [
+                "2023",
+                "2024"
+            ],
+            "motorsportmag": "carrie-schreiner"
+        },
+        {
+            "driverId": "shi",
+            "name": "Wei Shi",
+            "givenName": "Wei",
+            "familyName": "Shi",
+            "code": "SHI",
+            "codeSource": "official",
+            "nationality": "Chinese",
+            "countryCode": "CN",
+            "dateOfBirth": "1997-10-08",
+            "birthplace": "",
+            "seasons": [
+                "2025",
+                "2026"
+            ],
+            "motorsportmag": "wei-shi"
+        },
+        {
+            "driverId": "stevens",
+            "name": "Ella Stevens",
+            "givenName": "Ella",
+            "familyName": "Stevens",
+            "code": "STE",
+            "codeSource": "official",
+            "nationality": "British",
+            "countryCode": "GB",
+            "dateOfBirth": "2006-09-10",
+            "birthplace": "Wotton-under-Edge, Gloucestershire",
+            "seasons": [
+                "2026"
+            ],
+            "motorsportmag": "ella-stevens"
+        },
+        {
+            "driverId": "westcott",
+            "name": "Payton Westcott",
+            "givenName": "Payton",
+            "familyName": "Westcott",
+            "code": "WES",
+            "codeSource": "official",
+            "nationality": "American",
+            "countryCode": "US",
+            "dateOfBirth": "2009-03-20",
+            "birthplace": "",
+            "seasons": [
+                "2025",
+                "2026"
+            ],
+            "motorsportmag": "payton-westcott"
+        },
+        {
+            "driverId": "weug",
+            "name": "Maya Weug",
+            "givenName": "Maya",
+            "familyName": "Weug",
+            "code": "WEU",
+            "codeSource": "official",
+            "nationality": "Dutch",
+            "countryCode": "NL",
+            "dateOfBirth": "2004-06-01",
+            "birthplace": "Pedreguer, Valencia (E)",
+            "seasons": [
+                "2024",
+                "2025"
+            ],
+            "motorsportmag": "maya-weug"
+        }
+    ]
+}

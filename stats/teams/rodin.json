@@ -1,89 +1,66 @@
 {
     "constructorId": "rodin",
     "name": "Rodin Motorsport",
+    "shortName": "Rodin",
     "series": "f1a",
     "seasons": [
-        "2023",
         "2024",
         "2025",
         "2026"
     ],
+    "predecessor": "carlin",
+    "successor": null,
     "career": {
-        "entries": 168,
-        "starts": 168,
-        "points": 1008,
+        "entries": 111,
+        "starts": 111,
+        "points": 688,
         "wins": {
-            "total": 14,
-            "race3": 1,
-            "feature": 6,
-            "reverse": 7
+            "total": 13,
+            "feature": 10,
+            "sprint": 3
         },
         "podiums": {
-            "total": 36,
-            "reverse": 16,
-            "race3": 5,
-            "feature": 15
+            "total": 26,
+            "feature": 20,
+            "sprint": 6
         },
-        "poles": 7,
-        "fastestLaps": 12,
-        "dnfs": 9,
+        "poles": 10,
+        "fastestLaps": 7,
+        "dnfs": 10,
+        "pointsFinishes": 62,
         "bestFinish": 1,
-        "avgFinish": 8.43,
+        "avgFinish": 7.95,
         "titles": 0,
+        "driverTitles": 1,
         "bestChampionship": 2,
         "eras": [
             "f1a"
         ]
     },
     "bySeasons": {
-        "2023": {
-            "entries": 57,
-            "starts": 57,
-            "points": 320,
-            "wins": {
-                "total": 1,
-                "race3": 1
-            },
-            "podiums": {
-                "total": 10,
-                "reverse": 4,
-                "race3": 3,
-                "feature": 3
-            },
-            "poles": 2,
-            "fastestLaps": 5,
-            "dnfs": 0,
-            "bestFinish": 1,
-            "avgFinish": 7.96,
-            "championshipPosition": 3,
-            "complete": true,
-            "era": "f1a",
-            "championship": null
-        },
         "2024": {
             "entries": 42,
             "starts": 42,
             "points": 385,
             "wins": {
                 "total": 9,
-                "feature": 4,
-                "reverse": 5
+                "feature": 9
             },
             "podiums": {
                 "total": 14,
-                "reverse": 7,
-                "feature": 6,
-                "race3": 1
+                "feature": 14
             },
-            "poles": 5,
+            "poles": 10,
             "fastestLaps": 6,
             "dnfs": 3,
+            "pointsFinishes": 23,
             "bestFinish": 1,
-            "avgFinish": 8.33,
+            "avgFinish": 7.82,
             "championshipPosition": 2,
+            "name": "Rodin Motorsport",
             "complete": true,
             "era": "f1a",
-            "championship": null
+            "championship": "F1 Academy"
         },
         "2025": {
             "entries": 42,
@@ -91,24 +68,24 @@
             "points": 164,
             "wins": {
                 "total": 2,
-                "reverse": 1,
-                "feature": 1
+                "sprint": 2
             },
             "podiums": {
                 "total": 6,
-                "reverse": 2,
-                "feature": 3,
-                "race3": 1
+                "sprint": 3,
+                "feature": 3
             },
             "poles": 0,
             "fastestLaps": 0,
-            "dnfs": 5,
+            "dnfs": 6,
+            "pointsFinishes": 22,
             "bestFinish": 1,
-            "avgFinish": 9.26,
+            "avgFinish": 8.14,
             "championshipPosition": 4,
+            "name": "Rodin Motorsport",
             "complete": true,
             "era": "f1a",
-            "championship": null
+            "championship": "F1 Academy"
         },
         "2026": {
             "entries": 27,
@@ -117,32 +94,224 @@
             "wins": {
                 "total": 2,
                 "feature": 1,
-                "reverse": 1
+                "sprint": 1
             },
             "podiums": {
                 "total": 6,
-                "reverse": 3,
+                "sprint": 3,
                 "feature": 3
             },
             "poles": 0,
             "fastestLaps": 1,
             "dnfs": 1,
+            "pointsFinishes": 17,
             "bestFinish": 1,
-            "avgFinish": 8.26,
+            "avgFinish": 7.88,
             "championshipPosition": 2,
+            "name": "Rodin Motorsport",
             "complete": false,
             "era": "f1a",
-            "championship": null
+            "championship": "F1 Academy"
         }
     },
+    "championDrivers": [
+        {
+            "season": "2024",
+            "driverId": "pulling",
+            "name": "Abbi Pulling"
+        }
+    ],
+    "leaders": {
+        "starts": [
+            {
+                "driverId": "lloyd",
+                "name": "Ella Lloyd",
+                "value": 23
+            },
+            {
+                "driverId": "felbermayr",
+                "name": "Emma Felbermayr",
+                "value": 23
+            },
+            {
+                "driverId": "pulling",
+                "name": "Abbi Pulling",
+                "value": 14
+            }
+        ],
+        "wins": [
+            {
+                "driverId": "pulling",
+                "name": "Abbi Pulling",
+                "value": 9
+            },
+            {
+                "driverId": "felbermayr",
+                "name": "Emma Felbermayr",
+                "value": 3
+            },
+            {
+                "driverId": "lloyd",
+                "name": "Ella Lloyd",
+                "value": 1
+            }
+        ],
+        "podiums": [
+            {
+                "driverId": "pulling",
+                "name": "Abbi Pulling",
+                "value": 14
+            },
+            {
+                "driverId": "lloyd",
+                "name": "Ella Lloyd",
+                "value": 6
+            },
+            {
+                "driverId": "felbermayr",
+                "name": "Emma Felbermayr",
+                "value": 6
+            }
+        ],
+        "poles": [
+            {
+                "driverId": "pulling",
+                "name": "Abbi Pulling",
+                "value": 10
+            }
+        ],
+        "points": [
+            {
+                "driverId": "pulling",
+                "name": "Abbi Pulling",
+                "value": 338
+            },
+            {
+                "driverId": "lloyd",
+                "name": "Ella Lloyd",
+                "value": 156
+            },
+            {
+                "driverId": "felbermayr",
+                "name": "Emma Felbermayr",
+                "value": 125
+            }
+        ],
+        "titles": [
+            {
+                "driverId": "pulling",
+                "name": "Abbi Pulling",
+                "value": 1
+            }
+        ]
+    },
     "drivers": [
-        "chong",
-        "edgar",
-        "felbermayr",
-        "gilkes",
-        "lloyd",
-        "lovinfosse",
-        "pulling",
-        "stevens"
+        {
+            "driverId": "pulling",
+            "name": "Abbi Pulling",
+            "code": "PUL",
+            "seasons": [
+                "2024"
+            ],
+            "starts": 14,
+            "wins": 9,
+            "podiums": 14,
+            "poles": 10,
+            "fastestLaps": 6,
+            "points": 338,
+            "titles": 1
+        },
+        {
+            "driverId": "lloyd",
+            "name": "Ella Lloyd",
+            "code": "LLO",
+            "seasons": [
+                "2025",
+                "2026"
+            ],
+            "starts": 23,
+            "wins": 1,
+            "podiums": 6,
+            "poles": 0,
+            "fastestLaps": 1,
+            "points": 156,
+            "titles": 0
+        },
+        {
+            "driverId": "felbermayr",
+            "name": "Emma Felbermayr",
+            "code": "FEL",
+            "seasons": [
+                "2025",
+                "2026"
+            ],
+            "starts": 23,
+            "wins": 3,
+            "podiums": 6,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 125,
+            "titles": 0
+        },
+        {
+            "driverId": "edgar",
+            "name": "Jessica Edgar",
+            "code": "EDG",
+            "seasons": [
+                "2024"
+            ],
+            "starts": 14,
+            "wins": 0,
+            "podiums": 0,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 28,
+            "titles": 0
+        },
+        {
+            "driverId": "lovinfosse",
+            "name": "Lola Lovinfosse",
+            "code": "LOV",
+            "seasons": [
+                "2024"
+            ],
+            "starts": 14,
+            "wins": 0,
+            "podiums": 0,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 19,
+            "titles": 0
+        },
+        {
+            "driverId": "chong",
+            "name": "Chloe Chong",
+            "code": "CHO",
+            "seasons": [
+                "2025"
+            ],
+            "starts": 14,
+            "wins": 0,
+            "podiums": 0,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 18,
+            "titles": 0
+        },
+        {
+            "driverId": "stevens",
+            "name": "Ella Stevens",
+            "code": "STE",
+            "seasons": [
+                "2026"
+            ],
+            "starts": 9,
+            "wins": 0,
+            "podiums": 0,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 4,
+            "titles": 0
+        }
     ]
 }

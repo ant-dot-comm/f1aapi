@@ -1,11 +1,17 @@
 {
     "driverId": "shi",
-    "name": "W. Shi",
+    "name": "Wei Shi",
+    "givenName": "Wei",
+    "familyName": "Shi",
     "code": "SHI",
+    "nationality": "Chinese",
     "series": "f1a",
     "seasons": [
         "2025",
         "2026"
+    ],
+    "teams": [
+        "hitech"
     ],
     "career": {
         "entries": 4,
@@ -20,8 +26,9 @@
         "poles": 0,
         "fastestLaps": 0,
         "dnfs": 2,
+        "pointsFinishes": 0,
         "bestFinish": 14,
-        "avgFinish": 16.25,
+        "avgFinish": 15.5,
         "titles": 0,
         "bestChampionship": 21,
         "eras": [
@@ -42,12 +49,16 @@
             "poles": 0,
             "fastestLaps": 0,
             "dnfs": 1,
+            "pointsFinishes": 0,
             "bestFinish": 14,
-            "avgFinish": 16.0,
+            "avgFinish": 14.0,
             "championshipPosition": 24,
+            "teams": [
+                "hitech"
+            ],
             "complete": true,
             "era": "f1a",
-            "championship": null
+            "championship": "F1 Academy"
         },
         "2026": {
             "entries": 2,
@@ -62,12 +73,16 @@
             "poles": 0,
             "fastestLaps": 0,
             "dnfs": 1,
-            "bestFinish": 16,
-            "avgFinish": 16.5,
+            "pointsFinishes": 0,
+            "bestFinish": 17,
+            "avgFinish": 17.0,
             "championshipPosition": 21,
+            "teams": [
+                "hitech"
+            ],
             "complete": false,
             "era": "f1a",
-            "championship": null
+            "championship": "F1 Academy"
         }
     },
     "results": [
@@ -76,10 +91,11 @@
             "round": "1",
             "raceName": "Chinese Grand Prix",
             "race": "race1",
-            "type": "reverse",
+            "type": "sprint",
+            "label": "Reverse Grid Race",
             "constructorId": "hitech",
-            "grid": "17",
-            "position": "18",
+            "grid": "",
+            "position": "NC",
             "status": "DNF",
             "points": "0"
         },
@@ -89,6 +105,7 @@
             "raceName": "Chinese Grand Prix",
             "race": "race2",
             "type": "feature",
+            "label": "Feature Race",
             "constructorId": "hitech",
             "grid": "17",
             "position": "14",
@@ -100,7 +117,8 @@
             "round": "1",
             "raceName": "Chinese Grand Prix",
             "race": "race1",
-            "type": "reverse",
+            "type": "sprint",
+            "label": "Reverse Grid Race",
             "constructorId": "hitech",
             "grid": "18",
             "position": "17",
@@ -113,9 +131,10 @@
             "raceName": "Chinese Grand Prix",
             "race": "race2",
             "type": "feature",
+            "label": "Feature Race",
             "constructorId": "hitech",
             "grid": "18",
-            "position": "16",
+            "position": "NC",
             "status": "DNF",
             "points": "0"
         }

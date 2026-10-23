@@ -1,6 +1,6 @@
 {
     "20231": {
-        "circuitId": "jeddah",
+        "circuitId": "red_bull_ring",
         "raceName": "Austrian Grand Prix",
         "location": "Spielberg",
         "year": "2023"
@@ -12,7 +12,7 @@
         "year": "2023"
     },
     "20233": {
-        "circuitId": "barcelona",
+        "circuitId": "catalunya",
         "raceName": "Spanish Grand Prix",
         "location": "Barcelona",
         "year": "2023"
@@ -30,13 +30,13 @@
         "year": "2023"
     },
     "20236": {
-        "circuitId": "le_castellet",
+        "circuitId": "ricard",
         "raceName": "Le Castellet Grand Prix",
-        "location": "France",
+        "location": "Le Castellet",
         "year": "2023"
     },
     "20237": {
-        "circuitId": "austin",
+        "circuitId": "americas",
         "raceName": "United States Grand Prix",
         "location": "Austin",
         "year": "2023"
@@ -72,7 +72,7 @@
         "year": "2024"
     },
     "20246": {
-        "circuitId": "lusail",
+        "circuitId": "losail",
         "raceName": "Qatar Grand Prix",
         "location": "Lusail",
         "year": "2024"
@@ -80,7 +80,7 @@
     "20247": {
         "circuitId": "yas_marina",
         "raceName": "Abu Dhabi Grand Prix",
-        "location": "Yas Island",
+        "location": "Abu Dhabi",
         "year": "2024"
     },
     "20251": {
@@ -120,7 +120,7 @@
         "year": "2025"
     },
     "20257": {
-        "circuitId": "las_vegas",
+        "circuitId": "vegas",
         "raceName": "Las Vegas Grand Prix",
         "location": "Las Vegas",
         "year": "2025"
@@ -150,13 +150,13 @@
         "year": "2026"
     },
     "20265": {
-        "circuitId": "austin",
+        "circuitId": "americas",
         "raceName": "United States Grand Prix",
         "location": "Austin",
         "year": "2026"
     },
     "20266": {
-        "circuitId": "las_vegas",
+        "circuitId": "vegas",
         "raceName": "Las Vegas Grand Prix",
         "location": "Las Vegas",
         "year": "2026"

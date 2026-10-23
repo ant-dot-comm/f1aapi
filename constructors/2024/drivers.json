@@ -4,7 +4,7 @@
             "driverId": "lovinfosse",
             "permanentNumber": "3",
             "code": "LOV",
-            "givenName": "Aurelia",
+            "givenName": "Lola",
             "familyName": "Lovinfosse"
         },
         "Constructor": {
@@ -31,7 +31,7 @@
             "permanentNumber": "5",
             "code": "LLO",
             "givenName": "Ella",
-            "familyName": "LLyod"
+            "familyName": "Lloyd"
         },
         "Constructor": {
             "constructorId": "prema",
@@ -53,11 +53,11 @@
     },
     "7": {
         "Driver": {
-            "driverId": "de_haus",
+            "driverId": "de_heus",
             "permanentNumber": "7",
             "code": "DEH",
             "givenName": "Emely",
-            "familyName": "De Haus"
+            "familyName": "de Heus"
         },
         "Constructor": {
             "constructorId": "mp",
@@ -66,11 +66,11 @@
     },
     "8": {
         "Driver": {
-            "driverId": "h_al_qubaisi",
+            "driverId": "hamda_al_qubaisi",
             "permanentNumber": "8",
             "code": "HAL",
             "givenName": "Hamda",
-            "familyName": "Al Quiabisi"
+            "familyName": "Al Qubaisi"
         },
         "Constructor": {
             "constructorId": "mp",
@@ -129,19 +129,6 @@
             "name": "Art"
         }
     },
-    "18": {
-        "Driver": {
-            "driverId": "juffali",
-            "permanentNumber": "18",
-            "code": "JUF",
-            "givenName": "Reema",
-            "familyName": "Juffali"
-        },
-        "Constructor": {
-            "constructorId": "prema",
-            "name": "Prema"
-        }
-    },
     "17": {
         "Driver": {
             "driverId": "edgar",
@@ -155,6 +142,19 @@
             "name": "Rodin"
         }
     },
+    "18": {
+        "Driver": {
+            "driverId": "juffali",
+            "permanentNumber": "18",
+            "code": "JUF",
+            "givenName": "Reema",
+            "familyName": "Juffali"
+        },
+        "Constructor": {
+            "constructorId": "prema",
+            "name": "Prema"
+        }
+    },
     "19": {
         "Driver": {
             "driverId": "hausmann",
@@ -165,16 +165,16 @@
         },
         "Constructor": {
             "constructorId": "prema",
-            "name": "prema"
+            "name": "Prema"
         }
     },
     "22": {
         "Driver": {
-            "driverId": "nobles",
+            "driverId": "nobels",
             "permanentNumber": "22",
             "code": "NOB",
             "givenName": "Aurelia",
-            "familyName": "Nobles"
+            "familyName": "Nobels"
         },
         "Constructor": {
             "constructorId": "art",
@@ -209,11 +209,11 @@
     },
     "54": {
         "Driver": {
-            "driverId": "hanna",
+            "driverId": "hannah",
             "permanentNumber": "54",
             "code": "HAN",
             "givenName": "Logan",
-            "familyName": "Hanna"
+            "familyName": "Hannah"
         },
         "Constructor": {
             "constructorId": "prema",
@@ -234,7 +234,7 @@
         }
     },
     "64": {
-      "Driver": {
+        "Driver": {
             "driverId": "weug",
             "permanentNumber": "64",
             "code": "WEU",
@@ -261,16 +261,15 @@
     },
     "88": {
         "Driver": {
-            "driverId": "a_al_qubaisi",
+            "driverId": "amna_al_qubaisi",
             "permanentNumber": "88",
             "code": "AAL",
-            "givenName": "Amma",
-            "familyName": "Al Quiabisi"
+            "givenName": "Amna",
+            "familyName": "Al Qubaisi"
         },
         "Constructor": {
             "constructorId": "mp",
             "name": "MP"
         }
     }
-    
 }

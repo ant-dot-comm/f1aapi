@@ -1,0 +1,44 @@
+[
+    {
+        "driverId": "battig",
+        "permanentNumber": "6",
+        "code": "BAT",
+        "givenName": "Chiara",
+        "familyName": "Bättig"
+    },
+    {
+        "driverId": "florescu",
+        "permanentNumber": "15",
+        "code": "FLO",
+        "givenName": "Zoe",
+        "familyName": "Florescu"
+    },
+    {
+        "driverId": "shi",
+        "permanentNumber": "24",
+        "code": "SHI",
+        "givenName": "Wei",
+        "familyName": "Shi"
+    },
+    {
+        "driverId": "dobson",
+        "permanentNumber": "55",
+        "code": "DOB",
+        "givenName": "Ava",
+        "familyName": "Dobson"
+    },
+    {
+        "driverId": "robertson",
+        "permanentNumber": "56",
+        "code": "ROB",
+        "givenName": "Rachel",
+        "familyName": "Robertson"
+    },
+    {
+        "driverId": "fisher",
+        "permanentNumber": "77",
+        "code": "FIS",
+        "givenName": "Autumn",
+        "familyName": "Fisher"
+    }
+]

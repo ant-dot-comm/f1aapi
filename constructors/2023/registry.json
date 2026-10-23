@@ -1,10 +1,13 @@
 {
     "season": "2023",
     "series": "f1a",
+    "championship": "F1 Academy",
     "Drivers": {
-        "aal": {
-            "driverId": "aal",
-            "name": "A. Al Qubaisi",
+        "amna_al_qubaisi": {
+            "driverId": "amna_al_qubaisi",
+            "name": "Amna Al Qubaisi",
+            "givenName": "Amna",
+            "familyName": "Al Qubaisi",
             "code": "AAL",
             "entries": [
                 {
@@ -24,7 +27,9 @@
         },
         "buhler": {
             "driverId": "buhler",
-            "name": "L. Bühler",
+            "name": "Lena Bühler",
+            "givenName": "Lena",
+            "familyName": "Bühler",
             "code": "BUH",
             "entries": [
                 {
@@ -44,20 +49,16 @@
         },
         "bustamante": {
             "driverId": "bustamante",
-            "name": "B. Bustamante",
+            "name": "Bianca Bustamante",
+            "givenName": "Bianca",
+            "familyName": "Bustamante",
             "code": "BUS",
             "entries": [
                 {
                     "number": "16",
-                    "constructorId": null,
-                    "rounds": [
-                        "1"
-                    ]
-                },
-                {
-                    "number": "16",
                     "constructorId": "prema",
                     "rounds": [
+                        "1",
                         "2",
                         "3",
                         "4",
@@ -70,7 +71,9 @@
         },
         "caceres": {
             "driverId": "caceres",
-            "name": "M. Cáceres",
+            "name": "Maite Cáceres",
+            "givenName": "Maite",
+            "familyName": "Cáceres",
             "code": "CAC",
             "entries": [
                 {
@@ -90,7 +93,9 @@
         },
         "chong": {
             "driverId": "chong",
-            "name": "C. Chong",
+            "name": "Chloe Chong",
+            "givenName": "Chloe",
+            "familyName": "Chong",
             "code": "CHO",
             "entries": [
                 {
@@ -110,7 +115,9 @@
         },
         "de_heus": {
             "driverId": "de_heus",
-            "name": "E. De Heus",
+            "name": "Emely de Heus",
+            "givenName": "Emely",
+            "familyName": "de Heus",
             "code": "DEH",
             "entries": [
                 {
@@ -130,12 +137,14 @@
         },
         "edgar": {
             "driverId": "edgar",
-            "name": "J. Edgar",
+            "name": "Jessica Edgar",
+            "givenName": "Jessica",
+            "familyName": "Edgar",
             "code": "EDG",
             "entries": [
                 {
                     "number": "11",
-                    "constructorId": "rodin",
+                    "constructorId": "carlin",
                     "rounds": [
                         "1",
                         "2",
@@ -150,7 +159,9 @@
         },
         "garcia": {
             "driverId": "garcia",
-            "name": "M. García",
+            "name": "Marta García",
+            "givenName": "Marta",
+            "familyName": "García",
             "code": "GAR",
             "entries": [
                 {
@@ -170,33 +181,31 @@
         },
         "gilkes": {
             "driverId": "gilkes",
-            "name": "M. Gilkes",
+            "name": "Megan Gilkes",
+            "givenName": "Megan",
+            "familyName": "Gilkes",
             "code": "GIL",
             "entries": [
                 {
                     "number": "12",
-                    "constructorId": "rodin",
+                    "constructorId": "carlin",
                     "rounds": [
                         "1",
                         "2",
                         "3",
                         "4",
+                        "5",
                         "6",
                         "7"
-                    ]
-                },
-                {
-                    "number": "12",
-                    "constructorId": null,
-                    "rounds": [
-                        "5"
                     ]
                 }
             ]
         },
         "grant": {
             "driverId": "grant",
-            "name": "C. Grant",
+            "name": "Chloe Grant",
+            "givenName": "Chloe",
+            "familyName": "Grant",
             "code": "GRA",
             "entries": [
                 {
@@ -207,15 +216,18 @@
                         "2",
                         "3",
                         "4",
+                        "5",
                         "6",
                         "7"
                     ]
                 }
             ]
         },
-        "hal": {
-            "driverId": "hal",
-            "name": "H. Al Qubaisi",
+        "hamda_al_qubaisi": {
+            "driverId": "hamda_al_qubaisi",
+            "name": "Hamda Al Qubaisi",
+            "givenName": "Hamda",
+            "familyName": "Al Qubaisi",
             "code": "HAL",
             "entries": [
                 {
@@ -226,22 +238,18 @@
                         "2",
                         "3",
                         "4",
+                        "5",
                         "6",
                         "7"
-                    ]
-                },
-                {
-                    "number": "4",
-                    "constructorId": null,
-                    "rounds": [
-                        "5"
                     ]
                 }
             ]
         },
         "lovinfosse": {
             "driverId": "lovinfosse",
-            "name": "L. Lovinfosse",
+            "name": "Lola Lovinfosse",
+            "givenName": "Lola",
+            "familyName": "Lovinfosse",
             "code": "LOV",
             "entries": [
                 {
@@ -249,25 +257,21 @@
                     "constructorId": "campos",
                     "rounds": [
                         "1",
+                        "2",
                         "3",
                         "4",
                         "5",
                         "6",
                         "7"
                     ]
-                },
-                {
-                    "number": "2",
-                    "constructorId": null,
-                    "rounds": [
-                        "2"
-                    ]
                 }
             ]
         },
         "marti": {
             "driverId": "marti",
-            "name": "N. Martí",
+            "name": "Nerea Martí",
+            "givenName": "Nerea",
+            "familyName": "Martí",
             "code": "MAR",
             "entries": [
                 {
@@ -287,33 +291,31 @@
         },
         "pulling": {
             "driverId": "pulling",
-            "name": "A. Pulling",
+            "name": "Abbi Pulling",
+            "givenName": "Abbi",
+            "familyName": "Pulling",
             "code": "PUL",
             "entries": [
                 {
                     "number": "10",
-                    "constructorId": "rodin",
+                    "constructorId": "carlin",
                     "rounds": [
                         "1",
                         "2",
                         "3",
                         "4",
                         "5",
+                        "6",
                         "7"
-                    ]
-                },
-                {
-                    "number": "10",
-                    "constructorId": null,
-                    "rounds": [
-                        "6"
                     ]
                 }
             ]
         },
         "schreiner": {
             "driverId": "schreiner",
-            "name": "C. Schreiner",
+            "name": "Carrie Schreiner",
+            "givenName": "Carrie",
+            "familyName": "Schreiner",
             "code": "SCH",
             "entries": [
                 {

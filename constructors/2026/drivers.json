@@ -69,7 +69,7 @@
             "driverId": "westcott",
             "permanentNumber": "9",
             "code": "WES",
-            "givenName": "Phoebe",
+            "givenName": "Payton",
             "familyName": "Westcott"
         },
         "Constructor": {
@@ -186,7 +186,7 @@
             "driverId": "stevens",
             "permanentNumber": "28",
             "code": "STE",
-            "givenName": "Elise",
+            "givenName": "Ella",
             "familyName": "Stevens"
         },
         "Constructor": {
@@ -199,7 +199,7 @@
             "driverId": "kosterman",
             "permanentNumber": "32",
             "code": "KOS",
-            "givenName": "Elly",
+            "givenName": "Esmee",
             "familyName": "Kosterman"
         },
         "Constructor": {
@@ -251,7 +251,7 @@
             "driverId": "countryman",
             "permanentNumber": "91",
             "code": "COU",
-            "givenName": "Hayley",
+            "givenName": "Kaylee",
             "familyName": "Countryman"
         },
         "Constructor": {

@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# RETIRED (2026-10): the API is now built from motorsportmagazine.com by
+# scripts/build_mm.py. This scraper writes the old schema and would overwrite that
+# data; it is kept only for reference / as a stopgap source. Do not run it on main.
 """
 update_f1a.py — pull F1 Academy race results straight from f1academy.com and
 write them into races/<year>/resullts.json in this repo's schema. No screenshots.
@@ -33,10 +36,11 @@ import urllib.request
 
 from lxml import html
 
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import common as C
 import standings_f1a as S
 
-REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+REPO = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 RESULTS_URL = "https://www.f1academy.com/Racing-Series/Results?raceid={}"
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"
 

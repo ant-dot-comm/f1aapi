@@ -1,11 +1,14 @@
 {
     "constructorId": "hitech",
     "name": "Hitech",
+    "shortName": "Hitech",
     "series": "f1a",
     "seasons": [
         "2025",
         "2026"
     ],
+    "predecessor": null,
+    "successor": null,
     "career": {
         "entries": 69,
         "starts": 69,
@@ -20,9 +23,11 @@
         "poles": 1,
         "fastestLaps": 0,
         "dnfs": 15,
+        "pointsFinishes": 16,
         "bestFinish": 2,
-        "avgFinish": 13.0,
+        "avgFinish": 12.05,
         "titles": 0,
+        "driverTitles": 0,
         "bestChampionship": 5,
         "eras": [
             "f1a"
@@ -42,12 +47,14 @@
             "poles": 0,
             "fastestLaps": 0,
             "dnfs": 11,
+            "pointsFinishes": 6,
             "bestFinish": 4,
-            "avgFinish": 13.88,
+            "avgFinish": 12.65,
             "championshipPosition": 6,
+            "name": "HiTech TGR",
             "complete": true,
             "era": "f1a",
-            "championship": null
+            "championship": "F1 Academy"
         },
         "2026": {
             "entries": 27,
@@ -63,28 +70,282 @@
             "poles": 1,
             "fastestLaps": 0,
             "dnfs": 4,
+            "pointsFinishes": 10,
             "bestFinish": 2,
-            "avgFinish": 11.63,
+            "avgFinish": 11.32,
             "championshipPosition": 5,
+            "name": "Hitech",
             "complete": false,
             "era": "f1a",
-            "championship": null
+            "championship": "F1 Academy"
         }
     },
+    "championDrivers": [],
+    "leaders": {
+        "starts": [
+            {
+                "driverId": "havrda",
+                "name": "Nicole Havrda",
+                "value": 14
+            },
+            {
+                "driverId": "robertson",
+                "name": "Rachel Robertson",
+                "value": 11
+            },
+            {
+                "driverId": "dobson",
+                "name": "Ava Dobson",
+                "value": 10
+            }
+        ],
+        "wins": [],
+        "podiums": [
+            {
+                "driverId": "battig",
+                "name": "Chiara Bättig",
+                "value": 1
+            }
+        ],
+        "poles": [
+            {
+                "driverId": "battig",
+                "name": "Chiara Bättig",
+                "value": 1
+            }
+        ],
+        "points": [
+            {
+                "driverId": "robertson",
+                "name": "Rachel Robertson",
+                "value": 27
+            },
+            {
+                "driverId": "battig",
+                "name": "Chiara Bättig",
+                "value": 22
+            },
+            {
+                "driverId": "dobson",
+                "name": "Ava Dobson",
+                "value": 8
+            }
+        ],
+        "titles": []
+    },
     "drivers": [
-        "alyousef",
-        "anagnostiadis",
-        "battig",
-        "billard",
-        "bruce",
-        "dobson",
-        "fisher",
-        "florescu",
-        "havrda",
-        "kosterman",
-        "paatz",
-        "robertson",
-        "shi",
-        "westcott"
+        {
+            "driverId": "robertson",
+            "name": "Rachel Robertson",
+            "code": "ROB",
+            "seasons": [
+                "2025",
+                "2026"
+            ],
+            "starts": 11,
+            "wins": 0,
+            "podiums": 0,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 27,
+            "titles": 0
+        },
+        {
+            "driverId": "battig",
+            "name": "Chiara Bättig",
+            "code": "BAT",
+            "seasons": [
+                "2026"
+            ],
+            "starts": 2,
+            "wins": 0,
+            "podiums": 1,
+            "poles": 1,
+            "fastestLaps": 0,
+            "points": 22,
+            "titles": 0
+        },
+        {
+            "driverId": "dobson",
+            "name": "Ava Dobson",
+            "code": "DOB",
+            "seasons": [
+                "2025",
+                "2026"
+            ],
+            "starts": 10,
+            "wins": 0,
+            "podiums": 0,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 8,
+            "titles": 0
+        },
+        {
+            "driverId": "kosterman",
+            "name": "Esmee Kosterman",
+            "code": "KOS",
+            "seasons": [
+                "2025"
+            ],
+            "starts": 2,
+            "wins": 0,
+            "podiums": 0,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 6,
+            "titles": 0
+        },
+        {
+            "driverId": "anagnostiadis",
+            "name": "Aiva Anagnostiadis",
+            "code": "ANA",
+            "seasons": [
+                "2025"
+            ],
+            "starts": 10,
+            "wins": 0,
+            "podiums": 0,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 5,
+            "titles": 0
+        },
+        {
+            "driverId": "westcott",
+            "name": "Payton Westcott",
+            "code": "WES",
+            "seasons": [
+                "2025"
+            ],
+            "starts": 2,
+            "wins": 0,
+            "podiums": 0,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 3,
+            "titles": 0
+        },
+        {
+            "driverId": "havrda",
+            "name": "Nicole Havrda",
+            "code": "HAV",
+            "seasons": [
+                "2025"
+            ],
+            "starts": 14,
+            "wins": 0,
+            "podiums": 0,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 1,
+            "titles": 0
+        },
+        {
+            "driverId": "fisher",
+            "name": "Autumn Fisher",
+            "code": "FIS",
+            "seasons": [
+                "2026"
+            ],
+            "starts": 3,
+            "wins": 0,
+            "podiums": 0,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 0,
+            "titles": 0
+        },
+        {
+            "driverId": "al_yousef",
+            "name": "Farah Al Yousef",
+            "code": "ALY",
+            "seasons": [
+                "2025"
+            ],
+            "starts": 2,
+            "wins": 0,
+            "podiums": 0,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 0,
+            "titles": 0
+        },
+        {
+            "driverId": "billard",
+            "name": "Lisa Billard",
+            "code": "BIL",
+            "seasons": [
+                "2025"
+            ],
+            "starts": 2,
+            "wins": 0,
+            "podiums": 0,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 0,
+            "titles": 0
+        },
+        {
+            "driverId": "paatz",
+            "name": "Mathilda Paatz",
+            "code": "PAA",
+            "seasons": [
+                "2025"
+            ],
+            "starts": 3,
+            "wins": 0,
+            "podiums": 0,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 0,
+            "titles": 0
+        },
+        {
+            "driverId": "bruce",
+            "name": "Megan Bruce",
+            "code": "BRU",
+            "seasons": [
+                "2025"
+            ],
+            "starts": 2,
+            "wins": 0,
+            "podiums": 0,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 0,
+            "titles": 0
+        },
+        {
+            "driverId": "shi",
+            "name": "Wei Shi",
+            "code": "SHI",
+            "seasons": [
+                "2025",
+                "2026"
+            ],
+            "starts": 4,
+            "wins": 0,
+            "podiums": 0,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 0,
+            "titles": 0
+        },
+        {
+            "driverId": "florescu",
+            "name": "Zoe Florescu",
+            "code": "FLO",
+            "seasons": [
+                "2026"
+            ],
+            "starts": 2,
+            "wins": 0,
+            "podiums": 0,
+            "poles": 0,
+            "fastestLaps": 0,
+            "points": 0,
+            "titles": 0
+        }
     ]
 }

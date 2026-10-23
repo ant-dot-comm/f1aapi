@@ -1,0 +1,23 @@
+[
+    {
+        "driverId": "gademan",
+        "permanentNumber": "3",
+        "code": "GAD",
+        "givenName": "Nina",
+        "familyName": "Gademan"
+    },
+    {
+        "driverId": "larsen",
+        "permanentNumber": "12",
+        "code": "LAR",
+        "givenName": "Alba",
+        "familyName": "Larsen"
+    },
+    {
+        "driverId": "kosterman",
+        "permanentNumber": "32",
+        "code": "KOS",
+        "givenName": "Esmee",
+        "familyName": "Kosterman"
+    }
+]

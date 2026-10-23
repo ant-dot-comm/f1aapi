@@ -1,792 +1,1194 @@
 {
     "season": "2024",
     "series": "f1a",
-    "updated": "2026-10-04",
+    "championship": "F1 Academy",
+    "source": "motorsportmagazine.com",
+    "updated": "2026-10-22",
     "lastRound": 7,
     "scheduledRounds": 7,
     "complete": true,
-    "source": "https://www.f1academy.com/Racing-Series/Standings/Driver?seasonId=2",
     "Standings": [
         {
             "position": "1",
             "driverId": "pulling",
             "code": "PUL",
-            "driver": "A. Pulling",
+            "driver": "Abbi Pulling",
+            "givenName": "Abbi",
+            "familyName": "Pulling",
+            "nationality": "British",
+            "constructorId": "rodin",
             "points": "338",
+            "wins": "9",
             "byRound": [
                 {
                     "round": "1",
-                    "race1": "19",
-                    "race2": "25"
+                    "points": "44",
+                    "total": "44",
+                    "position": "1"
                 },
                 {
                     "round": "2",
-                    "race1": "27",
-                    "race2": "28"
+                    "points": "55",
+                    "total": "99",
+                    "position": "1"
                 },
                 {
                     "round": "3",
-                    "race1": "28",
-                    "race2": "20"
+                    "points": "48",
+                    "total": "147",
+                    "position": "1"
                 },
                 {
                     "round": "4",
-                    "race1": "28",
-                    "race2": "15"
+                    "points": "43",
+                    "total": "190",
+                    "position": "1"
                 },
                 {
                     "round": "5",
-                    "race1": "27",
-                    "race2": "28"
+                    "points": "55",
+                    "total": "245",
+                    "position": "1"
                 },
                 {
                     "round": "6",
-                    "race1": "18",
-                    "race2": "0"
+                    "points": "18",
+                    "total": "263",
+                    "position": "1"
                 },
                 {
                     "round": "7",
-                    "race1": "28",
-                    "race2": "27",
-                    "race3": "20"
+                    "points": "75",
+                    "total": "338",
+                    "position": "1"
                 }
-            ],
-            "wildcard": false
+            ]
         },
         {
             "position": "2",
             "driverId": "pin",
             "code": "PIN",
-            "driver": "D. Pin",
+            "driver": "Doriane Pin",
+            "givenName": "Doriane",
+            "familyName": "Pin",
+            "nationality": "French",
+            "constructorId": "prema",
             "points": "217",
+            "wins": "3",
             "byRound": [
                 {
                     "round": "1",
-                    "race1": "27",
-                    "race2": "5"
+                    "points": "32",
+                    "total": "32",
+                    "position": "3"
                 },
                 {
                     "round": "2",
-                    "race1": "18",
-                    "race2": "15"
+                    "points": "33",
+                    "total": "65",
+                    "position": "2"
                 },
                 {
                     "round": "3",
-                    "race1": "6",
-                    "race2": "10"
+                    "points": "16",
+                    "total": "81",
+                    "position": "2"
                 },
                 {
                     "round": "4",
-                    "race1": "10",
-                    "race2": "28"
+                    "points": "38",
+                    "total": "119",
+                    "position": "2"
                 },
                 {
                     "round": "5",
-                    "race1": "16",
-                    "race2": "15"
+                    "points": "31",
+                    "total": "150",
+                    "position": "2"
                 },
                 {
                     "round": "6",
-                    "race1": "28",
-                    "race2": "2"
+                    "points": "30",
+                    "total": "180",
+                    "position": "2"
                 },
                 {
                     "round": "7",
-                    "race1": "15",
-                    "race2": "12",
-                    "race3": "10"
+                    "points": "37",
+                    "total": "217",
+                    "position": "2"
                 }
-            ],
-            "wildcard": false
+            ]
         },
         {
             "position": "3",
             "driverId": "weug",
             "code": "WEU",
-            "driver": "M. Weug",
+            "driver": "Maya Weug",
+            "givenName": "Maya",
+            "familyName": "Weug",
+            "nationality": "Dutch",
+            "constructorId": "prema",
             "points": "177",
+            "wins": "1",
             "byRound": [
                 {
                     "round": "1",
-                    "race1": "15",
-                    "race2": "18"
+                    "points": "33",
+                    "total": "33",
+                    "position": "2"
                 },
                 {
                     "round": "2",
-                    "race1": "8",
-                    "race2": "10"
+                    "points": "18",
+                    "total": "51",
+                    "position": "3"
                 },
                 {
                     "round": "3",
-                    "race1": "0",
-                    "race2": "0"
+                    "points": "0",
+                    "total": "51",
+                    "position": "7"
                 },
                 {
                     "round": "4",
-                    "race1": "15",
-                    "race2": "18"
+                    "points": "33",
+                    "total": "84",
+                    "position": "5"
                 },
                 {
                     "round": "5",
-                    "race1": "18",
-                    "race2": "18"
+                    "points": "36",
+                    "total": "120",
+                    "position": "3"
                 },
                 {
                     "round": "6",
-                    "race1": "15",
-                    "race2": "0"
+                    "points": "15",
+                    "total": "135",
+                    "position": "3"
                 },
                 {
                     "round": "7",
-                    "race1": "6",
-                    "race2": "10",
-                    "race3": "26"
+                    "points": "42",
+                    "total": "177",
+                    "position": "3"
                 }
-            ],
-            "wildcard": false
+            ]
         },
         {
             "position": "4",
             "driverId": "marti",
             "code": "MAR",
-            "driver": "N. Martí",
+            "driver": "Nerea Martí",
+            "givenName": "Nerea",
+            "familyName": "Martí",
+            "nationality": "Spanish",
+            "constructorId": "campos",
             "points": "136",
+            "wins": "0",
             "byRound": [
                 {
                     "round": "1",
-                    "race1": "0",
-                    "race2": "15"
+                    "points": "15",
+                    "total": "15",
+                    "position": "5"
                 },
                 {
                     "round": "2",
-                    "race1": "12",
-                    "race2": "6"
+                    "points": "18",
+                    "total": "33",
+                    "position": "6"
                 },
                 {
                     "round": "3",
-                    "race1": "18",
-                    "race2": "12"
+                    "points": "30",
+                    "total": "63",
+                    "position": "4"
                 },
                 {
                     "round": "4",
-                    "race1": "18",
-                    "race2": "4"
+                    "points": "22",
+                    "total": "85",
+                    "position": "4"
                 },
                 {
                     "round": "5",
-                    "race1": "6",
-                    "race2": "10"
+                    "points": "16",
+                    "total": "101",
+                    "position": "5"
                 },
                 {
                     "round": "6",
-                    "race1": "4",
-                    "race2": "0"
+                    "points": "4",
+                    "total": "105",
+                    "position": "4"
                 },
                 {
                     "round": "7",
-                    "race1": "8",
-                    "race2": "8",
-                    "race3": "15"
+                    "points": "31",
+                    "total": "136",
+                    "position": "4"
                 }
-            ],
-            "wildcard": false
+            ]
         },
         {
             "position": "5",
-            "driverId": "h_al_qubaisi",
+            "driverId": "hamda_al_qubaisi",
             "code": "HAL",
-            "driver": "H. Al Qubaisi",
+            "driver": "Hamda Al Qubaisi",
+            "givenName": "Hamda",
+            "familyName": "Al Qubaisi",
+            "nationality": "Emirati",
+            "constructorId": "mp",
             "points": "133",
+            "wins": "0",
             "byRound": [
                 {
                     "round": "1",
-                    "race1": "2",
-                    "race2": "10"
+                    "points": "12",
+                    "total": "12",
+                    "position": "8"
                 },
                 {
                     "round": "2",
-                    "race1": "10",
-                    "race2": "8"
+                    "points": "18",
+                    "total": "30",
+                    "position": "7"
                 },
                 {
                     "round": "3",
-                    "race1": "10",
-                    "race2": "15"
+                    "points": "25",
+                    "total": "55",
+                    "position": "6"
                 },
                 {
                     "round": "4",
-                    "race1": "4",
-                    "race2": "12"
+                    "points": "16",
+                    "total": "71",
+                    "position": "6"
                 },
                 {
                     "round": "5",
-                    "race1": "8",
-                    "race2": "8"
+                    "points": "16",
+                    "total": "87",
+                    "position": "6"
                 },
                 {
                     "round": "6",
-                    "race1": "12",
-                    "race2": "0"
+                    "points": "12",
+                    "total": "99",
+                    "position": "6"
                 },
                 {
                     "round": "7",
-                    "race1": "18",
-                    "race2": "15",
-                    "race3": "1"
+                    "points": "34",
+                    "total": "133",
+                    "position": "5"
                 }
-            ],
-            "wildcard": false
+            ]
         },
         {
             "position": "6",
             "driverId": "chambers",
             "code": "CHA",
-            "driver": "C. Chambers",
+            "driver": "Chloe Chambers",
+            "givenName": "Chloe",
+            "familyName": "Chambers",
+            "nationality": "American",
+            "constructorId": "campos",
             "points": "122",
+            "wins": "1",
             "byRound": [
                 {
                     "round": "1",
-                    "race1": "12",
-                    "race2": "1"
+                    "points": "13",
+                    "total": "13",
+                    "position": "6"
                 },
                 {
                     "round": "2",
-                    "race1": "15",
-                    "race2": "12"
+                    "points": "27",
+                    "total": "40",
+                    "position": "4"
                 },
                 {
                     "round": "3",
-                    "race1": "15",
-                    "race2": "26"
+                    "points": "41",
+                    "total": "81",
+                    "position": "3"
                 },
                 {
                     "round": "4",
-                    "race1": "8",
-                    "race2": "0"
+                    "points": "8",
+                    "total": "89",
+                    "position": "3"
                 },
                 {
                     "round": "5",
-                    "race1": "10",
-                    "race2": "4"
+                    "points": "14",
+                    "total": "103",
+                    "position": "4"
                 },
                 {
                     "round": "6",
-                    "race1": "0",
-                    "race2": "0"
+                    "points": "0",
+                    "total": "103",
+                    "position": "5"
                 },
                 {
                     "round": "7",
-                    "race1": "0",
-                    "race2": "19",
-                    "race3": "0"
+                    "points": "19",
+                    "total": "122",
+                    "position": "6"
                 }
-            ],
-            "wildcard": false
+            ]
         },
         {
             "position": "7",
             "driverId": "bustamante",
             "code": "BUS",
-            "driver": "B. Bustamante",
+            "driver": "Bianca Bustamante",
+            "givenName": "Bianca",
+            "familyName": "Bustamante",
+            "nationality": "Filipino",
+            "constructorId": "art",
             "points": "73",
+            "wins": "0",
             "byRound": [
                 {
                     "round": "1",
-                    "race1": "10",
-                    "race2": "8"
+                    "points": "18",
+                    "total": "18",
+                    "position": "4"
                 },
                 {
                     "round": "2",
-                    "race1": "3",
-                    "race2": "18"
+                    "points": "21",
+                    "total": "39",
+                    "position": "5"
                 },
                 {
                     "round": "3",
-                    "race1": "12",
-                    "race2": "6"
+                    "points": "18",
+                    "total": "57",
+                    "position": "5"
                 },
                 {
                     "round": "4",
-                    "race1": "0",
-                    "race2": "0"
+                    "points": "0",
+                    "total": "57",
+                    "position": "7"
                 },
                 {
                     "round": "5",
-                    "race1": "0",
-                    "race2": "0"
+                    "points": "0",
+                    "total": "57",
+                    "position": "7"
                 },
                 {
                     "round": "6",
-                    "race1": "0",
-                    "race2": "0"
+                    "points": "0",
+                    "total": "57",
+                    "position": "7"
                 },
                 {
                     "round": "7",
-                    "race1": "10",
-                    "race2": "6",
-                    "race3": "0"
+                    "points": "16",
+                    "total": "73",
+                    "position": "7"
                 }
-            ],
-            "wildcard": false
+            ]
         },
         {
             "position": "8",
             "driverId": "block",
             "code": "BLO",
-            "driver": "L. Block",
+            "driver": "Lia Block",
+            "givenName": "Lia",
+            "familyName": "Block",
+            "nationality": "American",
+            "constructorId": "art",
             "points": "44",
+            "wins": "0",
             "byRound": [
                 {
                     "round": "1",
-                    "race1": "0",
-                    "race2": "0"
+                    "points": "0",
+                    "total": "0",
+                    "position": "14"
                 },
                 {
                     "round": "2",
-                    "race1": "0",
-                    "race2": "1"
+                    "points": "1",
+                    "total": "1",
+                    "position": "14"
                 },
                 {
                     "round": "3",
-                    "race1": "1",
-                    "race2": "8"
+                    "points": "9",
+                    "total": "10",
+                    "position": "11"
                 },
                 {
                     "round": "4",
-                    "race1": "2",
-                    "race2": "0"
+                    "points": "2",
+                    "total": "12",
+                    "position": "14"
                 },
                 {
                     "round": "5",
-                    "race1": "12",
-                    "race2": "12"
+                    "points": "24",
+                    "total": "36",
+                    "position": "8"
                 },
                 {
                     "round": "6",
-                    "race1": "8",
-                    "race2": "0"
+                    "points": "8",
+                    "total": "44",
+                    "position": "8"
                 },
                 {
                     "round": "7",
-                    "race1": "0",
-                    "race2": "0",
-                    "race3": "0"
+                    "points": "0",
+                    "total": "44",
+                    "position": "8"
                 }
-            ],
-            "wildcard": false
+            ]
         },
         {
             "position": "9",
             "driverId": "schreiner",
             "code": "SCH",
-            "driver": "C. Schreiner",
+            "driver": "Carrie Schreiner",
+            "givenName": "Carrie",
+            "familyName": "Schreiner",
+            "nationality": "German",
+            "constructorId": "campos",
             "points": "34",
+            "wins": "0",
             "byRound": [
                 {
                     "round": "1",
-                    "race1": "1",
-                    "race2": "6"
+                    "points": "7",
+                    "total": "7",
+                    "position": "10"
                 },
                 {
                     "round": "2",
-                    "race1": "0",
-                    "race2": "2"
+                    "points": "2",
+                    "total": "9",
+                    "position": "10"
                 },
                 {
                     "round": "3",
-                    "race1": "0",
-                    "race2": "0"
+                    "points": "0",
+                    "total": "9",
+                    "position": "13"
                 },
                 {
                     "round": "4",
-                    "race1": "1",
-                    "race2": "8"
+                    "points": "9",
+                    "total": "18",
+                    "position": "10"
                 },
                 {
                     "round": "5",
-                    "race1": "4",
-                    "race2": "2"
+                    "points": "6",
+                    "total": "24",
+                    "position": "9"
                 },
                 {
                     "round": "6",
-                    "race1": "0",
-                    "race2": "0"
+                    "points": "0",
+                    "total": "24",
+                    "position": "11"
                 },
                 {
                     "round": "7",
-                    "race1": "2",
-                    "race2": "0",
-                    "race3": "8"
+                    "points": "10",
+                    "total": "34",
+                    "position": "9"
                 }
-            ],
-            "wildcard": false
+            ]
         },
         {
             "position": "10",
             "driverId": "hausmann",
             "code": "HAU",
-            "driver": "T. Hausmann",
+            "driver": "Tina Hausmann",
+            "givenName": "Tina",
+            "familyName": "Hausmann",
+            "nationality": "Swiss",
+            "constructorId": "prema",
             "points": "31",
+            "wins": "0",
             "byRound": [
                 {
                     "round": "1",
-                    "race1": "8",
-                    "race2": "0"
+                    "points": "8",
+                    "total": "8",
+                    "position": "9"
                 },
                 {
                     "round": "2",
-                    "race1": "0",
-                    "race2": "0"
+                    "points": "0",
+                    "total": "8",
+                    "position": "11"
                 },
                 {
                     "round": "3",
-                    "race1": "2",
-                    "race2": "4"
+                    "points": "6",
+                    "total": "14",
+                    "position": "9"
                 },
                 {
                     "round": "4",
-                    "race1": "0",
-                    "race2": "2"
+                    "points": "2",
+                    "total": "16",
+                    "position": "11"
                 },
                 {
                     "round": "5",
-                    "race1": "1",
-                    "race2": "0"
+                    "points": "1",
+                    "total": "17",
+                    "position": "12"
                 },
                 {
                     "round": "6",
-                    "race1": "0",
-                    "race2": "0"
+                    "points": "0",
+                    "total": "17",
+                    "position": "12"
                 },
                 {
                     "round": "7",
-                    "race1": "0",
-                    "race2": "2",
-                    "race3": "12"
+                    "points": "14",
+                    "total": "31",
+                    "position": "10"
                 }
-            ],
-            "wildcard": false
+            ]
         },
         {
             "position": "11",
-            "driverId": "de_haus",
+            "driverId": "de_heus",
             "code": "DEH",
-            "driver": "E. De Heus",
+            "driver": "Emely de Heus",
+            "givenName": "Emely",
+            "familyName": "de Heus",
+            "nationality": "Dutch",
+            "constructorId": "mp",
             "points": "29",
+            "wins": "0",
             "byRound": [
                 {
                     "round": "1",
-                    "race1": "0",
-                    "race2": "0"
+                    "points": "0",
+                    "total": "0",
+                    "position": "16"
                 },
                 {
                     "round": "2",
-                    "race1": "0",
-                    "race2": "0"
+                    "points": "0",
+                    "total": "0",
+                    "position": "15"
                 },
                 {
                     "round": "3",
-                    "race1": "8",
-                    "race2": "1"
+                    "points": "9",
+                    "total": "9",
+                    "position": "12"
                 },
                 {
                     "round": "4",
-                    "race1": "0",
-                    "race2": "0"
+                    "points": "0",
+                    "total": "9",
+                    "position": "16"
                 },
                 {
                     "round": "5",
-                    "race1": "0",
-                    "race2": "1"
+                    "points": "1",
+                    "total": "10",
+                    "position": "16"
                 },
                 {
                     "round": "6",
-                    "race1": "1",
-                    "race2": "0"
+                    "points": "1",
+                    "total": "11",
+                    "position": "16"
                 },
                 {
                     "round": "7",
-                    "race1": "12",
-                    "race2": "4",
-                    "race3": "2"
+                    "points": "18",
+                    "total": "29",
+                    "position": "11"
                 }
-            ],
-            "wildcard": false
+            ]
         },
         {
             "position": "12",
-            "driverId": "nobles",
+            "driverId": "nobels",
             "code": "NOB",
-            "driver": "A. Nobels",
+            "driver": "Aurelia Nobels",
+            "givenName": "Aurelia",
+            "familyName": "Nobels",
+            "nationality": "Brazilian",
+            "constructorId": "art",
             "points": "29",
+            "wins": "0",
             "byRound": [
                 {
                     "round": "1",
-                    "race1": "6",
-                    "race2": "0"
+                    "points": "6",
+                    "total": "6",
+                    "position": "11"
                 },
                 {
                     "round": "2",
-                    "race1": "0",
-                    "race2": "0"
+                    "points": "0",
+                    "total": "6",
+                    "position": "12"
                 },
                 {
                     "round": "3",
-                    "race1": "0",
-                    "race2": "0"
+                    "points": "0",
+                    "total": "6",
+                    "position": "15"
                 },
                 {
                     "round": "4",
-                    "race1": "6",
-                    "race2": "10"
+                    "points": "16",
+                    "total": "22",
+                    "position": "9"
                 },
                 {
                     "round": "5",
-                    "race1": "0",
-                    "race2": "0"
+                    "points": "0",
+                    "total": "22",
+                    "position": "11"
                 },
                 {
                     "round": "6",
-                    "race1": "2",
-                    "race2": "0"
+                    "points": "2",
+                    "total": "24",
+                    "position": "10"
                 },
                 {
                     "round": "7",
-                    "race1": "1",
-                    "race2": "0",
-                    "race3": "4"
+                    "points": "5",
+                    "total": "29",
+                    "position": "12"
                 }
-            ],
-            "wildcard": false
+            ]
         },
         {
             "position": "13",
             "driverId": "edgar",
             "code": "EDG",
-            "driver": "J. Edgar",
+            "driver": "Jessica Edgar",
+            "givenName": "Jessica",
+            "familyName": "Edgar",
+            "nationality": "British",
+            "constructorId": "rodin",
             "points": "28",
+            "wins": "0",
             "byRound": [
                 {
                     "round": "1",
-                    "race1": "0",
-                    "race2": "12"
+                    "points": "12",
+                    "total": "12",
+                    "position": "7"
                 },
                 {
                     "round": "2",
-                    "race1": "6",
-                    "race2": "0"
+                    "points": "6",
+                    "total": "18",
+                    "position": "8"
                 },
                 {
                     "round": "3",
-                    "race1": "4",
-                    "race2": "0"
+                    "points": "4",
+                    "total": "22",
+                    "position": "8"
                 },
                 {
                     "round": "4",
-                    "race1": "0",
-                    "race2": "0"
+                    "points": "0",
+                    "total": "22",
+                    "position": "8"
                 },
                 {
                     "round": "5",
-                    "race1": "0",
-                    "race2": "0"
+                    "points": "0",
+                    "total": "22",
+                    "position": "10"
                 },
                 {
                     "round": "6",
-                    "race1": "6",
-                    "race2": "0"
+                    "points": "6",
+                    "total": "28",
+                    "position": "9"
                 },
                 {
                     "round": "7",
-                    "race1": "0",
-                    "race2": "0",
-                    "race3": "0"
+                    "points": "0",
+                    "total": "28",
+                    "position": "13"
                 }
-            ],
-            "wildcard": false
+            ]
         },
         {
             "position": "14",
             "driverId": "lovinfosse",
             "code": "LOV",
-            "driver": "L. Lovinfosse",
+            "driver": "Lola Lovinfosse",
+            "givenName": "Lola",
+            "familyName": "Lovinfosse",
+            "nationality": "French",
+            "constructorId": "rodin",
             "points": "19",
+            "wins": "0",
             "byRound": [
                 {
                     "round": "1",
-                    "race1": "4",
-                    "race2": "0"
+                    "points": "4",
+                    "total": "4",
+                    "position": "13"
                 },
                 {
                     "round": "2",
-                    "race1": "1",
-                    "race2": "0"
+                    "points": "1",
+                    "total": "5",
+                    "position": "13"
                 },
                 {
                     "round": "3",
-                    "race1": "0",
-                    "race2": "2"
+                    "points": "2",
+                    "total": "7",
+                    "position": "14"
                 },
                 {
                     "round": "4",
-                    "race1": "0",
-                    "race2": "6"
+                    "points": "6",
+                    "total": "13",
+                    "position": "13"
                 },
                 {
                     "round": "5",
-                    "race1": "0",
-                    "race2": "0"
+                    "points": "0",
+                    "total": "13",
+                    "position": "14"
                 },
                 {
                     "round": "6",
-                    "race1": "0",
-                    "race2": "0"
+                    "points": "0",
+                    "total": "13",
+                    "position": "14"
                 },
                 {
                     "round": "7",
-                    "race1": "0",
-                    "race2": "0",
-                    "race3": "6"
+                    "points": "6",
+                    "total": "19",
+                    "position": "14"
                 }
-            ],
-            "wildcard": false
+            ]
         },
         {
             "position": "15",
-            "driverId": "a_al_qubaisi",
+            "driverId": "amna_al_qubaisi",
             "code": "AAL",
-            "driver": "A. Al Qubaisi",
+            "driver": "Amna Al Qubaisi",
+            "givenName": "Amna",
+            "familyName": "Al Qubaisi",
+            "nationality": "Emirati",
+            "constructorId": "mp",
             "points": "16",
+            "wins": "0",
             "byRound": [
                 {
                     "round": "1",
-                    "race1": "0",
-                    "race2": "4"
+                    "points": "4",
+                    "total": "4",
+                    "position": "12"
                 },
                 {
                     "round": "2",
-                    "race1": "4",
-                    "race2": "4"
+                    "points": "8",
+                    "total": "12",
+                    "position": "9"
                 },
                 {
                     "round": "3",
-                    "race1": "0",
-                    "race2": "0"
+                    "points": "0",
+                    "total": "12",
+                    "position": "10"
                 },
                 {
                     "round": "4",
-                    "race1": "0",
-                    "race2": "0"
+                    "points": "0",
+                    "total": "12",
+                    "position": "15"
                 },
                 {
                     "round": "5",
-                    "race1": "0",
-                    "race2": "0"
+                    "points": "0",
+                    "total": "12",
+                    "position": "15"
                 },
                 {
                     "round": "6",
-                    "race1": "0",
-                    "race2": "0"
+                    "points": "0",
+                    "total": "12",
+                    "position": "15"
                 },
                 {
                     "round": "7",
-                    "race1": "4",
-                    "race2": "0",
-                    "race3": "0"
+                    "points": "4",
+                    "total": "16",
+                    "position": "15"
                 }
-            ],
-            "wildcard": false
+            ]
         },
         {
             "position": "16",
             "driverId": "gademan",
             "code": "GAD",
-            "driver": "N. Gademan",
+            "driver": "Nina Gademan",
+            "givenName": "Nina",
+            "familyName": "Gademan",
+            "nationality": "Dutch",
+            "constructorId": "prema",
             "points": "13",
+            "wins": "0",
+            "wildcard": true,
             "byRound": [
                 {
+                    "round": "1",
+                    "points": "0",
+                    "total": "0",
+                    "position": "20"
+                },
+                {
+                    "round": "2",
+                    "points": "0",
+                    "total": "0",
+                    "position": "20"
+                },
+                {
+                    "round": "3",
+                    "points": "0",
+                    "total": "0",
+                    "position": "20"
+                },
+                {
                     "round": "4",
-                    "race1": "12",
-                    "race2": "1"
+                    "points": "13",
+                    "total": "13",
+                    "position": "12"
+                },
+                {
+                    "round": "5",
+                    "points": "0",
+                    "total": "13",
+                    "position": "13"
+                },
+                {
+                    "round": "6",
+                    "points": "0",
+                    "total": "13",
+                    "position": "13"
+                },
+                {
+                    "round": "7",
+                    "points": "0",
+                    "total": "13",
+                    "position": "16"
                 }
-            ],
-            "wildcard": false
+            ]
         },
         {
             "position": "17",
             "driverId": "palmowski",
             "code": "PAL",
-            "driver": "A. Palmowski",
+            "driver": "Alisha Palmowski",
+            "givenName": "Alisha",
+            "familyName": "Palmowski",
+            "nationality": "British",
+            "constructorId": "prema",
             "points": "10",
+            "wins": "0",
+            "wildcard": true,
             "byRound": [
                 {
+                    "round": "1",
+                    "points": "0",
+                    "total": "0",
+                    "position": "18"
+                },
+                {
+                    "round": "2",
+                    "points": "0",
+                    "total": "0",
+                    "position": "18"
+                },
+                {
+                    "round": "3",
+                    "points": "0",
+                    "total": "0",
+                    "position": "18"
+                },
+                {
+                    "round": "4",
+                    "points": "0",
+                    "total": "0",
+                    "position": "19"
+                },
+                {
+                    "round": "5",
+                    "points": "0",
+                    "total": "0",
+                    "position": "20"
+                },
+                {
                     "round": "6",
-                    "race1": "10",
-                    "race2": "0"
+                    "points": "10",
+                    "total": "10",
+                    "position": "17"
+                },
+                {
+                    "round": "7",
+                    "points": "0",
+                    "total": "10",
+                    "position": "17"
                 }
-            ],
-            "wildcard": false
+            ]
         },
         {
             "position": "18",
             "driverId": "lloyd",
             "code": "LLO",
-            "driver": "E. Lloyd",
+            "driver": "Ella Lloyd",
+            "givenName": "Ella",
+            "familyName": "Lloyd",
+            "nationality": "British",
+            "constructorId": "prema",
             "points": "8",
+            "wins": "0",
+            "wildcard": true,
             "byRound": [
                 {
+                    "round": "1",
+                    "points": "0",
+                    "total": "0",
+                    "position": "21"
+                },
+                {
+                    "round": "2",
+                    "points": "0",
+                    "total": "0",
+                    "position": "21"
+                },
+                {
+                    "round": "3",
+                    "points": "0",
+                    "total": "0",
+                    "position": "21"
+                },
+                {
+                    "round": "4",
+                    "points": "0",
+                    "total": "0",
+                    "position": "21"
+                },
+                {
                     "round": "5",
-                    "race1": "2",
-                    "race2": "6"
+                    "points": "8",
+                    "total": "8",
+                    "position": "17"
+                },
+                {
+                    "round": "6",
+                    "points": "0",
+                    "total": "8",
+                    "position": "18"
+                },
+                {
+                    "round": "7",
+                    "points": "0",
+                    "total": "8",
+                    "position": "18"
                 }
-            ],
-            "wildcard": false
+            ]
         },
         {
             "position": "19",
-            "driverId": "hanna",
+            "driverId": "hannah",
             "code": "HAN",
-            "driver": "L. Hannah",
+            "driver": "Logan Hannah",
+            "givenName": "Logan",
+            "familyName": "Hannah",
+            "nationality": "British",
+            "constructorId": "prema",
             "points": "1",
+            "wins": "0",
+            "wildcard": true,
             "byRound": [
                 {
+                    "round": "1",
+                    "points": "0",
+                    "total": "0",
+                    "position": "19"
+                },
+                {
+                    "round": "2",
+                    "points": "0",
+                    "total": "0",
+                    "position": "19"
+                },
+                {
+                    "round": "3",
+                    "points": "0",
+                    "total": "0",
+                    "position": "19"
+                },
+                {
+                    "round": "4",
+                    "points": "0",
+                    "total": "0",
+                    "position": "20"
+                },
+                {
+                    "round": "5",
+                    "points": "0",
+                    "total": "0",
+                    "position": "21"
+                },
+                {
+                    "round": "6",
+                    "points": "0",
+                    "total": "0",
+                    "position": "21"
+                },
+                {
                     "round": "7",
-                    "race1": "0",
-                    "race2": "1",
-                    "race3": "0"
+                    "points": "1",
+                    "total": "1",
+                    "position": "19"
                 }
-            ],
-            "wildcard": false
+            ]
         },
         {
             "position": "20",
             "driverId": "crone",
             "code": "CRO",
-            "driver": "C. Crone",
+            "driver": "Courtney Crone",
+            "givenName": "Courtney",
+            "familyName": "Crone",
+            "nationality": "American",
+            "constructorId": "prema",
             "points": "0",
+            "wins": "0",
+            "wildcard": true,
             "byRound": [
                 {
+                    "round": "1",
+                    "points": "0",
+                    "total": "0",
+                    "position": "17"
+                },
+                {
                     "round": "2",
-                    "race1": "0",
-                    "race2": "0"
+                    "points": "0",
+                    "total": "0",
+                    "position": "16"
+                },
+                {
+                    "round": "3",
+                    "points": "0",
+                    "total": "0",
+                    "position": "16"
+                },
+                {
+                    "round": "4",
+                    "points": "0",
+                    "total": "0",
+                    "position": "17"
+                },
+                {
+                    "round": "5",
+                    "points": "0",
+                    "total": "0",
+                    "position": "18"
+                },
+                {
+                    "round": "6",
+                    "points": "0",
+                    "total": "0",
+                    "position": "19"
+                },
+                {
+                    "round": "7",
+                    "points": "0",
+                    "total": "0",
+                    "position": "20"
                 }
-            ],
-            "wildcard": false
+            ]
         },
         {
             "position": "21",
             "driverId": "juffali",
             "code": "JUF",
-            "driver": "R. Juffali",
+            "driver": "Reema Juffali",
+            "givenName": "Reema",
+            "familyName": "Juffali",
+            "nationality": "Saudi Arabian",
+            "constructorId": "prema",
             "points": "0",
+            "wins": "0",
+            "wildcard": true,
             "byRound": [
                 {
                     "round": "1",
-                    "race1": "0",
-                    "race2": "0"
+                    "points": "0",
+                    "total": "0",
+                    "position": "15"
+                },
+                {
+                    "round": "2",
+                    "points": "0",
+                    "total": "0",
+                    "position": "17"
+                },
+                {
+                    "round": "3",
+                    "points": "0",
+                    "total": "0",
+                    "position": "17"
+                },
+                {
+                    "round": "4",
+                    "points": "0",
+                    "total": "0",
+                    "position": "18"
+                },
+                {
+                    "round": "5",
+                    "points": "0",
+                    "total": "0",
+                    "position": "19"
+                },
+                {
+                    "round": "6",
+                    "points": "0",
+                    "total": "0",
+                    "position": "20"
+                },
+                {
+                    "round": "7",
+                    "points": "0",
+                    "total": "0",
+                    "position": "21"
                 }
-            ],
-            "wildcard": false
+            ]
         }
     ]
 }

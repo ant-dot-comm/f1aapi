@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# RETIRED (2026-10): the API is now built from motorsportmagazine.com by
+# scripts/build_mm.py. This scraper writes the old schema and would overwrite that
+# data; it is kept only for reference / as a stopgap source. Do not run it on main.
 """
 standings_f1a.py — pull the official F1 Academy standings (driver + team) from
 f1academy.com and write standings/<year>/{drivers,teams}.json.
@@ -19,6 +22,7 @@ import os
 import re
 import sys
 
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import common as C
 
 BASE = "https://www.f1academy.com/Racing-Series/Standings/{kind}?seasonId={sid}"
@@ -97,7 +101,7 @@ def parse(url, resolve, id_field, name_field, slots):
 
 def build(season):
     import json
-    repo = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    repo = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     _rp = os.path.join(repo, "constructors", str(season), "drivers.json")
     roster = json.load(open(_rp)) if os.path.exists(_rp) else {}
     code2id = {i["Driver"]["code"]: i["Driver"]["driverId"] for i in roster.values()}
@@ -137,7 +141,7 @@ def driver_points_index(season):
     {driverId: wildcard}) from the official driver standings. This is the correct
     source of F1A per-race points (the old computed POINTS tables were wrong)."""
     import json
-    repo = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    repo = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     _rp = os.path.join(repo, "constructors", str(season), "drivers.json")
     roster = json.load(open(_rp)) if os.path.exists(_rp) else {}
     code2id = {i["Driver"]["code"]: i["Driver"]["driverId"] for i in roster.values()}
@@ -174,7 +178,7 @@ def main():
         print(f"  ⚠ teams not in roster: {tu}")
     if a.push:
         import subprocess
-        repo = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        repo = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
         subprocess.run(["git", "-C", repo, "add", "standings"], check=True)
         subprocess.run(["git", "-C", repo, "commit", "-m",
                         f"Add F1A {a.season} standings (driver + team)"], check=True)
